@@ -584,12 +584,12 @@ video {
   left: 0.75rem;
 }
 
-.top-24 {
-  top: 6rem;
+.top-14 {
+  top: 3.5rem;
 }
 
-.right-6 {
-  right: 1.5rem;
+.right-10 {
+  right: 2.5rem;
 }
 
 .-left-1 {
@@ -1289,6 +1289,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:top-24 {
+    top: 6rem;
+  }
+
   .md\:order-2 {
     order: 2;
   }
