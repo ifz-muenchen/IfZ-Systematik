@@ -1,6 +1,7 @@
 /** global window, document */
 const inputSubmit = document.querySelector('#search-navbar');
 const inputSubmitIcon = document.querySelector('#searchIcon');
+const helpDial = document.querySelector('#helpDialButton');
 
 /** Request XML from server */
 let sysXMLDoc = new Document;
@@ -49,6 +50,14 @@ inputSubmitIcon.addEventListener('click', () => {
     search(inputSubmit.value);
   }
 });
+
+helpDial.addEventListener('mouseover', () => {
+  document.querySelector('#helpDialMenu').classList.remove('hidden');
+})
+
+helpDial.addEventListener('mouseout', () => {
+  document.querySelector('#helpDialMenu').classList.add('hidden');
+})
 
 /**
  * Creates correct search request, moves viewport and hides previous results

@@ -5,7 +5,7 @@
 
 <xsl:template match="/sisis_classification_scheme">
   <!--<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>-->
-  <html class="">
+  <html class="dark">
   <head>  
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -16,27 +16,26 @@
     <title>IfZ Systematik</title>
   </head>
   <body class="bg-white dark:bg-gray-900">
-    <!-- Navigation Bar -->
+
+    <!-- Navigation bar -->
     <nav class="sticky bg-white border-gray-200 px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 border-b dark:bg-gray-800">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
         <div class="grow">
           <a href="#" class="text-gray-700 text-xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
         </div>
-        <div class="flex md:order-2">
-          <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1" >
-            <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
-            <span class="sr-only">Search</span>
-          </button>
-          <div class="relative hidden md:block">
+        <div class="flex md:order-2 my-3 sm:my-0">
+          <div class="relative block">
             <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
               <svg class="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </button>
-            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-xl text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Suchen..."/>
+            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-xl text-gray-900 border border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Suchen..."/>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- Main page content -->
     <div id="pageMain" class="container mx-auto items-center mt-3 p-3">
       <!--<p class="mb-5 text-2xl font-medium text-gray-500 dark:text-gray-400 text-center">Stand 10.02.2023</p>-->
       <div class="flex flex-col gap-8 rounded-lg md:flex-row">
@@ -194,6 +193,8 @@
         </xsl:for-each>
       </div>
     </div>
+
+    <!-- Back to top button -->
     <div id="backToTop" class="fixed bottom-3 left-3">
       <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white">
         <a href="#" class="relative px-2 py-1.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -201,6 +202,40 @@
         </a>
       </button>
     </div>
+
+    <!-- Help menu dial -->
+    <div id="helpDial" class="fixed top-24 right-6 group">
+      <button id="helpDialButton" class="flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
+        <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+      </button>
+      <div id="helpDialMenu" class="flex flex-col items-center mt-4 space-y-2 hidden">
+        <button class="relative w-[52px] h-[32px] text-gray-500 rounded-xl shadow-sm dark:text-gray-400 -left-1">
+          Taste
+        </button>
+        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+          Strg
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-14 top-1/2">Suchen</span>
+        </button>
+        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+          S
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[108px] top-1/2">Suchergebnisse</span>
+        </button>
+        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+          Esc
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[87px] top-1/2">Zum Anfang</span>
+        </button>
+        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+          D
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2">Anhang 1</span>
+        </button>
+        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+          Z
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2">Anhang 2</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Search results content -->
     <div id="searchResults" class="container h-full w-screen mx-auto items-center p-3 target:scroll-mt-20">
 
       <div id="searchResultsSystematik" class="mb-5 hidden">
@@ -243,6 +278,7 @@
 
     </div>
 
+    <!-- JS imports -->
     <script src="sys.js" type="module"></script>
   </body>
   </html>
