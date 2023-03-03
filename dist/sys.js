@@ -35,10 +35,8 @@ window.addEventListener('keydown', event => {
       const htmlTagClasslist = document.querySelector('#html').classList;
       if (htmlTagClasslist.contains('dark')) {
         htmlTagClasslist.remove('dark');
-        console.log('removed');
       } else {
         htmlTagClasslist.add('dark');
-        console.log('added');
       }
       break;
     default:
