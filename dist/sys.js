@@ -31,6 +31,16 @@ window.addEventListener('keydown', event => {
     case 'z':
       window.location.hash = 'übersichtAnhang2';
       break;
+    case 'm':
+      const htmlTagClasslist = document.querySelector('#html').classList;
+      if (htmlTagClasslist.contains('dark')) {
+        htmlTagClasslist.remove('dark');
+        console.log('removed');
+      } else {
+        htmlTagClasslist.add('dark');
+        console.log('added');
+      }
+      break;
     default:
       return;
   }

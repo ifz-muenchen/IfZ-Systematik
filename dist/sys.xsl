@@ -5,7 +5,7 @@
 
 <xsl:template match="/sisis_classification_scheme">
   <!--<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>-->
-  <html class="dark">
+  <html id="html" class="dark">
   <head>  
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -209,28 +209,32 @@
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
       <div id="helpDialMenu" class="flex flex-col items-center mt-4 space-y-2 hidden">
-        <button class="relative w-[52px] h-[32px] text-gray-500 rounded-xl shadow-sm dark:text-gray-400 -left-1">
+        <button class="relative w-[52px] h-[32px] text-black font-medium dark:text-white -left-1">
           Taste
         </button>
-        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
           Strg
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-14 top-1/2">Suchen</span>
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-14 top-1/2 text-gray-500 dark:text-gray-400">Suchen</span>
         </button>
-        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
           S
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[108px] top-1/2">Suchergebnisse</span>
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[108px] top-1/2 text-gray-500 dark:text-gray-400">Suchergebnisse</span>
         </button>
-        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
           Esc
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[87px] top-1/2">Zum Anfang</span>
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[87px] top-1/2 text-gray-500 dark:text-gray-400">Zum Anfang</span>
         </button>
-        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
           D
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2">Anhang 1</span>
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2 text-gray-500 dark:text-gray-400">Anhang 1</span>
         </button>
-        <button class="relative w-[52px] h-[52px] text-gray-500 bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-gray-400 dark:bg-gray-700">
+        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
           Z
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2">Anhang 2</span>
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2 text-gray-500 dark:text-gray-400">Anhang 2</span>
+        </button>
+        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
+          M
+          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[160px] top-1/2 text-gray-500 dark:text-gray-400">Hell/Dunkel umschalten</span>
         </button>
       </div>
     </div>

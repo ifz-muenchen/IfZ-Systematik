@@ -616,6 +616,10 @@ video {
   left: -69px;
 }
 
+.-left-\[160px\] {
+  left: -160px;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -1062,6 +1066,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline {
