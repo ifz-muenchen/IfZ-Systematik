@@ -10,7 +10,6 @@ const sysXMLDocRequest = fetch('./sys.xml', {method: 'GET'})
   .then(string => new window.DOMParser().parseFromString(string, 'text/xml'))
   .then(data => sysXMLDoc = data);
 
-
 /** Keydown listeners*/
 window.addEventListener('keydown', event => {
   switch (event.key) {
