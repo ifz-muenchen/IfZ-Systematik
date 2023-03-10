@@ -1,7 +1,7 @@
 /** global window, document */
 const inputSubmit = document.querySelector('#search-navbar');
 const inputSubmitIcon = document.querySelector('#searchIcon');
-const helpDial = document.querySelector('#helpDialButton');
+const darkMode = localStorage.getItem('darkMode');
 
 /** Request XML from server */
 let sysXMLDoc = new Document;
@@ -9,6 +9,11 @@ const sysXMLDocRequest = fetch('./sys.xml', {method: 'GET'})
   .then(response => response.text())
   .then(string => new window.DOMParser().parseFromString(string, 'text/xml'))
   .then(data => sysXMLDoc = data);
+
+/** Initialise dark mode af first website visit */
+if (!darkMode) {
+  localStorage.setItem('darkMode', 'on');
+}
 
 /** Keydown listeners*/
 window.addEventListener('keydown', event => {
@@ -34,8 +39,10 @@ window.addEventListener('keydown', event => {
       const htmlTagClasslist = document.querySelector('#html').classList;
       if (htmlTagClasslist.contains('dark')) {
         htmlTagClasslist.remove('dark');
+        localStorage.setItem('darkMode', 'off');
       } else {
         htmlTagClasslist.add('dark');
+        localStorage.setItem('darkMode', 'on');
       }
       break;
     default:
@@ -52,19 +59,23 @@ inputSubmit.addEventListener('keydown', function onEvent(event) {
   }
 });
 
+/** Search at lower breakpoint */
 inputSubmitIcon.addEventListener('click', () => {
   if (inputSubmit.value !== '') {
     search(inputSubmit.value);
   }
 });
 
+/** Help Dial Show */
 helpDial.addEventListener('mouseover', () => {
   document.querySelector('#helpDialMenu').classList.remove('hidden');
 })
 
+/** Help Dial Hide */
 helpDial.addEventListener('mouseout', () => {
   document.querySelector('#helpDialMenu').classList.add('hidden');
 })
+
 
 /**
  * Creates correct search request, moves viewport and hides previous results

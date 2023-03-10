@@ -6,6 +6,11 @@
 <xsl:template match="/sisis_classification_scheme">
   <!--<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>-->
   <html id="html" class="dark">
+  <script>
+    if (localStorage.getItem('darkMode') === 'off') {
+      document.querySelector('#html').classList.remove('dark');
+    }
+  </script>
   <head>  
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
