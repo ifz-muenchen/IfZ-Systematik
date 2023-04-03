@@ -87,10 +87,12 @@ function search(searchString) {
   window.location.hash = 'searchResults';
   
   let fuzzySearch = searchString;
-  fuzzySearch = fuzzySearch.trim();
+  fuzzySearch = fuzzySearch.trim().toLowerCase();
 
-  const inSystematik = `/sisis_classification_scheme/children/node[content/stichwort/text()[contains(., '${fuzzySearch}')]]`;
-  const inNotation = `/sisis_classification_scheme/children/node/children/node/children/node[content/stichwort/text()[contains(., '${fuzzySearch}')]]`;
+  const inSystematikStichwort = `/sisis_classification_scheme/children/node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+  const inSystematikBenennung = `/sisis_classification_scheme/children/node[contains(@benennung, ${fuzzySearch})]`;
+  const inNotationStichwort = `/sisis_classification_scheme/children/node/children/node/children/node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${fuzzySearch}')]]`;
+  const inNotationBenennung = `/sisis_classification_scheme/children/node/children/node/children/node[@benennung[contains(., ${fuzzySearch})]]`;
   const forNotation = `//node[@notation='${fuzzySearch}']`;
   
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
@@ -98,8 +100,10 @@ function search(searchString) {
   if (notationRegex.test(fuzzySearch)) {
     searchRequest(forNotation, 'Notation');
   } else {
-    searchRequest(inSystematik, 'Systematik');
-    searchRequest(inNotation, 'Notation');
+    searchRequest(inSystematikStichwort, 'Systematik');
+    searchRequest(inNotationStichwort, 'Notation');
+    //searchRequest(inSystematikBenennung, 'Systematik');
+    //searchRequest(inNotationBenennung, 'Notation');
   }
 
   console.log(`Searching for ${fuzzySearch}`);
