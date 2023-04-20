@@ -28,7 +28,7 @@
       <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
         <div class="grow">
-          <a href="#" class="text-gray-700 text-xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
+          <a href="#" class="text-gray-700 text-3xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
         </div>
         <div class="flex md:order-2 my-3 sm:my-0">
           <div class="relative block">
@@ -46,7 +46,7 @@
       <!--<p class="mb-5 text-2xl font-medium text-gray-500 dark:text-gray-400 text-center">Stand 10.02.2023</p>-->
       <div class="flex flex-col gap-8 rounded-lg md:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
-          <h1 class="text-2xl font-bold text-gray-500 dark:text-white">Gliederung der Bibliothekssystematik</h1>
+          <h1 class="text-2xl font-bold text-gray-500 dark:text-white">Gliederung</h1>
           <div class="my-1 flex flex-row gap-4 flex-wrap items-center mx-auto">
             <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Alphabetisch</button>
             <button type="button" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Sachgruppen</button>
