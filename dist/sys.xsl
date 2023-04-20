@@ -47,7 +47,10 @@
       <div class="flex flex-col gap-8 rounded-lg md:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
           <h1 class="text-2xl font-bold text-gray-500 dark:text-white">Gliederung</h1>
-          <div class="my-1 flex flex-row gap-4 flex-wrap items-center mx-auto">
+          <p class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
+            Die IfZ-Systematik bietet Ihnen in chronologischen und thematischen Gruppen einen strukturierten Zugang zu den Sammelgebieten der Bibliothek und zu den im Bibliothekskatalog verzeichneten Teilen des Archivbestandes. Mit den Notationen der IfZ-Systematik können Sie im Online-Katalog im Suchfeld <a href="https://opac.ifz-muenchen.de/webOPACClient.ifzsis/start.do" target="blank" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">IfZ-Systematik</a> Literaturrecherchen starten. Die Notationen bestehen aus Buchstaben-ZahlenKürzeln, nach dem/den Buchstaben folgt immer ein Leerzeichen/Blank.
+          </p>
+          <div class="mt-5 my-1 flex flex-row gap-4 flex-wrap items-center mx-auto">
             <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Alphabetisch</button>
             <button type="button" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Sachgruppen</button>
             <button type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Chronologisch</button>
@@ -80,9 +83,21 @@
           <div>
             <h1 class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Amts-, Partei- und Verbandsdruckschriften im IfZ-Archiv</h1>
             <p class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
-              Die <a href="#übersichtAnhang1" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">Druckschriften-Sammlung</a> des Archivs umfasst Amtsdruckschriften, also Veröffentlichungen von Behörden und sonstigen öffentlich-rechtlichen Einrichtungen einschließlich ihrer Gesetz- und Verordnungsblätter, sowie Publikationen von Parteien, politischen Vereinigungen und privatrechtlichen Verbänden, Gewerkschaften und anderen Organisationen des politischen, wirtschaftlichen und kulturellen Bereichs mit Jahrbüchern, Jahres- und Geschäftsberichten, Protokollen, Mitgliederzeitschriften, Rundschreiben, Pressediensten, Monographien und Serien. Sie enthält außerdem das <a href="#übersichtAnhang2" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">Kleinschrifttum der Zeitgeschichtlichen Sammlung.</a><br/><br/>
-              Die folgenden Anhänge zur <a href="#übersichtMain" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">Systematik der Bibliothek</a> verzeichnen die Provenienzen der im Online-Katalog recherchierbaren Druckschriften und der Bestände der Zeitgeschichtlichen Sammlung.
-              Sie sind jeweils eine Bestandsübersicht und kein vollständiges systematisches Organisationsschema.
+              Folgende Anhänge zur Systematik der Bibliothek verzeichnen die Provenienzen der
+              im Online-Katalog recherchierbaren Bestände der <a href="https://www.ifz-muenchen.de/das-archiv/recherche-im-archivgut/druckschriftensuche" target="blank" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">Druckschriften-Sammlung des Archivs</a>
+              und der ihnen zugeordneten Zeitgeschichtlichen Sammlung.
+              Sie sind jeweils eine Bestandsübersicht und kein vollständiges systematisches
+              Organisationsschema:<br/><br/>
+              Die Druckschriften-Sammlung <a href="#übersichtAnhang1" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">Anhang 1</a> umfasst Amtsdruckschriften, also
+              Veröffentlichungen von Behörden und sonstigen öffentlich-rechtlichen Einrichtungen
+              einschließlich ihrer Gesetz- und Verordnungsblätter, sowie Publikationen von Parteien,
+              politischen Vereinigungen und privatrechtlichen Verbänden, Gewerkschaften und anderen
+              Organisationen des politischen, wirtschaftlichen und kulturellen Bereichs mit Jahrbüchern,
+              Jahres- und Geschäftsberichten, Protokollen, Mitgliederzeitschriften, Rundschreiben,
+              Pressediensten, Monographien und Serien.<br/>
+              Sie enthält außerdem das Kleinschrifttum (Flugblätter, Aufrufe, Partei-Werbematerialien und
+              sonstige Graue Literatur verschiedener Behörden, Parteien und Organisationen) der
+              Zeitgeschichtlichen Sammlung <a href="#übersichtAnhang2" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">Anhang 2</a>.
             </p>
           </div>
           <div id="übersichtAnhang1" class="relative target:scroll-mt-20">
