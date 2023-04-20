@@ -24,8 +24,8 @@
   <body class="bg-white dark:bg-gray-900">
 
     <!-- Navigation bar -->
-    <nav class="sticky bg-white border-gray-200 px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 border-b dark:bg-gray-800">
-      <div class="max-w-[75%] flex flex-wrap items-center justify-between mx-auto">
+    <nav class="sticky bg-white border-gray-200 p-3 w-full z-20 top-0 left-0 border-b dark:bg-gray-800">
+      <div class="max-w-[1750px] flex flex-wrap items-center justify-between mx-auto">
         <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
         <div class="grow">
           <a href="#" class="text-gray-700 text-3xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
@@ -42,7 +42,7 @@
     </nav>
 
     <!-- Main page content -->
-    <div id="pageMain" class="max-w-[75%] mx-auto items-center mt-3 p-3">
+    <div id="pageMain" class="max-w-[1750px] mx-auto items-center py-3 w-full">
       <!--<p class="mb-5 text-2xl font-medium text-gray-500 dark:text-gray-400 text-center">Stand 10.02.2023</p>-->
       <div class="flex flex-col gap-8 rounded-lg md:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
