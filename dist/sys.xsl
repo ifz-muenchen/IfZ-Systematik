@@ -247,7 +247,7 @@
     </div>
 
     <!-- Search results content -->
-    <div id="searchResults" class="container h-full w-screen mx-auto items-center p-3 target:scroll-mt-20">
+    <div id="searchResults" class="max-w-[1750px] h-full w-screen mx-auto items-center py-3 target:scroll-mt-20">
 
       <div id="searchResultsSystematik" class="mb-5 hidden">
         <h1 id="searchResultsSystematikTitle" class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Ergebnisse in Systematik</h1>
