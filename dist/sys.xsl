@@ -229,7 +229,7 @@
       <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
-      <div id="helpDialMenu" class="grid gap-x-4 items-center mt-4 space-y-2">
+      <div id="helpDialMenu" class="grid gap-x-4 items-center mt-4 space-y-2 hidden">
         <button class="col-span-2 relative w-[52px] h-[32px] text-black font-medium dark:text-white -left-1">Taste</button>
         <button id="strg-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">Strg</button>
         <p class="text-gray-500 dark:text-gray-400">Suchen</p>
