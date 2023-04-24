@@ -225,38 +225,24 @@
     </div>
 
     <!-- Help menu dial -->
-    <div id="helpDial" class="fixed top-14 sm:top-24 right-10 group z-20">
-      <button id="helpDialButton" class="flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
+    <div id="helpDial" class="fixed top-14 sm:top-24 right-10 group z-20 p-5 backdrop-blur-md rounded-xl">
+      <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
-      <div id="helpDialMenu" class="flex flex-col items-center mt-4 space-y-2 hidden">
-        <button class="relative w-[52px] h-[32px] text-black font-medium dark:text-white -left-1">
-          Taste
-        </button>
-        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
-          Strg
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-14 top-1/2 text-gray-500 dark:text-gray-400">Suchen</span>
-        </button>
-        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
-          S
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[108px] top-1/2 text-gray-500 dark:text-gray-400">Suchergebnisse</span>
-        </button>
-        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
-          Esc
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[87px] top-1/2 text-gray-500 dark:text-gray-400">Zum Anfang</span>
-        </button>
-        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
-          D
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2 text-gray-500 dark:text-gray-400">Anhang 1</span>
-        </button>
-        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
-          Z
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[69px] top-1/2 text-gray-500 dark:text-gray-400">Anhang 2</span>
-        </button>
-        <button class="relative w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">
-          M
-          <span class="absolute block mb-px text-sm font-medium -translate-y-1/2 -left-[160px] top-1/2 text-gray-500 dark:text-gray-400">Hell/Dunkel umschalten</span>
-        </button>
+      <div id="helpDialMenu" class="grid gap-x-4 items-center mt-4 space-y-2">
+        <button class="col-span-2 relative w-[52px] h-[32px] text-black font-medium dark:text-white -left-1">Taste</button>
+        <button id="strg-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">Strg</button>
+        <p class="text-gray-500 dark:text-gray-400">Suchen</p>
+        <button id="s-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">S</button>
+        <p class="text-gray-500 dark:text-gray-400">Suchergebnisse</p>
+        <button id="esc-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">Esc</button>
+        <p class="text-gray-500 dark:text-gray-400">Zum Anfang</p>
+        <button id="d-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">D</button>
+        <p class="text-gray-500 dark:text-gray-400">Anhang 1</p>
+        <button id="z-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">Z</button>
+        <p class="text-gray-500 dark:text-gray-400">Anhang 2</p>
+        <button id="m-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">M</button>
+        <p class="text-gray-500 dark:text-gray-400">Hell/Dunkel umschalten</p>
       </div>
     </div>
 

@@ -50,6 +50,34 @@ window.addEventListener('keydown', event => {
   }
 });
 
+/** Help dial click listeners */
+document.querySelector('#strg-button').addEventListener('click', () => {
+  inputSubmit.value = '';
+  inputSubmit.focus();
+});
+document.querySelector('#s-button').addEventListener('click', () => {
+  window.location.hash = 'searchResults';
+});
+document.querySelector('#esc-button').addEventListener('click', () => {
+  window.location.hash = '';
+});
+document.querySelector('#d-button').addEventListener('click', () => {
+  window.location.hash = 'übersichtAnhang1';
+});
+document.querySelector('#z-button').addEventListener('click', () => {
+  window.location.hash = 'übersichtAnhang2';
+});
+document.querySelector('#m-button').addEventListener('click', () => {
+  const htmlTagClasslist = document.querySelector('#html').classList;
+  if (htmlTagClasslist.contains('dark')) {
+    htmlTagClasslist.remove('dark');
+    localStorage.setItem('darkMode', 'off');
+  } else {
+    htmlTagClasslist.add('dark');
+    localStorage.setItem('darkMode', 'on');
+  }
+});
+
 /** Search event listener */
 inputSubmit.addEventListener('keydown', function onEvent(event) {
   if (event.key === 'Enter' && event.target.value !== '') {
