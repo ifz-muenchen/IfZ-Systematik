@@ -15,6 +15,18 @@ if (!darkMode) {
   localStorage.setItem('darkMode', 'on');
 }
 
+/** Add inline notation references */
+const elementsWithInlineRef = document.querySelectorAll('.addLinkToInlineNotation');
+elementsWithInlineRef.forEach(element => {
+  element.innerHTML = element.textContent.replace(/([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+});
+
+document.querySelectorAll('#clickToSearch').forEach(element => {
+  element.addEventListener('click', () => {
+    search(element.textContent);
+  });
+});
+
 /** Keydown listeners*/
 window.addEventListener('keydown', event => {
   switch (event.key) {
@@ -160,7 +172,7 @@ function search(searchString) {
       const spanBemerkung = document.createElement('span');
       
       /** Add Tailwind classes and other attributes to newly created elements */
-      tr.classList.add('bg-white', 'border-b', 'dark:bg-gray-800', 'dark:border-gray-700', 'hover:bg-blue-100', 'dark:hover:bg-gray-600');
+      tr.classList.add('bg-white', 'border-b', 'dark:bg-gray-800', 'dark:border-gray-700', 'whitespace-nowrap', 'hover:bg-blue-100', 'dark:hover:bg-gray-600');
       th.classList.add('px-3', 'py-2', 'font-medium', 'underline', 'text-gray-900', 'whitespace-nowrap', 'dark:text-white');
       th.setAttribute('scope', 'row');
       thA.setAttribute('target', '_new');
@@ -173,12 +185,14 @@ function search(searchString) {
       const tdBenennungText = document.createTextNode(resultNode.getAttribute('benennung'));
       const spanBemerkungText = document.createTextNode(resultNode.childNodes[1].getAttribute('bemerkung'));
 
+      /** Add inline reference link */
+      spanBemerkung.innerHTML = spanBemerkungText.textContent.replace(/([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+
       /** Create html structure */
       th.appendChild(thA).appendChild(thAText);
       tdBenennung.appendChild(tdBenennungText);
       tdBenennung.appendChild(document.createElement('br'));
       tdBenennung.appendChild(spanBemerkung);
-      spanBemerkung.appendChild(spanBemerkungText);
       tr.appendChild(th);
       tr.appendChild(tdBenennung);
 
@@ -188,6 +202,10 @@ function search(searchString) {
 
     tNode.appendChild(tbodyNode);
   }
+
+  document.querySelectorAll('#clickToSearchInSearchResults').forEach(element => {
+    element.addEventListener('click', () => search(element.textContent));
+  });
 }
 
 /**

@@ -57,10 +57,10 @@
             <div id="currentTab" class="grow text-right text-gray-500 dark:text-white">alphabetisch</div>
           </div>
           <div class="shadow-md sm:rounded-lg">
-            <table class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
+            <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2">Notation</th>
+                  <th scope="col" class="px-3 py-2 w-1/6">Notation</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                   <!--<th scope="col" class="px-3 py-2">Stichwort</th>-->
                 </tr>
@@ -103,10 +103,10 @@
           <div id="übersichtAnhang1" class="relative target:scroll-mt-20">
             <h1 class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Anhang 1 - Druckschriftensammlung (Archiv)</h1>
             <div class="shadow-md sm:rounded-lg">
-              <table class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
+              <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-1/6">Notation</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                     <!--<th scope="col" class="px-3 py-2">Stichwort</th>-->
                   </tr>
@@ -128,10 +128,10 @@
           <div id="übersichtAnhang2" class="relative target:scroll-mt-20">
             <h1 class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Anhang 2 - Zeitgeschichtliche Sammlung (Archiv)</h1>
             <div class="shadow-md sm:rounded-lg">
-              <table class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
+              <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-1/6">Notation</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                   </tr>
                 </thead>
@@ -153,36 +153,28 @@
       <div id="details">
         <h1 id="detailsTitle" class="mt-10 mb-5 text-2xl font-bold text-gray-500 dark:text-white">Details</h1>
         <xsl:for-each select="children/node">
-          <!--<details id="{@notation}" class="detailedNotation hidden target:block target:scroll-mt-20">-->
           <div id="{@notation}" class="detailedNotation hidden target:block target:scroll-mt-20">
             <summary class="mb-5 text-sm text-gray-700 dark:text-gray-400 list-none">
               <h2 class="text-xl font-bold text-gray-500 dark:text-gray-300">
                 <xsl:value-of select="@notation"/>
                 &#160;<xsl:value-of select="@benennung"/>
               </h2>
-              <!--<h4 class="font-semibold text-gray-700 dark:text-gray-400"><xsl:value-of select="content/stichwort"/></h4>-->
             </summary>
             <div id="{@notation}Tables">
               <xsl:for-each select="children/node">
                 <div class="relative mb-5 overflow-x-auto shadow-md sm:rounded-lg">
-                  <table class="w-full text-md text-left text-gray-500 dark:text-gray-400">
+                  <table class="table-fixed w-full text-md text-left text-gray-500 dark:text-gray-400">
                     <caption class="px-3 py-5 text-lg font-semibold text-left text-gray-900 bg-blue-50 dark:text-white dark:bg-gray-800">
                       <xsl:value-of select="@notation"/> - <span><xsl:value-of select="@benennung"/></span>
                     </caption>
                     <thead class="text-gray-700 text-sm uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                       <tr>
-                        <th scope="col" class="px-3 py-2">Notation</th>
+                        <th scope="col" class="px-3 py-2 w-1/12">Notation</th>
                         <th scope="col" class="px-3 py-2">
                           Benennung
                           <br/>
-                          <span class="text-xs">
-                            Bemerkung
-                          </span>
+                          <span class="text-xs">Bemerkung</span>
                         </th>
-                        <!--<th scope="col" class="px-3 py-2">Stichwort</th>-->
-                        <!--<th scope="col" class="px-3 py-2">Bemerkung</th>-->
-                        <!--<th scope="col" class="px-3 py-2">Erzeugungsdatum</th>-->
-                        <!--<th scope="col" class="px-3 py-2">Änderungsdatum</th>-->
                       </tr>
                     </thead>
                     <tbody class="">
@@ -194,14 +186,19 @@
                           <td class="px-3 py-2">
                             <xsl:value-of select="@benennung"/>
                             <br/>
-                            <span class="text-sm">
-                              <xsl:value-of select="content/@bemerkung"/>
-                            </span>
+                            <xsl:choose>
+                              <xsl:when test="contains(content/@bemerkung, 'vgl. ') or contains(content/@bemerkung, 's. ') or contains(content/@bemerkung, 'siehe: ')">
+                                <span class="text-sm addLinkToInlineNotation">
+                                  <xsl:value-of select="content/@bemerkung"/>
+                                </span> 
+                              </xsl:when>
+                              <xsl:otherwise>
+                                <span class="text-sm">
+                                  <xsl:value-of select="content/@bemerkung"/>
+                                </span> 
+                              </xsl:otherwise>
+                            </xsl:choose>
                           </td>
-                          <!--<td class="px-3 py-2"><xsl:value-of select="content/stichwort"/></td>-->
-                          <!--<td class="px-3 py-2"><xsl:value-of select="content/@bemerkung"/></td>-->
-                          <!--<td class="px-3 py-2"><xsl:value-of select="content/@erzeugungs_datum"/></td>-->
-                          <!--<td class="px-3 py-2"><xsl:value-of select="content/@aenderungs_datum"/></td>-->
                         </tr>
                       </xsl:for-each>
                     </tbody>
@@ -210,7 +207,6 @@
               </xsl:for-each>
             </div>
           </div>
-          <!--</details>-->
         </xsl:for-each>
       </div>
     </div>
@@ -251,16 +247,14 @@
 
       <div id="searchResultsSystematik" class="mb-5 hidden">
         <h1 id="searchResultsSystematikTitle" class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Ergebnisse in Systematik</h1>
-        <table id="searchResultsSystematikTable" class="w-full text-md text-left text-gray-500 dark:text-gray-400">
+        <table id="searchResultsSystematikTable" class="table-fixed w-full text-md text-left text-gray-500 dark:text-gray-400">
           <thead class="text-sm text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-3 py-2">Notation</th>
+              <th scope="col" class="px-3 py-2 w-1/12">Notation</th>
               <th scope="col" class="px-3 py-2">
                 Benennung
                 <br/>
-                <span class="text-xs">
-                  Bemerkung
-                </span>
+                <span class="text-xs">Bemerkung</span>
               </th>
             </tr>
           </thead>
@@ -270,16 +264,14 @@
 
       <div id="searchResultsNotation" class="mb-5 hidden">
         <h1 id="searchResultsNotationTitle" class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Ergebnisse in Notation</h1>
-        <table id="searchResultsNotationTable" class="w-full text-md text-left text-gray-500 dark:text-gray-400">
+        <table id="searchResultsNotationTable" class="table-fixed w-full text-md text-left text-gray-500 dark:text-gray-400">
           <thead class="text-sm text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-3 py-2">Notation</th>
+              <th scope="col" class="px-3 py-2 w-1/12">Notation</th>
               <th scope="col" class="px-3 py-2">
                 Benennung
                 <br/>
-                <span class="text-xs">
-                  Bemerkung
-                </span>
+                <span class="text-xs">Bemerkung</span>
               </th>
             </tr>
           </thead>
