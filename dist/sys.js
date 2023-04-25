@@ -164,6 +164,13 @@ function search(searchString) {
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
 
+      const resultParentNode = resultNode.parentNode.parentNode;
+      const resultParentNotation = resultParentNode.getAttribute('notation');
+      const resultParentBenennung = resultParentNode.getAttribute('benennung');
+      const resultParentParentNode = resultParentNode.parentNode.parentNode ?? resultParentNode;
+      const resultParentParentNotation = resultParentParentNode.getAttribute('notation') ?? 'null';
+      const resultParentParentBenennung = resultParentParentNode.getAttribute('benennung') ?? 'null';
+
       /** Create new nodes */
       const tr = document.createElement('tr');
       const th = document.createElement('th');
@@ -172,25 +179,31 @@ function search(searchString) {
       const spanBemerkung = document.createElement('span');
       
       /** Add Tailwind classes and other attributes to newly created elements */
-      tr.classList.add('bg-white', 'border-b', 'dark:bg-gray-800', 'dark:border-gray-700', 'whitespace-nowrap', 'hover:bg-blue-100', 'dark:hover:bg-gray-600');
-      th.classList.add('px-3', 'py-2', 'font-medium', 'underline', 'text-gray-900', 'whitespace-nowrap', 'dark:text-white');
+      tr.classList.add('bg-white', 'border-b', 'dark:bg-gray-800', 'dark:border-gray-700', 'hover:bg-blue-100', 'dark:hover:bg-gray-600');
+      th.classList.add('px-3', 'py-2', 'font-medium', 'text-gray-900','whitespace-pre', 'dark:text-white');
       th.setAttribute('scope', 'row');
       thA.setAttribute('target', '_new');
       thA.setAttribute('href', `https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${resultNode.getAttribute('notation')}`);
-      tdBenennung.classList.add('px-3', 'py-2');
-      spanBemerkung.classList.add('text-xs');
-
+      tdBenennung.classList.add('px-3', 'py-2', 'whitespace-pre');
+      spanBemerkung.classList.add('text-xs', 'font-semibold');
+      
       /** Create new text nodes */
-      const thAText = document.createTextNode(resultNode.getAttribute('notation'));
-      const tdBenennungText = document.createTextNode(resultNode.getAttribute('benennung'));
-      const spanBemerkungText = document.createTextNode(resultNode.childNodes[1].getAttribute('bemerkung'));
+      let spanBemerkungText = document.createTextNode(`\t\t${resultNode.childNodes[1].getAttribute('bemerkung')}`);
+
+      /** Create innerHtml for bennung and notation link */
+      if (searchType === 'Systematik') {
+        th.innerHTML = resultNode.getAttribute('notation');
+        tdBenennung.innerHTML = resultNode.getAttribute('benennung');
+        spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
+      } else {
+        th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${resultNode.getAttribute('notation')}' class='underline'>${resultNode.getAttribute('notation')}</a>`;
+        tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
+      }
 
       /** Add inline reference link */
       spanBemerkung.innerHTML = spanBemerkungText.textContent.replace(/([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
 
       /** Create html structure */
-      th.appendChild(thA).appendChild(thAText);
-      tdBenennung.appendChild(tdBenennungText);
       tdBenennung.appendChild(document.createElement('br'));
       tdBenennung.appendChild(spanBemerkung);
       tr.appendChild(th);
