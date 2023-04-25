@@ -42,7 +42,7 @@
     </nav>
 
     <!-- Main page content -->
-    <div id="pageMain" class="max-w-[1750px] mx-auto items-center py-3 w-full">
+    <div id="pageMain" class="max-w-[1750px] mx-auto items-center py-3 w-full sm:mx-2">
       <!--<p class="mb-5 text-2xl font-medium text-gray-500 dark:text-gray-400 text-center">Stand 10.02.2023</p>-->
       <div class="flex flex-col gap-8 rounded-lg md:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
@@ -60,7 +60,7 @@
             <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2 w-1/6">Notation</th>
+                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                   <!--<th scope="col" class="px-3 py-2">Stichwort</th>-->
                 </tr>
@@ -106,7 +106,7 @@
               <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                     <!--<th scope="col" class="px-3 py-2">Stichwort</th>-->
                   </tr>
@@ -131,7 +131,7 @@
               <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                   </tr>
                 </thead>
@@ -169,7 +169,7 @@
                     </caption>
                     <thead class="text-gray-700 text-sm uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                       <tr>
-                        <th scope="col" class="px-3 py-2 w-1/12">Notation</th>
+                        <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
                         <th scope="col" class="px-3 py-2">
                           Benennung
                           <br/>
@@ -212,7 +212,7 @@
     </div>
 
     <!-- Back to top button -->
-    <div id="backToTop" class="fixed bottom-3 left-3">
+    <div id="backToTop" class="fixed bottom-3 right-3">
       <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white">
         <a href="#" class="relative px-2 py-1.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
           Zurück an Anfang
@@ -221,7 +221,7 @@
     </div>
 
     <!-- Help menu dial -->
-    <div id="helpDial" class="fixed top-14 sm:top-24 right-10 group z-20 p-5 backdrop-blur-md rounded-xl">
+    <div id="helpDial" class="fixed top-14 sm:top-0 right-10 group z-20 px-5 backdrop-blur-md rounded-xl">
       <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
@@ -239,18 +239,19 @@
         <p class="text-gray-500 dark:text-gray-400">Anhang 2</p>
         <button id="m-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">M</button>
         <p class="text-gray-500 dark:text-gray-400">Hell/Dunkel umschalten</p>
+        <br/>
       </div>
     </div>
 
     <!-- Search results content -->
-    <div id="searchResults" class="max-w-[1750px] h-full w-screen mx-auto items-center py-3 target:scroll-mt-20">
+    <div id="searchResults" class="max-w-[1750px] h-full w-screen mx-auto items-center py-3 target:scroll-mt-20 sm:mx-2">
 
       <div id="searchResultsSystematik" class="mb-5 hidden">
         <h1 id="searchResultsSystematikTitle" class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Ergebnisse in Systematik</h1>
         <table id="searchResultsSystematikTable" class="table-fixed w-full text-md text-left text-gray-500 dark:text-gray-400">
           <thead class="text-sm text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-3 py-2 w-1/12">Notation</th>
+              <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
               <th scope="col" class="px-3 py-2">
                 Benennung
                 <br/>
@@ -267,7 +268,7 @@
         <table id="searchResultsNotationTable" class="table-fixed w-full text-md text-left text-gray-500 dark:text-gray-400">
           <thead class="text-sm text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-3 py-2 w-1/12">Notation</th>
+              <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
               <th scope="col" class="px-3 py-2">
                 Benennung
                 <br/>
