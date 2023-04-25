@@ -221,7 +221,7 @@
     </div>
 
     <!-- Help menu dial -->
-    <div id="helpDial" class="fixed top-14 sm:top-0 right-10 group z-20 px-5 backdrop-blur-md rounded-xl">
+    <div id="helpDial" class="fixed md:top-14 top-0 right-10 group z-20 px-5 backdrop-blur-md rounded-xl">
       <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
