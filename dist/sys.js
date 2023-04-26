@@ -186,7 +186,7 @@ function search(searchString) {
       th.setAttribute('scope', 'row');
       thA.setAttribute('target', '_new');
       thA.setAttribute('href', `https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}`);
-      tdBenennung.classList.add('px-3', 'py-2', 'whitespace-pre');
+      tdBenennung.classList.add('px-3', 'py-2', 'whitespace-pre-wrap');
       spanBemerkung.classList.add('text-xs', 'font-semibold');
       
       /** Create new text nodes */
