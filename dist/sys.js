@@ -18,7 +18,7 @@ if (!darkMode) {
 /** Add inline notation references */
 const elementsWithInlineRef = document.querySelectorAll('.addLinkToInlineNotation');
 elementsWithInlineRef.forEach(element => {
-  element.innerHTML = element.textContent.replace(/([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
 });
 
 document.querySelectorAll('#clickToSearch').forEach(element => {
