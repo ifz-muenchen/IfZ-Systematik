@@ -181,10 +181,10 @@
                       <xsl:for-each select="children/node">
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                           <th scope="row" class="px-3 py-2 font-medium underline text-gray-900 whitespace-nowrap dark:text-white">
-                            <a target="_new" href="https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys={@notation}"><xsl:value-of select="@notation"/></a>
+                            <a id="{@notation}" target="_new" href="https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys={@notation}"><xsl:value-of select="@notation"/></a>
                           </th>
                           <td class="px-3 py-2">
-                            <xsl:value-of select="@benennung"/>
+                            <span id="{@notation}-benennung"><xsl:value-of select="@benennung"/></span>
                             <br/>
                             <xsl:choose>
                               <xsl:when test="contains(content/@bemerkung, 'vgl. ') or contains(content/@bemerkung, 's. ') or contains(content/@bemerkung, 'siehe: ')">

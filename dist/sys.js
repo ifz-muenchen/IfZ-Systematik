@@ -164,6 +164,8 @@ function search(searchString) {
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
 
+      const currentNotation = resultNode.getAttribute('notation');
+
       const resultParentNode = resultNode.parentNode.parentNode;
       const resultParentNotation = resultParentNode.getAttribute('notation');
       const resultParentBenennung = resultParentNode.getAttribute('benennung');
@@ -183,21 +185,46 @@ function search(searchString) {
       th.classList.add('px-3', 'py-2', 'font-medium', 'text-gray-900','whitespace-pre', 'dark:text-white');
       th.setAttribute('scope', 'row');
       thA.setAttribute('target', '_new');
-      thA.setAttribute('href', `https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${resultNode.getAttribute('notation')}`);
+      thA.setAttribute('href', `https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}`);
       tdBenennung.classList.add('px-3', 'py-2', 'whitespace-pre');
       spanBemerkung.classList.add('text-xs', 'font-semibold');
       
       /** Create new text nodes */
       let spanBemerkungText = document.createTextNode(`\t\t${resultNode.childNodes[1].getAttribute('bemerkung')}`);
+      if (resultNode.childNodes[1].getAttribute('bemerkung') === '') {
+        spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
+      }
+
+      if (currentNotation.includes('o 23.2') || currentNotation.includes('b 153.5') || currentNotation.includes('c 78.7') || currentNotation.includes('c 88.2') || currentNotation.includes('n 73')) {
+        continue;
+      }
 
       /** Create innerHtml for bennung and notation link */
       if (searchType === 'Systematik') {
-        th.innerHTML = resultNode.getAttribute('notation');
+        th.innerHTML = currentNotation;
         tdBenennung.innerHTML = resultNode.getAttribute('benennung');
         spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
       } else {
-        th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${resultNode.getAttribute('notation')}' class='underline'>${resultNode.getAttribute('notation')}</a>`;
+        th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
         tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
+        
+        const regexPointPattern = /[a-z]{1,3} \d{1,3}\.?\d{0,3}(?=\.\d{1,3})/gmi;
+        if (regexPointPattern.test(currentNotation)) {
+          const firstLevelUp = currentNotation.match(regexPointPattern)[0];
+          console.log(firstLevelUp);
+          const firstLevelUpBenennung = document.querySelector(`#${CSS.escape(firstLevelUp)}-benennung`).textContent;
+
+          if (regexPointPattern.test(firstLevelUp)) {
+            const secondLevelUp = firstLevelUp.match(regexPointPattern)[0];
+            const secondLevelUpBenennung = document.querySelector(`#${CSS.escape(secondLevelUp)}-benennung`).textContent;
+
+            th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<span>${secondLevelUp}</span>\n\t\t<span>${firstLevelUp}</span>\n\t\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+            tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-thin'>${secondLevelUpBenennung}</span>\n\t\t<span class='font-thin'>${firstLevelUpBenennung}</span>\n\t\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
+          } else {
+            th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<span>${firstLevelUp}</span>\n\t\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+            tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-thin'>${firstLevelUpBenennung}</span>\n\t\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
+          }
+        }
       }
 
       /** Add inline reference link */
