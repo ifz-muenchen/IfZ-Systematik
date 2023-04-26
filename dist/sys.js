@@ -129,24 +129,24 @@ function search(searchString) {
   let fuzzySearch = searchString;
   fuzzySearch = fuzzySearch.trim().toLowerCase();
 
-  const inSystematikStichwort = `/sisis_classification_scheme/children/node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
-  const inSystematikBenennung = `/sisis_classification_scheme/children/node[contains(@benennung, ${fuzzySearch})]`;
-  const inNotationStichwort = `/sisis_classification_scheme/children/node/children/node/children/node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${fuzzySearch}')]]`;
-  const inNotationBenennung = `/sisis_classification_scheme/children/node/children/node/children/node[@benennung[contains(., ${fuzzySearch})]]`;
-  const forNotation = `//node[@notation='${fuzzySearch}']`;
+  // const inSystematikStichwort = `//node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+  // const inSystematikBenennung = `/sisis_classification_scheme/children/node[contains(@benennung, ${fuzzySearch})]`;
+  const inNotationStichwort = `//node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+  // const inNotationBenennung = `/sisis_classification_scheme/children/node/children/node/children/node[@benennung[contains(., ${fuzzySearch})]]`;
+  const forNotation = `//node[@notation='${searchString}']`;
   
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
   const notationRegex = /^[a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?$/gmi;
   if (notationRegex.test(fuzzySearch)) {
     searchRequest(forNotation, 'Notation');
   } else {
-    searchRequest(inSystematikStichwort, 'Systematik');
+    //searchRequest(inSystematikStichwort, 'Systematik');
     searchRequest(inNotationStichwort, 'Notation');
     //searchRequest(inSystematikBenennung, 'Systematik');
     //searchRequest(inNotationBenennung, 'Notation');
   }
 
-  console.log(`Searching for ${fuzzySearch}`);
+  //console.log(`Searching for ${fuzzySearch}\ninNotationStichwort: ${inNotationStichwort}\nnotationRegex test = ${notationRegex.test(fuzzySearch)}`);
 
   /**
    * Searches the XML via xPath and creates output tables on the page
@@ -157,13 +157,15 @@ function search(searchString) {
    */
   function searchRequest(searchPath, searchType) {
     const tNode = document.querySelector(`#searchResults${searchType}Table`);
-    document.querySelector(`#searchResults${searchType}TableBody`).remove();
     const tbodyNode = document.createElement('tbody');
+    document.querySelector(`#searchResults${searchType}TableBody`).remove();
     tbodyNode.setAttribute('id', `searchResults${searchType}TableBody`);
+
+    console.log(searchPath);
 
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
-
+      
       const currentNotation = resultNode.getAttribute('notation');
 
       const resultParentNode = resultNode.parentNode.parentNode;
@@ -205,13 +207,17 @@ function search(searchString) {
         tdBenennung.innerHTML = resultNode.getAttribute('benennung');
         spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
       } else {
-        th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-        tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
-        
+        if (resultParentParentNotation !== 'null') {
+          th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+          tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
+        } else {
+          th.innerHTML = `<a href='#${resultParentNotation}'>${resultParentNotation}\n ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+          tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
+        }
+
         const regexPointPattern = /[a-z]{1,3} \d{1,3}\.?\d{0,3}(?=\.\d{1,3})/gmi;
         if (regexPointPattern.test(currentNotation)) {
           const firstLevelUp = currentNotation.match(regexPointPattern)[0];
-          console.log(firstLevelUp);
           const firstLevelUpBenennung = document.querySelector(`#${CSS.escape(firstLevelUp)}-benennung`).textContent;
 
           if (regexPointPattern.test(firstLevelUp)) {
