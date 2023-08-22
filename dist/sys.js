@@ -129,9 +129,9 @@ function search(searchString) {
   let fuzzySearch = searchString;
   fuzzySearch = fuzzySearch.trim().toLowerCase();
 
-  const inNotationStichwort = `//node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
-  const inNotationBenennung = `//node[@benennung[contains(., ${fuzzySearch})]]`;
-  const forNotation = `//node[@notation='${searchString}']`;
+  const inNotationStichwort = `//*[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+  const inNotationBenennung = `//*[@benennung[contains(., ${fuzzySearch})]]`;
+  const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
   
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
   const notationRegex = /^[a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?$/gmi;
@@ -160,14 +160,14 @@ function search(searchString) {
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
       
-      const currentNotation = resultNode.getAttribute('notation');
+      const currentNotation = resultNode.tagName;
 
       const resultParentNode = resultNode.parentNode.parentNode;
-      const resultParentNotation = resultParentNode.getAttribute('notation') ?? 'null';
-      const resultParentBenennung = resultParentNode.getAttribute('benennung' ?? 'null');
-      const resultParentParentNode = resultParentNode.parentNode.parentNode ?? resultParentNode;
-      const resultParentParentNotation = resultParentParentNode.getAttribute('notation') ?? 'null';
-      const resultParentParentBenennung = resultParentParentNode.getAttribute('benennung') ?? 'null';
+      const resultParentNotation = resultParentNode.tagName ?? 'null';
+      const resultParentBenennung = resultParentNode.getAttribute('Benennung' ?? 'null');
+      //const resultParentParentNode = resultParentNode.parentNode.parentNode ?? resultParentNode;
+      //const resultParentParentNotation = resultParentParentNode.tagName ?? 'null';
+      //const resultParentParentBenennung = resultParentParentNode.getAttribute('Benennung') ?? 'null';
 
       /** Create new nodes */
       const tr = document.createElement('tr');
@@ -186,8 +186,8 @@ function search(searchString) {
       spanBemerkung.classList.add('text-xs', 'font-semibold');
       
       /** Create new text nodes */
-      let spanBemerkungText = document.createTextNode(`\t\t${resultNode.childNodes[1].getAttribute('bemerkung')}`);
-      if (resultNode.childNodes[1].getAttribute('bemerkung') === '') {
+      let spanBemerkungText = document.createTextNode(`\t\t${resultNode.childNodes[1].getAttribute('Bemerkungen')}`);
+      if (resultNode.childNodes[1].getAttribute('Bemerkungen') === '') {
         spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
       }
 
@@ -199,11 +199,11 @@ function search(searchString) {
       if (resultParentParentNotation === 'null') {
         if (resultParentNotation === 'null') {
           th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`;
+          tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('bBnennung')}</span>`;
           spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
         } else {
           th.innerHTML = `<a href='#${resultParentNotation}'>${resultParentNotation}\n ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`;
+          tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n ↳\t<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
         } 
       } else {
         th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
