@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html" doctype-system="about:legacy-compat" encoding="utf-8" indent="yes" />
 
-<xsl:template match="/sisis_classification_scheme">
+<xsl:template match="/IfZ-Systematik">
   <!--<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>-->
   <html id="html" class="dark">
   <script>
@@ -66,11 +66,11 @@
                 </tr>
               </thead>
               <tbody>
-                <xsl:for-each select="children/node">
-                  <xsl:if test="not(contains(@notation, 'D') or contains(@notation, 'ZG'))">
+                <xsl:for-each select="*">
+                  <xsl:if test="not(contains(translate(name(), '_', ' '), 'D') or contains(translate(name(), '_', ' '), 'ZG'))">
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
-                      <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{@notation}"><xsl:value-of select="@notation"/></a></td>
-                      <td class="px-3 py-2"><xsl:value-of select="@benennung"/></td>
+                      <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+                      <td class="px-3 py-2"><xsl:value-of select="@Benennung"/></td>
                       <!--<td class="px-3 py-2"><xsl:value-of select="content/stichwort"/></td>-->
                     </tr>
                   </xsl:if>
@@ -112,11 +112,11 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <xsl:for-each select="children/node">
-                    <xsl:if test="contains(@notation, 'D')">
+                  <xsl:for-each select="*">
+                    <xsl:if test="contains(translate(name(), '_', ' '), 'D')">
                       <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
-                        <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{@notation}"><xsl:value-of select="@notation"/></a></td>
-                        <td class="px-3 py-2"><xsl:value-of select="substring-after(@benennung, 'des Archivs:')"/></td>
+                        <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+                        <td class="px-3 py-2"><xsl:value-of select="substring-after(@Benennung, 'des Archivs:')"/></td>
                         <!--<td class="px-3 py-2"><xsl:value-of select="content/stichwort"/></td>-->
                       </tr>
                     </xsl:if>
@@ -136,11 +136,11 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <xsl:for-each select="children/node">
-                    <xsl:if test="contains(@notation, 'ZG')">
+                  <xsl:for-each select="*">
+                    <xsl:if test="contains(translate(name(), '_', ' '), 'ZG')">
                       <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
-                        <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{@notation}"><xsl:value-of select="@notation"/></a></td>
-                        <td class="px-3 py-2"><xsl:value-of select="substring-after(@benennung, 'des Archivs:')"/></td>
+                        <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+                        <td class="px-3 py-2"><xsl:value-of select="substring-after(@Benennung, 'des Archivs:')"/></td>
                       </tr>
                     </xsl:if>
                   </xsl:for-each>
@@ -152,20 +152,20 @@
       </div>
       <div id="details">
         <h1 id="detailsTitle" class="mt-10 mb-5 text-2xl font-bold text-gray-500 dark:text-white">Details</h1>
-        <xsl:for-each select="children/node">
-          <div id="{@notation}" class="detailedNotation hidden target:block target:scroll-mt-20">
+        <xsl:for-each select="*">
+          <div id="{translate(name(), '_', ' ')}" class="detailedNotation hidden target:block target:scroll-mt-20">
             <summary class="mb-5 text-sm text-gray-700 dark:text-gray-400 list-none">
               <h2 class="text-xl font-bold text-gray-500 dark:text-gray-300">
-                <xsl:value-of select="@notation"/>
-                &#160;<xsl:value-of select="@benennung"/>
+                <xsl:value-of select="translate(name(), '_', ' ')"/>
+                &#160;<xsl:value-of select="@Benennung"/>
               </h2>
             </summary>
-            <div id="{@notation}Tables">
-              <xsl:for-each select="children/node">
+            <div id="{translate(name(), '_', ' ')}Tables">
+              <xsl:for-each select="*">
                 <div class="relative mb-5 overflow-x-auto shadow-md sm:rounded-lg">
                   <table class="table-fixed w-full text-md text-left text-gray-500 dark:text-gray-400">
                     <caption class="px-3 py-5 text-lg font-semibold text-left text-gray-900 bg-blue-50 dark:text-white dark:bg-gray-800">
-                      <xsl:value-of select="@notation"/> - <span><xsl:value-of select="@benennung"/></span>
+                      <xsl:value-of select="translate(name(), '_', ' ')"/> - <span><xsl:value-of select="@Benennung"/></span>
                     </caption>
                     <thead class="text-gray-700 text-sm uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                       <tr>
@@ -178,23 +178,23 @@
                       </tr>
                     </thead>
                     <tbody class="">
-                      <xsl:for-each select="children/node">
+                      <xsl:for-each select="*">
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                           <th scope="row" class="px-3 py-2 font-medium underline text-gray-900 whitespace-nowrap dark:text-white">
-                            <a id="{@notation}" target="_new" href="https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys={@notation}"><xsl:value-of select="@notation"/></a>
+                            <a id="{translate(name(), '_', ' ')}" target="_new" href="https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys={translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a>
                           </th>
                           <td class="px-3 py-2">
-                            <span id="{@notation}-benennung"><xsl:value-of select="@benennung"/></span>
+                            <span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
                             <br/>
                             <xsl:choose>
-                              <xsl:when test="contains(content/@bemerkung, 'vgl. ') or contains(content/@bemerkung, 's. ') or contains(content/@bemerkung, 'siehe: ')">
+                              <xsl:when test="contains(@Bemerkungen, 'vgl. ') or contains(@Bemerkungen, 's. ') or contains(@Bemerkungen, 'siehe: ')">
                                 <span class="text-sm addLinkToInlineNotation">
-                                  <xsl:value-of select="content/@bemerkung"/>
+                                  <xsl:value-of select="@Bemerkungen"/>
                                 </span> 
                               </xsl:when>
                               <xsl:otherwise>
                                 <span class="text-sm">
-                                  <xsl:value-of select="content/@bemerkung"/>
+                                  <xsl:value-of select="@Bemerkungen"/>
                                 </span> 
                               </xsl:otherwise>
                             </xsl:choose>
