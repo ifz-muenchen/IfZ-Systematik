@@ -129,8 +129,8 @@ function search(searchString) {
   let fuzzySearch = searchString;
   fuzzySearch = fuzzySearch.trim().toLowerCase();
 
-  const inNotationStichwort = `//*[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
-  const inNotationBenennung = `//*[@benennung[contains(., ${fuzzySearch})]]`;
+  const inNotationStichwort = `//*[@Register-Vokabular[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+  const inNotationBenennung = `//*[@Benennung[contains(., ${fuzzySearch})]]`;
   const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
   
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
@@ -160,11 +160,13 @@ function search(searchString) {
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
       
-      const currentNotation = resultNode.tagName;
-
+      const currentNotation = resultNode.tagName.replace('_', ' ');
+      
       const resultParentNode = resultNode.parentNode.parentNode;
       const resultParentNotation = resultParentNode.tagName ?? 'null';
-      const resultParentBenennung = resultParentNode.getAttribute('Benennung' ?? 'null');
+      if (resultParentNode.tagName) {
+        const resultParentBenennung = resultParentNode.getAttribute('Benennung') ?? 'null';
+      }
       //const resultParentParentNode = resultParentNode.parentNode.parentNode ?? resultParentNode;
       //const resultParentParentNotation = resultParentParentNode.tagName ?? 'null';
       //const resultParentParentBenennung = resultParentParentNode.getAttribute('Benennung') ?? 'null';
@@ -186,8 +188,8 @@ function search(searchString) {
       spanBemerkung.classList.add('text-xs', 'font-semibold');
       
       /** Create new text nodes */
-      let spanBemerkungText = document.createTextNode(`\t\t${resultNode.childNodes[1].getAttribute('Bemerkungen')}`);
-      if (resultNode.childNodes[1].getAttribute('Bemerkungen') === '') {
+      let spanBemerkungText = document.createTextNode(`\t\t${resultNode.getAttribute('Bemerkungen')}`);
+      if (resultNode.getAttribute('Bemerkungen') === '') {
         spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
       }
 
@@ -196,22 +198,18 @@ function search(searchString) {
       }
 
       /** Create innerHtml for bennung and notation link */
-      if (resultParentParentNotation === 'null') {
-        if (resultParentNotation === 'null') {
-          th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('bBnennung')}</span>`;
-          spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
-        } else {
-          th.innerHTML = `<a href='#${resultParentNotation}'>${resultParentNotation}\n ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n ↳\t<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
-        } 
+      if (resultParentNotation.tagName) {
+        th.innerHTML = `<a href='#${resultParentNotation}'>${resultParentNotation}\n ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+        tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n ↳\t<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
       } else {
-        th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-        tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`;
+        th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+        tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
+        spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
       }
 
+      // ToDo Arrow Notation for higher notations
       const regexPointPattern = /[a-z]{1,3} \d{1,3}\.?\d{0,3}(?=\.\d{1,3})/gmi;
-      if (regexPointPattern.test(currentNotation)) {
+      /*if (regexPointPattern.test(currentNotation)) {
         const firstLevelUp = currentNotation.match(regexPointPattern)[0];
         const firstLevelUpBenennung = document.querySelector(`#${CSS.escape(firstLevelUp)}-benennung`).textContent;
 
@@ -225,7 +223,7 @@ function search(searchString) {
           th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<span>${firstLevelUp}</span>\n\t\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
           tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-thin'>${firstLevelUpBenennung}</span>\n\t\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
         }
-      }
+      }*/
 
       /** Add inline reference link */
       spanBemerkung.innerHTML = spanBemerkungText.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
