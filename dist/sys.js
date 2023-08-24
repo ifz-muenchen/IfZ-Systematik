@@ -142,8 +142,6 @@ function search(searchString) {
     //searchRequest(inNotationBenennung, 'Notation');
   }
 
-  //console.log(`Searching for ${fuzzySearch}\ninNotationStichwort: ${inNotationStichwort}\nnotationRegex test = ${notationRegex.test(fuzzySearch)}`);
-
   /**
    * Searches the XML via xPath and creates output tables on the page
    * @TODO maybe performance upgrades? Creating the HTML elements seems to be the bottleneck, check via Chrome
@@ -162,15 +160,6 @@ function search(searchString) {
       
       const currentNotation = resultNode.tagName.replace('_', ' ');
       
-      const resultParentNode = resultNode.parentNode.parentNode;
-      const resultParentNotation = resultParentNode.tagName ?? 'null';
-      if (resultParentNode.tagName) {
-        const resultParentBenennung = resultParentNode.getAttribute('Benennung') ?? 'null';
-      }
-      //const resultParentParentNode = resultParentNode.parentNode.parentNode ?? resultParentNode;
-      //const resultParentParentNotation = resultParentParentNode.tagName ?? 'null';
-      //const resultParentParentBenennung = resultParentParentNode.getAttribute('Benennung') ?? 'null';
-
       /** Create new nodes */
       const tr = document.createElement('tr');
       const th = document.createElement('th');
@@ -186,47 +175,29 @@ function search(searchString) {
       thA.setAttribute('href', `https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}`);
       tdBenennung.classList.add('px-3', 'py-2', 'whitespace-pre-wrap');
       spanBemerkung.classList.add('text-xs', 'font-semibold');
-      
-      /** Create new text nodes */
-      let spanBemerkungText = document.createTextNode(`\t\t${resultNode.getAttribute('Bemerkungen')}`);
-      if (resultNode.getAttribute('Bemerkungen') === '') {
-        spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
-      }
-
-      if (currentNotation.includes('o 23.2') || currentNotation.includes('b 153.5') || currentNotation.includes('c 78.7') || currentNotation.includes('c 88.2') || currentNotation.includes('n 73')) {
-        continue;
-      }
 
       /** Create innerHtml for bennung and notation link */
-      if (resultParentNotation.tagName) {
-        th.innerHTML = `<a href='#${resultParentNotation}'>${resultParentNotation}\n ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-        tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n ↳\t<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
-      } else {
-        th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-        tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
-        spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
+      th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+      tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
+      spanBemerkung.innerHTML = resultNode.getAttribute('Bemerkungen');
+
+      /** Arrow Notation for higher notations */
+      const regexPointPattern = /[a-z]{1,3} \d{1,3}\.?\d{0,3}(?=\.\d{0,3})/gmi;
+      let level = currentNotation;
+      let levelBenenung = document.querySelector(`#${CSS.escape(level)}-benennung`).textContent;
+
+      while (regexPointPattern.test(level)) {
+        level = level.match(regexPointPattern)[0];
+        levelBenenung = document.querySelector(`#${CSS.escape(level)}-benennung`).textContent;
+
+        let currentHeader = th.innerHTML.replace('\n↳\t', '\n\t↳\t');
+        let currentData = tdBenennung.innerHTML.replace('\n▸\t', '\n\t▸\t');
+        th.innerHTML = `<span>${level}</span>\n↳\t${currentHeader}`;
+        tdBenennung.innerHTML = `<span class='font-thin'>${levelBenenung}</span>\n▸\t${currentData}`;
       }
 
-      // ToDo Arrow Notation for higher notations
-      const regexPointPattern = /[a-z]{1,3} \d{1,3}\.?\d{0,3}(?=\.\d{1,3})/gmi;
-      /*if (regexPointPattern.test(currentNotation)) {
-        const firstLevelUp = currentNotation.match(regexPointPattern)[0];
-        const firstLevelUpBenennung = document.querySelector(`#${CSS.escape(firstLevelUp)}-benennung`).textContent;
-
-        if (regexPointPattern.test(firstLevelUp)) {
-          const secondLevelUp = firstLevelUp.match(regexPointPattern)[0];
-          const secondLevelUpBenennung = document.querySelector(`#${CSS.escape(secondLevelUp)}-benennung`).textContent;
-
-          th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<span>${secondLevelUp}</span>\n\t\t<span>${firstLevelUp}</span>\n\t\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-thin'>${secondLevelUpBenennung}</span>\n\t\t<span class='font-thin'>${firstLevelUpBenennung}</span>\n\t\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
-        } else {
-          th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<span>${firstLevelUp}</span>\n\t\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-thin'>${firstLevelUpBenennung}</span>\n\t\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
-        }
-      }*/
-
       /** Add inline reference link */
-      spanBemerkung.innerHTML = spanBemerkungText.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
 
       /** Create html structure */
       tdBenennung.appendChild(document.createElement('br'));
