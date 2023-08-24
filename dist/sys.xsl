@@ -157,7 +157,7 @@
             <summary class="mb-5 text-sm text-gray-700 dark:text-gray-400 list-none">
               <h2 class="text-xl font-bold text-gray-500 dark:text-gray-300">
                 <xsl:value-of select="translate(name(), '_', ' ')"/>
-                &#160;<xsl:value-of select="@Benennung"/>
+                &#160;<span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
               </h2>
             </summary>
             <div id="{translate(name(), '_', ' ')}Tables">
@@ -165,7 +165,7 @@
                 <div class="relative mb-5 overflow-x-auto shadow-md sm:rounded-lg">
                   <table class="table-fixed w-full text-md text-left text-gray-500 dark:text-gray-400">
                     <caption class="px-3 py-5 text-lg font-semibold text-left text-gray-900 bg-blue-50 dark:text-white dark:bg-gray-800">
-                      <xsl:value-of select="translate(name(), '_', ' ')"/> - <span><xsl:value-of select="@Benennung"/></span>
+                      <xsl:value-of select="translate(name(), '_', ' ')"/> - <span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
                     </caption>
                     <thead class="text-gray-700 text-sm uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                       <tr>
