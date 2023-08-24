@@ -129,8 +129,8 @@ function search(searchString) {
   let fuzzySearch = searchString;
   fuzzySearch = fuzzySearch.trim().toLowerCase();
 
-  const inNotationStichwort = `//*[@Register-Vokabular[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
-  const inNotationBenennung = `//*[@Benennung[contains(., ${fuzzySearch})]]`;
+  const inNotationBenennung = `//*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+  //const inNotationVerweisformen = `//*[@Verweisformen[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
   const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
   
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
@@ -138,8 +138,8 @@ function search(searchString) {
   if (notationRegex.test(fuzzySearch)) {
     searchRequest(forNotation, 'Notation');
   } else {
-    searchRequest(inNotationStichwort, 'Notation');
-    //searchRequest(inNotationBenennung, 'Notation');
+    searchRequest(inNotationBenennung, 'Notation');
+    //searchRequest(inNotationVerweisformen, 'Notation');
   }
 
   /**
