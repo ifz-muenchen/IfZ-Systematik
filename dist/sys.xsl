@@ -301,7 +301,7 @@
           <div id="übersichtAnhang2" class="relative target:scroll-mt-20">
             <h1 class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Anhang 2 - Zeitgeschichtliche Sammlung (Archiv)</h1>
             <div class="shadow-md sm:rounded-lg">
-              <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
+              <table id="alphaÜbersicht2" class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                   <tr>
                     <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
@@ -317,6 +317,72 @@
                       </tr>
                     </xsl:if>
                   </xsl:for-each>
+                </tbody>
+              </table>
+              <table id="chronoÜbersicht2" class="hidden table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
+                  <tr>
+                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2">Benennung</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                    <td class="px-3 py-2 font-bold">Deutsche Geschichte</td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                    <td class="px-3 py-2">Deutschland 1871 - 1945</td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs">
+                      <br/>
+                      <a class="text-xs" href="#ZGa 001-099">ZGa 001-099</a>
+                      <br/>
+                      <a class="text-xs" href="#ZGd 001-090">ZGd 001-090</a>
+                      <br/>
+                      <a class="text-xs" href="#ZGc 001-099">ZGc 001-099</a>
+                      <br/>
+                      <a class="text-xs" href="#ZGe 001-999">ZGe 001-999</a>
+                      <br/>
+                      <a class="text-xs" href="#ZGf 001-799">ZGf 001-799</a>
+                      <br/>
+                      <a class="text-xs" href="#ZGg 001-999">ZGg 001-999</a>
+                      <br/>
+                      <a class="text-xs" href="#ZGi 001-399">ZGi 001-399</a>
+                      <br/>
+                      <a class="text-xs" href="#ZGb 001-299">ZGb 001-299</a>
+                    </td>
+                    <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)
+                      <br/>
+                      Oberste Reichsbehörden
+                      <br/>
+                      Deutsche Länder, besetzte Gebiete
+                      <br/>
+                      Polizei und SS
+                      <br/>
+                      Parteien und Politische Gruppen
+                      <br/>
+                      Wissenschaft und Kultur
+                      <br/>
+                      Wirtschaft und Sozialpolitik
+                      <br/>
+                      Religion und Weltanschauung
+                      <br/>
+                      Nationalsozialismus, NSDAP
+                    </td>
+                  </tr>
+                  <xsl:apply-templates select="ZGk_001-913"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                    <td class="px-3 py-2 font-bold">Internationale Beziehungen</td>
+                  </tr>
+                  <xsl:apply-templates select="ZGj_001-999"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGk 001-913">ZGk 001-913</a></td>
+                    <td class="px-3 py-2">	Deutschland als Besatzungsgebiet 1945 - 1949, Alliierte Einrichtungen bis 1955</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -605,6 +671,20 @@
   <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Europäische Integration seit 1945</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//ZGk_001-913">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Deutsche Behörden oberhalb der Länderebene bis zur Gründung der der Bundesrepublik Deutschland 1945 - 1949</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//ZGj_001-999">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Ausländische Staaten und Einrichtungen, internationale Behörden und Organisationen bis Mai 1945</td>
   </tr>
 </xsl:template>
 

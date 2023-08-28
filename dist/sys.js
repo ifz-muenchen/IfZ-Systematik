@@ -68,9 +68,11 @@ document.querySelector('#alpha-button').addEventListener('click', () => {
   
   document.querySelector('#alphaMain').classList.remove('hidden');
   document.querySelector('#übersichtAnhang1').classList.remove('hidden');
+  document.querySelector('#alphaÜbersicht2').classList.remove('hidden');
   
   document.querySelector('#chronoMain').classList.add('hidden');
   document.querySelector('#sachMain').classList.add('hidden');
+  document.querySelector('#chronoÜbersicht2').classList.add('hidden');
 });
 
 document.querySelector('#sach-button').addEventListener('click', () => {
@@ -78,19 +80,23 @@ document.querySelector('#sach-button').addEventListener('click', () => {
   
   document.querySelector('#sachMain').classList.remove('hidden');
   document.querySelector('#übersichtAnhang1').classList.remove('hidden');
+  document.querySelector('#alphaÜbersicht2').classList.remove('hidden');
 
   document.querySelector('#alphaMain').classList.add('hidden');
   document.querySelector('#chronoMain').classList.add('hidden');
+  document.querySelector('#chronoÜbersicht2').classList.add('hidden');
 });
 
 document.querySelector('#chrono-button').addEventListener('click', () => {
   document.querySelector('#currentTab').innerHTML = 'Chronologisch';
   
   document.querySelector('#chronoMain').classList.remove('hidden');
+  document.querySelector('#chronoÜbersicht2').classList.remove('hidden');
 
   document.querySelector('#alphaMain').classList.add('hidden');
   document.querySelector('#sachMain').classList.add('hidden');
   document.querySelector('#übersichtAnhang1').classList.add('hidden');
+  document.querySelector('#alphaÜbersicht2').classList.add('hidden');
 });
 
 /** Help dial click listeners */
