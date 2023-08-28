@@ -44,20 +44,20 @@
     <!-- Main page content -->
     <div id="pageMain" class="max-w-[1750px] mx-auto items-center py-3 w-full">
       <!--<p class="mb-5 text-2xl font-medium text-gray-500 dark:text-gray-400 text-center">Stand 10.02.2023</p>-->
-      <div class="flex flex-col gap-8 rounded-lg md:flex-row">
+      <div id="overview" class="flex flex-col gap-8 rounded-lg md:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
           <h1 class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Gliederung</h1>
           <p class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
             Die IfZ-Systematik bietet Ihnen in chronologischen und thematischen Gruppen einen strukturierten Zugang zu den Sammelgebieten der Bibliothek und zu den im Bibliothekskatalog verzeichneten Teilen des Archivbestandes. Mit den Notationen der IfZ-Systematik können Sie im Online-Katalog im Suchfeld <a href="https://opac.ifz-muenchen.de/webOPACClient.ifzsis/start.do" target="blank" class="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">IfZ-Systematik</a> Literaturrecherchen starten. Die Notationen bestehen aus Buchstaben-Zahlen-Kürzeln, nach dem/den Buchstaben folgt immer ein Leerzeichen/Blank.
           </p>
           <div class="mt-5 my-1 flex flex-row gap-4 flex-wrap items-center mx-auto">
-            <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Alphabetisch</button>
-            <button type="button" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Sachgruppen</button>
-            <button type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Chronologisch</button>
-            <div id="currentTab" class="grow text-right text-gray-500 dark:text-white">alphabetisch</div>
+            <button id="alpha-button" type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Alphabetisch</button>
+            <button id="sach-button" type="button" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Sachgruppen</button>
+            <button id="chrono-button" type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Chronologisch</button>
+            <div id="currentTab" class="grow text-right text-gray-500 dark:text-white">Alphabetisch</div>
           </div>
           <div class="shadow-md sm:rounded-lg">
-            <table class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
+            <table id="alphaMain" class="table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
                   <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
@@ -75,6 +75,179 @@
                     </tr>
                   </xsl:if>
                 </xsl:for-each>
+              </tbody>
+            </table>
+            <table id="chronoMain" class="hidden table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
+              <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                  <th scope="col" class="px-3 py-2">Benennung</th>
+                </tr>
+              </thead>
+              <tbody>
+                <xsl:apply-templates select="b_1-99"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2 font-bold">Deutsche Geschichte</td>
+                </tr>
+                <xsl:apply-templates select="f_101-199"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2">Weimarer Republik 1918 - 1933</td>
+                </tr>
+                <xsl:apply-templates select="f_1-99"/>
+                <xsl:apply-templates select="g_1-99"/>
+                <xsl:apply-templates select="e_1-99"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2">Drittes Reich 1933 - 1945</td>
+                </tr>
+                <xsl:apply-templates select="j_1-99"/>
+                <xsl:apply-templates select="g_1-99"/>
+                <xsl:apply-templates select="h_1-99"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dd 001-093">Dd 001-093</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#e 1-99">e 1-99</a></td>
+                  <td class="px-3 py-2">Nationalsozialismus, NSDAP</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Db 001-299">Db 001-299</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="e_101-199"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dc 001-099">Dc 001-099</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="e_201-299"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Db 052">Db 052</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="w_101-199"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Db 044">Db 044</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="k_1-99"/>
+                <xsl:apply-templates select="n_1-99"/>
+                <xsl:apply-templates select="k_101-199"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#De 001-999">De 001-999</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="h_101-199"/>
+                <xsl:apply-templates select="l_101-199"/>
+                <xsl:apply-templates select="w_201-299"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2">Deutsche Geschichte seit 1945</td>
+                </tr>
+                <xsl:apply-templates select="x_1-99"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dk 001-913">Dk 001-913</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#x 1-99">x 1-99</a></td>
+                  <td class="px-3 py-2">Deutschlandpolitik, Innerdeutsche Beziehungen</td>
+                </tr>
+                <xsl:apply-templates select="x_101-199"/>
+                <xsl:apply-templates select="x_201-299"/>
+                <xsl:apply-templates select="x_301-399"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2">Bundesrepublik Deutschland seit 1949</td>
+                </tr>
+                <xsl:apply-templates select="x_501-599"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="x_401-499"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2">Deutsche Demokratische Republik 1949 - 1990</td>
+                </tr>
+                <xsl:apply-templates select="x_601-699"/>
+                <xsl:apply-templates select="x_401-499"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2 font-bold">Internationale Beziehungen</td>
+                </tr>
+                <xsl:apply-templates select="c_1-199"/>
+                <xsl:apply-templates select="q_501-599"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#f 101-199">f 101-199</a></td>
+                  <td class="px-3 py-2">Deutsche Außenpolitik 1871 - 1918</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2">Erster Weltkrieg 1914 - 1918</td>
+                </tr>
+                <xsl:apply-templates select="t_1-99"/>
+                <xsl:apply-templates select="t_101-199"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dj 001-999">Dj 001-999</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#g 1-99">g 1-99</a></td>
+                  <td class="px-3 py-2">Internationale Beziehungen 1918 - 1939</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#g 1-99">g 1-99</a></td>
+                  <td class="px-3 py-2">Deutsche Außenpolitik 1918 - 1939/45</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
+                  <td class="px-3 py-2">Zweiter Weltkrieg 1939 - 1945</td>
+                </tr>
+                <xsl:apply-templates select="u_1-99"/>
+                <xsl:apply-templates select="u_101-199"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dj 001-999">Dj 001-999</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="h_1-99"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dd 001-913">Dd 001-913</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <xsl:apply-templates select="h_101-199"/>
+                <xsl:apply-templates select="n_1-99"/>
+                <xsl:apply-templates select="b_101-199"/>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#x 401-499">x 401-499</a></td>
+                  <td class="px-3 py-2">Deutsche Außenpolitik seit 1945</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
+                  <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#x 401-499">x 401-499</a></td>
+                  <td class="px-3 py-2">Deutschlandpolitik des Auslandes 1945 - 1990</td>
+                </tr>
+                <xsl:apply-templates select="c_201-299"/>
+              </tbody>
+            </table>
+            <table id="sachMain" class="hidden table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
+              <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                  <th scope="col" class="px-3 py-2">Benennung</th>
+                </tr>
+              </thead>
+              <tbody>
+                ToDo
               </tbody>
             </table>
           </div>
@@ -286,6 +459,289 @@
     <script src="sys.js" type="module"></script>
   </body>
   </html>
+</xsl:template>
+
+<xsl:template match="/IfZ-Systematik/*">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2"><xsl:value-of select="@Benennung"/></td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//b_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2"><strong>Allgemeine Geschichte</strong> (Altertum, Mittelalter, Neuzeit)</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//g_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Außenpolitk</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//w_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Hitlerjugend</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//k_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Verfolgung und Emigration</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//n_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Judenverfolgung</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//k_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Widerstand in Deutschland</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//l_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Medien und Propaganda</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//w_201-299">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Reichsarbeitsdienst</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//x_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Deutschland unter alliierter Besatzung 1945 - 1949</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//x_501-599">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Allgemein und Innenpolitik</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//x_401-499">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Außenpolitik</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//x_601-699">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Allgemein und Innenpolitik</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//c_1-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Internationale Politik</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//h_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Widerstand gegen die deutsche Besatzung 1935 - 1945</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//t_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Allgemein und Militärgeschichte</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//t_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Politische Geschichte</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//u_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Allgemein und Militärgeschichte</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//u_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Politische Geschichte</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//b_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Internationale Beziehungen seit 1945</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//c_201-299">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Europäische Integration seit 1945</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//j_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Allgemein und Innenpolitik</td>
+  </tr>
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs">
+      <br/>
+      <a class="text-xs" href="#Da 001-099">Da 001-099</a>
+      <br/>
+      <a class="text-xs" href="#Dc 001-099">Dc 001-099</a>
+      <br/>
+      <a class="text-xs" href="#Dd 001-093">Dd 001-093</a>
+      <br/>
+      <a class="text-xs" href="#De 001-999">De 001-999</a>
+      <br/>
+      <a class="text-xs" href="#Df 001-799">Df 001-799</a>
+      <br/>
+      <a class="text-xs" href="#Dg 001-999">Dg 001-999</a>
+      <br/>
+      <a class="text-xs" href="#Di 001-399">Di 001-399</a>
+    </td>
+    <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)
+      <br/>
+      Oberste Reichsbehörden
+      <br/>
+      Polizei
+      <br/>
+      Deutsche Länder
+      <br/>
+      Parteien und Politische Gruppen
+      <br/>
+      Wissenschaft und Kultur
+      <br/>
+      Wirtschaft und Sozialpolitik
+      <br/>
+      Religion und Weltanschauung
+    </td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//e_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Nationalsozialismus vor 1933</td>
+  </tr>
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs">
+      <a class="text-xs" href="#Db 001-299">Da 001-299</a>
+      <br/>
+      <a class="text-xs" href="#Dc 001-099">Dc 001-099</a>
+    </td>
+    <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)
+      <br/>
+    </td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//f_1-99">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Allgemein und Innenpolitik</td>
+  </tr>
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs">
+      <br/>
+      <a class="text-xs" href="#Da 001-099">Da 001-099</a>
+      <br/>
+      <a class="text-xs" href="#Dc 001-099">Dc 001-099</a>
+      <br/>
+      <a class="text-xs" href="#Dd 001-093">Dd 001-093</a>
+      <br/>
+      <a class="text-xs" href="#De 001-999">De 001-999</a>
+      <br/>
+      <a class="text-xs" href="#Df 001-799">Df 001-799</a>
+      <br/>
+      <a class="text-xs" href="#Dg 001-999">Dg 001-999</a>
+      <br/>
+      <a class="text-xs" href="#Di 001-399">Di 001-399</a>
+    </td>
+    <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)
+      <br/>
+      Oberste Reichsbehörden
+      <br/>
+      Polizei
+      <br/>
+      Deutsche Länder
+      <br/>
+      Parteien und Politische Gruppen
+      <br/>
+      Wissenschaft und Kultur
+      <br/>
+      Wirtschaft und Sozialpolitik
+      <br/>
+      Religion und Weltanschauung
+    </td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//f_101-199">
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2">Kaiserreich 1871 - 1918</td>
+  </tr>
+  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs">
+      <br/>
+      <a class="text-xs" href="#Da 001-099">Da 001-099</a>
+      <br/>
+      <a class="text-xs" href="#Dd 001-093">Dd 001-093</a>
+      <br/>
+      <a class="text-xs" href="#De 001-999">De 001-999</a>
+      <br/>
+      <a class="text-xs" href="#Df 001-799">Df 001-799</a>
+      <br/>
+      <a class="text-xs" href="#Dg 001-999">Dg 001-999</a>
+      <br/>
+      <a class="text-xs" href="#Di 001-399">Di 001-399</a>
+    </td>
+    <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)
+      <br/>
+      Oberste Reichsbehörden
+      <br/>
+      Deutsche Länder
+      <br/>
+      Parteien und Politische Gruppen
+      <br/>
+      Wissenschaft und Kultur
+      <br/>
+      Wirtschaft und Sozialpolitik
+      <br/>
+      Religion und Weltanschauung
+    </td>
+  </tr>
 </xsl:template>
 
 </xsl:stylesheet>
