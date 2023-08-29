@@ -24,8 +24,8 @@
   <body class="bg-white dark:bg-gray-900">
 
     <!-- Navigation bar -->
-    <nav class="sticky bg-white border-gray-200 p-3 w-full z-20 top-0 left-0 border-b dark:bg-gray-800">
-      <div class="max-w-[1750px] flex flex-wrap items-center justify-between mx-auto">
+    <nav class="sticky bg-white border-gray-200 py-3 z-20 top-0 left-0 border-b dark:bg-gray-800">
+      <div class="max-w-[1750px] px-3 flex flex-wrap items-center justify-between mx-auto">
         <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
         <div class="grow">
           <a href="#" class="text-gray-700 text-3xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
@@ -42,8 +42,7 @@
     </nav>
 
     <!-- Main page content -->
-    <div id="pageMain" class="max-w-[1750px] mx-auto items-center py-3 w-full">
-      <!--<p class="mb-5 text-2xl font-medium text-gray-500 dark:text-gray-400 text-center">Stand 10.02.2023</p>-->
+    <div id="pageMain" class="max-w-[1750px] mx-auto items-center p-3">
       <div id="overview" class="flex flex-col gap-8 rounded-lg md:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
           <h1 class="mb-5 text-2xl font-bold text-gray-500 dark:text-white">Gliederung</h1>
@@ -679,7 +678,7 @@
     </div>
 
     <!-- Help menu dial -->
-    <div id="helpDial" class="fixed md:top-24 top-0 right-10 group z-20 px-5 backdrop-blur-md rounded-xl">
+    <div id="helpDial" class="fixed md:top-24 top-0 right-3 group z-20 backdrop-blur-md rounded-xl">
       <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
