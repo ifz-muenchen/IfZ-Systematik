@@ -685,7 +685,7 @@
       </button>
       <div id="helpDialMenu" class="grid gap-x-4 items-center mt-4 space-y-2 hidden">
         <button class="col-span-2 relative w-[52px] h-[32px] text-black font-medium dark:text-white -left-1">Taste</button>
-        <button id="strg-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">Strg</button>
+        <button id="strg-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">Alt Gr</button>
         <p class="text-gray-500 dark:text-gray-400">Suchen</p>
         <button id="s-button" class="w-[52px] h-[52px] text-black bg-white rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-white dark:bg-gray-700">S</button>
         <p class="text-gray-500 dark:text-gray-400">Suchergebnisse</p>

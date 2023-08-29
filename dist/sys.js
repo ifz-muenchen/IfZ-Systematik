@@ -30,7 +30,7 @@ document.querySelectorAll('#clickToSearch').forEach(element => {
 /** Keydown listeners*/
 window.addEventListener('keydown', event => {
   switch (event.key) {
-    case 'Control':
+    case 'AltGraph':
       inputSubmit.value = '';
       inputSubmit.focus();
       break;
@@ -174,7 +174,7 @@ function search(searchString) {
   const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
   
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
-  const notationRegex = /^[a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?$/gmi;
+  const notationRegex = /^[a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d{1,3}.?\d?)?$/gmi;
   if (notationRegex.test(fuzzySearch)) {
     searchRequest(forNotation, 'Notation');
   } else {
@@ -237,7 +237,7 @@ function search(searchString) {
       }
 
       /** Add inline reference link */
-      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
 
       /** Create html structure */
       tdBenennung.appendChild(document.createElement('br'));
