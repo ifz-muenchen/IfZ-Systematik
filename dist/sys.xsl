@@ -543,7 +543,7 @@
                     </td>
                   </tr>
                   <xsl:apply-templates select="ZGk_001-913"/>
-                <tr class="bg-white h-7 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white h-7 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"></td>
                     <td class="px-3 py-2 font-bold">Internationale Beziehungen</td>
@@ -552,6 +552,55 @@
                   <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGk 001-913">ZGk 001-913</a></td>
                     <td class="px-3 py-2">	Deutschland als Besatzungsgebiet 1945 - 1949, Alliierte Einrichtungen bis 1955</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table id="sachÜbersicht2" class="hidden table-fixed w-full text-lg text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
+                  <tr>
+                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2">Benennung</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
+                  </tr>
+                  <tr class="bg-white h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Erziehung und Bildung, Wissenschaftsgeschichte</td>
+                  </tr>
+                  <tr class="bg-white h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Jugend, Jugendorganisationen, Jugendbewegung</td>
+                  </tr>
+                  <tr class="bg-white h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Kultur- und Geistesgeschichte, Wissenschaft</td>
+                  </tr>
+                  <tr class="bg-white h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Medien</td>
+                  </tr>
+                  <tr class="bg-white h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Religion und Kirchen</td>
+                  </tr>
+                  <tr class="bg-white h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Sozialpolitik, Gewerkschaften, Arbeit</td>
+                  </tr>
+                  <tr class="bg-white h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+                    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
+                    <td class="px-3 py-2">Wirtschaft</td>
                   </tr>
                 </tbody>
               </table>
