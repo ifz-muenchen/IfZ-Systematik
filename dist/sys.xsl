@@ -11,6 +11,11 @@
       document.querySelector('#html').classList.remove('dark');
     }
   </script>
+  <style>
+    thead:has(+ tbody:empty)  {
+      display: none;
+    }
+  </style>
   <head>  
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -441,7 +446,7 @@
           </div>
           <div id="übersichtAnhang1" class="relative target:scroll-mt-20">
             <h1 class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Anhang 1 - Druckschriftensammlung (Archiv)</h1>
-            <div class="shadow-md sm:rounded-lg">
+            <div class="sm:rounded-lg">
               <table class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
@@ -466,7 +471,7 @@
           </div>
           <div id="übersichtAnhang2" class="relative target:scroll-mt-20">
             <h1 class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Anhang 2 - Zeitgeschichtliche Sammlung (Archiv)</h1>
-            <div class="shadow-md sm:rounded-lg">
+            <div class="sm:rounded-lg">
               <table id="alphaÜbersicht2" class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
@@ -617,9 +622,9 @@
             </summary>
             <div id="{translate(name(), '_', ' ')}Tables">
               <xsl:for-each select="*">
-                <div class="relative mb-5 overflow-x-auto shadow-md sm:rounded-lg">
+                <div class="relative mb-5 overflow-x-auto shadow-md rounded-lg">
                   <table class="table-fixed w-full text-md text-left text-gray-600 dark:text-gray-400">
-                    <caption class="px-3 py-5 text-lg font-semibold text-left text-gray-900 bg-blue-50 dark:text-white dark:bg-gray-800">
+                    <caption class="px-3 py-5 text-lg font-semibold text-left text-gray-900 bg-slate-50 dark:text-white dark:bg-gray-800">
                       <xsl:value-of select="translate(name(), '_', ' ')"/> - <span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
                     </caption>
                     <thead class="text-gray-700 text-sm uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
