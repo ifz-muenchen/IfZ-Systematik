@@ -18,7 +18,7 @@ if (!darkMode) {
 /** Add inline notation references */
 const elementsWithInlineRef = document.querySelectorAll('.addLinkToInlineNotation');
 elementsWithInlineRef.forEach(element => {
-  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
 });
 
 document.querySelectorAll('#clickToSearch').forEach(element => {
@@ -69,7 +69,10 @@ document.querySelector('#alpha-button').addEventListener('click', () => {
   document.querySelector('#alphaMain').classList.remove('hidden');
   document.querySelector('#übersichtAnhang1').classList.remove('hidden');
   document.querySelector('#alphaÜbersicht2').classList.remove('hidden');
+  document.querySelector('#chrono-button').classList.remove('ring-8');
+  document.querySelector('#sach-button').classList.remove('ring-8');
   
+  document.querySelector('#alpha-button').classList.add('ring-8');
   document.querySelector('#chronoMain').classList.add('hidden');
   document.querySelector('#sachMain').classList.add('hidden');
   document.querySelector('#chronoÜbersicht2').classList.add('hidden');
@@ -81,7 +84,10 @@ document.querySelector('#sach-button').addEventListener('click', () => {
   
   document.querySelector('#sachMain').classList.remove('hidden');
   document.querySelector('#sachÜbersicht2').classList.remove('hidden');
+  document.querySelector('#alpha-button').classList.remove('ring-8');
+  document.querySelector('#chrono-button').classList.remove('ring-8');
 
+  document.querySelector('#sach-button').classList.add('ring-8');
   document.querySelector('#alphaMain').classList.add('hidden');
   document.querySelector('#chronoMain').classList.add('hidden');
   document.querySelector('#chronoÜbersicht2').classList.add('hidden');
@@ -94,7 +100,10 @@ document.querySelector('#chrono-button').addEventListener('click', () => {
   
   document.querySelector('#chronoMain').classList.remove('hidden');
   document.querySelector('#chronoÜbersicht2').classList.remove('hidden');
+  document.querySelector('#alpha-button').classList.remove('ring-8');
+  document.querySelector('#sach-button').classList.remove('ring-8');
 
+  document.querySelector('#chrono-button').classList.add('ring-8');
   document.querySelector('#alphaMain').classList.add('hidden');
   document.querySelector('#sachMain').classList.add('hidden');
   document.querySelector('#übersichtAnhang1').classList.add('hidden');
@@ -237,7 +246,7 @@ function search(searchString) {
       }
 
       /** Add inline reference link */
-      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|\.\d{1,3}\.?\d{1,3})?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|\.\d{1,3}\.?\d{1,3})?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
 
       /** Create html structure */
       tdBenennung.appendChild(document.createElement('br'));
