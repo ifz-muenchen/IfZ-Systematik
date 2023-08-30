@@ -18,7 +18,7 @@ if (!darkMode) {
 /** Add inline notation references */
 const elementsWithInlineRef = document.querySelectorAll('.addLinkToInlineNotation');
 elementsWithInlineRef.forEach(element => {
-  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
 });
 
 document.querySelectorAll('#clickToSearch').forEach(element => {
@@ -30,7 +30,7 @@ document.querySelectorAll('#clickToSearch').forEach(element => {
 /** Keydown listeners*/
 window.addEventListener('keydown', event => {
   switch (event.key) {
-    case 'Control':
+    case 'AltGraph':
       inputSubmit.value = '';
       inputSubmit.focus();
       break;
@@ -60,6 +60,55 @@ window.addEventListener('keydown', event => {
     default:
       return;
   }
+});
+
+/** Change view click listeners */
+document.querySelector('#alpha-button').addEventListener('click', () => {
+  document.querySelector('#currentTab').innerHTML = 'Alphabetisch';
+  
+  document.querySelector('#alphaMain').classList.remove('hidden');
+  document.querySelector('#übersichtAnhang1').classList.remove('hidden');
+  document.querySelector('#alphaÜbersicht2').classList.remove('hidden');
+  document.querySelector('#chrono-button').classList.remove('ring-8');
+  document.querySelector('#sach-button').classList.remove('ring-8');
+  
+  document.querySelector('#alpha-button').classList.add('ring-8');
+  document.querySelector('#chronoMain').classList.add('hidden');
+  document.querySelector('#sachMain').classList.add('hidden');
+  document.querySelector('#chronoÜbersicht2').classList.add('hidden');
+  document.querySelector('#sachÜbersicht2').classList.add('hidden');
+});
+
+document.querySelector('#sach-button').addEventListener('click', () => {
+  document.querySelector('#currentTab').innerHTML = 'Sachgruppen';
+  
+  document.querySelector('#sachMain').classList.remove('hidden');
+  document.querySelector('#sachÜbersicht2').classList.remove('hidden');
+  document.querySelector('#alpha-button').classList.remove('ring-8');
+  document.querySelector('#chrono-button').classList.remove('ring-8');
+
+  document.querySelector('#sach-button').classList.add('ring-8');
+  document.querySelector('#alphaMain').classList.add('hidden');
+  document.querySelector('#chronoMain').classList.add('hidden');
+  document.querySelector('#chronoÜbersicht2').classList.add('hidden');
+  document.querySelector('#übersichtAnhang1').classList.add('hidden');
+  document.querySelector('#alphaÜbersicht2').classList.add('hidden');
+});
+
+document.querySelector('#chrono-button').addEventListener('click', () => {
+  document.querySelector('#currentTab').innerHTML = 'Chronologisch';
+  
+  document.querySelector('#chronoMain').classList.remove('hidden');
+  document.querySelector('#chronoÜbersicht2').classList.remove('hidden');
+  document.querySelector('#alpha-button').classList.remove('ring-8');
+  document.querySelector('#sach-button').classList.remove('ring-8');
+
+  document.querySelector('#chrono-button').classList.add('ring-8');
+  document.querySelector('#alphaMain').classList.add('hidden');
+  document.querySelector('#sachMain').classList.add('hidden');
+  document.querySelector('#übersichtAnhang1').classList.add('hidden');
+  document.querySelector('#alphaÜbersicht2').classList.add('hidden');
+  document.querySelector('#sachÜbersicht2').classList.add('hidden');
 });
 
 /** Help dial click listeners */
@@ -129,20 +178,31 @@ function search(searchString) {
   let fuzzySearch = searchString;
   fuzzySearch = fuzzySearch.trim().toLowerCase();
 
-  const inNotationStichwort = `//node[content/stichwort/text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
-  const inNotationBenennung = `//node[@benennung[contains(., ${fuzzySearch})]]`;
-  const forNotation = `//node[@notation='${searchString}']`;
-  
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
-  const notationRegex = /^[a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?$/gmi;
+  const notationRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
+  const notationRangeRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}-\d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
+  
   if (notationRegex.test(fuzzySearch)) {
-    searchRequest(forNotation, 'Notation');
+    const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
+    
+    searchRequest(forNotation, 'Notation'); // Search for a string that seems to be a singular notation
+  } else if (notationRangeRegex.test(fuzzySearch)) {
+    const parts = fuzzySearch.trim().replace(' ', '_').split('-');
+    const part1 = parts[0];
+    const part2 = `${parts[0].match(/^[a-z]{1,3}/gmi)[0]}_${parts[1]}`;
+    const notationRange = `//${part1} | //*[preceding::${part1}][following::${part2}] | //${part2}`;
+    
+    searchRequest(notationRange, 'Notation'); // Search for a string that seems to be a range of notations, f.e. r 75-75.4
   } else {
-    searchRequest(inNotationStichwort, 'Notation');
-    //searchRequest(inNotationBenennung, 'Notation');
-  }
+    let inNotationBenennung = `//*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+    const searchArray = fuzzySearch.split(' ');
 
-  //console.log(`Searching for ${fuzzySearch}\ninNotationStichwort: ${inNotationStichwort}\nnotationRegex test = ${notationRegex.test(fuzzySearch)}`);
+    searchArray.forEach(element => {
+      inNotationBenennung = `${inNotationBenennung} | //*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${element}')]]`      
+    });
+    
+    searchRequest(inNotationBenennung, 'Notation'); // Search for a string in the attribute "Benennung"
+  }
 
   /**
    * Searches the XML via xPath and creates output tables on the page
@@ -160,15 +220,8 @@ function search(searchString) {
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
       
-      const currentNotation = resultNode.getAttribute('notation');
-
-      const resultParentNode = resultNode.parentNode.parentNode;
-      const resultParentNotation = resultParentNode.getAttribute('notation') ?? 'null';
-      const resultParentBenennung = resultParentNode.getAttribute('benennung' ?? 'null');
-      const resultParentParentNode = resultParentNode.parentNode.parentNode ?? resultParentNode;
-      const resultParentParentNotation = resultParentParentNode.getAttribute('notation') ?? 'null';
-      const resultParentParentBenennung = resultParentParentNode.getAttribute('benennung') ?? 'null';
-
+      const currentNotation = resultNode.tagName.replace('_', ' ');
+      
       /** Create new nodes */
       const tr = document.createElement('tr');
       const th = document.createElement('th');
@@ -184,51 +237,29 @@ function search(searchString) {
       thA.setAttribute('href', `https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}`);
       tdBenennung.classList.add('px-3', 'py-2', 'whitespace-pre-wrap');
       spanBemerkung.classList.add('text-xs', 'font-semibold');
-      
-      /** Create new text nodes */
-      let spanBemerkungText = document.createTextNode(`\t\t${resultNode.childNodes[1].getAttribute('bemerkung')}`);
-      if (resultNode.childNodes[1].getAttribute('bemerkung') === '') {
-        spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
-      }
-
-      if (currentNotation.includes('o 23.2') || currentNotation.includes('b 153.5') || currentNotation.includes('c 78.7') || currentNotation.includes('c 88.2') || currentNotation.includes('n 73')) {
-        continue;
-      }
 
       /** Create innerHtml for bennung and notation link */
-      if (resultParentParentNotation === 'null') {
-        if (resultParentNotation === 'null') {
-          th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`;
-          spanBemerkungText.textContent = spanBemerkungText.textContent.trim();
-        } else {
-          th.innerHTML = `<a href='#${resultParentNotation}'>${resultParentNotation}\n ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`;
-        } 
-      } else {
-        th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-        tdBenennung.innerHTML = `<span class='font-thin whitespace-normal'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin whitespace-normal'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`;
-      }
+      th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+      tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
+      spanBemerkung.innerHTML = resultNode.getAttribute('Bemerkungen');
 
-      const regexPointPattern = /[a-z]{1,3} \d{1,3}\.?\d{0,3}(?=\.\d{1,3})/gmi;
-      if (regexPointPattern.test(currentNotation)) {
-        const firstLevelUp = currentNotation.match(regexPointPattern)[0];
-        const firstLevelUpBenennung = document.querySelector(`#${CSS.escape(firstLevelUp)}-benennung`).textContent;
+      /** Arrow Notation for higher notations */
+      const regexPointPattern = /[a-z]{1,3} \d{1,3}\.?\d{0,3}(?=\.\d{0,3})/gmi;
+      let level = currentNotation;
+      let levelBenenung = document.querySelector(`#${CSS.escape(level)}-benennung`).textContent;
 
-        if (regexPointPattern.test(firstLevelUp)) {
-          const secondLevelUp = firstLevelUp.match(regexPointPattern)[0];
-          const secondLevelUpBenennung = document.querySelector(`#${CSS.escape(secondLevelUp)}-benennung`).textContent;
+      while (regexPointPattern.test(level)) {
+        level = level.match(regexPointPattern)[0];
+        levelBenenung = document.querySelector(`#${CSS.escape(level)}-benennung`).textContent;
 
-          th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<span>${secondLevelUp}</span>\n\t\t<span>${firstLevelUp}</span>\n\t\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-thin'>${secondLevelUpBenennung}</span>\n\t\t<span class='font-thin'>${firstLevelUpBenennung}</span>\n\t\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
-        } else {
-          th.innerHTML = `<a href='#${resultParentParentNotation}'>${resultParentParentNotation}\n ↳\t${resultParentNotation}</a>\n\t ↳\t<span>${firstLevelUp}</span>\n\t\t<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
-          tdBenennung.innerHTML = `<span class='font-thin'>${resultParentParentBenennung}</span>\n ↳\t<span class='font-thin'>${resultParentBenennung}</span>\n\t ↳\t<span class='font-thin'>${firstLevelUpBenennung}</span>\n\t\t<span class='font-semibold'>${resultNode.getAttribute('benennung')}</span>`
-        }
+        let currentHeader = th.innerHTML.replace('\n↳\t', '\n\t↳\t');
+        let currentData = tdBenennung.innerHTML.replace('\n▸\t', '\n\t▸\t');
+        th.innerHTML = `<span>${level}</span>\n↳\t${currentHeader}`;
+        tdBenennung.innerHTML = `<span class='font-thin'>${levelBenenung}</span>\n▸\t${currentData}`;
       }
 
       /** Add inline reference link */
-      spanBemerkung.innerHTML = spanBemerkungText.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-gray-900 dark:text-white cursor-pointer'>${p1}</strong>`);
+      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
 
       /** Create html structure */
       tdBenennung.appendChild(document.createElement('br'));
