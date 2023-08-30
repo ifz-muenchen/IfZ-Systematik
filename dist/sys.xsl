@@ -748,7 +748,7 @@
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</a></li>
           <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Impressum</a></li>
-          <li><a href="https://github.com/ifz-muenchen/bib-systematik" class="hover:underline hover:decoration-ifz-dark-blue">Source Code</a></li>
+          <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue">Source Code</a></li>
         </ul>
       </div>
     </footer>
