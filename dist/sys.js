@@ -178,22 +178,29 @@ function search(searchString) {
   let fuzzySearch = searchString;
   fuzzySearch = fuzzySearch.trim().toLowerCase();
 
-  const inNotationBenennung = `//*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
-  const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
-  
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
   const notationRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
   const notationRangeRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}-\d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
+  
   if (notationRegex.test(fuzzySearch)) {
+    const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
+    
     searchRequest(forNotation, 'Notation'); // Search for a string that seems to be a singular notation
   } else if (notationRangeRegex.test(fuzzySearch)) {
     const parts = fuzzySearch.trim().replace(' ', '_').split('-');
     const part1 = parts[0];
     const part2 = `${parts[0].match(/^[a-z]{1,3}/gmi)[0]}_${parts[1]}`;
     const notationRange = `//${part1} | //*[preceding::${part1}][following::${part2}] | //${part2}`;
-
+    
     searchRequest(notationRange, 'Notation'); // Search for a string that seems to be a range of notations, f.e. r 75-75.4
   } else {
+    let inNotationBenennung = `//*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
+    const searchArray = fuzzySearch.split(' ');
+
+    searchArray.forEach(element => {
+      inNotationBenennung = `${inNotationBenennung} | //*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${element}')]]`      
+    });
+    
     searchRequest(inNotationBenennung, 'Notation'); // Search for a string in the attribute "Benennung"
   }
 
