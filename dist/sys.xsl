@@ -33,14 +33,14 @@
       <div class="max-w-[1750px] px-3 flex flex-wrap items-center justify-between mx-auto">
         <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
         <div class="grow">
-          <a href="#" class="text-gray-700 text-3xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
+          <a href="#" class="text-gray-700 text-4xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
         </div>
         <div class="flex md:order-2 my-3 sm:my-0">
           <div class="relative block">
             <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
               <svg class="w-8 h-8 text-gray-600" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </button>
-            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-3xl text-gray-900 border border-gray-300 rounded-lg bg-slate-100 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Systematik durchsuchen..."/>
+            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-2xl text-gray-900 border border-gray-300 rounded-lg bg-slate-100 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Systematik durchsuchen..."/>
           </div>
         </div>
       </div>
@@ -741,6 +741,17 @@
       </div>
 
     </div>
+
+    <!-- Footer -->
+    <footer class="my-5">
+      <div class="w-full mx-auto max-w-screen-xl p-4 flex justify-center">
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</a></li>
+          <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Impressum</a></li>
+          <li><a href="https://github.com/ifz-muenchen/bib-systematik" class="hover:underline hover:decoration-ifz-dark-blue">Source Code</a></li>
+        </ul>
+      </div>
+    </footer>
 
     <!-- JS imports -->
     <script src="sys.js" type="module"></script>

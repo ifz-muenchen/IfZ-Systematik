@@ -609,6 +609,14 @@ video {
   margin-top: 1rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -665,10 +673,6 @@ video {
   height: 52px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -689,12 +693,12 @@ video {
   width: 52px;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .max-w-\[1750px\] {
   max-width: 1750px;
+}
+
+.max-w-screen-xl {
+  max-width: 1280px;
 }
 
 .shrink-0 {
@@ -843,11 +847,6 @@ video {
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
-.bg-ifz-dark-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 117 190 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -927,6 +926,10 @@ video {
   padding: 0px;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -997,9 +1000,9 @@ video {
   line-height: 1rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-2xl {
@@ -1065,6 +1068,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1169,6 +1177,14 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:decoration-ifz-dark-blue:hover {
+  text-decoration-color: #0075be;
 }
 
 .group:hover .group-hover\:bg-opacity-0 {
@@ -1287,6 +1303,10 @@ video {
     margin-bottom: 0px;
   }
 
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
   .sm\:rounded-lg {
     border-radius: 0.5rem;
   }
@@ -1301,6 +1321,10 @@ video {
     order: 2;
   }
 
+  .md\:mr-6 {
+    margin-right: 1.5rem;
+  }
+
   .md\:w-1\/6 {
     width: 16.666667%;
   }
@@ -1312,22 +1336,4 @@ video {
   .md\:flex-row {
     flex-direction: row;
   }
-}
-
-.\[\&\:has\(p\)\]\:bg-red-500:has(p) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
-.\[\&\:has\(tr\)\]\:hidden:has(tr) {
-  display: none;
-}
-
-.\[\&\:has\(tr\)\]\:bg-red-500:has(tr) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
-\.\[\\\&\:has\(tr\)\]\:hidden:has(tr) {
-  display: none;
 }
