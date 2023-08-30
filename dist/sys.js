@@ -18,7 +18,7 @@ if (!darkMode) {
 /** Add inline notation references */
 const elementsWithInlineRef = document.querySelectorAll('.addLinkToInlineNotation');
 elementsWithInlineRef.forEach(element => {
-  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|.\d.?\d?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
+  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
 });
 
 document.querySelectorAll('#clickToSearch').forEach(element => {
@@ -246,7 +246,7 @@ function search(searchString) {
       }
 
       /** Add inline reference link */
-      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|\.\d{1,3}\.?\d{1,3})?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
+      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
 
       /** Create html structure */
       tdBenennung.appendChild(document.createElement('br'));
