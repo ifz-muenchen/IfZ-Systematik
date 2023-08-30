@@ -627,7 +627,7 @@
                     <caption class="px-3 py-5 text-lg font-semibold text-left text-gray-900 bg-slate-50 dark:text-white dark:bg-gray-800">
                       <xsl:value-of select="translate(name(), '_', ' ')"/> - <span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
                     </caption>
-                    <thead class="text-gray-700 text-sm uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
+                    <thead class="text-gray-700 text-sm bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                       <tr>
                         <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
                         <th scope="col" class="px-3 py-2">
@@ -709,7 +709,7 @@
       <div id="searchResultsSystematik" class="mb-5 hidden">
         <h1 id="searchResultsSystematikTitle" class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Ergebnisse in Systematik</h1>
         <table id="searchResultsSystematikTable" class="table-fixed w-full text-md text-left text-gray-600 dark:text-gray-400">
-          <thead class="text-sm text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
+          <thead class="text-sm text-gray-700 bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
               <th scope="col" class="px-3 py-2">
@@ -726,7 +726,7 @@
       <div id="searchResultsNotation" class="mb-5 hidden">
         <h1 id="searchResultsNotationTitle" class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Ergebnisse in Notation</h1>
         <table id="searchResultsNotationTable" class="table-fixed w-full text-md text-left text-gray-600 dark:text-gray-400">
-          <thead class="text-sm text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
+          <thead class="text-sm text-gray-700 bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
               <th scope="col" class="px-3 py-2">
