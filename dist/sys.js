@@ -264,6 +264,17 @@ function search(searchString) {
         tdBenennung.innerHTML = `<span class='font-thin'>${levelBenenung}</span>\n▸\t${currentData}`;
       }
 
+      let currentNode = resultNode.parentNode;
+      while (currentNode.nodeName !== 'IfZ-Systematik') {
+        let currentHeader = th.innerHTML;
+        let currentData =tdBenennung.innerHTML;
+
+        th.innerHTML = `<span>${currentNode.tagName.replace('_', ' ')}</span>\n↳\t${currentHeader}`;
+        tdBenennung.innerHTML = `<span class='font-thin'>${currentNode.getAttribute('Benennung')}</span>\n▸\t${currentData}`;
+
+        currentNode = currentNode.parentNode;
+      }
+
       /** Add inline reference link */
       spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
 
