@@ -48,7 +48,7 @@
 
     <!-- Main page content -->
     <div id="pageMain" class="max-w-[1750px] mx-auto items-center p-3">
-      <div id="overview" class="flex flex-col gap-8 rounded-lg md:flex-row">
+      <div id="overview" class="flex flex-col gap-8 rounded-lg lg:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
           <h1 id="mainHeadline" class="text-2xl font-bold text-gray-600 dark:text-white">Systematik der Bibliothek</h1>
           <h2 id="mainLowHeadline" class="mb-5 text-1xl font-semibold text-gray-600 dark:text-white">von a bis x</h2>
@@ -65,7 +65,7 @@
             <table id="alphaMain" class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
+                  <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                 </tr>
               </thead>
@@ -83,7 +83,7 @@
             <table id="chronoMain" class="hidden table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
+                  <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                 </tr>
               </thead>
@@ -256,7 +256,7 @@
             <table id="sachMain" class="hidden table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
+                  <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                 </tr>
               </thead>
@@ -451,7 +451,7 @@
               <table class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
+                    <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                     <!--<th scope="col" class="px-3 py-2">Stichwort</th>-->
                   </tr>
@@ -476,7 +476,7 @@
               <table id="alphaÜbersicht2" class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
+                    <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                   </tr>
                 </thead>
@@ -494,7 +494,7 @@
               <table id="chronoÜbersicht2" class="hidden table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
+                    <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                   </tr>
                 </thead>
@@ -561,7 +561,7 @@
               <table id="sachÜbersicht2" class="hidden table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notation</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                   </tr>
                 </thead>
@@ -630,7 +630,7 @@
                     </caption>
                     <thead class="text-gray-700 text-sm bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                       <tr>
-                        <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
+                        <th scope="col" class="px-3 py-2 w-4/12 md:w-3/24">Notation</th>
                         <th scope="col" class="px-3 py-2">
                           Benennung
                           <br/>
@@ -681,7 +681,7 @@
 
     <!-- Help menu dial -->
     <div id="helpDial" class="fixed md:top-24 top-0 right-3 group z-20 px-3 backdrop-blur-md rounded-xl">
-      <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-14 h-14 group-hover:from-purple-600 group-hover:to-blue-500">
+      <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 rounded-full w-10 h-10 md:w-14 md:h-14 group-hover:from-purple-600 group-hover:to-blue-500">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
       <div id="helpDialMenu" class="grid gap-x-4 items-center mt-4 space-y-2 hidden">
@@ -710,7 +710,7 @@
         <table id="searchResultsNotationTable" class="table-fixed w-full text-md text-left text-gray-600 dark:text-gray-400">
           <thead class="text-sm text-gray-700 bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
+              <th scope="col" class="px-3 py-2 w-4/12 md:w-3/24">Notation</th>
               <th scope="col" class="px-3 py-2">
                 Benennung
                 <br/>
@@ -786,7 +786,7 @@
 <xsl:template match="//r_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Sozialpolitik, Gewerkschaften, Arbeit</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Sozialpolitik: Arbeit und Soziales</td>
   </tr>
 </xsl:template>
 
