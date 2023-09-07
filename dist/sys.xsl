@@ -33,7 +33,7 @@
       <div class="max-w-[1750px] px-3 flex flex-wrap items-center justify-between mx-auto">
         <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
         <div class="grow">
-          <a href="#" class="text-gray-700 text-4xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
+          <a href="./sys.xml" class="text-gray-700 text-4xl font-semibold whitespace-nowrap dark:text-white">IfZ-Systematik</a>
         </div>
         <div class="flex md:order-2 my-3 sm:my-0">
           <div class="relative block">
@@ -50,13 +50,14 @@
     <div id="pageMain" class="max-w-[1750px] mx-auto items-center p-3">
       <div id="overview" class="flex flex-col gap-8 rounded-lg md:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
-          <h1 class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Gliederung</h1>
+          <h1 id="mainHeadline" class="text-2xl font-bold text-gray-600 dark:text-white">Systematik der Bibliothek</h1>
+          <h2 id="mainLowHeadline" class="mb-5 text-1xl font-semibold text-gray-600 dark:text-white">von a bis x</h2>
           <p class="w-full text-lg text-left text-gray-600 dark:text-gray-400">
-            Die IfZ-Systematik bietet Ihnen in chronologischen und thematischen Gruppen einen strukturierten Zugang zu den Sammelgebieten der Bibliothek und zu den im Bibliothekskatalog verzeichneten Teilen des Archivbestandes. Mit den Notationen der IfZ-Systematik können Sie im Online-Katalog im Suchfeld <a href="https://opac.ifz-muenchen.de/webOPACClient.ifzsis/start.do" target="blank" class="font-semibold text-gray-900 underline dark:text-white decoration-ifz-dark-blue">IfZ-Systematik</a> Literaturrecherchen starten. Die Notationen bestehen aus Buchstaben-Zahlen-Kürzeln, nach dem/den Buchstaben folgt immer ein Leerzeichen/Blank.
+            Die IfZ-Systematik bietet Ihnen in chronologischen und thematischen Gruppen einen strukturierten Zugang zu den <span class="font-semibold text-gray-900 dark:text-white decoration-ifz-dark-blue">Sammelgebieten der Bibliothek</span> und zu den im Bibliothekskatalog verzeichneten <span class="font-semibold text-gray-900 dark:text-white decoration-ifz-dark-blue">Teilen des Archivbestands</span>. Mit den Notationen der IfZ-Systematik können Sie im Online-Katalog im Suchfeld <a href="https://opac.ifz-muenchen.de/webOPACClient.ifzsis/start.do" target="blank" class="font-semibold text-gray-900 underline dark:text-white decoration-ifz-dark-blue">IfZ-Systematik</a> Literaturrecherchen starten. Die Notationen bestehen aus Buchstaben-Zahlen-Kürzeln, nach dem/den Buchstaben folgt immer ein Leerzeichen/Blank.
           </p>
           <div class="my-5 flex flex-row gap-6 flex-wrap items-center mx-auto">
             <button id="alpha-button" type="button" class="ring-blue-300 ring-8 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br dark:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 grow">Alphabetisch</button>
-            <button id="sach-button" type="button" class="ring-cyan-300 text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br dark:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 grow">Sachgruppen</button>
+            <button id="sach-button" type="button" class="ring-cyan-300 text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br dark:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 grow">Sachlich/Fachlich</button>
             <button id="chrono-button" type="button" class="ring-purple-300 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br dark:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 grow">Chronologisch</button>
             <div id="currentTab" class="hidden grow text-right text-gray-900 dark:text-white">Alphabetisch</div>
           </div>
@@ -64,7 +65,7 @@
             <table id="alphaMain" class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                 </tr>
               </thead>
@@ -82,7 +83,7 @@
             <table id="chronoMain" class="hidden table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                 </tr>
               </thead>
@@ -255,7 +256,7 @@
             <table id="sachMain" class="hidden table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                  <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
                 </tr>
               </thead>
@@ -264,7 +265,7 @@
                 <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                 <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                   <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#w 201-299">w 201-299</a></td>
-                  <td class="px-3 py-2">Arbeitsdienst, Reichsarbeitsdienst</td>
+                  <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Arbeitsdienst, Reichsarbeitsdienst</td>
                 </tr>
                 <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                 <xsl:apply-templates select="m_1-99"/>
@@ -303,7 +304,7 @@
                 <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                 <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
                   <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#n 1-99">n 1-99</a></td>
-                  <td class="px-3 py-2">Juden, Antisemitismus, Judenverfolgung</td>
+                  <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Juden, Antisemitismus, Judenverfolgung</td>
                 </tr>
                 <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                   <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs"><a class="text-xs" href="#Dj 001-999">Dj 001-999</a></td>
@@ -311,8 +312,8 @@
                 </tr>
                 <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                 <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
-                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#w 101-199">n 1-99</a></td>
-                  <td class="px-3 py-2">Jugend, Jugendorganisationen, Jugendbewegung</td>
+                  <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#w 101-199">w 101-199</a></td>
+                  <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Jugend, Jugendorganisationen, Jugendbewegung</td>
                 </tr>
                 <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                   <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white text-xs">
@@ -348,7 +349,7 @@
                 </tr>
                 <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                   <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#l 101-199">l 101-199</a></td>
-                  <td class="px-3 py-2">Medien und Propaganda 1933 - 1945</td>
+                  <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Medien und Propaganda 1933 - 1945</td>
                 </tr>
                 <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                 <xsl:apply-templates select="s_1-99"/>
@@ -357,7 +358,7 @@
                 <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                 <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                   <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#c 1-199">c 1-199</a></td>
-                  <td class="px-3 py-2">Politikwissenschaft, Internationale Politik</td>
+                  <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Politikwissenschaft, Internationale Politik</td>
                 </tr>
                 <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                 <xsl:apply-templates select="p_1-99"/>
@@ -450,7 +451,7 @@
               <table class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                     <!--<th scope="col" class="px-3 py-2">Stichwort</th>-->
                   </tr>
@@ -475,7 +476,7 @@
               <table id="alphaÜbersicht2" class="table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                   </tr>
                 </thead>
@@ -493,7 +494,7 @@
               <table id="chronoÜbersicht2" class="hidden table-fixed w-full text-lg text-left text-gray-600 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
                   <tr>
-                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notation</th>
+                    <th scope="col" class="px-3 py-2 w-3/12 md:w-1/6">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
                   </tr>
                 </thead>
@@ -567,42 +568,42 @@
                 <tbody>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Erziehung und Bildung, Wissenschaftsgeschichte</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Erziehung und Bildung, Wissenschaftsgeschichte</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Jugend, Jugendorganisationen, Jugendbewegung</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Jugend, Jugendorganisationen, Jugendbewegung</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Kultur- und Geistesgeschichte, Wissenschaft</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Kultur- und Geistesgeschichte, Wissenschaft</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Medien</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Medien</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Religion und Kirchen</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Religion und Kirchen</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Sozialpolitik, Gewerkschaften, Arbeit</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Sozialpolitik, Gewerkschaften, Arbeit</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2">Wirtschaft</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Wirtschaft</td>
                   </tr>
                 </tbody>
               </table>
@@ -610,8 +611,8 @@
           </div>
         </div>
       </div>
-      <div id="details">
-        <h1 id="detailsTitle" class="mt-10 mb-5 text-2xl font-bold text-gray-600 dark:text-white">Details</h1>
+      <div id="details" class="mt-10 mb-5">
+        <!--<h1 id="detailsTitle" class="mt-10 mb-5 text-2xl font-bold text-gray-600 dark:text-white">Details</h1>-->
         <xsl:for-each select="*">
           <div id="{translate(name(), '_', ' ')}" class="detailedNotation hidden target:block target:scroll-mt-20">
             <summary class="mb-5 text-sm text-gray-700 dark:text-gray-400 list-none">
@@ -674,9 +675,7 @@
     <!-- Back to top button -->
     <div id="backToTop" class="fixed bottom-3 right-3">
       <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white">
-        <a href="#" class="relative px-2 py-1.5 transition-all ease-in duration-75 bg-slate-50 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-          Zurück an Anfang
-        </a>
+        <a href="#" class="relative px-2 py-1.5 transition-all ease-in duration-75 bg-slate-50 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">Zurück an Anfang</a>
       </button>
     </div>
 
@@ -706,25 +705,8 @@
     <!-- Search results content -->
     <div id="searchResults" class="max-w-[1750px] mx-auto items-center p-3 target:scroll-mt-20">
 
-      <div id="searchResultsSystematik" class="mb-5 hidden">
-        <h1 id="searchResultsSystematikTitle" class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Ergebnisse in Systematik</h1>
-        <table id="searchResultsSystematikTable" class="table-fixed w-full text-md text-left text-gray-600 dark:text-gray-400">
-          <thead class="text-sm text-gray-700 bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-              <th scope="col" class="px-3 py-2 w-3/12 md:w-1/12">Notation</th>
-              <th scope="col" class="px-3 py-2">
-                Benennung
-                <br/>
-                <span class="text-xs">Bemerkung</span>
-              </th>
-            </tr>
-          </thead>
-          <tbody id="searchResultsSystematikTableBody"></tbody>
-        </table>
-      </div>
-
       <div id="searchResultsNotation" class="mb-5 hidden">
-        <h1 id="searchResultsNotationTitle" class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Ergebnisse in Notation</h1>
+        <h1 id="searchResultsNotationTitle" class="mb-5 text-2xl font-bold text-gray-600 dark:text-white">Suchergebnisse für <span id="ergebnisHeadline" class="text-ifz-dark-blue">blank</span></h1>
         <table id="searchResultsNotationTable" class="table-fixed w-full text-md text-left text-gray-600 dark:text-gray-400">
           <thead class="text-sm text-gray-700 bg-ifz-light-blue dark:bg-gray-700 dark:text-gray-400">
             <tr>
@@ -748,7 +730,7 @@
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</a></li>
           <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Impressum</a></li>
-          <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue">Source Code</a></li>
+          <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue" target="_blank">Quellcode</a></li>
         </ul>
       </div>
     </footer>
@@ -769,14 +751,14 @@
 <xsl:template match="//a_1-99">
   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Allgemeine Nachschlagewerke</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Allgemeine Nachschlagewerke</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//d_1-99">
   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Deutsches Volk und Deutscher Raum, Auslandsdeutschtum</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Deutsches Volk und Deutscher Raum, Auslandsdeutschtum</td>
   </tr>
 </xsl:template>
 
@@ -797,43 +779,63 @@
 <xsl:template match="//o_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Religion und Kirchen, Kirchenkampf</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Religion und Kirchen, Kirchenkampf</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//r_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Sozialpolitik, Gewerkschaften, Arbeit</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Sozialpolitik, Gewerkschaften, Arbeit</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//q_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Wirtschaft</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Wirtschaft</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//q_101-199">
+  <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Wirtschaft: Binnenhandel und Handwerk</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//q_201-299">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Finanzwirtschaft, Finanzverfassung, Finanzwissenschaft</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Wirtschaft: Finanzen</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//q_301-399">
+  <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Wirtschaft: Verkehr</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//q_401-499">
+  <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Wirtschaft: Landwirtschaft</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//v_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Kultur- und Geistesgeschichte, Wissenschaft (einzelne Disziplinen)</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Kultur- und Geistesgeschichte, Wissenschaft (einzelne Disziplinen)</td>
   </tr>
 </xsl:template>
-
 
 <xsl:template match="//w_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Erziehung und Bildung, Wissenschaftsgeschichte</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Erziehung und Bildung, Wissenschaftsgeschichte</td>
   </tr>
 </xsl:template>
 
@@ -844,10 +846,31 @@
   </tr>
 </xsl:template>
 
+<xsl:template match="//m_1-99">
+  <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Bevölkerungspolitik, Rassenpolitik</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//m_101-199">
+  <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Gesundheitswesen</td>
+  </tr>
+</xsl:template>
+
 <xsl:template match="//m_201-299">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//m_301-399">
+  <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Sport</td>
   </tr>
 </xsl:template>
 
@@ -865,6 +888,13 @@
   </tr>
 </xsl:template>
 
+<xsl:template match="//n_101-199">
+  <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Freimaurerei</td>
+  </tr>
+</xsl:template>
+
 <xsl:template match="//k_101-199">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
@@ -875,14 +905,14 @@
 <xsl:template match="//l_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Medien</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Medien</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//p_1-99">
   <tr class="bg-slate-50 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
-    <td class="px-3 py-2">Recht, Verfassung, Verwaltung</td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Recht, Verfassung, Verwaltung</td>
   </tr>
 </xsl:template>
 
@@ -963,6 +993,27 @@
   </tr>
 </xsl:template>
 
+<xsl:template match="//s_1-99">
+  <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Militär</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//s_101-199">
+  <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Militär: Marine</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//s_201-299">
+  <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Militär: Luftwaffe</td>
+  </tr>
+</xsl:template>
+
 <xsl:template match="//t_1-99">
   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
@@ -998,10 +1049,24 @@
   </tr>
 </xsl:template>
 
+<xsl:template match="//b_201-299">
+  <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Geschichtswissenschaft</td>
+  </tr>
+</xsl:template>
+
 <xsl:template match="//c_201-299">
   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Europäische Integration seit 1945</td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="//c_301-399">
+  <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
+    <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
+    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Soziologie</td>
   </tr>
 </xsl:template>
 

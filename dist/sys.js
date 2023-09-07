@@ -65,6 +65,8 @@ window.addEventListener('keydown', event => {
 /** Change view click listeners */
 document.querySelector('#alpha-button').addEventListener('click', () => {
   document.querySelector('#currentTab').innerHTML = 'Alphabetisch';
+  document.querySelector(`#mainHeadline`).innerHTML = 'Systematik der Bibliothek';
+  document.querySelector(`#mainLowHeadline`).innerHTML = 'von a bis x';
   
   document.querySelector('#alphaMain').classList.remove('hidden');
   document.querySelector('#übersichtAnhang1').classList.remove('hidden');
@@ -81,12 +83,14 @@ document.querySelector('#alpha-button').addEventListener('click', () => {
 
 document.querySelector('#sach-button').addEventListener('click', () => {
   document.querySelector('#currentTab').innerHTML = 'Sachgruppen';
+  document.querySelector(`#mainHeadline`).innerHTML = 'Sachgruppen der Bibliothek und der Druckschriften des Archivs';
+  document.querySelector(`#mainLowHeadline`).innerHTML = 'von a bis w';
   
   document.querySelector('#sachMain').classList.remove('hidden');
   document.querySelector('#sachÜbersicht2').classList.remove('hidden');
   document.querySelector('#alpha-button').classList.remove('ring-8');
   document.querySelector('#chrono-button').classList.remove('ring-8');
-
+  
   document.querySelector('#sach-button').classList.add('ring-8');
   document.querySelector('#alphaMain').classList.add('hidden');
   document.querySelector('#chronoMain').classList.add('hidden');
@@ -97,6 +101,8 @@ document.querySelector('#sach-button').addEventListener('click', () => {
 
 document.querySelector('#chrono-button').addEventListener('click', () => {
   document.querySelector('#currentTab').innerHTML = 'Chronologisch';
+  document.querySelector(`#mainHeadline`).innerHTML = 'Gruppen der Bibliothek und der Druckschriften des Archivs';
+  document.querySelector(`#mainLowHeadline`).innerHTML = 'in historisch chronologischer Reihenfolge';
   
   document.querySelector('#chronoMain').classList.remove('hidden');
   document.querySelector('#chronoÜbersicht2').classList.remove('hidden');
@@ -171,7 +177,7 @@ helpDial.addEventListener('mouseout', () => {
  * @param {string} searchString User supplied search string, read via HTML input form
  */
 function search(searchString) {
-  document.querySelector('#searchResultsSystematik').classList.add('hidden');
+  //document.querySelector('#searchResultsSystematik').classList.add('hidden');
   document.querySelector('#searchResultsNotation').classList.add('hidden');
   window.location.hash = 'searchResults';
   
@@ -185,14 +191,14 @@ function search(searchString) {
   if (notationRegex.test(fuzzySearch)) {
     const forNotation = `//*[translate(name(), '_', ' ')='${searchString}']`;
     
-    searchRequest(forNotation, 'Notation'); // Search for a string that seems to be a singular notation
+    searchRequest(forNotation, 'Notation', searchString); // Search for a string that seems to be a singular notation
   } else if (notationRangeRegex.test(fuzzySearch)) {
     const parts = fuzzySearch.trim().replace(' ', '_').split('-');
     const part1 = parts[0];
     const part2 = `${parts[0].match(/^[a-z]{1,3}/gmi)[0]}_${parts[1]}`;
     const notationRange = `//${part1} | //*[preceding::${part1}][following::${part2}] | //${part2}`;
     
-    searchRequest(notationRange, 'Notation'); // Search for a string that seems to be a range of notations, f.e. r 75-75.4
+    searchRequest(notationRange, 'Notation', searchString); // Search for a string that seems to be a range of notations, f.e. r 75-75.4
   } else {
     let inNotationBenennung = `//*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${fuzzySearch}')]]`;
     const searchArray = fuzzySearch.split(' ');
@@ -201,7 +207,7 @@ function search(searchString) {
       inNotationBenennung = `${inNotationBenennung} | //*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${element}')]]`      
     });
     
-    searchRequest(inNotationBenennung, 'Notation'); // Search for a string in the attribute "Benennung"
+    searchRequest(inNotationBenennung, 'Notation', searchString); // Search for a string in the attribute "Benennung"
   }
 
   /**
@@ -211,15 +217,15 @@ function search(searchString) {
    * @param {string} searchPath xPath string for search
    * @param {string} searchType Helper to distinguish between results
    */
-  function searchRequest(searchPath, searchType) {
+  function searchRequest(searchPath, searchType, searchString) {
     const tNode = document.querySelector(`#searchResults${searchType}Table`);
     const tbodyNode = document.createElement('tbody');
     document.querySelector(`#searchResults${searchType}TableBody`).remove();
     tbodyNode.setAttribute('id', `searchResults${searchType}TableBody`);
-
+    document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
+    document.querySelector(`#ergebnisHeadline`).innerHTML = searchString;
+    
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
-      document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
-      
       const currentNotation = resultNode.tagName.replace('_', ' ');
       
       /** Create new nodes */
