@@ -568,12 +568,12 @@
                 <tbody>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Erziehung und Bildung, Wissenschaftsgeschichte</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
                     <td class="px-3 py-2 font-semibold text-gray-900 whitespace-nowrap dark:text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
-                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Erziehung und Bildung, Wissenschaftsgeschichte</td>
+                    <td class="px-3 py-2 first-letter:underline first-letter:decoration-ifz-dark-blue">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
                   </tr>
                   <tr class="bg-slate-50 h-5 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-600"/>
                   <tr class="bg-slate-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-100 dark:hover:bg-gray-600">
