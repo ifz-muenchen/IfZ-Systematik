@@ -224,7 +224,7 @@ function search(searchString) {
     document.querySelector(`#searchResults${searchType}TableBody`).remove();
     tbodyNode.setAttribute('id', `searchResults${searchType}TableBody`);
     document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
-    document.querySelector(`#ergebnisHeadline`).innerHTML = searchString;
+    document.querySelector(`#ergebnisHeadline`).textContent = searchString;
     
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       const currentNotation = resultNode.tagName.replace('_', ' ');
