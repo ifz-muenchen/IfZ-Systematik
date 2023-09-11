@@ -61,7 +61,7 @@
             <button id="chrono-button" type="button" class="ring-ifz-medium-blue text-ifz-text-white bg-gradient-to-l from-ifz-dark-blue via-ifz-medium-blue to-ifz-light-blue hover:bg-gradient-to-bl dark:ring-ifz-dark-blue shadow-lg shadow-ifz-medium-blue/50 dark:shadow-lg dark:shadow-ifz-dark-blue/80 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Chronologisch</button>
             <div id="currentTab" class="hidden grow text-right text-ifz-text-black dark:text-ifz-text-white">Alphabetisch</div>
           </div>
-          <div class="relative mb-5 overflow-x-auto shadow-md rounded-lg">
+          <div class="relative mb-5 overflow-x-auto rounded-lg">
             <table id="alphaMain" class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
               <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
                 <tr>
@@ -447,7 +447,7 @@
           </div>
           <div id="übersichtAnhang1" class="relative target:scroll-mt-20">
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Anhang 1 - Druckschriftensammlung (Archiv)</h1>
-            <div class="relative mb-5 overflow-x-auto shadow-md rounded-lg">
+            <div class="relative mb-5 overflow-x-auto rounded-lg">
               <table class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
                 <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
                   <tr>
@@ -472,7 +472,7 @@
           </div>
           <div id="übersichtAnhang2" class="relative target:scroll-mt-20">
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Anhang 2 - Zeitgeschichtliche Sammlung (Archiv)</h1>
-            <div class="relative mb-5 overflow-x-auto shadow-md rounded-lg">
+            <div class="relative mb-5 overflow-x-auto rounded-lg">
               <table id="alphaÜbersicht2" class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
                 <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
                   <tr>
