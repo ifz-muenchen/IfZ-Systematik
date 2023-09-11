@@ -841,12 +841,12 @@ video {
 
 .border-ifz-dark-blue {
   --tw-border-opacity: 1;
-  border-color: rgb(0 117 190 / var(--tw-border-opacity));
+  border-color: rgb(83 133 204 / var(--tw-border-opacity));
 }
 
-.bg-ifz-light-blue {
+.bg-ifz-medium-blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+  background-color: rgb(103 173 242 / var(--tw-bg-opacity));
 }
 
 .bg-slate-100 {
@@ -1084,7 +1084,7 @@ video {
 
 .text-ifz-dark-blue {
   --tw-text-opacity: 1;
-  color: rgb(0 117 190 / var(--tw-text-opacity));
+  color: rgb(83 133 204 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1097,7 +1097,7 @@ video {
 }
 
 .decoration-ifz-dark-blue {
-  text-decoration-color: #0075be;
+  text-decoration-color: #5385cc;
 }
 
 .shadow-lg {
@@ -1174,12 +1174,16 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
+.first-letter\:font-semibold::first-letter {
+  font-weight: 600;
+}
+
 .first-letter\:underline::first-letter {
   text-decoration-line: underline;
 }
 
 .first-letter\:decoration-ifz-dark-blue::first-letter {
-  text-decoration-color: #0075be;
+  text-decoration-color: #5385cc;
 }
 
 .target\:block:target {
@@ -1193,6 +1197,16 @@ video {
 .hover\:bg-blue-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-ifz-light-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 209 215 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-ifz-light-grey:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 204 204 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-br:hover {
@@ -1209,7 +1223,7 @@ video {
 }
 
 .hover\:decoration-ifz-dark-blue:hover {
-  text-decoration-color: #0075be;
+  text-decoration-color: #5385cc;
 }
 
 .group:hover .group-hover\:bg-opacity-0 {
@@ -1238,7 +1252,7 @@ video {
 
 :is(.dark .dark\:border-ifz-dark-blue) {
   --tw-border-opacity: 1;
-  border-color: rgb(0 117 190 / var(--tw-border-opacity));
+  border-color: rgb(83 133 204 / var(--tw-border-opacity));
 }
 
 :is(.dark .dark\:bg-gray-700) {
