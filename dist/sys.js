@@ -18,7 +18,7 @@ if (!darkMode) {
 /** Add inline notation references */
 const elementsWithInlineRef = document.querySelectorAll('.addLinkToInlineNotation');
 elementsWithInlineRef.forEach(element => {
-  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
+  element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-ifz-dark-blue dark:text-ifz-text-white cursor-pointer'>${p1}</strong>`);
 });
 
 document.querySelectorAll('#clickToSearch').forEach(element => {
@@ -71,10 +71,10 @@ document.querySelector('#alpha-button').addEventListener('click', () => {
   document.querySelector('#alphaMain').classList.remove('hidden');
   document.querySelector('#übersichtAnhang1').classList.remove('hidden');
   document.querySelector('#alphaÜbersicht2').classList.remove('hidden');
-  document.querySelector('#chrono-button').classList.remove('ring-8');
-  document.querySelector('#sach-button').classList.remove('ring-8');
+  document.querySelector('#chrono-button').classList.remove('ring-4');
+  document.querySelector('#sach-button').classList.remove('ring-4');
   
-  document.querySelector('#alpha-button').classList.add('ring-8');
+  document.querySelector('#alpha-button').classList.add('ring-4');
   document.querySelector('#chronoMain').classList.add('hidden');
   document.querySelector('#sachMain').classList.add('hidden');
   document.querySelector('#chronoÜbersicht2').classList.add('hidden');
@@ -88,10 +88,10 @@ document.querySelector('#sach-button').addEventListener('click', () => {
   
   document.querySelector('#sachMain').classList.remove('hidden');
   document.querySelector('#sachÜbersicht2').classList.remove('hidden');
-  document.querySelector('#alpha-button').classList.remove('ring-8');
-  document.querySelector('#chrono-button').classList.remove('ring-8');
+  document.querySelector('#alpha-button').classList.remove('ring-4');
+  document.querySelector('#chrono-button').classList.remove('ring-4');
   
-  document.querySelector('#sach-button').classList.add('ring-8');
+  document.querySelector('#sach-button').classList.add('ring-4');
   document.querySelector('#alphaMain').classList.add('hidden');
   document.querySelector('#chronoMain').classList.add('hidden');
   document.querySelector('#chronoÜbersicht2').classList.add('hidden');
@@ -106,10 +106,10 @@ document.querySelector('#chrono-button').addEventListener('click', () => {
   
   document.querySelector('#chronoMain').classList.remove('hidden');
   document.querySelector('#chronoÜbersicht2').classList.remove('hidden');
-  document.querySelector('#alpha-button').classList.remove('ring-8');
-  document.querySelector('#sach-button').classList.remove('ring-8');
+  document.querySelector('#alpha-button').classList.remove('ring-4');
+  document.querySelector('#sach-button').classList.remove('ring-4');
 
-  document.querySelector('#chrono-button').classList.add('ring-8');
+  document.querySelector('#chrono-button').classList.add('ring-4');
   document.querySelector('#alphaMain').classList.add('hidden');
   document.querySelector('#sachMain').classList.add('hidden');
   document.querySelector('#übersichtAnhang1').classList.add('hidden');
@@ -237,8 +237,8 @@ function search(searchString) {
       const spanBemerkung = document.createElement('span');
       
       /** Add Tailwind classes and other attributes to newly created elements */
-      tr.classList.add('bg-white', 'border-b', 'dark:bg-gray-800', 'dark:border-gray-700', 'hover:bg-blue-100', 'dark:hover:bg-gray-600');
-      th.classList.add('px-3', 'py-2', 'font-medium', 'text-gray-900','whitespace-pre', 'dark:text-white');
+      tr.classList.add('bg-ifz-lightmode-table-background', 'ifz-lightmode-table-border', 'border-b', 'dark:bg-ifz-darkmode-table-background', 'dark:ifz-darkmode-table-border', 'hover:bg-ifz-light-blue', 'dark:hover:bg-gray-600');
+      th.classList.add('px-3', 'py-2', 'font-medium', 'text-ifz-text-black','whitespace-pre', 'dark:text-ifz-text-white');
       th.setAttribute('scope', 'row');
       thA.setAttribute('target', '_new');
       thA.setAttribute('href', `https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}`);
@@ -277,7 +277,7 @@ function search(searchString) {
       }
 
       /** Add inline reference link */
-      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-white cursor-pointer'>${p1}</strong>`);
+      spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-ifz-text-white cursor-pointer'>${p1}</strong>`);
 
       /** Create html structure */
       tdBenennung.appendChild(document.createElement('br'));
