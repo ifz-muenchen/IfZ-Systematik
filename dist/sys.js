@@ -237,7 +237,7 @@ function search(searchString) {
       const spanBemerkung = document.createElement('span');
       
       /** Add Tailwind classes and other attributes to newly created elements */
-      tr.classList.add('bg-ifz-lightmode-table-background', 'ifz-lightmode-table-border', 'border-b', 'dark:bg-ifz-darkmode-table-background', 'dark:ifz-darkmode-table-border', 'hover:bg-ifz-light-blue', 'dark:hover:bg-gray-600');
+      tr.classList.add('bg-ifz-lightmode-table-background', 'border-ifz-lightmode-table-border', 'border-b', 'dark:bg-ifz-darkmode-table-background', 'dark:border-ifz-darkmode-table-border', 'hover:bg-ifz-light-blue', 'dark:hover:bg-gray-600');
       th.classList.add('px-3', 'py-2', 'font-medium', 'text-ifz-text-black','whitespace-pre', 'dark:text-ifz-text-white');
       th.setAttribute('scope', 'row');
       thA.setAttribute('target', '_new');

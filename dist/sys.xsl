@@ -72,7 +72,7 @@
               <tbody>
                 <xsl:for-each select="*">
                   <xsl:if test="not(contains(translate(name(), '_', ' '), 'D') or contains(translate(name(), '_', ' '), 'ZG'))">
-                    <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                    <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                       <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
                       <td class="px-3 py-2"><xsl:value-of select="@Benennung"/></td>
                     </tr>
@@ -90,13 +90,13 @@
               <tbody>
                 <xsl:apply-templates select="b_1-99"/>
                 <tr class="bg-ifz-lightmode-table-background h-7 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-bold">Deutsche Geschichte</td>
                 </tr>
                 <xsl:apply-templates select="f_101-199"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-semibold">Weimarer Republik 1918 - 1933</td>
                 </tr>
@@ -104,14 +104,14 @@
                 <xsl:apply-templates select="g_1-99"/>
                 <xsl:apply-templates select="e_1-99"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-semibold">Drittes Reich 1933 - 1945</td>
                 </tr>
                 <xsl:apply-templates select="j_1-99"/>
                 <xsl:apply-templates select="g_1-99"/>
                 <xsl:apply-templates select="h_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dd 001-093">Dd 001-093</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
@@ -119,29 +119,29 @@
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#e 1-99">e 1-99</a></td>
                   <td class="px-3 py-2">Nationalsozialismus, NSDAP</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Db 001-299">Db 001-299</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <xsl:apply-templates select="e_101-199"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dc 001-099">Dc 001-099</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <xsl:apply-templates select="e_201-299"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Db 052">Db 052</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <xsl:apply-templates select="w_101-199"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Db 044">Db 044</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <xsl:apply-templates select="k_1-99"/>
                 <xsl:apply-templates select="n_1-99"/>
                 <xsl:apply-templates select="k_101-199"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#De 001-999">De 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
@@ -149,16 +149,16 @@
                 <xsl:apply-templates select="l_101-199"/>
                 <xsl:apply-templates select="w_201-299"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-semibold">Deutsche Geschichte seit 1945</td>
                 </tr>
                 <xsl:apply-templates select="x_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dk 001-913">Dk 001-913</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#x 1-99">x 1-99</a></td>
                   <td class="px-3 py-2">Deutschlandpolitik, Innerdeutsche Beziehungen</td>
                 </tr>
@@ -166,71 +166,71 @@
                 <xsl:apply-templates select="x_201-299"/>
                 <xsl:apply-templates select="x_301-399"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-semibold">Bundesrepublik Deutschland seit 1949</td>
                 </tr>
                 <xsl:apply-templates select="x_501-599"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <xsl:apply-templates select="x_401-499"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-semibold">Deutsche Demokratische Republik 1949 - 1990</td>
                 </tr>
                 <xsl:apply-templates select="x_601-699"/>
                 <xsl:apply-templates select="x_401-499"/>
                 <tr class="bg-ifz-lightmode-table-background h-7 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-bold">Internationale Beziehungen</td>
                 </tr>
                 <xsl:apply-templates select="c_1-199"/>
                 <xsl:apply-templates select="q_501-599"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#f 101-199">f 101-199</a></td>
                   <td class="px-3 py-2">Deutsche Außenpolitik 1871 - 1918</td>
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-semibold">Erster Weltkrieg 1914 - 1918</td>
                 </tr>
                 <xsl:apply-templates select="t_1-99"/>
                 <xsl:apply-templates select="t_101-199"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dj 001-999">Dj 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#g 1-99">g 1-99</a></td>
                   <td class="px-3 py-2 font-semibold">Internationale Beziehungen 1918 - 1939</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#g 1-99">g 1-99</a></td>
                   <td class="px-3 py-2">Deutsche Außenpolitik 1918 - 1939/45</td>
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                   <td class="px-3 py-2 font-semibold">Zweiter Weltkrieg 1939 - 1945</td>
                 </tr>
                 <xsl:apply-templates select="u_1-99"/>
                 <xsl:apply-templates select="u_101-199"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dj 001-999">Dj 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
                 <xsl:apply-templates select="h_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dd 001-913">Dd 001-913</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
@@ -242,11 +242,11 @@
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#x 401-499">x 401-499</a></td>
                   <td class="px-3 py-2">Deutsche Außenpolitik seit 1945</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur (Druckschriften des Archivs)</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#x 401-499">x 401-499</a></td>
                   <td class="px-3 py-2">Deutschlandpolitik des Auslandes 1945 - 1990</td>
                 </tr>
@@ -263,7 +263,7 @@
               <tbody>
                 <xsl:apply-templates select="a_1-99"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#w 201-299">w 201-299</a></td>
                   <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Arbeitsdienst, Reichsarbeitsdienst</td>
                 </tr>
@@ -273,7 +273,7 @@
                 <xsl:apply-templates select="d_1-99"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="w_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Df 001-799">Df 001-799</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur bis 1945 (Druckschriften des Archivs)</td>
                 </tr>
@@ -283,7 +283,7 @@
                 <xsl:apply-templates select="b_201-299"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="m_201-299"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
                     <a class="text-xs" href="#Df 001-799">Df 001-799</a>
                     <br/>
@@ -306,7 +306,7 @@
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#n 1-99">n 1-99</a></td>
                   <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Juden, Antisemitismus, Judenverfolgung</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dj 001-999">Dj 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur bis 1945 (Druckschriften des Archivs)</td>
                 </tr>
@@ -315,7 +315,7 @@
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#w 101-199">w 101-199</a></td>
                   <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Jugend, Jugendorganisationen, Jugendbewegung</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
                     <a class="text-xs" href="#Df 001-799">Df 001-799</a>
                     <br/>
@@ -329,7 +329,7 @@
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="v_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
                     <a class="text-xs" href="#Df 001-799">Df 001-799</a>
                     <br/>
@@ -343,11 +343,11 @@
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="l_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dj 001-999">Dj 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur bis 1945 (Druckschriften des Archivs)</td>
                 </tr>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#l 101-199">l 101-199</a></td>
                   <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Medien und Propaganda 1933 - 1945</td>
                 </tr>
@@ -356,19 +356,19 @@
                 <xsl:apply-templates select="s_101-199"/>
                 <xsl:apply-templates select="s_201-299"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#c 1-199">c 1-199</a></td>
                   <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Politikwissenschaft, Internationale Politik</td>
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="p_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur bis 1945 (Druckschriften des Archivs)</td>
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="o_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
                     <a class="text-xs" href="#Di 001-399">Di 001-399</a>
                     <br/>
@@ -382,7 +382,7 @@
                 </tr>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="r_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
                     <a class="text-xs" href="#Dg 001-999">Dg 001-999</a>
                     <br/>
@@ -400,7 +400,7 @@
                 <xsl:apply-templates select="m_301-399"/>
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <xsl:apply-templates select="q_1-99"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
                     <a class="text-xs" href="#Dg 001-999">Dg 001-999</a>
                     <br/>
@@ -414,7 +414,7 @@
                 </tr>
                 <xsl:apply-templates select="q_101-199"/>
                 <xsl:apply-templates select="q_201-299"/>
-                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs"><a class="text-xs" href="#Dm 001-999">Dm 001-999</a></td>
                   <td class="px-3 py-2 text-xs">Gedruckte Quellen / Primärliteratur bis 1945 (Druckschriften des Archivs)</td>
                 </tr>
@@ -459,7 +459,7 @@
                 <tbody>
                   <xsl:for-each select="*">
                     <xsl:if test="contains(translate(name(), '_', ' '), 'D')">
-                      <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                      <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                         <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
                         <td class="px-3 py-2"><xsl:value-of select="substring-after(@Benennung, 'des Archivs:')"/></td>
                         <!--<td class="px-3 py-2"><xsl:value-of select="content/stichwort"/></td>-->
@@ -483,7 +483,7 @@
                 <tbody>
                   <xsl:for-each select="*">
                     <xsl:if test="contains(translate(name(), '_', ' '), 'ZG')">
-                      <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                      <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                         <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
                         <td class="px-3 py-2"><xsl:value-of select="substring-after(@Benennung, 'des Archivs:')"/></td>
                       </tr>
@@ -499,7 +499,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                     <td class="px-3 py-2 font-bold">Deutsche Geschichte</td>
                   </tr>
@@ -507,7 +507,7 @@
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                     <td class="px-3 py-2">Deutschland 1871 - 1945</td>
                   </tr>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
                       <br/>
                       <a class="text-xs" href="#ZGa 001-099">ZGa 001-099</a>
@@ -547,12 +547,12 @@
                   </tr>
                   <xsl:apply-templates select="ZGk_001-913"/>
                   <tr class="bg-ifz-lightmode-table-background h-7 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
                     <td class="px-3 py-2 font-bold">Internationale Beziehungen</td>
                   </tr>
                   <xsl:apply-templates select="ZGj_001-999"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGk 001-913">ZGk 001-913</a></td>
                     <td class="px-3 py-2">	Deutschland als Besatzungsgebiet 1945 - 1949, Alliierte Einrichtungen bis 1955</td>
                   </tr>
@@ -566,42 +566,42 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Erziehung und Bildung, Wissenschaftsgeschichte</td>
                   </tr>
                   <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Geschlechtergeschichte (Frauen, Männer, Familie)</td>
                   </tr>
                   <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Jugend, Jugendorganisationen, Jugendbewegung</td>
                   </tr>
                   <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Kultur- und Geistesgeschichte, Wissenschaft</td>
                   </tr>
                   <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Medien</td>
                   </tr>
                   <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Religion und Kirchen</td>
                   </tr>
                   <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Sozialpolitik, Gewerkschaften, Arbeit</td>
                   </tr>
                   <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
-                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#ZGf 001-799">ZGf 001-799</a></td>
                     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Wirtschaft</td>
                   </tr>
@@ -640,7 +640,7 @@
                     </thead>
                     <tbody class="">
                       <xsl:for-each select="*">
-                        <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+                        <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                           <th scope="row" class="px-3 py-2 font-medium underline text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white">
                             <a id="{translate(name(), '_', ' ')}" target="_new" href="https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys={translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a>
                           </th>
@@ -744,35 +744,35 @@
 </xsl:template>
 
 <xsl:template match="/IfZ-Systematik/*">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2"><xsl:value-of select="@Benennung"/></td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//a_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Allgemeine Nachschlagewerke</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//d_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Deutsches Volk und Deutscher Raum, Auslandsdeutschtum</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//b_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2"><strong>Allgemeine Geschichte</strong> (Altertum, Mittelalter, Neuzeit)</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//g_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Außenpolitk</td>
   </tr>
@@ -877,14 +877,14 @@
 </xsl:template>
 
 <xsl:template match="//k_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Verfolgung und Emigration</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//n_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Judenverfolgung</td>
   </tr>
@@ -919,14 +919,14 @@
 </xsl:template>
 
 <xsl:template match="//l_101-199">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Medien und Propaganda</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//w_201-299">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Reichsarbeitsdienst</td>
   </tr>
@@ -954,14 +954,14 @@
 </xsl:template>
 
 <xsl:template match="//x_601-699">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Allgemein und Innenpolitik</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//c_1-199">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Internationale Politik</td>
   </tr>
@@ -989,35 +989,35 @@
 </xsl:template>
 
 <xsl:template match="//h_101-199">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Widerstand gegen die deutsche Besatzung 1935 - 1945</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//s_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Militär</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//s_101-199">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Militär: Marine</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//s_201-299">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Militär: Luftwaffe</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//t_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Allgemein und Militärgeschichte</td>
   </tr>
@@ -1031,7 +1031,7 @@
 </xsl:template>
 
 <xsl:template match="//u_1-99">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Allgemein und Militärgeschichte</td>
   </tr>
@@ -1045,42 +1045,42 @@
 </xsl:template>
 
 <xsl:template match="//b_101-199">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 font-semibold">Internationale Beziehungen seit 1945</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//b_201-299">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Geschichtswissenschaft</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//c_201-299">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Europäische Integration seit 1945</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//c_301-399">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 first-letter:underline first-letter:font-semibold first-letter:decoration-ifz-dark-blue">Soziologie</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//ZGk_001-913">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Deutsche Behörden oberhalb der Länderebene bis zur Gründung der der Bundesrepublik Deutschland 1945 - 1949</td>
   </tr>
 </xsl:template>
 
 <xsl:template match="//ZGj_001-999">
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Ausländische Staaten und Einrichtungen, internationale Behörden und Organisationen bis Mai 1945</td>
   </tr>
@@ -1091,7 +1091,7 @@
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Allgemein und Innenpolitik</td>
   </tr>
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
       <br/>
       <a class="text-xs" href="#Da 001-099">Da 001-099</a>
@@ -1132,7 +1132,7 @@
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Nationalsozialismus vor 1933</td>
   </tr>
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
       <a class="text-xs" href="#Db 001-299">Da 001-299</a>
       <br/>
@@ -1149,7 +1149,7 @@
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2">Allgemein und Innenpolitik</td>
   </tr>
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
       <br/>
       <a class="text-xs" href="#Da 001-099">Da 001-099</a>
@@ -1190,7 +1190,7 @@
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"><a href="#{translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a></td>
     <td class="px-3 py-2 font-semibold">Kaiserreich 1871 - 1918</td>
   </tr>
-  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
+  <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
     <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white text-xs">
       <br/>
       <a class="text-xs" href="#Da 001-099">Da 001-099</a>
