@@ -208,7 +208,6 @@ function search(searchString) {
       inNotationBenennung = `${inNotationBenennung} | //*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${element}')]] | //*[@Verweisformen[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${element}')]]`;      
     });
     
-    console.log(inNotationBenennung);
     searchRequest(inNotationBenennung, 'Notation', searchString); // Search for a string in the attribute "Benennung"
   }
 
