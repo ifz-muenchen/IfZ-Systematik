@@ -224,6 +224,7 @@ function search(searchString) {
     document.querySelector(`#searchResults${searchType}TableBody`).remove();
     tbodyNode.setAttribute('id', `searchResults${searchType}TableBody`);
     document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
+    document.querySelector('#searchResultsNothing').classList.add('hidden');
     document.querySelector(`#ergebnisHeadline`).textContent = searchString;
     
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
@@ -290,6 +291,11 @@ function search(searchString) {
     }
 
     tNode.appendChild(tbodyNode);
+
+    /** No search results found */
+    if (!tbodyNode.hasChildNodes()) {
+      document.querySelector('#searchResultsNothing').classList.remove('hidden');
+    }
   }
 
   document.querySelectorAll('#clickToSearchInSearchResults').forEach(element => {
