@@ -673,7 +673,7 @@
     </div>
 
     <!-- Back to top button -->
-    <div id="backToTop" class="fixed bottom-3 right-3">
+    <div id="backToTop" class="fixed bottom-3 right-3 z-20">
       <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-ifz-text-black rounded-lg group bg-gradient-to-br from-ifz-dark-blue to-ifz-light-gray hover:from-ifz-light-gray hover:to-ifz-dark-blue hover:text-white dark:text-ifz-text-white">
         <a href="#" class="relative px-2 py-1.5 transition-all ease-in duration-75 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-background rounded-md group-hover:bg-opacity-0">Zurück an Anfang</a>
       </button>
