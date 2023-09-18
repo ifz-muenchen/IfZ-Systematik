@@ -8,10 +8,12 @@ on:
 jobs: 
   copy-file:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout
 
     - name: Copy and Move/Rename File
       run: |
@@ -26,10 +28,4 @@ jobs:
         sed -i '2i\<?xml-stylesheet type="text/xsl" href="sys.xsl"?>' sys.xml
       shell: bash
 
-    - name: Commit and Push Changes
-      run: |      
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add .
-        git commit -m "Copy and move/rename file"
-        git push
+    - uses: stefanzweifel/git-auto-commit-action@v4
