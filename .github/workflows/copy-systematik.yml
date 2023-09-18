@@ -1,4 +1,4 @@
-name: Copy Systematik File and Move/Rename
+name: Update sys.xml
 
 on:
   push:
