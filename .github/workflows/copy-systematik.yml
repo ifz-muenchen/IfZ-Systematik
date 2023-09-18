@@ -2,8 +2,8 @@ name: Update sys.xml
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'source/**'
 
 jobs: 
   copy-file:
