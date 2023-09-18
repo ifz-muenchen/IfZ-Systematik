@@ -28,4 +28,5 @@ jobs:
         sed -i '2i\<?xml-stylesheet type="text/xsl" href="sys.xsl"?>' sys.xml
       shell: bash
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Commit and Push
+      uses: stefanzweifel/git-auto-commit-action@v4
