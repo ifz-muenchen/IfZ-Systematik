@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html id="html" class="dark" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="tailwind.css" rel="stylesheet"></link>
+  <link href="img/favicon.ico" rel="icon" type="image/x-icon"></link>
+
+  <title>Impressum</title>
+  <script>
+    if (localStorage.getItem('darkMode') === 'off') {
+      document.querySelector('#html').classList.remove('dark');
+    }
+  </script>
+</head>
+<body class="bg-ifz-lightmode-background dark:bg-ifz-darkmode-background">
+
+  <!-- Navigation bar -->
+  <nav class="sticky bg-ifz-lightmode-table-background border-ifz-dark-blue py-3 z-20 top-0 left-0 border-b dark:bg-ifz-darkmode-table-background dark:border-ifz-dark-blue">
+    <div class="max-w-[1750px] px-3 flex flex-wrap items-center justify-between mx-auto">
+      <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
+      <div class="grow">
+        <a href="./sys.xml" class="text-ifz-text-dark text-4xl font-semibold whitespace-nowrap dark:text-ifz-text-white">IfZ-Systematik - Impressum</a>
+      </div>
+      <div class="invisible flex md:order-2 my-3 sm:my-0">
+        <div class="relative block">
+          <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
+            <svg class="w-8 h-8 text-ifz-text-dark-gray" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+          </button>
+          <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-2xl text-ifz-text-black border border-gray-300 rounded-lg bg-ifz-lightmode-background dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-ifz-text-white" placeholder="Systematik durchsuchen..."/>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Main page content -->
+  <div id="pageMain" class="grid grid-cols-3 gap-16 max-w-[1750px] mx-auto px-3 pt-16">
+
+    <div class="rounded-lg shadow-lg text-center p-3 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-table-background">
+      <h1 class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Anbieter</h1>
+      <p class="text-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray whitespace-pre-line">
+        Institut für Zeitgeschichte München−Berlin
+
+        Leonrodstraße 46b
+        80636 München
+
+        Tel.: <a href= "tel:+4989126880" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">+49 (0)89 12688-0</a>
+        Fax.: <a href= "tel:+498912688191" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">+49 (0)89 12688-191</a>
+
+        E-Mail: <a href= "mailto:ifz@ifz-muenchen.de" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">ifz@ifz-muenchen.de</a>
+        Internet: <a href="https://ifz-muenchen.de" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">ifz-muenchen.de</a>
+      </p>
+    </div>
+   
+    <div class="rounded-lg shadow-lg text-center p-3 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-table-background"> 
+      <h1 class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Rechtliche Hinweise zur Organisationsform</h1>
+      <p class="text-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray whitespace-pre-line">
+        Das Institut für Zeitgeschichte München−Berlin ist eine öffentliche Stiftung bürgerlichen Rechts. Sitz des Instituts ist München. Das Institut für Zeitgeschichte ist Mitglied der Leibniz Gemeinschaft (WGL).
+        Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE 129521181
+      </p>
+    </div>
+
+    <div class="rounded-lg shadow-lg text-center p-3 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-table-background">
+      <h1 class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Zuständige Aufsichtsbehörde</h1>
+      <p class="text-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray whitespace-pre-line">
+        Bayerisches Staatsministerium für Wissenschaft und Kunst
+        Salvatorstraße 2, 80333 München
+      </p>
+    </div>
+
+    <div class="rounded-lg shadow-lg text-center p-3 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-table-background">
+      <h1 class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Vertretungsberechtigte Person</h1>
+      <p class="text-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray whitespace-pre-line">
+        Prof. Dr. Andreas Wirsching
+        Tel.: <a href= "tel:+498912688152" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">+49 (0)89 12688-152</a>
+      </p>
+    </div>
+
+    <div class="rounded-lg shadow-lg text-center p-3 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-table-background">
+      <h1 class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Verantwortliche Person nach § 18 Abs. 2 MStV</h1>
+      <p class="text-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray whitespace-pre-line">
+        Simone Paulmichl
+        Tel.: <a href= "tel:+498912688150" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">+49 (0)89 12688-150</a>
+      </p>
+    </div>
+
+    <div class="rounded-lg shadow-lg text-center p-3 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-table-background">
+      <h1 class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Webauftritt</h1>
+      <p class="text-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray whitespace-pre-line">
+        Florian Utku
+        Tel.: <a href= "tel:+498912688150" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">+49 (0)89 12688-150</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="my-16">
+    <div class="w-full mx-auto max-w-screen-xl p-4 flex justify-center">
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-ifz-text-dark-gray dark:text-ifz-text-light-gray sm:mt-0">
+        <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</a></li>
+        <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Systematik</a></li>
+        <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue" target="_blank">Quellcode</a></li>
+      </ul>
+    </div>
+  </footer>
+  
+  <!-- JS imports -->
+  <script src="sys.js" type="module"></script>
+</body>
+</html>
