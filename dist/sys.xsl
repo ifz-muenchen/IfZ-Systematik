@@ -731,7 +731,8 @@
     <footer class="my-5">
       <div class="w-full mx-auto max-w-screen-xl p-4 flex justify-center">
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-ifz-text-dark-gray dark:text-ifz-text-light-gray sm:mt-0">
-          <li><a href="#" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</a></li>
+          <li><a href="./sys.xml" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Systematik</a></li>
+          <li><a href="./nutzungshinweise.html" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</a></li>
           <li><a href="./impressum.html" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Impressum</a></li>
           <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue" target="_blank">Quellcode</a></li>
         </ul>
