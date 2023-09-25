@@ -3,6 +3,9 @@ export const content = ['./dist/*.{html,xsl,js}'];
 export const darkMode = 'class';
 export const theme = {
   extend: {
+    fontFamily: {
+      sans: ['Titillium Web', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Segoe UI'],
+    },
     colors: {
       /** Main Colors */
       'ifz-dark-blue': '#5385cc',

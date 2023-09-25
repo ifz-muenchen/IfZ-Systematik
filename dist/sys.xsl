@@ -23,6 +23,7 @@
 
     <link href="tailwind.css" rel="stylesheet"></link>
     <link href="img/favicon.ico" rel="icon" type="image/x-icon"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700" rel="stylesheet"></link>
 
     <title>IfZ Systematik</title>
   </head>
@@ -38,9 +39,9 @@
         <div class="flex md:order-2 my-3 sm:my-0">
           <div class="relative block">
             <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
-              <svg class="w-8 h-8 text-ifz-text-dark-gray" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+              <svg class="w-8 h-8 text-ifz-text-dark-gray dark:text-ifz-text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </button>
-            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-2xl text-ifz-text-black border border-gray-300 rounded-lg bg-ifz-lightmode-background dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-ifz-text-white" placeholder="Systematik durchsuchen..."/>
+            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-white bg-ifz-lightmode-background dark:bg-ifz-darkmode-background" placeholder="Systematik durchsuchen..."/>
           </div>
         </div>
       </div>
@@ -52,13 +53,13 @@
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
           <h1 id="mainHeadline" class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Systematik der Bibliothek</h1>
           <h2 id="mainLowHeadline" class="mb-5 text-1xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">von a bis x</h2>
-          <p class="w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
+          <p class="w-full text-lg text-justify text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
             Die IfZ-Systematik bietet Ihnen in chronologischen und thematischen Gruppen einen strukturierten Zugang zu den <span class="font-semibold text-ifz-text-black dark:text-ifz-text-white decoration-ifz-dark-blue">Sammelgebieten der Bibliothek</span> und zu den im Bibliothekskatalog verzeichneten <span class="font-semibold text-ifz-text-black dark:text-ifz-text-white decoration-ifz-dark-blue">Teilen des Archivbestands</span>. Mit den Notationen der IfZ-Systematik können Sie im Online-Katalog im Suchfeld <a href="https://opac.ifz-muenchen.de/webOPACClient.ifzsis/start.do" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">IfZ-Systematik</a> Literaturrecherchen starten. Die Notationen bestehen aus Buchstaben-Zahlen-Kürzeln, nach dem/den Buchstaben folgt immer ein Leerzeichen.<br/><br/>Die IfZ-Systematik umfasst weit über 6.000 Notationen und wird seit der Gründung der Bibliothek fortlaufend weiterentwickelt. Sie stellt das primäre Instrument der Inhaltserschließung an der IfZ-Bibliothek dar. Viele Literaturtitel, insbesondere Aufsätze aus Zeitschriften und Sammelbänden, sind ausschließlich oder hauptsächlich mittels der Systematik inhaltserschlossen. Aufgrund der über 70-jährigen Genese der Systematik entsprechen die Begrifflichkeit und die Strukturierung nicht immer den aktuellen Erwartungen.
           </p>
           <div class="my-5 flex flex-row gap-6 flex-wrap items-center mx-auto">
-            <button id="alpha-button" type="button" class="ring-ifz-medium-blue ring-4 text-ifz-text-white bg-gradient-to-r from-ifz-dark-blue via-ifz-medium-blue to-ifz-light-blue hover:bg-gradient-to-br dark:ring-ifz-dark-blue shadow-lg shadow-ifz-medium-blue/50 dark:shadow-lg dark:shadow-ifz-dark-blue/80 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Systematisch</button>
-            <button id="sach-button" type="button" class="ring-ifz-medium-blue text-ifz-text-white bg-gradient-to-r from-ifz-light-blue via-ifz-dark-blue to-ifz-light-blue hover:bg-gradient-to-br dark:ring-ifz-dark-blue shadow-lg shadow-ifz-medium-blue/50 dark:shadow-lg dark:shadow-ifz-dark-blue/80 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Sachlich/Fachlich</button>
-            <button id="chrono-button" type="button" class="ring-ifz-medium-blue text-ifz-text-white bg-gradient-to-l from-ifz-dark-blue via-ifz-medium-blue to-ifz-light-blue hover:bg-gradient-to-bl dark:ring-ifz-dark-blue shadow-lg shadow-ifz-medium-blue/50 dark:shadow-lg dark:shadow-ifz-dark-blue/80 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Chronologisch</button>
+            <button id="alpha-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow ring-4">Systematisch</button>
+            <button id="sach-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Sachlich/Fachlich</button>
+            <button id="chrono-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Chronologisch</button>
             <div id="currentTab" class="hidden grow text-right text-ifz-text-black dark:text-ifz-text-white">Alphabetisch</div>
           </div>
           <div class="relative mb-5 overflow-x-auto rounded-lg">
@@ -427,7 +428,7 @@
         <div id="übersichtAnhänge" class="flex flex-col gap-8">
           <div>
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Amts-, Partei- und Verbandsdruckschriften im IfZ-Archiv</h1>
-            <p class="w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
+            <p class="w-full text-lg text-justify text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
               Folgende Anhänge zur Systematik der Bibliothek verzeichnen die Provenienzen der
               im Online-Katalog recherchierbaren Bestände der <a href="https://www.ifz-muenchen.de/das-archiv/recherche-im-archivgut/druckschriftensuche" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">Druckschriften-Sammlung des Archivs</a>
               und der ihnen zugeordneten Zeitgeschichtlichen Sammlung.
@@ -674,14 +675,14 @@
 
     <!-- Back to top button -->
     <div id="backToTop" class="fixed bottom-3 right-3 z-20">
-      <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-ifz-text-black rounded-lg group bg-gradient-to-br from-ifz-dark-blue to-ifz-light-gray hover:from-ifz-light-gray hover:to-ifz-dark-blue hover:text-white dark:text-ifz-text-white">
-        <a href="#" class="relative px-2 py-1.5 transition-all ease-in duration-75 bg-ifz-lightmode-table-background dark:bg-ifz-darkmode-background rounded-md group-hover:bg-opacity-0">Zurück an Anfang</a>
+      <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white rounded-lg group backdrop-blur-md border-2 border-ifz-lightmode-table-hover dark:border-ifz-darkmode-table-hover hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover backdrop-blur-md">
+        <a href="#" class="relative px-2 py-1.5">Zurück an Anfang</a>
       </button>
     </div>
 
     <!-- Help menu dial -->
     <div id="helpDial" class="fixed md:top-24 top-0 right-3 group z-20 px-3 backdrop-blur-md rounded-xl">
-      <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center text-ifz-text-white bg-gradient-to-br from-ifz-dark-blue to-ifz-light-gray group-hover:from-ifz-light-gray group-hover:to-ifz-dark-blue rounded-full w-10 h-10 md:w-14 md:h-14">
+      <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center border-2 border-ifz-lightmode-table-hover dark:border-ifz-darkmode-table-hover hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover text-ifz-text-dark-gray dark:text-ifz-text-white rounded-full w-10 h-10 md:w-14 md:h-14 backdrop-blur-md">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
       <div id="helpDialMenu" class="grid gap-x-4 items-center mt-4 space-y-2 hidden">
@@ -725,6 +726,22 @@
         </div>
       </div>
 
+    </div>
+    
+    <!-- Nutzungshinweise -->
+    <div id="nutzungshinweiseDiv" class="hidden flex items-center h-screen justify-center fixed inset-0 pointer-events-none">
+      <div class="max-w-[750px] m-12 p-12 group z-20 backdrop-blur-md rounded-xl">
+        <p class="text-justify text-xl text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
+          Sie können über das Feld <strong class="text-semibold">Systematik durchsuchen</strong> in der Gesamtheit der Systematik suchen. Geben Sie dazu entweder eine Notation (z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">b 230.30.1</strong>) oder ein Schlagwort ein (<strong class="font-semibold underline decoration-ifz-dark-blue">ABC-Waffen</strong>).
+          <br/>
+          Eine Suche nach <strong class="font-semibold underline decoration-ifz-dark-blue">x 1-8.2</strong> ist auch möglich; Als Resultat werden alle Systematikpunkte von <strong class="font-semibold underline decoration-ifz-dark-blue">x 1</strong> bis <strong class="font-semibold underline decoration-ifz-dark-blue">x 8.2</strong> angezeigt.
+          <br class="mb-3"/>
+          Wenn nach Schlagworten gesucht wird, dann können verschiedene Begriffe kombiniert werden.
+          Geben Sie dazu einfach beide (oder mehr) Begriffe getrennt durch ein Leerzeichen ein.
+          <br class="mb-3"/>
+          Die Suche ist Groß-/Kleinschreibung agnostisch.
+        </p>
+      </div>
     </div>
 
     <!-- Footer -->

@@ -172,6 +172,8 @@ helpDial.addEventListener('mouseout', () => {
 })
 
 
+
+
 /**
  * Creates correct search request, moves viewport and hides previous results
  * @param {string} searchString User supplied search string, read via HTML input form
