@@ -41,7 +41,7 @@
             <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
               <svg class="w-8 h-8 text-ifz-text-dark-gray dark:text-ifz-text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </button>
-            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-white bg-ifz-lightmode-background dark:bg-ifz-darkmode-background" placeholder="Systematik durchsuchen..."/>
+            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray bg-ifz-lightmode-background dark:bg-ifz-darkmode-background border-2 dark:border-0 border-ifz-text-dark-gray dark:border-ifz-text-white" placeholder="Systematik durchsuchen..."/>
           </div>
         </div>
       </div>
