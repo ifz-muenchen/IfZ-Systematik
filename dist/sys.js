@@ -47,6 +47,19 @@ window.addEventListener('keydown', event => {
     case 'z':
       window.location.hash = 'übersichtAnhang2';
       break;
+    case 'h':
+      const manualDiv = document.querySelector('#nutzungshinweiseDiv');
+
+      if (manualDiv.classList.contains('hidden')) {
+        manualDiv.classList.remove('hidden');
+        document.querySelector('#nutzungshinweiseArrow').classList.remove('hidden');
+        manualDiv.classList.remove('pointer-events-none');
+      } else {
+        manualDiv.classList.add('hidden');
+        document.querySelector('#nutzungshinweiseArrow').classList.add('hidden');
+        manualDiv.classList.add('pointer-events-none');
+      }
+      break;
     case 'm':
       const htmlTagClasslist = document.querySelector('#html').classList;
       if (htmlTagClasslist.contains('dark')) {
@@ -117,6 +130,19 @@ document.querySelector('#chrono-button').addEventListener('click', () => {
   document.querySelector('#sachÜbersicht2').classList.add('hidden');
 });
 
+/** Footer Clicks */
+document.querySelector('#nutzungshinweiseButton').addEventListener('click', () => {
+  document.querySelector('#nutzungshinweiseDiv').classList.remove('hidden');
+  document.querySelector('#nutzungshinweiseArrow').classList.remove('hidden');
+  document.querySelector('#nutzungshinweiseDiv').classList.remove('pointer-events-none');
+})
+
+document.querySelector('#nutzungshinweiseDiv').addEventListener('click', () => {
+  document.querySelector('#nutzungshinweiseDiv').classList.add('hidden');
+  document.querySelector('#nutzungshinweiseArrow').classList.add('hidden');
+  document.querySelector('#nutzungshinweiseDiv').classList.add('pointer-events-none');
+})
+
 /** Help dial click listeners */
 document.querySelector('#strg-button').addEventListener('click', () => {
   inputSubmit.value = '';
@@ -133,6 +159,19 @@ document.querySelector('#d-button').addEventListener('click', () => {
 });
 document.querySelector('#z-button').addEventListener('click', () => {
   window.location.hash = 'übersichtAnhang2';
+});
+document.querySelector('#h-button').addEventListener('click', () => {
+  const manualDiv = document.querySelector('#nutzungshinweiseDiv');
+
+  if (manualDiv.classList.contains('hidden')) {
+    manualDiv.classList.remove('hidden');
+    document.querySelector('#nutzungshinweiseArrow').classList.remove('hidden');
+    manualDiv.classList.remove('pointer-events-none');
+  } else {
+    manualDiv.classList.add('hidden');
+    document.querySelector('#nutzungshinweiseArrow').classList.add('hidden');
+    manualDiv.classList.add('pointer-events-none');
+  }
 });
 document.querySelector('#m-button').addEventListener('click', () => {
   const htmlTagClasslist = document.querySelector('#html').classList;
@@ -170,9 +209,6 @@ helpDial.addEventListener('mouseover', () => {
 helpDial.addEventListener('mouseout', () => {
   document.querySelector('#helpDialMenu').classList.add('hidden');
 })
-
-
-
 
 /**
  * Creates correct search request, moves viewport and hides previous results

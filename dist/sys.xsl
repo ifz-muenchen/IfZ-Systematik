@@ -31,17 +31,20 @@
 
     <!-- Navigation bar -->
     <nav class="sticky bg-ifz-lightmode-table-background border-ifz-dark-blue py-3 z-20 top-0 left-0 border-b dark:bg-ifz-darkmode-table-background dark:border-ifz-dark-blue">
-      <div class="max-w-[1750px] px-3 flex flex-wrap items-center justify-between mx-auto">
-        <a href="https://ifz-muenchen.de/"><img src="img/logo.png" class="mr-3 h-10" alt="IfZ Logo"/></a>
-        <div class="grow">
-          <a href="./sys.xml" class="text-ifz-text-dark text-4xl font-semibold whitespace-nowrap dark:text-ifz-text-white">IfZ-Systematik</a>
+      <div class="max-w-[1750px] px-3 flex flex-wrap items-center justify-center mx-auto">
+        <a href="https://ifz-muenchen.de/">
+          <img src="img/logo_light.svg" class="block dark:hidden mr-3 h-16" alt="IfZ Logo"/>
+          <img src="img/logo_dark.svg" class="hidden dark:block mr-3 h-16" alt="IfZ Logo"/>
+        </a>
+        <div class="grow text-center">
+          <a href="./sys.xml" class="text-ifz-text-dark text-4xl font-semibold dark:text-ifz-text-white">Systematik</a>
         </div>
-        <div class="flex md:order-2 my-3 sm:my-0">
-          <div class="relative block">
+        <div class="my-3 self-center">
+          <div class="relative">
             <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
               <svg class="w-8 h-8 text-ifz-text-dark-gray dark:text-ifz-text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </button>
-            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray bg-ifz-lightmode-background dark:bg-ifz-darkmode-background border-2 dark:border-0 border-ifz-text-dark-gray dark:border-ifz-text-white" placeholder="Systematik durchsuchen..."/>
+            <input type="text" id="search-navbar" class="p-2 pl-14 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray bg-ifz-lightmode-background dark:bg-ifz-darkmode-background border-2 dark:border-0 border-ifz-text-dark-gray dark:border-ifz-text-white" placeholder="Systematik durchsuchen..."/>
           </div>
         </div>
       </div>
@@ -64,7 +67,7 @@
           </div>
           <div class="relative mb-5 overflow-x-auto rounded-lg">
             <table id="alphaMain" class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-              <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+              <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                 <tr>
                   <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
@@ -82,7 +85,7 @@
               </tbody>
             </table>
             <table id="chronoMain" class="hidden table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-              <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+              <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                 <tr>
                   <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
@@ -255,7 +258,7 @@
               </tbody>
             </table>
             <table id="sachMain" class="hidden table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-              <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+              <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                 <tr>
                   <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                   <th scope="col" class="px-3 py-2">Benennung</th>
@@ -450,7 +453,7 @@
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Anhang 1 - Druckschriftensammlung (Archiv)</h1>
             <div class="relative mb-5 overflow-x-auto rounded-lg">
               <table class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                   <tr>
                     <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
@@ -475,7 +478,7 @@
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Anhang 2 - Zeitgeschichtliche Sammlung (Archiv)</h1>
             <div class="relative mb-5 overflow-x-auto rounded-lg">
               <table id="alphaÜbersicht2" class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                   <tr>
                     <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
@@ -493,7 +496,7 @@
                 </tbody>
               </table>
               <table id="chronoÜbersicht2" class="hidden table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                   <tr>
                     <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notationen</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
@@ -560,7 +563,7 @@
                 </tbody>
               </table>
               <table id="sachÜbersicht2" class="hidden table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+                <thead class="text-xs text-ifz-text-dark uppercase bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                   <tr>
                     <th scope="col" class="px-3 py-2 w-4/12 md:w-3/12">Notation</th>
                     <th scope="col" class="px-3 py-2">Benennung</th>
@@ -629,7 +632,7 @@
                     <caption class="px-3 py-5 text-lg font-semibold text-left text-ifz-text-black bg-ifz-lightmode-table-background dark:text-ifz-text-white dark:bg-ifz-darkmode-table-background">
                       <xsl:value-of select="translate(name(), '_', ' ')"/> - <span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
                     </caption>
-                    <thead class="text-ifz-text-dark text-sm bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+                    <thead class="text-ifz-text-dark text-sm bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                       <tr>
                         <th scope="col" class="px-3 py-2 w-4/12 md:w-3/24">Notation</th>
                         <th scope="col" class="px-3 py-2">
@@ -674,30 +677,32 @@
     </div>
 
     <!-- Back to top button -->
-    <div id="backToTop" class="fixed bottom-3 right-3 z-20">
+    <div id="backToTop" class="fixed bottom-3 right-3 z-10">
       <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white rounded-lg group backdrop-blur-md border-2 border-ifz-lightmode-table-hover dark:border-ifz-darkmode-table-hover hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover backdrop-blur-md">
         <a href="#" class="relative px-2 py-1.5">Zurück an Anfang</a>
       </button>
     </div>
 
     <!-- Help menu dial -->
-    <div id="helpDial" class="fixed md:top-24 top-0 right-3 group z-20 px-3 backdrop-blur-md rounded-xl">
+    <div id="helpDial" class="fixed md:top-28 top-0 right-3 group z-10 px-3 backdrop-blur-md rounded-xl">
       <button id="helpDialButton" class="fixed top-1 right-1 flex items-center justify-center border-2 border-ifz-lightmode-table-hover dark:border-ifz-darkmode-table-hover hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover text-ifz-text-dark-gray dark:text-ifz-text-white rounded-full w-10 h-10 md:w-14 md:h-14 backdrop-blur-md">
         <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
       </button>
       <div id="helpDialMenu" class="grid gap-x-4 items-center mt-4 space-y-2 hidden">
         <button class="col-span-2 relative w-[52px] h-[32px] text-ifz-text-black font-medium dark:text-ifz-text-white -left-1">Taste</button>
-        <button id="strg-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-gray-700">Alt Gr</button>
+        <button id="strg-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-ifz-dark-gray">Alt Gr</button>
         <p class="text-ifz-text-dark-gray dark:text-ifz-text-light-gray">Suchen</p>
-        <button id="s-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-gray-700">S</button>
+        <button id="s-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-ifz-dark-gray">S</button>
         <p class="text-ifz-text-dark-gray dark:text-ifz-text-light-gray">Suchergebnisse</p>
-        <button id="esc-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-gray-700">Esc</button>
+        <button id="esc-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-ifz-dark-gray">Esc</button>
         <p class="text-ifz-text-dark-gray dark:text-ifz-text-light-gray">Zum Anfang</p>
-        <button id="d-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-gray-700">D</button>
+        <button id="d-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-ifz-dark-gray">D</button>
         <p class="text-ifz-text-dark-gray dark:text-ifz-text-light-gray">Anhang 1</p>
-        <button id="z-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-gray-700">Z</button>
+        <button id="z-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-ifz-dark-gray">Z</button>
         <p class="text-ifz-text-dark-gray dark:text-ifz-text-light-gray">Anhang 2</p>
-        <button id="m-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-gray-700">M</button>
+        <button id="h-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-ifz-dark-gray">H</button>
+        <p class="text-ifz-text-dark-gray dark:text-ifz-text-light-gray">Nutzungshinweise einblenden</p>
+        <button id="m-button" class="w-[52px] h-[52px] text-ifz-text-black bg-ifz-lightmode-table-background rounded-xl border border-gray-200 dark:border-gray-600 shadow-sm dark:text-ifz-text-white dark:bg-ifz-dark-gray">M</button>
         <p class="text-ifz-text-dark-gray dark:text-ifz-text-light-gray">Hell/Dunkel umschalten</p>
         <br/>
       </div>
@@ -711,7 +716,7 @@
         <h1 id="searchResultsNothing" class="hidden mb-5 text-xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">Keine Ereignisse gefunden</h1>
         <div class="relative mb-5 overflow-x-auto shadow-md rounded-lg">
           <table id="searchResultsNotationTable" class="table-fixed w-full text-md text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-            <thead class="text-sm text-ifz-text-dark bg-ifz-medium-blue dark:bg-gray-700 dark:text-ifz-text-light-gray">
+            <thead class="text-sm text-ifz-text-dark bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
               <tr>
                 <th scope="col" class="px-3 py-2 w-4/12 md:w-3/24">Notation</th>
                 <th scope="col" class="px-3 py-2">
@@ -729,8 +734,9 @@
     </div>
     
     <!-- Nutzungshinweise -->
-    <div id="nutzungshinweiseDiv" class="hidden flex items-center h-screen justify-center fixed inset-0 pointer-events-none">
-      <div class="max-w-[750px] m-12 p-12 group z-20 backdrop-blur-md rounded-xl">
+    <div id="nutzungshinweiseDiv" class="hidden flex items-center h-screen justify-center fixed inset-0 pointer-events-none backdrop-blur-xl z-10">
+      <!--<img class="max-w-[250px] bg-transparent rounded-xl absolute top-12 right-[23%] rotate-90 z-30" src="./img/arrow.png" alt="Pfeil zum Suchfeld"/>-->
+      <div class="max-w-[750px] m-12 p-12 rounded-xl border-2 dark:border-ifz-lightmode-table-border border-ifz-darkmode-table-border">
         <p class="text-justify text-xl text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
           Sie können über das Feld <strong class="text-semibold">Systematik durchsuchen</strong> in der Gesamtheit der Systematik suchen. Geben Sie dazu entweder eine Notation (z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">b 230.30.1</strong>) oder ein Schlagwort ein (<strong class="font-semibold underline decoration-ifz-dark-blue">ABC-Waffen</strong>).
           <br/>
@@ -744,12 +750,15 @@
       </div>
     </div>
 
+    <!-- Nutzungshinweise Arrow -->
+    <img id="nutzungshinweiseArrow" class="hidden max-w-[250px] max-h-[180px] bg-transparent rounded-xl fixed min-[1200px]:top-14 right-[31%] 2xl:right-[24%] rotate-90 z-30" src="./img/arrow.png" alt="Pfeil zum Suchfeld"/>
+
     <!-- Footer -->
     <footer class="my-5">
       <div class="w-full mx-auto max-w-screen-xl p-4 flex justify-center">
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-ifz-text-dark-gray dark:text-ifz-text-light-gray sm:mt-0">
           <li><a href="./sys.xml" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Systematik</a></li>
-          <li><a href="./nutzungshinweise.html" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</a></li>
+          <li><button id="nutzungshinweiseButton" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</button></li>
           <li><a href="./impressum.html" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Impressum</a></li>
           <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue" target="_blank">Quellcode</a></li>
         </ul>
