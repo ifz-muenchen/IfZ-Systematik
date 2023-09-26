@@ -754,14 +754,19 @@
     <img id="nutzungshinweiseArrow" class="hidden max-w-[250px] max-h-[180px] bg-transparent rounded-xl fixed min-[1200px]:top-14 right-[31%] 2xl:right-[24%] min-[2200px]:right-[30%] rotate-90 z-30" src="./img/arrow.png" alt="Pfeil zum Suchfeld"/>
 
     <!-- Footer -->
-    <footer class="my-5">
-      <div class="w-full mx-auto max-w-screen-xl p-4 flex justify-center">
+    <footer class="mt-5 w-full">
+      <div class="w-full mx-auto max-w-screen-xl flex justify-center">
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-ifz-text-dark-gray dark:text-ifz-text-light-gray sm:mt-0">
           <li><a href="./sys.xml" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Systematik</a></li>
           <li><button id="nutzungshinweiseButton" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Nutzungshinweise</button></li>
           <li><a href="./impressum.html" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Impressum</a></li>
           <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue" target="_blank">Quellcode</a></li>
         </ul>
+      </div>
+      <div class="w-full mx-auto max-w-screen-xl flex justify-center my-2">
+        <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
+          <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" alt="CC0" />
+        </a>
       </div>
     </footer>
 
