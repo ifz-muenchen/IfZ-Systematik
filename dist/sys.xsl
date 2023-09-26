@@ -39,12 +39,12 @@
         <div class="grow text-center">
           <a href="./sys.xml" class="text-ifz-text-dark text-4xl font-semibold dark:text-ifz-text-white">Systematik</a>
         </div>
-        <div class="my-3 self-center">
-          <div class="relative">
-            <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
+        <div class="my-3 self-center min-w-[350px]">
+          <div class="relative block">
+            <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-2">
               <svg class="w-8 h-8 text-ifz-text-dark-gray dark:text-ifz-text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </button>
-            <input type="text" id="search-navbar" class="p-2 pl-14 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray bg-ifz-lightmode-background dark:bg-ifz-darkmode-background border-2 dark:border-0 border-ifz-text-dark-gray dark:border-ifz-text-white" placeholder="Systematik durchsuchen..."/>
+            <input type="text" id="search-navbar" class="w-full block p-2 pl-10 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray bg-ifz-lightmode-background dark:bg-ifz-darkmode-background border-2 dark:border-0 border-ifz-text-dark-gray dark:border-ifz-text-white" placeholder="Systematik durchsuchen..."/>
           </div>
         </div>
       </div>
@@ -751,7 +751,7 @@
     </div>
 
     <!-- Nutzungshinweise Arrow -->
-    <img id="nutzungshinweiseArrow" class="hidden max-w-[250px] max-h-[180px] bg-transparent rounded-xl fixed min-[1200px]:top-14 right-[31%] 2xl:right-[24%] rotate-90 z-30" src="./img/arrow.png" alt="Pfeil zum Suchfeld"/>
+    <img id="nutzungshinweiseArrow" class="hidden max-w-[250px] max-h-[180px] bg-transparent rounded-xl fixed min-[1200px]:top-14 right-[31%] 2xl:right-[24%] min-[2200px]:right-[30%] rotate-90 z-30" src="./img/arrow.png" alt="Pfeil zum Suchfeld"/>
 
     <!-- Footer -->
     <footer class="my-5">
