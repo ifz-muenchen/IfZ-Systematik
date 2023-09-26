@@ -663,6 +663,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-\[28px\] {
+  margin-bottom: 28px;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }

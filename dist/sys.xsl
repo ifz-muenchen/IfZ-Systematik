@@ -54,11 +54,12 @@
     <div id="pageMain" class="max-w-[1750px] mx-auto items-center p-3">
       <div id="overview" class="flex flex-col gap-8 rounded-lg lg:flex-row">
         <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-24">
-          <h1 id="mainHeadline" class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Systematik der Bibliothek</h1>
-          <h2 id="mainLowHeadline" class="mb-5 text-1xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">von a bis x</h2>
+          <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Übersicht über die IfZ-Systematik</h1>
           <p class="w-full text-lg text-justify text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
             Die IfZ-Systematik bietet Ihnen in chronologischen und thematischen Gruppen einen strukturierten Zugang zu den <span class="font-semibold text-ifz-text-black dark:text-ifz-text-white decoration-ifz-dark-blue">Sammelgebieten der Bibliothek</span> und zu den im Bibliothekskatalog verzeichneten <span class="font-semibold text-ifz-text-black dark:text-ifz-text-white decoration-ifz-dark-blue">Teilen des Archivbestands</span>. Mit den Notationen der IfZ-Systematik können Sie im Online-Katalog im Suchfeld <a href="https://opac.ifz-muenchen.de/webOPACClient.ifzsis/start.do" target="blank" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">IfZ-Systematik</a> Literaturrecherchen starten. Die Notationen bestehen aus Buchstaben-Zahlen-Kürzeln, nach dem/den Buchstaben folgt immer ein Leerzeichen.<br/><br/>Die IfZ-Systematik umfasst weit über 6.000 Notationen und wird seit der Gründung der Bibliothek fortlaufend weiterentwickelt. Sie stellt das primäre Instrument der Inhaltserschließung an der IfZ-Bibliothek dar. Viele Literaturtitel, insbesondere Aufsätze aus Zeitschriften und Sammelbänden, sind ausschließlich oder hauptsächlich mittels der Systematik inhaltserschlossen. Aufgrund der über 70-jährigen Genese der Systematik entsprechen die Begrifflichkeit und die Strukturierung nicht immer den aktuellen Erwartungen.
           </p>
+          <h1 id="mainHeadline" class="mt-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Systematik der Bibliothek</h1>
+          <h2 id="mainLowHeadline" class="mb-5 text-1xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">von a bis x</h2>
           <div class="my-5 flex flex-row gap-6 flex-wrap items-center mx-auto">
             <button id="alpha-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow ring-4">Systematisch</button>
             <button id="sach-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Sachlich/Fachlich</button>
@@ -429,7 +430,7 @@
           </div>
         </div>
         <div id="übersichtAnhänge" class="flex flex-col gap-8">
-          <div>
+          <div class="mb-[28px]">
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Amts-, Partei- und Verbandsdruckschriften im IfZ-Archiv</h1>
             <p class="w-full text-lg text-justify text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
               Folgende Anhänge zur Systematik der Bibliothek verzeichnen die Provenienzen der
