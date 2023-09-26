@@ -765,7 +765,7 @@
         </ul>
       </div>
       <div class="w-full mx-auto max-w-screen-xl flex justify-center my-2">
-        <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
+        <a rel="license" href="./impressum.html" target="_blank">
           <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" alt="CC0" />
         </a>
       </div>
