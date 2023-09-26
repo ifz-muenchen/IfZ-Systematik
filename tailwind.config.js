@@ -3,12 +3,17 @@ export const content = ['./dist/*.{html,xsl,js}'];
 export const darkMode = 'class';
 export const theme = {
   extend: {
+    fontFamily: {
+      sans: ['Titillium Web', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Segoe UI'],
+    },
     colors: {
       /** Main Colors */
-      'ifz-dark-blue': '#5385cc',
+      'ifz-dark-blue': '#0075BF',
       'ifz-medium-blue': '#67adf2',
       'ifz-light-blue': '#b8d1d7',
       'ifz-light-gray': '#cccccc',
+      'ifz-dark-gray': '#374151',
+      'ifz-logo-gray': '#C6C6C6',
 
       /** Darkmode Colors */
       'ifz-darkmode-background': '#1F324D',
@@ -31,6 +36,9 @@ export const theme = {
     },
     width: {
       '3/24': '12.5%',
+    },
+    scale: {
+      flip: '-1',
     },
   },
 };

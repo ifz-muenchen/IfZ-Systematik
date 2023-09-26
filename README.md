@@ -5,3 +5,9 @@
 
 Um Änderungen am Layout vorzunehmen muss die CSS Datei mit folgendem Befehl neu generiert werden:  
 `npx tailwindcss -o dist/tailwind.css`
+
+
+# Urheberrechtsschutz
+Dieses Werk ist der Gemeinfreiheit überlassen.
+Wir würden uns freuen, von Ihren Erfahrungen mit der Nachnutzung der IfZ-Systematik zu erfahren.
+Kontakt: <bibliothek@ifz-muenchen.de>
