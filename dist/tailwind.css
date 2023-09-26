@@ -1213,8 +1213,8 @@ video {
   display: block;
 }
 
-.target\:scroll-mt-20:target {
-  scroll-margin-top: 5rem;
+.target\:scroll-mt-24:target {
+  scroll-margin-top: 6rem;
 }
 
 .hover\:bg-ifz-light-blue:hover {

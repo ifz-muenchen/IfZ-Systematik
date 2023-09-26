@@ -53,7 +53,7 @@
     <!-- Main page content -->
     <div id="pageMain" class="max-w-[1750px] mx-auto items-center p-3">
       <div id="overview" class="flex flex-col gap-8 rounded-lg lg:flex-row">
-        <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-20">
+        <div id="übersichtMain" class="relative basis-1/2 shrink-0 target:scroll-mt-24">
           <h1 id="mainHeadline" class="text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Systematik der Bibliothek</h1>
           <h2 id="mainLowHeadline" class="mb-5 text-1xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">von a bis x</h2>
           <p class="w-full text-lg text-justify text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
@@ -449,7 +449,7 @@
               Zeitgeschichtlichen Sammlung <a href="#übersichtAnhang2" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">Anhang 2</a>.
             </p>
           </div>
-          <div id="übersichtAnhang1" class="relative target:scroll-mt-20">
+          <div id="übersichtAnhang1" class="relative target:scroll-mt-24">
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Anhang 1 - Druckschriftensammlung (Archiv)</h1>
             <div class="relative mb-5 overflow-x-auto rounded-lg">
               <table class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
@@ -474,7 +474,7 @@
               </table>
             </div>
           </div>
-          <div id="übersichtAnhang2" class="relative target:scroll-mt-20">
+          <div id="übersichtAnhang2" class="relative target:scroll-mt-24">
             <h1 class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Anhang 2 - Zeitgeschichtliche Sammlung (Archiv)</h1>
             <div class="relative mb-5 overflow-x-auto rounded-lg">
               <table id="alphaÜbersicht2" class="table-fixed w-full text-lg text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
@@ -618,7 +618,7 @@
       <div id="details" class="mt-10 mb-5">
         <!--<h1 id="detailsTitle" class="mt-10 mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Details</h1>-->
         <xsl:for-each select="*">
-          <div id="{translate(name(), '_', ' ')}" class="detailedNotation hidden target:block target:scroll-mt-20">
+          <div id="{translate(name(), '_', ' ')}" class="detailedNotation hidden target:block target:scroll-mt-24">
             <summary class="mb-5 text-sm text-ifz-text-dark dark:text-ifz-text-light-gray list-none">
               <h2 class="text-xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
                 <xsl:value-of select="translate(name(), '_', ' ')"/>
@@ -709,7 +709,7 @@
     </div>
 
     <!-- Search results content -->
-    <div id="searchResults" class="max-w-[1750px] mx-auto items-center p-3 target:scroll-mt-20">
+    <div id="searchResults" class="max-w-[1750px] mx-auto items-center p-3 target:scroll-mt-24">
 
       <div id="searchResultsNotation" class="mb-5 hidden">
         <h1 id="searchResultsNotationTitle" class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Suchergebnisse für <span id="ergebnisHeadline" class="text-ifz-dark-blue">blank</span></h1>
