@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html id="html" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<meta http-equiv="refresh" content="0; URL=./sys.xml"/>-->
+  <link href="tailwind.css" rel="stylesheet"></link>
+  <link href="img/favicon.ico" rel="icon" type="image/x-icon"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700" rel="stylesheet"></link>
+  
+  <title>Weiterleitung zu XML</title>
+</head>
+<body class="bg-ifz-lightmode-background dark:bg-ifz-darkmode-background">
+
+  <!-- Navigation bar -->
+  <nav class="sticky bg-ifz-lightmode-table-background border-ifz-dark-blue py-3 z-20 top-0 left-0 border-b dark:bg-ifz-darkmode-table-background dark:border-ifz-dark-blue">
+    <div class="max-w-[1750px] px-3 flex flex-wrap items-center justify-center mx-auto">
+      <a href="https://ifz-muenchen.de/">
+        <img src="img/logo_light.svg" class="block dark:hidden mr-3 h-16" alt="IfZ Logo"/>
+        <img src="img/logo_dark.svg" class="hidden dark:block mr-3 h-16" alt="IfZ Logo"/>
+      </a>
+      <div class="grow text-center">
+        <a href="./sys.xml" class="text-ifz-text-dark text-4xl font-semibold dark:text-ifz-text-white">Systematik - Fehler</a>
+      </div>
+      <div class="my-3 self-center invisible">
+        <div class="relative">
+          <button id="searchIcon" class="absolute inset-y-0 left-0 flex items-center pl-3">
+            <svg class="w-8 h-8 text-ifz-text-dark-gray dark:text-ifz-text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+          </button>
+          <input type="text" id="search-navbar" class="p-2 pl-14 text-2xl rounded-lg text-ifz-text-dark-gray dark:text-ifz-text-light-gray bg-ifz-lightmode-background dark:bg-ifz-darkmode-background border-2 dark:border-0 border-ifz-text-dark-gray dark:border-ifz-text-white" placeholder="Systematik durchsuchen..."/>
+        </div>
+      </div>
+    </div>
+  </nav>
+      
+  <!-- Nutzungshinweise -->
+  <div id="nutzungshinweiseDiv" class="flex items-center h-screen justify-center fixed inset-0 backdrop-blur-xl z-10">
+    <div class="max-w-[750px] m-12 p-12 rounded-xl border-2 dark:border-ifz-lightmode-table-border border-ifz-darkmode-table-border">
+      <p class="text-justify text-xl text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
+        Diese Seite sollte nicht zu sehen sein. Offenbar hat etwas bei der automatischen Weiterleitung nicht geklappt.
+        <br>
+        <br>
+        Bitte navigieren Sie zu unserer <a href="./sys.xml" class="font-semibold text-ifz-text-black underline dark:text-ifz-text-white decoration-ifz-dark-blue">Homepage</a>.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-5 w-full fixed bottom-0">
+    <div class="w-full mx-auto max-w-screen-xl flex justify-center">
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-ifz-text-dark-gray dark:text-ifz-text-light-gray sm:mt-0">
+        <li><a href="./sys.xml" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Systematik</a></li>
+        <li><a href="./impressum.html" class="mr-4 hover:underline hover:decoration-ifz-dark-blue md:mr-6">Impressum</a></li>
+        <li><a href="https://github.com/ifz-muenchen/IfZ-Systematik" class="hover:underline hover:decoration-ifz-dark-blue" target="_blank">Quellcode</a></li>
+      </ul>
+    </div>
+    <div class="w-full mx-auto max-w-screen-xl flex justify-center my-2">
+      <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
+        <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" alt="CC0" />
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
