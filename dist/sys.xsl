@@ -738,15 +738,14 @@
     <div id="nutzungshinweiseDiv" class="hidden flex items-center h-screen justify-center fixed inset-0 pointer-events-none backdrop-blur-xl z-10">
       <!--<img class="max-w-[250px] bg-transparent rounded-xl absolute top-12 right-[23%] rotate-90 z-30" src="./img/arrow.png" alt="Pfeil zum Suchfeld"/>-->
       <div class="max-w-[750px] m-12 p-12 rounded-xl border-2 dark:border-ifz-lightmode-table-border border-ifz-darkmode-table-border">
-        <p class="text-justify text-xl text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
-          Sie können über das Feld <strong class="text-semibold">Systematik durchsuchen</strong> in der Gesamtheit der Systematik suchen. Geben Sie dazu entweder eine Notation (z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">b 230.30.1</strong>) oder ein Schlagwort ein (<strong class="font-semibold underline decoration-ifz-dark-blue">ABC-Waffen</strong>).
+        <p class="text-center text-xl text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
+          Sie können über das Feld <strong class="text-semibold">Systematik durchsuchen</strong> in der Gesamtheit der Systematik suchen. Geben Sie dazu entweder eine Notation (z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">b 230.30.1</strong>) oder ein Schlagwort (z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">NSDAP</strong>) ein.
           <br/>
-          Eine Suche nach <strong class="font-semibold underline decoration-ifz-dark-blue">x 1-8.2</strong> ist auch möglich; Als Resultat werden alle Systematikpunkte von <strong class="font-semibold underline decoration-ifz-dark-blue">x 1</strong> bis <strong class="font-semibold underline decoration-ifz-dark-blue">x 8.2</strong> angezeigt.
+          Eine Suche nach z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">x 1-8.2</strong> ist auch möglich; als Resultat werden alle Systematikpunkte von <strong class="font-semibold underline decoration-ifz-dark-blue">x 1</strong> bis <strong class="font-semibold underline decoration-ifz-dark-blue">x 8.2</strong> angezeigt.
           <br class="mb-3"/>
-          Wenn nach Schlagworten gesucht wird, dann können verschiedene Begriffe kombiniert werden.
-          Geben Sie dazu einfach beide (oder mehr) Begriffe getrennt durch ein Leerzeichen ein.
+          Bei einer Schlagwortsuche können Sie auch mehrere Begriffe (getrennt durch ein Leerzeichen) miteinander kombinieren.
           <br class="mb-3"/>
-          Die Suche ist Groß-/Kleinschreibung agnostisch.
+          Die Groß-/Kleinschreibung wird ignoriert.
         </p>
       </div>
     </div>
