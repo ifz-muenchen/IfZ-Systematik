@@ -740,7 +740,7 @@
       <div class="max-w-[750px] m-12 p-12 rounded-xl border-2 dark:border-ifz-lightmode-table-border border-ifz-darkmode-table-border">
         <p class="text-center text-xl text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
           Sie können über das Feld <strong class="text-semibold">Systematik durchsuchen</strong> in der Gesamtheit der Systematik suchen. Geben Sie dazu entweder eine Notation (z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">b 230.30.1</strong>) oder ein Schlagwort (z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">NSDAP</strong>) ein.
-          <br/>
+          <br class="mb-3"/>
           Eine Suche nach z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">x 1-8.2</strong> ist auch möglich; als Resultat werden alle Systematikpunkte von <strong class="font-semibold underline decoration-ifz-dark-blue">x 1</strong> bis <strong class="font-semibold underline decoration-ifz-dark-blue">x 8.2</strong> angezeigt.
           <br class="mb-3"/>
           Bei einer Schlagwortsuche können Sie auch mehrere Begriffe (getrennt durch ein Leerzeichen) miteinander kombinieren.
