@@ -62,7 +62,7 @@
           <h2 id="mainLowHeadline" class="mb-5 text-1xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">von a bis x</h2>
           <div class="my-5 flex flex-row gap-6 flex-wrap items-center mx-auto">
             <button id="alpha-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow ring-4">Systematisch</button>
-            <button id="sach-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Sachlich/Fachlich</button>
+            <button id="sach-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Sachlich</button>
             <button id="chrono-button" type="button" class="bg-ifz-lightmode-table-hover text-ifz-text-dark-gray dark:bg-ifz-darkmode-table-hover dark:text-ifz-text-white shadow-lg shadow-ifz-light-blue/50 dark:shadow-ifz-darkmode-table-hover/50 font-semibold rounded-lg text-md px-4 py-2.5 text-center mr-2 mb-2 grow">Chronologisch</button>
             <div id="currentTab" class="hidden grow text-right text-ifz-text-black dark:text-ifz-text-white">Alphabetisch</div>
           </div>
