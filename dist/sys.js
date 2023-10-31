@@ -10,7 +10,7 @@ const sysXMLDocRequest = fetch('./sys.xml', {method: 'GET'})
   .then(string => new window.DOMParser().parseFromString(string, 'text/xml'))
   .then(data => sysXMLDoc = data);
 
-/** Initialise dark mode af first website visit */
+/** Initialize dark mode af first website visit */
 if (!darkMode) {
   localStorage.setItem('darkMode', 'on');
 }

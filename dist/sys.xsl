@@ -5,10 +5,10 @@
 
 <xsl:template match="/IfZ-Systematik">
   <!--<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>-->
-  <html id="html" class="dark">
+  <html id="html" class="">
   <script>
-    if (localStorage.getItem('darkMode') === 'off') {
-      document.querySelector('#html').classList.remove('dark');
+    if (localStorage.getItem('darkMode') === 'on') {
+      document.querySelector('#html').classList.add('dark');
     }
   </script>
   <style>
