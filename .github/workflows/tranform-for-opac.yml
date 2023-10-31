@@ -1,0 +1,25 @@
+name: Transform source.xml to opac.xml
+
+on:
+  push:
+    paths:
+      - 'source/**'
+
+jobs: 
+  copy-file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y xsltproc
+
+    - name: Apply XSLT transformation
+      run: xsltproc --output dist/opac.xml source/transformForOpac.xsl source/ifz-systematik.xml 
+
+    - name: Commit and Push
+      uses: stefanzweifel/git-auto-commit-action@v4
