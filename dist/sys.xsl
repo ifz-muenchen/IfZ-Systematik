@@ -111,7 +111,7 @@
                 <tr class="bg-ifz-lightmode-table-background h-5 dark:bg-ifz-darkmode-table-background hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover"/>
                 <tr class="bg-ifz-lightmode-table-background border-b dark:bg-ifz-darkmode-table-background border-ifz-lightmode-table-border dark:border-ifz-darkmode-table-border hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover">
                   <td class="px-3 py-2 font-semibold text-ifz-text-black whitespace-nowrap dark:text-ifz-text-white"></td>
-                  <td class="px-3 py-2 font-semibold">Drittes Reich 1933 - 1945</td>
+                  <td class="px-3 py-2 font-semibold">Geschichte der NS-Diktatur 1933-1945</td>
                 </tr>
                 <xsl:apply-templates select="j_1-99"/>
                 <xsl:apply-templates select="g_1-99"/>
