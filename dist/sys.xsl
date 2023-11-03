@@ -743,7 +743,7 @@
           <br class="mb-3"/>
           Eine Suche nach z.B.: <strong class="font-semibold underline decoration-ifz-dark-blue">x 1-8.2</strong> ist auch möglich; als Resultat werden alle Systematikpunkte von <strong class="font-semibold underline decoration-ifz-dark-blue">x 1</strong> bis <strong class="font-semibold underline decoration-ifz-dark-blue">x 8.2</strong> angezeigt.
           <br class="mb-3"/>
-          Bei einer Schlagwortsuche können Sie auch mehrere Begriffe (getrennt durch ein Leerzeichen) miteinander kombinieren.
+          Bei einer Schlagwortsuche können Sie auch mehrere Begriffe, getrennt durch ein '|' Symbol miteinander kombinieren. Dadurch wird unabhängig voneinander sowohl nach dem Begriff links des Symbols als auch rechts des Symbols gesucht.
           <br class="mb-3"/>
           Die Groß-/Kleinschreibung wird ignoriert.
         </p>
