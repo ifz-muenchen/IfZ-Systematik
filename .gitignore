@@ -2,3 +2,4 @@
 /var/*
 /dist/sys_old.xml
 .docx
+*.docx
