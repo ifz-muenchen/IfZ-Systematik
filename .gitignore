@@ -1,3 +1,4 @@
 /node_modules/*
 /var/*
 /dist/sys_old.xml
+.docx
