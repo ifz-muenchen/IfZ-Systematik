@@ -223,7 +223,7 @@
       <b_166.7.2 Benennung="Israelische Grenzanlagen" Bemerkungen="" erstellt_am="22.02.2013" geaendert_am="" Verweisformen="Grenzzaun|Mauer" Register-Vokabular="Israel|Grenze" />
       <b_166.10 Benennung="Palästinafrage / Palästinenserproblem seit 1948  (hier auch: Israelisch-Arabischer Krieg 1948-1949)" Bemerkungen="vgl. n 76" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Palästinafrage|Palästinenser|Geschichte 1948-|Israelisch-Arabischer Krieg (1948-1949)" />
       <b_166.11 Benennung="Libanon-Krisen und -Kriege" Bemerkungen="" erstellt_am="" geaendert_am="22.02.2013" Verweisformen="Libanonkrise" Register-Vokabular="Libanon|Nahostkonflikt|Libanon / Bürgerkrieg|Libanonkrieg" />
-      <b_166.12 Benennung="Afghanistan-Konflikt 1979-1992; 2001-2014" Bemerkungen="" erstellt_am="07.02.1991" geaendert_am="29.07.2016" Verweisformen="" Register-Vokabular="Afghanistan-Konflikt (1979-1992)|Afghanistan|Krieg|Geschichte 2001-2014" />
+      <b_166.12 Benennung="Afghanistan-Konflikt 1979-1992; 2001-2021" Bemerkungen="" erstellt_am="07.02.1991" geaendert_am="29.07.2016" Verweisformen="" Register-Vokabular="Afghanistan-Konflikt (1979-1992)|Afghanistan|Krieg|Geschichte 2001-2014" />
       <b_166.13 Benennung="Irakisch-iranischer Krieg (1.Golfkrieg) 1980-1988" Bemerkungen="" erstellt_am="07.02.1991" geaendert_am="22.02.2013" Verweisformen="Iran|Irak|Krieg (1980-1988)" Register-Vokabular="Golfkrieg (1980-1988)" />
       <b_166.14 Benennung="Irakische Invasion in Kuwait und 2.Golfkrieg 1990-1991" Bemerkungen="" erstellt_am="07.02.1991" geaendert_am="22.02.2013" Verweisformen="Irak|Besetzung|Kuwait" Register-Vokabular="Golfkrieg (1990-1991)" />
       <b_166.15 Benennung="Krieg gegen den Irak (3.Golfkrieg / Irakkrieg) 2003" Bemerkungen="" erstellt_am="26.03.2003" geaendert_am="14.04.2011" Verweisformen="Irak|Krieg (2003 )" Register-Vokabular="Golfkrieg (2003- )" />
@@ -1992,7 +1992,7 @@
       <l_69.14 Benennung="Fachpresse" Bemerkungen="" erstellt_am="03.09.1986" geaendert_am="" Verweisformen="" Register-Vokabular="Fachpresse" />
       <l_70 Benennung="Presse und ..." Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Presse" />
       <l_70.1 Benennung="Presse und Staat" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Presse|Staat" />
-      <l_70.2 Benennung="Presse und Kommunalpolitik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Presse|Kommunalpolitik" />
+      <l_70.2 Benennung="Presse und Politik" Bemerkungen="" erstellt_am="" geaendert_am="30.11.2023" Verweisformen="" Register-Vokabular="Presse|Politik" />
       <l_70.3 Benennung="Presse und Parteien" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Presse|Partei" />
       <l_70.4 Benennung="Presse und Verbände" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Presse|Interessenverband" />
       <l_71 Benennung="Presse- und Medienstruktur" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Medienwirtschaft" />
@@ -2142,7 +2142,7 @@
       <m_75 Benennung="Nordische Rasse" Bemerkungen="vgl. o 71" erstellt_am="" geaendert_am="" Verweisformen="Nordische Rasse|NS-Ideologie" Register-Vokabular="Nordide|Germanen|Nationalsozialismus|Ideologie" />
       <m_75.1 Benennung="Germanentum" Bemerkungen="vgl. o 71" erstellt_am="" geaendert_am="" Verweisformen="NS-Ideologie" Register-Vokabular="Germanen|Nationalsozialismus|Ideologie" />
       <m_75.2 Benennung="Untermensch" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="NS-Ideologie" Register-Vokabular="Untermensch|Nationalsozialismus|Ideologie" />
-      <m_78 Benennung="Ahnen- und Familienforschung, Namenkunde 1933-1945" Bemerkungen="vgl. b 232.3" erstellt_am="" geaendert_am="" Verweisformen="Ahnenforschung|Familienforschung" Register-Vokabular="Deutschland|Genealogie|Namenkunde|Geschichte 1933-1945" />
+      <m_78 Benennung="Ahnen- und Familienforschung, Namenkunde 1933-1945" Bemerkungen="Genealogie s. b 232.3" erstellt_am="" geaendert_am="29.11.2023" Verweisformen="Ahnenforschung|Familienforschung" Register-Vokabular="Deutschland|Genealogie|Namenkunde|Geschichte 1933-1945" />
       <m_80 Benennung="Blut-und-Boden-Gedanke, Bauerntum in der NS-Ideologie" Bemerkungen="vgl. q 462" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Blut und Boden|Bauer|Nationalsozialismus|Ideologie" />
       <m_81 Benennung="Wehrbauern" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Wehrbauer" Register-Vokabular="Bauer|Grenzschutz" />
       <m_82 Benennung="Rasse und Wirtschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Rasse|Wirtschaft" />
