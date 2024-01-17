@@ -354,7 +354,7 @@
       <c_63.10 Benennung="Politische Utopie; Politische Weissagung, Futurologie"/>
       <c_63.11 Benennung="Politische Kultur"/>
       <c_64 Benennung="Politische Wissenschaft"/>
-      <c_64.2 Benennung="Praxis der Politik, politischer Stil (hier auch: Lüge in der Politik)"/>
+      <c_64.2 Benennung="Praxis der Politik, politischer Stil "/>
       <c_64.2.1 Benennung="Politische Sprache; Politische Kommunikation"/>
       <c_64.2.2 Benennung="Internationale Politische Feiern, Zeremonien, Gedenktage"/>
       <c_64.2.3 Benennung="Politische Symbole, Fahnen, Flaggen"/>
@@ -1471,7 +1471,6 @@
       <g_74 Benennung="Anschlussfrage"/>
       <g_76 Benennung="Minderheitenpolitik; Minderheitenfrage (deutsche Außenpolitik und internationale Politik)"/>
       <g_77 Benennung="Rheinlandbesetzung 1918-1930"/>
-      <g_78 Benennung="Ruhrgebiet"/>
       <g_79 Benennung="Deutsche Außenpolitik zur Saarfrage 1918-1935"/>
       <g_80 Benennung="Reparationen"/>
       <g_81 Benennung="Abrüstungsfrage, Abrüstungskonferenzen"/>
@@ -2028,7 +2027,7 @@
       <l_90.3 Benennung="Auslandspropaganda in Deutschland"/>
       <l_91 Benennung="Plakate, Flugschriften"/>
       <l_92 Benennung="Rhetorik, Rede, rednerische Propaganda"/>
-      <l_93 Benennung="Gerüchte, Dementis, Flüsterpropaganda, Hetze, Lüge, Fake News"/>
+      <l_93 Benennung="Gerüchte, Dementis, Flüsterpropaganda, Hetze, (politische)Lüge, Fake News"/>
     </l_50-99>
   </l_1-99>
   <l_101-199 Benennung="Medien und Propaganda in Deutschland 1933-1945">
@@ -3672,7 +3671,7 @@
       <s_76 Benennung="Uniformen, Abzeichen, Standarten, militärische Flaggen und Fahnen"/>
       <s_78 Benennung="Militärrecht, Wehrrecht, Militärdisziplinarrecht, Militärstrafrecht (hier auch: Fahnenflucht allgemein)"/>
       <s_78.1 Benennung="Befehl, Gehorsam, Eid"/>
-      <s_78.2 Benennung="Wehrrecht, Militärjustiz im Dritten Reich (hier auch: &quot;Zersetzung der Wehrkraft&quot;)"/>
+      <s_78.2 Benennung="Wehrrecht, Militärjustiz in der NS-Zeit (hier auch: &quot;Zersetzung der Wehrkraft&quot;)"/>
       <s_80 Benennung="Militärausbildung; militärisches Erziehungs- und Bildungswesen; Ausbildung in der Truppe"/>
       <s_80.1 Benennung="Offiziersausbildung"/>
       <s_80.2 Benennung="Manöver"/>
