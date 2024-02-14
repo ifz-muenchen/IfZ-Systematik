@@ -714,7 +714,7 @@
 
       <div id="searchResultsNotation" class="mb-5 hidden">
         <h1 id="searchResultsNotationTitle" class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Suchergebnisse für <span id="ergebnisHeadline" class="text-ifz-dark-blue">blank</span></h1>
-        <h1 id="searchResultsNothing" class="hidden mb-5 text-xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">Keine Ereignisse gefunden</h1>
+        <h1 id="searchResultsNothing" class="hidden mb-5 text-xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">Keine Ergebnisse gefunden</h1>
         <div class="relative mb-5 overflow-x-auto shadow-md rounded-lg">
           <table id="searchResultsNotationTable" class="table-fixed w-full text-md text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
             <thead class="text-sm text-ifz-text-dark bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
