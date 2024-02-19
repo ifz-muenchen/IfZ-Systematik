@@ -300,8 +300,8 @@ function search(searchString) {
         level = level.match(regexPointPattern)[0];
         levelBenenung = document.querySelector(`#${CSS.escape(level)}-benennung`).textContent;
 
-        let currentHeader = th.innerHTML.replace('\n↳\t', '\n\t↳\t');
-        let currentData = tdBenennung.innerHTML.replace('\n▸\t', '\n\t▸\t');
+        let currentHeader = th.innerHTML;
+        let currentData = tdBenennung.innerHTML;
         th.innerHTML = `<span>${level}</span>\n↳\t${currentHeader}`;
         tdBenennung.innerHTML = `<span class='font-thin'>${levelBenenung}</span>\n▸\t${currentData}`;
       }
