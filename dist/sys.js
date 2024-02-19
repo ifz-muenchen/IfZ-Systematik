@@ -319,6 +319,9 @@ function search(searchString) {
 
       /** Add inline reference link */
       spanBemerkung.innerHTML = spanBemerkung.innerHTML.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearchInSearchResults' class='font-semibold text-ifz-dark-blue dark:text-ifz-text-white cursor-pointer'>${p1}</strong>`);
+      if (resultNode.getAttribute('Bemerkungen')) {
+        spanBemerkung.innerHTML = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${spanBemerkung.innerHTML}`;
+      }
 
       /** Create html structure */
       tdBenennung.appendChild(document.createElement('br'));
