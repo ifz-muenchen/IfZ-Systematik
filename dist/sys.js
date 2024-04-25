@@ -10,9 +10,9 @@ const sysXMLDocRequest = fetch('./sys.xml', {method: 'GET'})
   .then(string => new window.DOMParser().parseFromString(string, 'text/xml'))
   .then(data => sysXMLDoc = data);
 
-/** Initialize dark mode af first website visit */
+/** Initialize dark mode at first website visit */
 if (!darkMode) {
-  localStorage.setItem('darkMode', 'on');
+  localStorage.setItem('darkMode', 'off');
 }
 
 /** Add inline notation references */
@@ -22,8 +22,12 @@ elementsWithInlineRef.forEach(element => {
 });
 
 document.querySelectorAll('#clickToSearch').forEach(element => {
-  element.addEventListener('click', () => {
-    search(element.textContent);
+  element.addEventListener('click', (event) => {
+    if (event.ctrlKey) {
+      window.open(document.URL.replace(/#.*$/, `#searchResults&${element.textContent}`), '_blank');
+    } else {
+      search(element.textContent)
+    }
   });
 });
 
@@ -339,10 +343,18 @@ function search(searchString) {
     if (!tbodyNode.hasChildNodes()) {
       document.querySelector('#searchResultsNothing').classList.remove('hidden');
     }
+    
+    window.location.hash = `searchResults&${searchString}`;
   }
 
   document.querySelectorAll('#clickToSearchInSearchResults').forEach(element => {
-    element.addEventListener('click', () => search(element.textContent));
+    element.addEventListener('click', (event) => {
+      if (event.ctrlKey) {
+        window.open(document.URL.replace(/#.*$/, `#searchResults&${element.textContent}`), '_blank');
+      } else {
+        search(element.textContent)
+      }
+    });
   });
 }
 
@@ -366,3 +378,10 @@ function evaluateXPath(aNode, aExpr) {
 
   return found;
 }
+
+if (window.location.href.includes('&')) {
+  const searchTarget = decodeURI(window.location.href.split('&')[1]);
+  await sysXMLDocRequest;
+  console.log(searchTarget);
+  search(searchTarget);
+};
