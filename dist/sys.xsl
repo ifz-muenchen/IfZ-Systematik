@@ -631,7 +631,15 @@
                 <div class="relative mb-5 overflow-x-auto shadow-md rounded-lg">
                   <table class="table-fixed w-full text-md text-left text-ifz-text-dark-gray dark:text-ifz-text-light-gray">
                     <caption class="px-3 py-5 text-lg font-semibold text-left text-ifz-text-black bg-ifz-lightmode-table-background dark:text-ifz-text-white dark:bg-ifz-darkmode-table-background">
-                      <xsl:value-of select="translate(name(), '_', ' ')"/> - <span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
+                      <xsl:choose>
+                        <xsl:when test="contains(translate(name(), '_', ' '), '-')">
+                          <xsl:value-of select="translate(name(), '_', ' ')"/>
+                        </xsl:when>
+                        <xsl:otherwise> 
+                          <a id="{translate(name(), '_', ' ')}" target="_new" href="https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys={translate(name(), '_', ' ')}"><xsl:value-of select="translate(name(), '_', ' ')"/></a>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                       - <span id="{translate(name(), '_', ' ')}-benennung"><xsl:value-of select="@Benennung"/></span>
                     </caption>
                     <thead class="text-ifz-text-dark text-sm bg-ifz-medium-blue dark:bg-ifz-dark-gray dark:text-ifz-text-light-gray">
                       <tr>
