@@ -31,6 +31,10 @@ document.querySelectorAll('#clickToSearch').forEach(element => {
   });
 });
 
+/** Initialize array to track previous search results */
+const searches = new Array();
+localStorage.setItem('history', JSON.stringify(searches));
+
 /** Keydown listeners*/
 window.addEventListener('keydown', event => {
   switch (event.key) {
@@ -188,6 +192,15 @@ document.querySelector('#m-button').addEventListener('click', () => {
   }
 });
 
+document.querySelector('#prevHistory').addEventListener('click', () => {
+  if (searches.length > 1) {
+    const currentElement = searches.pop();
+    const previousElement = searches.pop();
+    console.log(previousElement);
+    search(previousElement);
+  }
+})
+
 /** Search event listener */
 inputSubmit.addEventListener('keydown', function onEvent(event) {
   if (event.key === 'Enter' && event.target.value !== '') {
@@ -224,7 +237,10 @@ function search(searchString) {
   window.location.hash = 'searchResults';
   
   let fuzzySearch = searchString;
-  fuzzySearch = fuzzySearch.trim().toLowerCase();
+  fuzzySearch = fuzzySearch.trim().toLowerCase();   
+
+  searches.push(searchString);
+  localStorage.history = JSON.stringify(searches);
 
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
   const notationRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
@@ -251,7 +267,7 @@ function search(searchString) {
         inNotationBenennung = `${inNotationBenennung} | //*[@Benennung[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${element.trim()}')]] | //*[@Verweisformen[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄ', 'abcdefghijklmnopqrstuvwxyzüöä'), '${element.trim()}')]]`;      
       }); 
     }
-    
+
     searchRequest(inNotationBenennung, 'Notation', searchString); // Search for a string in the attribute "Benennung"
   }
 
@@ -344,7 +360,7 @@ function search(searchString) {
       document.querySelector('#searchResultsNothing').classList.remove('hidden');
     }
     
-    window.location.hash = `searchResults&${searchString}`;
+    //window.location.hash = `searchResults&${searchString}`;
   }
 
   document.querySelectorAll('#clickToSearchInSearchResults').forEach(element => {
@@ -384,4 +400,6 @@ if (window.location.href.includes('&')) {
   await sysXMLDocRequest;
   console.log(searchTarget);
   search(searchTarget);
+  window.location.hash = '#';
+  window.location.hash = 'searchResults';
 };
