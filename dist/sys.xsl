@@ -723,7 +723,7 @@
       <div id="searchResultsNotation" class="mb-5 hidden">
         <h1 id="searchResultsNotationTitle" class="mb-5 text-2xl font-bold text-ifz-text-dark-gray dark:text-ifz-text-white">Suchergebnisse für <span id="ergebnisHeadline" class="text-ifz-dark-blue">blank</span></h1>
         <h1 id="searchResultsNothing" class="hidden mb-5 text-xl font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white">Keine Ergebnisse gefunden</h1>
-        <div id="prevHistory">
+        <div>
           <button id="prevHistory" class="relative inline-flex items-center justify-center p-0.5 mb-5 overflow-hidden text-sm font-semibold text-ifz-text-dark-gray dark:text-ifz-text-white rounded-lg group backdrop-blur-md border-2 border-ifz-lightmode-table-hover dark:border-ifz-darkmode-table-hover hover:bg-ifz-lightmode-table-hover dark:hover:bg-ifz-darkmode-table-hover backdrop-blur-md">
             <a href="#searchResults" class="relative px-2 py-1.5">Vorheriger Treffer</a>
           </button>
