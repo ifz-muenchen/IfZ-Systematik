@@ -34,6 +34,7 @@ document.querySelectorAll('#clickToSearch').forEach(element => {
 
 /** Initialize array to track previous search results */
 const searches = new Array();
+let pointer = -1;
 localStorage.setItem('history', JSON.stringify(searches));
 
 /** Keydown listeners*/
@@ -77,6 +78,21 @@ window.addEventListener('keydown', event => {
       } else {
         htmlTagClasslist.add('dark');
         localStorage.setItem('darkMode', 'on');
+      }
+      break;
+    case 'ArrowLeft':
+    case 'Backspace':
+      if (pointer > 0) {
+        pointer--;
+        const previousElement = searches[pointer];
+        search(previousElement, true);
+      }
+      break;
+    case 'ArrowRight':
+      if (pointer < searches.length - 1) {
+        pointer++;
+        const nextElement = searches[pointer];
+        search(nextElement, true);
       }
       break;
     default:
@@ -194,11 +210,18 @@ document.querySelector('#m-button').addEventListener('click', () => {
 });
 
 document.querySelector('#prevHistory').addEventListener('click', () => {
-  if (searches.length > 1) {
-    const currentElement = searches.pop();
-    const previousElement = searches.pop();
-    console.log(previousElement);
-    search(previousElement);
+  if (pointer > 0) {
+    pointer--;
+    const previousElement = searches[pointer];
+    search(previousElement, true);
+  }
+})
+
+document.querySelector('#nextHistory').addEventListener('click', () => {
+  if (pointer < searches.length - 1) {
+    pointer++;
+    const nextElement = searches[pointer];
+    search(nextElement, true);
   }
 })
 
@@ -232,7 +255,7 @@ helpDial.addEventListener('mouseout', () => {
  * Creates correct search request, moves viewport and hides previous results
  * @param {string} searchString User supplied search string, read via HTML input form
  */
-function search(searchString) {
+function search(searchString, hideFromHistory) {
   //document.querySelector('#searchResultsSystematik').classList.add('hidden');
   document.querySelector('#searchResultsNotation').classList.add('hidden');
   window.location.hash = 'searchResults';
@@ -240,8 +263,11 @@ function search(searchString) {
   let fuzzySearch = searchString;
   fuzzySearch = fuzzySearch.trim().toLowerCase();   
 
-  searches.push(searchString);
-  localStorage.history = JSON.stringify(searches);
+  if (!hideFromHistory) {
+    searches.push(searchString);
+    localStorage.history = JSON.stringify(searches);   
+    pointer = searches.length - 1;
+  }
 
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
   const notationRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
@@ -360,10 +386,9 @@ function search(searchString) {
     if (!tbodyNode.hasChildNodes()) {
       document.querySelector('#searchResultsNothing').classList.remove('hidden');
     }
-    
-    //window.location.hash = `searchResults&${searchString}`;
   }
 
+  /** Search in new tab if CTRL was pressed during click on element */
   document.querySelectorAll('#clickToSearchInSearchResults').forEach(element => {
     element.addEventListener('click', (event) => {
       if (event.ctrlKey) {
