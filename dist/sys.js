@@ -272,6 +272,11 @@ function search(searchString, hideFromHistory) {
   /** Search for a specific Notation or look for the searchString in "@Stichwort" */
   const notationRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
   const notationRangeRegex = /^[a-z]{1,3} \d{1,3}(?:\.\d{1,3}){0,2}-\d{1,3}(?:\.\d{1,3}){0,2}$/gmi;
+
+  if (fuzzySearch.includes('-') && document.getElementById(fuzzySearch)) {
+    window.location.hash = `#${fuzzySearch}`;
+    return;
+  }
   
   if (notationRegex.test(fuzzySearch)) {
     const forNotation = `//*[translate(name(), '_', ' ')='${fuzzySearch}'] | //*[contains(translate(name(), '_', ' '), '${fuzzySearch}.')]`;
