@@ -21,6 +21,7 @@ elementsWithInlineRef.forEach(element => {
   element.innerHTML = element.textContent.replace(/(?<=vgl. |s. |siehe: | - |, | bis )([a-z]{1,3} \d{1,3}(?:-\d{1,3}\.?\d{1,3}|\.\d{1,3}(?:\.\d{1,3})?)?\b)/gmi, (m, p1) => `<strong id='clickToSearch' class='font-semibold text-ifz-dark-blue dark:text-ifz-text-white cursor-pointer'>${p1}</strong>`);
 });
 
+/** Search in new tab if CTRL was pressed during click on element */
 document.querySelectorAll('#clickToSearch').forEach(element => {
   element.addEventListener('click', (event) => {
     if (event.ctrlKey) {
@@ -395,6 +396,7 @@ function evaluateXPath(aNode, aExpr) {
   return found;
 }
 
+/** If the URL has a notation in it, search for it when loading the page */
 if (window.location.href.includes('&')) {
   const searchTarget = decodeURI(window.location.href.split('&')[1]);
   await sysXMLDocRequest;
