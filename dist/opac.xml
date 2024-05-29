@@ -294,7 +294,7 @@
       <b_232.3 Benennung="Genealogie; Namenkunde"/>
       <b_232.4 Benennung="Historische Geographie"/>
       <b_232.5 Benennung="Philatelie"/>
-      <b_240 Benennung="Geschichte der (bundes-)deutschen Geschichtswissenschaft und der Geschichtsschreibung"/>
+      <b_240 Benennung="Geschichte der (bundes-)deutschen Geschichtswissenschaft und Geschichtsschreibung"/>
       <b_240.1 Benennung="Historismus"/>
       <b_240.2 Benennung="Historikerstreit 1986-1989"/>
       <b_242 Benennung="Geschichte der Geschichtswissenschaft in der DDR (Theorie, Methoden, Geschichte, Geschichtsbewusstsein)"/>
@@ -2194,7 +2194,7 @@
       <m_173 Benennung="Rettungswesen, Notfallmedizin"/>
       <m_174 Benennung="Menschen mit Behinderung, Inklusion"/>
       <m_174.1 Benennung="Menschen mit geistiger Behinderung"/>
-      <m_175 Benennung="Sozialhygiene"/>
+      <m_175 Benennung="Sozialhygiene, Biopolitik"/>
       <m_176 Benennung="Alkohol, Drogen, Tabak; Doping"/>
       <m_177 Benennung="Krankheiten, Epidemien, Pandemien"/>
       <m_177.1 Benennung="Psychische Probleme und Erkrankungen"/>
@@ -2389,7 +2389,7 @@
       <n_20.5 Benennung="B'nai B'rith (Unabhängiger Orden B'nai B'rith (UOBB), USA 1843- , Europa 1882-)"/>
       <n_20.6 Benennung="Reichsvertretung der Deutschen Juden 1933-1935, Reichsvertretung der Juden in Deutschland 1935-1939, Reichsvereinigung der Juden in Deutschland 1939-1943"/>
       <n_20.6.1 Benennung="Mittelstelle für Jüdische Erwachsenenbildung 1934-1939(?)"/>
-      <n_20.7 Benennung="Hilfsverein der Deutschen Juden 1901-1935 (1935-1939: Hilfsverein derJuden in Deutschland)"/>
+      <n_20.7 Benennung="Hilfsverein der Deutschen Juden 1901-1935 (1935-1939: Hilfsverein der Juden in Deutschland)"/>
       <n_20.8 Benennung="Paulus-Bund (07.1933-12.1934: Reichsverband Christlich-Deutscher Staatsbürger Nichtarischer oder Nicht Rein Arischer Abstammung e.V.; 12.1934-09.1936: Reichsverband der Nichtarischen Christen e.V.; 09.1936-07.1937: Paulus-Bund, Vereinigung Nichtarischer Christen e.V.; 07.1937-08.1939: Vereinigung 1937 Vorläufiger Reichsbürger Nicht Volldeutschblütiger Abstammung e.V.)"/>
       <n_20.9 Benennung="Jüdische Kulturbünde (1933-1938: Kulturbund Deutscher Juden, seit 1935: Jüdischer Kulturbund Berlin; 1935-1938: Reichsverband der Jüdischen Kulturbünde in Deutschland; 1939-1941: Jüdischer Kulturbund in Deutschland e.V.)"/>
       <n_20.10 Benennung="Jüdischer Frauenbund in Deutschland 1904-1938, 1953-"/>
@@ -3075,7 +3075,7 @@
       <q_113 Benennung="Reichsgruppe Handel, Reichsgruppe Handwerk, Wirtschaftsgruppe Einzelhandel"/>
       <q_114 Benennung="Zentralstelle für Außenhandel, Reichsstelle für den Außenhandel"/>
       <q_125 Benennung="Deutscher Industrie- und Handelskammertag (DIHK) 2001- (Allgemeiner Deutscher Handelstag bzw. Deutscher Handelstag (DHT) 1861-1918; Deutscher Industrie- und Handelstag (DIHT) 1918-1935 und 1949-2001; 1935-1945: Arbeitsgemeinschaft der Industrie- und Handelskammern in der Reichswirtschaftskammer)"/>
-      <q_125.1 Benennung="Industrie- und Handelskammern (IHK)"/>
+      <q_125.1 Benennung="Industrie- und Handelskammern (IHK)(1942-1945: Gauwirtschaftskammern) "/>
       <q_127 Benennung="Handwerkskammern"/>
       <q_127.1 Benennung="Handwerksorganisationen allgemein"/>
       <q_128 Benennung="Nationalsozialistische Handwerks-, Handels- und Gewerbeorganisation (NS-Hago)"/>
@@ -3471,6 +3471,7 @@
     <r_50-99 Benennung="Weitere Sachbegriffe">
       <r_55 Benennung="Sozialgeschichte"/>
       <r_58 Benennung="Gesellschaftsordnung, Sozialordnung, Gesellschaftssystem, Soziales System"/>
+      <r_58.1 Benennung="Gesellschaftliche Vielfalt, Diversität"/>
       <r_59 Benennung="Gesellschaftsstruktur, Sozialstruktur"/>
       <r_59.1 Benennung="Adel (hier auch: Deutsche Adelsgenossenschaft (DAG) 1874-1944)"/>
       <r_59.2 Benennung="Bürgertum, bürgerliche Gesellschaft"/>
@@ -4380,6 +4381,7 @@
       <v_75.1 Benennung="Anthropologie"/>
       <v_75.2 Benennung="Ethnologie (Völkerkunde) (hier auch: Völkerschauen)"/>
       <v_75.3 Benennung="Sozialpsychologie (hier auch: Feindbilder, Vorurteile; Verschwörungstheorien)"/>
+      <v_75.4 Benennung="Diversitätsforschung, Diversity Studies"/>
       <v_77 Benennung="Geographie, Länderkunde"/>
       <v_77.1 Benennung="Politische Geographie"/>
       <v_78 Benennung="Musik"/>
@@ -4522,7 +4524,7 @@
       <w_64.3 Benennung="Gesamtschulen"/>
       <w_64.4 Benennung="Sonderschulen (Hilfsschulen); Behindertenpädagogik"/>
       <w_64.5 Benennung="Privatschulen, Freie Schulen"/>
-      <w_64.5.1 Benennung="Waldorf-Schulen; Rudolf-Steiner-Pädagogik"/>
+      <w_64.5.1 Benennung="Reformschulen, Reformpädagogik (z.B. Waldorf-Schulen; Rudolf-Steiner-Pädagogik, Montessori-Pädagogik)"/>
       <w_64.5.2 Benennung="Landerziehungsheime"/>
       <w_64.5.3 Benennung="Privatschulen im Exil"/>
       <w_66 Benennung="Deutsche Schulen im Ausland"/>
