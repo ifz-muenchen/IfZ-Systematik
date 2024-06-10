@@ -479,7 +479,7 @@
       <c_85.4 Benennung="Autoritärer Staat, Autokratie" Bemerkungen="" erstellt_am="" geaendert_am="08.02.2017" Verweisformen="Autoritarismus|Despotie" Register-Vokabular="Autoritärer Staat|Autokratie" />
       <c_85.5 Benennung="Ständestaat, korporativer Staat, Korporativismus, (Neo-) Korporatismus" Bemerkungen="vgl. j 52.1" erstellt_am="" geaendert_am="" Verweisformen="Korporativismus|Korporatismus" Register-Vokabular="Ständestaat|Korporativer Staat" />
       <c_85.7 Benennung="Gewaltenteilung, Gesetzgebung" Bemerkungen="vgl. x 552, x 652" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Gewaltenteilung|Gesetzgebung" />
-      <c_85.8 Benennung="Beamtentum, Öffentlicher Dienst" Bemerkungen="vgl. c 265, f 82, j 65.1, p 55, p 83.3, r 59.5, x 47.1, x 565.2, x 665.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Beamter|Öffentlicher Dienst" />
+      <c_85.8 Benennung="Beamtentum, Öffentlicher Dienst" Bemerkungen="vgl. c 258, f 82, j 65.1, p 55, p 83.3, r 59.5, x 47.1, x 565.2, x 665.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Beamter|Öffentlicher Dienst" />
       <c_85.9 Benennung="Staatsgefährdung, Staatssicherheit" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Staatssicherheit" Register-Vokabular="Staatsgefährdung|Innere Sicherheit" />
       <c_85.11 Benennung="Legitimitätsproblematik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Legitimität|Staat" />
       <c_85.12 Benennung="Verfassungsschutz" Bemerkungen="vgl. x 518" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verfassungsschutz" />
@@ -3076,7 +3076,7 @@
       <q_113 Benennung="Reichsgruppe Handel, Reichsgruppe Handwerk, Wirtschaftsgruppe Einzelhandel" Bemerkungen="vgl. q 22.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Reichswirtschaftskammer / Reichsgruppe Handel|Reichswirtschaftskammer / Reichsgruppe Handwerk|Reichswirtschaftskammer / Wirtschaftsgruppe Einzelhandel" />
       <q_114 Benennung="Zentralstelle für Außenhandel, Reichsstelle für den Außenhandel" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Reichsstelle für den Außenhandel|Berlin / Zentralstelle für Außenhandel" />
       <q_125 Benennung="Deutscher Industrie- und Handelskammertag (DIHK) 2001- (Allgemeiner Deutscher Handelstag bzw. Deutscher Handelstag (DHT) 1861-1918; Deutscher Industrie- und Handelstag (DIHT) 1918-1935 und 1949-2001; 1935-1945: Arbeitsgemeinschaft der Industrie- und Handelskammern in der Reichswirtschaftskammer)" Bemerkungen="" erstellt_am="" geaendert_am="12.06.2020; 14.03.2022" Verweisformen="DIHT|DHT|DIHK" Register-Vokabular="Deutscher Industrie- und Handelskammertag|Deutscher Industrie- und Handelstag|Allgemeiner Deutscher Handelstag|Deutscher Handelstag" />
-      <q_125.1 Benennung="Industrie- und Handelskammern (IHK)(1942-1945: Gauwirtschaftskammern) " Bemerkungen="vgl. q 22.2" erstellt_am="" geaendert_am="29.05.2024" Verweisformen="IHK" Register-Vokabular="Industrie- und Handelskammer|Gauwirtschaftskammer" />
+      <q_125.1 Benennung="Industrie- und Handelskammern (IHK) (1942-1945: Gauwirtschaftskammern) " Bemerkungen="vgl. q 22.2" erstellt_am="" geaendert_am="29.05.2024" Verweisformen="IHK" Register-Vokabular="Industrie- und Handelskammer|Gauwirtschaftskammer" />
       <q_127 Benennung="Handwerkskammern" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Handwerkskammer" />
       <q_127.1 Benennung="Handwerksorganisationen allgemein" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Handwerksorganisation" />
       <q_128 Benennung="Nationalsozialistische Handwerks-, Handels- und Gewerbeorganisation (NS-Hago)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="NS-Hago" Register-Vokabular="Nationalsozialistische Handwerks-, Handels- und Gewerbeorganisation" />
@@ -6358,6 +6358,8 @@
       <Dq_013 Benennung="Landesjugendring Bielefeld" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Landesjugendring Bielefeld" />
       <Dq_014 Benennung="Deutsches Nationalkomitee für Internationale Jugendarbeit" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DNK" Register-Vokabular="Deutsches Nationalkomitee für Internationale Jugendarbeit" />
       <Dq_015 Benennung="Stiftung Deutsche Jugendmarke" Bemerkungen="" erstellt_am="21.04.2015" geaendert_am="" Verweisformen="" Register-Vokabular="Stiftung Deutsche Jugendmarke" />
+      <Dq_016 Benennung="Initiative der Jugend" Bemerkungen="" erstellt_am="05.06.24" geaendert_am="" Verweisformen="" Register-Vokabular="Initiative der Jugend"></Dq_016>
+      <Dq_016 Benennung="Arbeitsgemeinschaft für Kinder- und Jugendhilfe (AGJ)" Bemerkungen="" erstellt_am="05.06.24" geaendert_am="" Verweisformen="AGJ" Register-Vokabular="Initiative der Jugend"></Dq_016>
       <Dq_019 Benennung="Deutsche Liga für das Kind in Familie und Gesellschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutsche Liga für das Kind in Familie und Gesellschaft" />
       <Dq_020 Benennung="Ring Politischer Jugend" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="RPJ" Register-Vokabular="Ring Politischer Jugend" />
       <Dq_022 Benennung="Deutsches Jugendherbergswerk" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DJH" Register-Vokabular="Deutsches Jugendherbergswerk " />
@@ -6372,13 +6374,16 @@
       <Dq_151 Benennung="Terre des Hommes" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Terre des Hommes" />
       <Dq_152 Benennung="Sozialistische Jugend Deutschlands - Die Falken" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Sozialistische Jugend Deutschlands Die Falken" />
       <Dq_153 Benennung="Sozialistische Deutsche Arbeiterjugend" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="SDAJ" Register-Vokabular="Sozialistische Deutsche Arbeiterjugend" />
+      <Dq_154 Benennung="Kindernothilfe e.V." Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Kindernothilfe e.V." />
       <Dq_155 Benennung="Antifa-Jugendfront" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="AJF" Register-Vokabular="Antifa-Jugendfront " />
+      <Dq_156 Benennung="Deutsches Kinderhilfswerk e.V. (DKHW)" Bemerkungen="" erstellt_am="05.06.2024     " geaendert_am="" Verweisformen="AJF" Register-Vokabular="Antifa-Jugendfront "></Dq_156>
       <Dq_180 Benennung="Deutsche Jugend-Gemeinschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DJG" Register-Vokabular="Deutsche Jugend-Gemeinschaft" />
       <Dq_224 Benennung="Förderverein für Internationale Jugendbegegnung in Dachau" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Förderverein für Internationale Jugendbegegnung in Dachau" />
       <Dq_228 Benennung="Unabhängiger Schüler-Bund" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="USB" Register-Vokabular="Unabhängiger Schüler-Bund" />
       <Dq_230 Benennung="Heimatvertriebene Nationale Jugend" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Heimatvertriebene Nationale Jugend" />
       <Dq_231 Benennung="Deutsche Jugend des Ostens; hier auch:  Deutsche Jugend in Europa, Sudetendeutsche Jugend" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DJO" Register-Vokabular="Deutsche Jugend des Ostens|Deutsche Jugend in Europa|Sudetendeutsche Jugend" />
       <Dq_232 Benennung="Bund Heimattreuer Jugend; hier auch:  Freibund" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="BHJ" Register-Vokabular="Bund Heimattreuer Jugend|Freibund" />
+      <Dq_233 Benennung="Junge Kameradschaft" Bemerkungen="" erstellt_am="05.06.2024   " geaendert_am="" Verweisformen="" Register-Vokabular="Junge Kameradschaft" />
       <Dq_234 Benennung="Bund Deutscher Jugend" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="BDJ" Register-Vokabular="Bund Deutscher Jugend " />
       <Dq_235 Benennung="Freundeskreis für Jugendarbeit im Arbeitskreis Volkstreuer Verbände" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="FKAVV" Register-Vokabular="Freundeskreis für Jugendarbeit im Arbeitskreis Volkstreuer Verbände" />
       <Dq_236 Benennung="Bund Vaterländischer Jugend" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="BVJ" Register-Vokabular="Bund Vaterländischer Jugend" />
@@ -6398,6 +6403,7 @@
       <Dq_302 Benennung="Ring Junger Bünde" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Ring Junger Bünde" />
       <Dq_307 Benennung="Bund Deutscher Jungenschaften" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Bund Deutscher Jungenschaften" />
       <Dq_311 Benennung="Bund Deutsch-Unitarischer Jugend" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="BDUJ" Register-Vokabular="Bund Deutsch-Unitarischer Jugend" />
+      <Dq_312 Benennung="Deutsche Jungenschaft" Bemerkungen="" erstellt_am="05.06.2024 " geaendert_am="" Verweisformen="" Register-Vokabular="Deutsche Jungenschaft" />
       <Dq_313 Benennung="Deutsche Freischar" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutsche Freischar" />
       <Dq_314 Benennung="Wandervogel, Deutscher Bund; hier auch: Jung-Wandervogel, Bund für Jugendwandern" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wandervogel, Deutscher Bund|Jung-Wandervogel, Bund für Jugendwandern" />
       <Dq_315 Benennung="Freideutscher Konvent ; hier auch: Freideutscher Kreis" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Freideutscher Konvent|Freideutscher Kreis" />
@@ -6419,16 +6425,16 @@
       <Dq_508 Benennung="Evangelische Studentengemeinde in Deutschland; hier auch: Evangelische Studentengemeinde in der Bundesrepublik und Berlin, West" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="ESG" Register-Vokabular="Evangelische Studentengemeinde in Deutschland |Evangelische Studentengemeinde in der Bundesrepublik Deutschland und Berlin, West " />
       <Dq_509 Benennung="Hochschulgemeinden, hier: Evangelische Hochschulgemeinde München, Katholische Hochschulgemeinde München, Katholische Hochschulgemeinde Würzburg" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="" />
       <Dq_510 Benennung="Komitee “Freiheit für Michael Latz“" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="" />
+      <Dq_511 Benennung="Ring Christlich-Demokratischer Studenten (RCDS)" Bemerkungen="" erstellt_am="05.06.2024  " geaendert_am="" Verweisformen="RCDS" Register-Vokabular="Ring Christlich-Demokratischer Studenten "></Dq_511>
       <Dq_512 Benennung="Ring freiheitlicher Studenten" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="RFS" Register-Vokabular="Ring freiheitlicher Studenten" />
       <Dq_513 Benennung="Verein Deutscher Studenten Berlin" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verein Deutscher Studenten Berlin" />
       <Dq_515 Benennung="Marxistischer Studentenbund Spartakus" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="MSB Spartakus" Register-Vokabular="Marxistischer Studentenbund Spartakus" />
       <Dq_516 Benennung="Münchner Studenten-Union" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Münchner Studenten-Union " />
       <Dq_517 Benennung="Deutsche Studenten-Union" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DSU" Register-Vokabular="Deutsche Studenten-Union" />
       <Dq_518 Benennung="Sozialliberaler Hochschulverband Bonn" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Sozialliberaler Hochschulverband Bonn" />
-      <Dq_520 Benennung="Komitee: Solidarität mit den politisch disziplinierten Studenten und Dozenten!" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Komitee: Solidarität mit den politisch disziplinierten Studenten und Dozenten!" />
+      <Dq_519 Benennung="Kommunistischer Studentenverband (hier auch: Komitee „Solidarität mit den politisch disziplinierten Studenten und Dozenten&quot;)" Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Kommunistischer Studentenverband|Komitee „Solidarität mit den politisch disziplinierten Studenten und Dozenten&quot;" />
       <Dq_521 Benennung="Aktivitas" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Aktivitas" />
-      <Dq_530 Benennung="Liberaler Studentenbund Deutschlands" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="LSD" Register-Vokabular="Liberaler Studentenbund Deutschlands" />
-      <Dq_531 Benennung="Liberaler Hochschulverband" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="LHV" Register-Vokabular="Liberaler Hochschulverband " />
+      <Dq_531 Benennung="Liberaler Studentenverband Deutschlands (LSD) 1950-1969, ab 1972: Liberaler Hochschulverband (LHV)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="LHV|LSD" Register-Vokabular="Liberaler Hochschulverband|Liberaler Studentenverband Deutschlands " />
       <Dq_621 Benennung="Studentenbund Ostpreußen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="BOSt" Register-Vokabular="Studentenbund Ostpreußen" />
       <Dq_650 Benennung="Cartellverband der Katholischen Deutschen Studentenverbindungen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="CV" Register-Vokabular="Cartellverband der Katholischen Deutschen Studentenverbindungen" />
       <Dq_701 Benennung="Deutsche Burschenschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DB" Register-Vokabular="Deutsche Burschenschaft" />
@@ -6445,6 +6451,8 @@
       <Dq_809 Benennung="Deutscher Akademikerinnenbund" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DAB" Register-Vokabular="Deutscher Akademikerinnenbund" />
       <Dq_810 Benennung="Deutscher Juristinnenbund" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutscher Juristinnenbund" />
       <Dq_811 Benennung="Aktionsrat zur Befreiung der Frauen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Aktionsrat zur Befreiung der Frauen" />
+      <Dq_812 Benennung="Aktion für das Leben e.V. (München) " Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Aktion für das Leben e.V. " />
+      <Dq_813 Benennung="Donna Mobile (München) " Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Aktion für das Leben e.V. " />
       <Dq_814 Benennung="Berliner FrauenfrAktion" Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="" Register-Vokabular="Berliner Frauenfraktion" />
       <Dq_815 Benennung="Frauenforschungs-, -bildungs- und -informationszentrum (FFBIZ) e.V." Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="FFBIZ" Register-Vokabular="Frauenforschungs-, -bildungs- und -informationszentrum" />
       <Dq_816 Benennung="Berufsverband für Heilpraktikerinnen, Lachesis e.V." Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="" Register-Vokabular="Berufsverband für Heilpraktikerinnen, Lachesis " />
@@ -6462,6 +6470,8 @@
       <Dq_828 Benennung="Terre des Femmes, Menschenrechte für die Frau" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="TDF" Register-Vokabular="Terre des Femmes, Menschenrechte für die Frau" />
       <Dq_829 Benennung="Weltorganisation der Mütter aller Nationen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="WOMAN" Register-Vokabular="World Organisation of Mothers of all Nations " />
       <Dq_830 Benennung="Ausländische Frauenorganisationen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="" />
+      <Dq_832 Benennung="Frauentreffpunkt Neuperlach (München) " Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Frauentreffpunkt Neuperlach " />
+      <Dq_833 Benennung="Überparteiliche Fraueninitiative Berlin – Stadt der Frauen e.V. (ÜPFI) " Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="ÜPFI" Register-Vokabular="Überparteiliche Fraueninitiative Berlin Stadt der Frauen" />
       <Dq_834 Benennung="Frauensolidarität" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Frauensolidarität, Entwicklungspolitische Initiativen für Frauen in der Dritten Welt " Register-Vokabular="Frauensolidarität" />
       <Dq_835 Benennung="Stiftung Archiv der Deutschen Frauenbewegung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Stiftung Archiv der Deutschen Frauenbewegung" />
       <Dq_836 Benennung="Bund Demokratischer Frauen Österreichs" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Bund Demokratischer Frauen Österreichs " />
@@ -6498,6 +6508,7 @@
       <Dq_868 Benennung="Demokratische Fraueninitiative München" Bemerkungen="" erstellt_am="" geaendert_am="13.02.2014" Verweisformen="DFI" Register-Vokabular="Demokratische Fraueninitiative München" />
       <Dq_869 Benennung="Frauen für den Frieden München" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Frauen für den Frieden München" />
       <Dq_870 Benennung="Verein für Fraueninteressen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verein für Fraueninteressen" />
+      <Dq_871 Benennung="Verein sozialwissenschaftliche Forschung und Praxis für Frauen e.V." Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Verein sozialwissenschaftliche Forschung und Praxis für Frauen " />
       <Dq_872 Benennung="Verein zur Förderung von Mädchen und Frauenprojekten Berlin" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verein zur Förderung von Mädchen und Frauenprojekten Berlin" />
       <Dq_873 Benennung="Frauenstudien München e.V." Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="" Register-Vokabular="Frauenstudien München e.V." />
       <Dq_874 Benennung="Frauengruppe im Revolutionären Kampf" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Frauengruppe im Revolutionären Kampf" />
@@ -6510,14 +6521,21 @@
       <Dq_881 Benennung="Frauenakademie München" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="FAM" Register-Vokabular="Frauenakademie München" />
       <Dq_882 Benennung="Frauenhilfe München" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Frauenhilfe München" />
       <Dq_883 Benennung="Lesbisches Aktionszentrum Berlin, West; hier auch: Lesbenpressenkollektiv des LAZ" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="LAZ" Register-Vokabular="Lesbisches Aktionszentrum Berlin, West " />
+      <Dq_884 Benennung="Frauengruppe auf den Häfen Bremens" Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Frauengruppe auf den Häfen Bremens" />
       <Dq_886 Benennung="Frauenforum Bonn" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="" />
       <Dq_887 Benennung="Deutsche Hausfrauengewerkschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="DHG" Register-Vokabular="Deutsche Hausfrauengewerkschaft" />
       <Dq_888 Benennung="Verein zur Förderung der Frauenakademie München" Bemerkungen="" erstellt_am="21.04.2015" geaendert_am="" Verweisformen="" Register-Vokabular="Verein zur Förderung der Frauenakademie München " />
       <Dq_889 Benennung="Deutsche Gesellschaft für Soziologie; hier auch: Sektion Frauenforschung in den Sozialwissenschaften" Bemerkungen="" erstellt_am="21.04.2015" geaendert_am="" Verweisformen="" Register-Vokabular="Deutsche Gesellschaft für Soziologie|Sektion Frauenforschung in den Sozialwissenschaften" />
       <Dq_890 Benennung="FrauenWohnen eG" Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="" Register-Vokabular="FrauenWohnen" />
       <Dq_891 Benennung="Feministisches Archiv e.V." Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="" Register-Vokabular="Feministisches Archiv" />
+      <Dq_892 Benennung="Frauennetzwerk für Frieden e.V." Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Frauennetzwerk für Frieden " />
+      <Dq_893 Benennung="Ost-West-Europäisches FrauenNetzwerk e.V. " Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Frauennetzwerk für Frieden " />
+      <Dq_894 Benennung="Internationales Frauenzentrum Heidelberg" Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Internationales Frauenzentrum Heidelberg" />
+      <Dq_895 Benennung="Fachstelle für Frauenarbeit der Evangelisch-Lutherischen Kirche in Bayern (hier auch: FrauenWerk Stein e.V. (bis 2002: Bayerischer Mütterdienst); Fachbereich Gemeindebezogene Frauenarbeit und Ökumene; Frauengleichstellungsstelle der Evangelisch-Lutherischen Kirche in Bayern; Arbeitsbereich Frauen in der Kirche/Frauenreferat der Evangelisch-Lutherischen Kirche in Bayern " Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Fachstelle für Frauenarbeit der Evangelisch-Lutherischen Kirche in Bayern|FrauenWerk Stein|Bayerischer Mütterdienst|Fachbereich Gemeindebezogene Frauenarbeit und Ökumene| Frauengleichstellungsstelle der Evangelisch-Lutherischen Kirche in Bayern; Arbeitsbereich Frauen in der Kirche/Frauenreferat der Evangelisch-Lutherischen Kirche in Bayern " />
       <Dq_896 Benennung="FrauenGesundheitsZentrum, München" Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="" Register-Vokabular="FrauenGesundheitsZentrum, München" />
+      <Dq_897 Benennung="Frauengeschichtswerkstatt Memmingen" Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Frauengeschichtswerkstatt Memmingen" />
       <Dq_898 Benennung="Frauen in Naturwissenschaft und Technik e.V." Bemerkungen="" erstellt_am="15.03.2022" geaendert_am="" Verweisformen="" Register-Vokabular="Frauen in Naturwissenschaft und Technik e.V." />
+      <Dq_899 Benennung="Landesfrauenrat Schleswig-Holstein" Bemerkungen="" erstellt_am="05.06.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Landesfrauenrat Schleswig-Holstein" />
     </Dq_800-899>
   </Dq_001-899>
   <ZGa_001-099 Benennung="Zeitgeschichtliche Sammlung des Archivs: Deutsches Reich - Oberste Reichsbehörden 1871 - 1945" Bemerkungen="" erstellt_am="08.03.2018" geaendert_am="" Verweisformen="" Register-Vokabular="">
