@@ -294,7 +294,7 @@
       <b_232.3 Benennung="Genealogie; Namenkunde"/>
       <b_232.4 Benennung="Historische Geographie"/>
       <b_232.5 Benennung="Philatelie"/>
-      <b_240 Benennung="Geschichte der (bundes-)deutschen Geschichtswissenschaft und der Geschichtsschreibung"/>
+      <b_240 Benennung="Geschichte der (bundes-)deutschen Geschichtswissenschaft und Geschichtsschreibung"/>
       <b_240.1 Benennung="Historismus"/>
       <b_240.2 Benennung="Historikerstreit 1986-1989"/>
       <b_242 Benennung="Geschichte der Geschichtswissenschaft in der DDR (Theorie, Methoden, Geschichte, Geschichtsbewusstsein)"/>
@@ -2194,7 +2194,7 @@
       <m_173 Benennung="Rettungswesen, Notfallmedizin"/>
       <m_174 Benennung="Menschen mit Behinderung, Inklusion"/>
       <m_174.1 Benennung="Menschen mit geistiger Behinderung"/>
-      <m_175 Benennung="Sozialhygiene"/>
+      <m_175 Benennung="Sozialhygiene, Biopolitik"/>
       <m_176 Benennung="Alkohol, Drogen, Tabak; Doping"/>
       <m_177 Benennung="Krankheiten, Epidemien, Pandemien"/>
       <m_177.1 Benennung="Psychische Probleme und Erkrankungen"/>
@@ -2389,7 +2389,7 @@
       <n_20.5 Benennung="B'nai B'rith (Unabhängiger Orden B'nai B'rith (UOBB), USA 1843- , Europa 1882-)"/>
       <n_20.6 Benennung="Reichsvertretung der Deutschen Juden 1933-1935, Reichsvertretung der Juden in Deutschland 1935-1939, Reichsvereinigung der Juden in Deutschland 1939-1943"/>
       <n_20.6.1 Benennung="Mittelstelle für Jüdische Erwachsenenbildung 1934-1939(?)"/>
-      <n_20.7 Benennung="Hilfsverein der Deutschen Juden 1901-1935 (1935-1939: Hilfsverein derJuden in Deutschland)"/>
+      <n_20.7 Benennung="Hilfsverein der Deutschen Juden 1901-1935 (1935-1939: Hilfsverein der Juden in Deutschland)"/>
       <n_20.8 Benennung="Paulus-Bund (07.1933-12.1934: Reichsverband Christlich-Deutscher Staatsbürger Nichtarischer oder Nicht Rein Arischer Abstammung e.V.; 12.1934-09.1936: Reichsverband der Nichtarischen Christen e.V.; 09.1936-07.1937: Paulus-Bund, Vereinigung Nichtarischer Christen e.V.; 07.1937-08.1939: Vereinigung 1937 Vorläufiger Reichsbürger Nicht Volldeutschblütiger Abstammung e.V.)"/>
       <n_20.9 Benennung="Jüdische Kulturbünde (1933-1938: Kulturbund Deutscher Juden, seit 1935: Jüdischer Kulturbund Berlin; 1935-1938: Reichsverband der Jüdischen Kulturbünde in Deutschland; 1939-1941: Jüdischer Kulturbund in Deutschland e.V.)"/>
       <n_20.10 Benennung="Jüdischer Frauenbund in Deutschland 1904-1938, 1953-"/>
@@ -3075,7 +3075,7 @@
       <q_113 Benennung="Reichsgruppe Handel, Reichsgruppe Handwerk, Wirtschaftsgruppe Einzelhandel"/>
       <q_114 Benennung="Zentralstelle für Außenhandel, Reichsstelle für den Außenhandel"/>
       <q_125 Benennung="Deutscher Industrie- und Handelskammertag (DIHK) 2001- (Allgemeiner Deutscher Handelstag bzw. Deutscher Handelstag (DHT) 1861-1918; Deutscher Industrie- und Handelstag (DIHT) 1918-1935 und 1949-2001; 1935-1945: Arbeitsgemeinschaft der Industrie- und Handelskammern in der Reichswirtschaftskammer)"/>
-      <q_125.1 Benennung="Industrie- und Handelskammern (IHK)"/>
+      <q_125.1 Benennung="Industrie- und Handelskammern (IHK) (1942-1945: Gauwirtschaftskammern) "/>
       <q_127 Benennung="Handwerkskammern"/>
       <q_127.1 Benennung="Handwerksorganisationen allgemein"/>
       <q_128 Benennung="Nationalsozialistische Handwerks-, Handels- und Gewerbeorganisation (NS-Hago)"/>
@@ -3471,6 +3471,7 @@
     <r_50-99 Benennung="Weitere Sachbegriffe">
       <r_55 Benennung="Sozialgeschichte"/>
       <r_58 Benennung="Gesellschaftsordnung, Sozialordnung, Gesellschaftssystem, Soziales System"/>
+      <r_58.1 Benennung="Gesellschaftliche Vielfalt, Diversität"/>
       <r_59 Benennung="Gesellschaftsstruktur, Sozialstruktur"/>
       <r_59.1 Benennung="Adel (hier auch: Deutsche Adelsgenossenschaft (DAG) 1874-1944)"/>
       <r_59.2 Benennung="Bürgertum, bürgerliche Gesellschaft"/>
@@ -4380,6 +4381,7 @@
       <v_75.1 Benennung="Anthropologie"/>
       <v_75.2 Benennung="Ethnologie (Völkerkunde) (hier auch: Völkerschauen)"/>
       <v_75.3 Benennung="Sozialpsychologie (hier auch: Feindbilder, Vorurteile; Verschwörungstheorien)"/>
+      <v_75.4 Benennung="Diversitätsforschung, Diversity Studies"/>
       <v_77 Benennung="Geographie, Länderkunde"/>
       <v_77.1 Benennung="Politische Geographie"/>
       <v_78 Benennung="Musik"/>
@@ -4522,7 +4524,7 @@
       <w_64.3 Benennung="Gesamtschulen"/>
       <w_64.4 Benennung="Sonderschulen (Hilfsschulen); Behindertenpädagogik"/>
       <w_64.5 Benennung="Privatschulen, Freie Schulen"/>
-      <w_64.5.1 Benennung="Waldorf-Schulen; Rudolf-Steiner-Pädagogik"/>
+      <w_64.5.1 Benennung="Reformschulen, Reformpädagogik (z.B. Waldorf-Schulen; Rudolf-Steiner-Pädagogik, Montessori-Pädagogik)"/>
       <w_64.5.2 Benennung="Landerziehungsheime"/>
       <w_64.5.3 Benennung="Privatschulen im Exil"/>
       <w_66 Benennung="Deutsche Schulen im Ausland"/>
@@ -6355,6 +6357,8 @@
       <Dq_013 Benennung="Landesjugendring Bielefeld"/>
       <Dq_014 Benennung="Deutsches Nationalkomitee für Internationale Jugendarbeit"/>
       <Dq_015 Benennung="Stiftung Deutsche Jugendmarke"/>
+      <Dq_016 Benennung="Initiative der Jugend"/>
+      <Dq_016 Benennung="Arbeitsgemeinschaft für Kinder- und Jugendhilfe (AGJ)"/>
       <Dq_019 Benennung="Deutsche Liga für das Kind in Familie und Gesellschaft"/>
       <Dq_020 Benennung="Ring Politischer Jugend"/>
       <Dq_022 Benennung="Deutsches Jugendherbergswerk"/>
@@ -6369,13 +6373,16 @@
       <Dq_151 Benennung="Terre des Hommes"/>
       <Dq_152 Benennung="Sozialistische Jugend Deutschlands - Die Falken"/>
       <Dq_153 Benennung="Sozialistische Deutsche Arbeiterjugend"/>
+      <Dq_154 Benennung="Kindernothilfe e.V."/>
       <Dq_155 Benennung="Antifa-Jugendfront"/>
+      <Dq_156 Benennung="Deutsches Kinderhilfswerk e.V. (DKHW)"/>
       <Dq_180 Benennung="Deutsche Jugend-Gemeinschaft"/>
       <Dq_224 Benennung="Förderverein für Internationale Jugendbegegnung in Dachau"/>
       <Dq_228 Benennung="Unabhängiger Schüler-Bund"/>
       <Dq_230 Benennung="Heimatvertriebene Nationale Jugend"/>
       <Dq_231 Benennung="Deutsche Jugend des Ostens; hier auch:  Deutsche Jugend in Europa, Sudetendeutsche Jugend"/>
       <Dq_232 Benennung="Bund Heimattreuer Jugend; hier auch:  Freibund"/>
+      <Dq_233 Benennung="Junge Kameradschaft"/>
       <Dq_234 Benennung="Bund Deutscher Jugend"/>
       <Dq_235 Benennung="Freundeskreis für Jugendarbeit im Arbeitskreis Volkstreuer Verbände"/>
       <Dq_236 Benennung="Bund Vaterländischer Jugend"/>
@@ -6395,6 +6402,7 @@
       <Dq_302 Benennung="Ring Junger Bünde"/>
       <Dq_307 Benennung="Bund Deutscher Jungenschaften"/>
       <Dq_311 Benennung="Bund Deutsch-Unitarischer Jugend"/>
+      <Dq_312 Benennung="Deutsche Jungenschaft"/>
       <Dq_313 Benennung="Deutsche Freischar"/>
       <Dq_314 Benennung="Wandervogel, Deutscher Bund; hier auch: Jung-Wandervogel, Bund für Jugendwandern"/>
       <Dq_315 Benennung="Freideutscher Konvent ; hier auch: Freideutscher Kreis"/>
@@ -6416,16 +6424,16 @@
       <Dq_508 Benennung="Evangelische Studentengemeinde in Deutschland; hier auch: Evangelische Studentengemeinde in der Bundesrepublik und Berlin, West"/>
       <Dq_509 Benennung="Hochschulgemeinden, hier: Evangelische Hochschulgemeinde München, Katholische Hochschulgemeinde München, Katholische Hochschulgemeinde Würzburg"/>
       <Dq_510 Benennung="Komitee “Freiheit für Michael Latz“"/>
+      <Dq_511 Benennung="Ring Christlich-Demokratischer Studenten (RCDS)"/>
       <Dq_512 Benennung="Ring freiheitlicher Studenten"/>
       <Dq_513 Benennung="Verein Deutscher Studenten Berlin"/>
       <Dq_515 Benennung="Marxistischer Studentenbund Spartakus"/>
       <Dq_516 Benennung="Münchner Studenten-Union"/>
       <Dq_517 Benennung="Deutsche Studenten-Union"/>
       <Dq_518 Benennung="Sozialliberaler Hochschulverband Bonn"/>
-      <Dq_520 Benennung="Komitee: Solidarität mit den politisch disziplinierten Studenten und Dozenten!"/>
+      <Dq_519 Benennung="Kommunistischer Studentenverband (hier auch: Komitee „Solidarität mit den politisch disziplinierten Studenten und Dozenten&quot;)"/>
       <Dq_521 Benennung="Aktivitas"/>
-      <Dq_530 Benennung="Liberaler Studentenbund Deutschlands"/>
-      <Dq_531 Benennung="Liberaler Hochschulverband"/>
+      <Dq_531 Benennung="Liberaler Studentenverband Deutschlands (LSD) 1950-1969, ab 1972: Liberaler Hochschulverband (LHV)"/>
       <Dq_621 Benennung="Studentenbund Ostpreußen"/>
       <Dq_650 Benennung="Cartellverband der Katholischen Deutschen Studentenverbindungen"/>
       <Dq_701 Benennung="Deutsche Burschenschaft"/>
@@ -6442,6 +6450,8 @@
       <Dq_809 Benennung="Deutscher Akademikerinnenbund"/>
       <Dq_810 Benennung="Deutscher Juristinnenbund"/>
       <Dq_811 Benennung="Aktionsrat zur Befreiung der Frauen"/>
+      <Dq_812 Benennung="Aktion für das Leben e.V. (München) "/>
+      <Dq_813 Benennung="Donna Mobile (München) "/>
       <Dq_814 Benennung="Berliner FrauenfrAktion"/>
       <Dq_815 Benennung="Frauenforschungs-, -bildungs- und -informationszentrum (FFBIZ) e.V."/>
       <Dq_816 Benennung="Berufsverband für Heilpraktikerinnen, Lachesis e.V."/>
@@ -6459,6 +6469,8 @@
       <Dq_828 Benennung="Terre des Femmes, Menschenrechte für die Frau"/>
       <Dq_829 Benennung="Weltorganisation der Mütter aller Nationen"/>
       <Dq_830 Benennung="Ausländische Frauenorganisationen"/>
+      <Dq_832 Benennung="Frauentreffpunkt Neuperlach (München) "/>
+      <Dq_833 Benennung="Überparteiliche Fraueninitiative Berlin – Stadt der Frauen e.V. (ÜPFI) "/>
       <Dq_834 Benennung="Frauensolidarität"/>
       <Dq_835 Benennung="Stiftung Archiv der Deutschen Frauenbewegung"/>
       <Dq_836 Benennung="Bund Demokratischer Frauen Österreichs"/>
@@ -6495,6 +6507,7 @@
       <Dq_868 Benennung="Demokratische Fraueninitiative München"/>
       <Dq_869 Benennung="Frauen für den Frieden München"/>
       <Dq_870 Benennung="Verein für Fraueninteressen"/>
+      <Dq_871 Benennung="Verein sozialwissenschaftliche Forschung und Praxis für Frauen e.V."/>
       <Dq_872 Benennung="Verein zur Förderung von Mädchen und Frauenprojekten Berlin"/>
       <Dq_873 Benennung="Frauenstudien München e.V."/>
       <Dq_874 Benennung="Frauengruppe im Revolutionären Kampf"/>
@@ -6507,14 +6520,21 @@
       <Dq_881 Benennung="Frauenakademie München"/>
       <Dq_882 Benennung="Frauenhilfe München"/>
       <Dq_883 Benennung="Lesbisches Aktionszentrum Berlin, West; hier auch: Lesbenpressenkollektiv des LAZ"/>
+      <Dq_884 Benennung="Frauengruppe auf den Häfen Bremens"/>
       <Dq_886 Benennung="Frauenforum Bonn"/>
       <Dq_887 Benennung="Deutsche Hausfrauengewerkschaft"/>
       <Dq_888 Benennung="Verein zur Förderung der Frauenakademie München"/>
       <Dq_889 Benennung="Deutsche Gesellschaft für Soziologie; hier auch: Sektion Frauenforschung in den Sozialwissenschaften"/>
       <Dq_890 Benennung="FrauenWohnen eG"/>
       <Dq_891 Benennung="Feministisches Archiv e.V."/>
+      <Dq_892 Benennung="Frauennetzwerk für Frieden e.V."/>
+      <Dq_893 Benennung="Ost-West-Europäisches FrauenNetzwerk e.V. "/>
+      <Dq_894 Benennung="Internationales Frauenzentrum Heidelberg"/>
+      <Dq_895 Benennung="Fachstelle für Frauenarbeit der Evangelisch-Lutherischen Kirche in Bayern (hier auch: FrauenWerk Stein e.V. (bis 2002: Bayerischer Mütterdienst); Fachbereich Gemeindebezogene Frauenarbeit und Ökumene; Frauengleichstellungsstelle der Evangelisch-Lutherischen Kirche in Bayern; Arbeitsbereich Frauen in der Kirche/Frauenreferat der Evangelisch-Lutherischen Kirche in Bayern "/>
       <Dq_896 Benennung="FrauenGesundheitsZentrum, München"/>
+      <Dq_897 Benennung="Frauengeschichtswerkstatt Memmingen"/>
       <Dq_898 Benennung="Frauen in Naturwissenschaft und Technik e.V."/>
+      <Dq_899 Benennung="Landesfrauenrat Schleswig-Holstein"/>
     </Dq_800-899>
   </Dq_001-899>
   <ZGa_001-099 Benennung="Zeitgeschichtliche Sammlung des Archivs: Deutsches Reich - Oberste Reichsbehörden 1871 - 1945">
