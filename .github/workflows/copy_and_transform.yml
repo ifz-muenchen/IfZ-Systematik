@@ -1,4 +1,4 @@
-name: Transform source.xml to opac.xml
+name: Copy XML to dist and transform source.xml to opac.xml
 
 on:
   push:
@@ -13,13 +13,26 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4  
+
+    - name: Update folder
+      run: git pull
 
     - name: Install dependencies
       run: sudo apt-get update && sudo apt-get install -y xsltproc
 
-    - name: Update folder
-      run: git pull
+    - name: Copy and Move/Rename File
+      run: |
+        cd source
+        latest_file=$(ls -t | head -n1)
+        cp $latest_file ../dist/sys.xml
+        cd ..
+      shell: bash
+
+    - name: Add XSL Declaration
+      run: |
+        sed -i '2i\<?xml-stylesheet type="text/xsl" href="sys.xsl"?>' dist/sys.xml
+      shell: bash
 
     - name: Apply XSLT transformation
       run: xsltproc --output dist/opac.xml source/transformForOpac.xsl source/ifz-systematik.xml 
