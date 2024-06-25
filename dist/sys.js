@@ -339,7 +339,13 @@ function search(searchString, hideFromHistory) {
       spanBemerkung.classList.add('text-xs', 'font-semibold');
 
       /** Create innerHtml for bennung and notation link */
-      th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+      if (currentNotation.includes('-') && currentNotation.includes('9') ) {
+        th.innerHTML = `<a href='#${currentNotation}' class='underline'>${currentNotation}</a>`;
+      } if (currentNotation.includes('-')) {
+        th.innerHTML = `<span id='clickToSearchInSearchResults' class='underline cursor-pointer'>${currentNotation}</span>`;
+      } else {
+        th.innerHTML = `<a target='_blank' href='https://opac.ifz-muenchen.de/cgi-bin/search?ifzsys=${currentNotation}' class='underline'>${currentNotation}</a>`;
+      }
       tdBenennung.innerHTML = `<span class='font-semibold'>${resultNode.getAttribute('Benennung')}</span>`;
       spanBemerkung.innerHTML = resultNode.getAttribute('Bemerkungen');
 
@@ -399,7 +405,7 @@ function search(searchString, hideFromHistory) {
       if (event.ctrlKey) {
         window.open(document.URL.replace(/#.*$/, `#searchResults&${element.textContent}`), '_blank');
       } else {
-        search(element.textContent)
+        search(element.textContent);
       }
     });
   });
