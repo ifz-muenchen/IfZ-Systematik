@@ -16,13 +16,13 @@
       <a_4.2 Benennung="Atlanten" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Atlas" />
       <a_5 Benennung="(Sprach-)Wörterbücher (allgemein und einzelne Sprachen)" Bemerkungen="Einzelne Sprachen auch Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="Lexikon" Register-Vokabular="Sprache|Wörterbuch" />
       <a_6 Benennung="Biographische Nachschlagewerke, Sammelbiographien (allgemein und international)" Bemerkungen="Einzelne Staaten nur Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Historische Persönlichkeit|Biographie" />
-      <a_6.1 Benennung="Deutschland (allgemein und bis 1918)" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte|Geschichte 1871-1918|Biographie" />
-      <a_6.1.1 Benennung="Weimarer Republik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte 1918-1933|Weimarer Republik|Biographie" />
-      <a_6.1.2 Benennung="NS-Bewegung und NS-Diktatur" Bemerkungen="vgl. e 78.1.1, h 81, h 181, k 81, k 181" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="NSDAP|Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte 1933-1945|Drittes Reich|Nationalsozialistische Deutsche Arbeiterpartei|Biographie" />
-      <a_6.1.3 Benennung="Deutschland unter alliierter Besatzung 1945-1949" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte 1945-1949|Biographie" />
-      <a_6.1.4 Benennung="Deutschland (BRD) 1949-1990" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland (Bundesrepublik)|Historische Persönlichkeit|Biographie" />
-      <a_6.1.5 Benennung="Deutschland (DDR) 1949-1990" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland (DDR)|Historische Persönlichkeit|Biographie" />
-      <a_6.1.6 Benennung="Deutschland 1990-" Bemerkungen="" erstellt_am="27.11.2018" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="" />
+      <a_6.1 Benennung="Biographische Nachschlagewerke, Sammelbiographien Deutschland (allgemein und bis 1918)" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte|Geschichte 1871-1918|Biographie" />
+      <a_6.1.1 Benennung="Biographische Nachschlagewerke, Sammelbiographien Deutschland / Weimarer Republik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte 1918-1933|Weimarer Republik|Biographie" />
+      <a_6.1.2 Benennung="Biographische Nachschlagewerke, Sammelbiographien Deutschland / NS-Bewegung und NS-Diktatur" Bemerkungen="vgl. e 78.1.1, h 81, h 181, k 81, k 181" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="NSDAP|Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte 1933-1945|Drittes Reich|Nationalsozialistische Deutsche Arbeiterpartei|Biographie" />
+      <a_6.1.3 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Deutschland unter alliierter Besatzung 1945-1949" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland|Historische Persönlichkeit|Geschichte 1945-1949|Biographie" />
+      <a_6.1.4 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Deutschland (BRD) 1949-1990" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland (Bundesrepublik)|Historische Persönlichkeit|Biographie" />
+      <a_6.1.5 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Deutschland (DDR) 1949-1990" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Deutschland (DDR)|Historische Persönlichkeit|Biographie" />
+      <a_6.1.6 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Deutschland 1990-" Bemerkungen="" erstellt_am="27.11.2018" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="" />
       <a_6.3 Benennung="Einzelne Sachgebiete" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Historische Persönlichkeit|Biographie" />
       <a_6.3.1 Benennung="Wirtschaft" Bemerkungen="" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Wirtschaft|Biographie" />
       <a_6.3.2 Benennung="Kultur" Bemerkungen="vgl. l 67" erstellt_am="10.07.1991" geaendert_am="" Verweisformen="Biografie" Register-Vokabular="Kultur|Biographie" />
@@ -696,7 +696,7 @@
     </c_301-310>
     <c_340-399 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <c_340 Benennung="Gesellschaftsprobleme allgemein" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Gesellschaft" />
-      <c_340.1 Benennung="... in der westlichen Welt" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Westliche Welt|Industriestaaten|Gesellschaft" />
+      <c_340.1 Benennung="Gesellschaftsprobleme in der westlichen Welt" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Westliche Welt|Industriestaaten|Gesellschaft" />
       <c_340.2 Benennung="... in der kommunistischen Welt" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Sozialistische Staaten|Gesellschaft" />
       <c_364 Benennung="Wissenschaftstheorie der Soziologie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Soziologie|Forschungsmethode|Forschung / Geschichte" />
       <c_364.1 Benennung="Geschichte der Soziologie (einzelne Theoretiker, allgemeine Darstellungen)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Soziologie|Forschungsmethode|Forschung / Geschichte" />
@@ -945,8 +945,8 @@
       <e_132 Benennung="Waffen-SS (allgemein)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS" />
       <e_133 Benennung="Einzelne Einheiten der Waffen-SS" Bemerkungen="vgl. u 19-23; Freiwilligen-Legionen s. u 24" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|Einheit (Militär)" />
       <e_133.1 Benennung="SS-Armeen (6. u. 11. SS-Panzerarmee)" Bemerkungen="einzelne Einheiten auch Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|SS-Armee" />
-      <e_133.2 Benennung="Korps" Bemerkungen="einzelne Einheiten auch Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|Korps" />
-      <e_133.3 Benennung="Divisionen" Bemerkungen="einzelne Einheiten auch Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|Division" />
+      <e_133.2 Benennung="SS-Korps" Bemerkungen="einzelne Einheiten auch Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|Korps" />
+      <e_133.3 Benennung="SS-Divisionen" Bemerkungen="einzelne Einheiten auch Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|Division" />
       <e_133.4 Benennung="Brigaden" Bemerkungen="einzelne Einheiten auch Schlagwort-Suche; Brigade Kaminski s. u 24.1.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|Brigade" />
       <e_133.4.1 Benennung="SS-Sturmbrigade Dirlewanger" Bemerkungen="auch Schlagwort-Suche" erstellt_am="09.02.1993" geaendert_am="" Verweisformen="" Register-Vokabular="SS-Sturmbrigade Dirlewanger" />
       <e_133.5 Benennung="Regimenter, Bataillone usw." Bemerkungen="einzelne Einheiten auch Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waffen-SS|Bataillon|Regiment" />
@@ -3645,7 +3645,7 @@
       <s_64 Benennung="Militärwissenschaft" Bemerkungen="Theorie des Krieges s. c 83.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärwissenschaft" />
       <s_64.1 Benennung="Militärgeographie" Bemerkungen="vgl. v 77" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärgeographie" />
       <s_64.2 Benennung="Militärpsychologie, Militärpsychiatrie (hier auch: Kriegsneurosen)" Bemerkungen="vgl. v 73.5, v 73.5.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärpsychologie|Militärpsychiatrie|Kriegsneuros" />
-      <s_65 Benennung="Wehrverfassung, Wehrstruktur," Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wehrstruktur|Wehrverfassung" />
+      <s_65 Benennung="Wehrverfassung, Wehrstruktur" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wehrstruktur|Wehrverfassung" />
       <s_65.1 Benennung="Berufsheer" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Berufsarmee" />
       <s_65.2 Benennung="Miliz" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Miliz" />
       <s_65.3 Benennung="Wehrpflicht" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wehrpflicht" />
