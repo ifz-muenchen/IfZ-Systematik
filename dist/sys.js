@@ -318,6 +318,8 @@ function search(searchString, hideFromHistory) {
     document.querySelector(`#searchResults${searchType}`).classList.remove('hidden');
     document.querySelector('#searchResultsNothing').classList.add('hidden');
     document.querySelector(`#ergebnisHeadline`).textContent = searchString;
+
+    console.log(searchString);
     
     for (const resultNode of evaluateXPath(sysXMLDoc, searchPath)) {
       const currentNotation = resultNode.tagName.replace('_', ' ');
