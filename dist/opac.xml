@@ -2027,7 +2027,7 @@
       <l_90.3 Benennung="Auslandspropaganda in Deutschland"/>
       <l_91 Benennung="Plakate, Flugschriften"/>
       <l_92 Benennung="Rhetorik, Rede, rednerische Propaganda"/>
-      <l_93 Benennung="Gerüchte, Dementis, Flüsterpropaganda, Hetze, (politische)Lüge, Fake News"/>
+      <l_93 Benennung="Gerüchte, Dementis, Flüsterpropaganda, Hetze, (politische)Lüge, Fake News, Desinformation "/>
     </l_50-99>
   </l_1-99>
   <l_101-199 Benennung="Medien und Propaganda in Deutschland 1933-1945">
@@ -2963,9 +2963,9 @@
       <q_63.1 Benennung="Liberale bzw. kapitalistische Wirtschaftstheorie"/>
       <q_63.2 Benennung="Sozialistische und marxistische Wirtschaftstheorie"/>
       <q_63.3 Benennung="Volkswirtschaftslehre, Nationalökonomie"/>
+      <q_63.3.1 Benennung="Bildungsökonomie"/>
       <q_63.4 Benennung="Betriebswirtschaftslehre"/>
       <q_63.5 Benennung="Wirtschaftsgeographie"/>
-      <q_63.3.1 Benennung="Bildungsökonomie"/>
       <q_64 Benennung="Wirtschaftsordnung, Wirtschaftsverfassung"/>
       <q_64.1 Benennung="Soziale Marktwirtschaft"/>
       <q_64.2 Benennung="Planwirtschaft"/>
@@ -5203,6 +5203,7 @@
       <x_521.78 Benennung="Alternative für Deutschland (AfD) 2013-"/>
       <x_521.78.10 Benennung="Parteiprogramm, Grundsatzprogramm (Programmdiskussion)"/>
       <x_521.79 Benennung="Die PARTEI 2004-"/>
+      <x_521.80 Benennung="Bündnis Sahra Wagenknecht (BSW) 2024-"/>
       <x_522 Benennung="Politische Gruppen (Westzonen und BRD)"/>
       <x_522.1 Benennung="Deutsche Union"/>
       <x_522.2 Benennung="Nauheimer Kreis"/>

@@ -2028,7 +2028,7 @@
       <l_90.3 Benennung="Auslandspropaganda in Deutschland" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Ausland |Propaganda|Deutschland" />
       <l_91 Benennung="Plakate, Flugschriften" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Plakat|Flugschrift" />
       <l_92 Benennung="Rhetorik, Rede, rednerische Propaganda" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Rhetorik|Propaganda|Rede" />
-      <l_93 Benennung="Gerüchte, Dementis, Flüsterpropaganda, Hetze, (politische)Lüge, Fake News" Bemerkungen="vgl. c 64.2.1, v 75.3" erstellt_am="" geaendert_am="22.06.2017 und 17.01.2024" Verweisformen="Dementi|Flüsterpropaganda|Hetze|Falschmeldung|Falschnachricht" Register-Vokabular="Gerücht|Verleumdung|Fake News|Lüge" />
+      <l_93 Benennung="Gerüchte, Dementis, Flüsterpropaganda, Hetze, (politische)Lüge, Fake News, Desinformation " Bemerkungen="vgl. c 64.2.1, v 75.3" erstellt_am="" geaendert_am="22.06.2017 und 17.01. und 03.07.2024" Verweisformen="Dementi|Flüsterpropaganda|Hetze|Falschmeldung|Falschnachricht" Register-Vokabular="Gerücht|Verleumdung|Fake News|Lüge|Desinformation " />
     </l_50-99>
   </l_1-99>
   <l_101-199 Benennung="Medien und Propaganda in Deutschland 1933-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Deutsches Reich" Register-Vokabular="">
@@ -2964,9 +2964,9 @@
       <q_63.1 Benennung="Liberale bzw. kapitalistische Wirtschaftstheorie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wirtschaftstheorie|Kapitalismus|Liberalismus" />
       <q_63.2 Benennung="Sozialistische und marxistische Wirtschaftstheorie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wirtschaftstheorie|Marxismus|Sozialismus" />
       <q_63.3 Benennung="Volkswirtschaftslehre, Nationalökonomie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Nationalökonomie" Register-Vokabular="Volkswirtschaftslehre" />
+      <q_63.3.1 Benennung="Bildungsökonomie" Bemerkungen="" erstellt_am="11.07.2013" geaendert_am="" Verweisformen="" Register-Vokabular="Bildungsökonomie" />
       <q_63.4 Benennung="Betriebswirtschaftslehre" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Betriebswirtschaftslehre" />
       <q_63.5 Benennung="Wirtschaftsgeographie" Bemerkungen="vgl. v 77" erstellt_am="" geaendert_am="" Verweisformen="Wirtschaftsgeografie" Register-Vokabular="Wirtschaftsgeographie" />
-      <q_63.3.1 Benennung="Bildungsökonomie" Bemerkungen="" erstellt_am="11.07.2013" geaendert_am="" Verweisformen="" Register-Vokabular="Bildungsökonomie" />
       <q_64 Benennung="Wirtschaftsordnung, Wirtschaftsverfassung" Bemerkungen="vgl. c 177.2.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wirtschaftsordnung|Wirtschaftsverfassung " />
       <q_64.1 Benennung="Soziale Marktwirtschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Soziale Marktwirtschaft" />
       <q_64.2 Benennung="Planwirtschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Planwirtschaft" />
@@ -5204,6 +5204,7 @@
       <x_521.78 Benennung="Alternative für Deutschland (AfD) 2013-" Bemerkungen="" erstellt_am="12.02.2014" geaendert_am="" Verweisformen="AfD" Register-Vokabular="Alternative für Deutschland" />
       <x_521.78.10 Benennung="Parteiprogramm, Grundsatzprogramm (Programmdiskussion)" Bemerkungen="" erstellt_am="29.01.2019" geaendert_am="" Verweisformen="" Register-Vokabular="Alternative für Deutschland|Parteiprogramm" />
       <x_521.79 Benennung="Die PARTEI 2004-" Bemerkungen="" erstellt_am="30.12.2021" geaendert_am="" Verweisformen="" Register-Vokabular="Die PARTEI" />
+      <x_521.80 Benennung="Bündnis Sahra Wagenknecht (BSW) 2024-" Bemerkungen="" erstellt_am="03.07.2024" geaendert_am="" Verweisformen="BSW" Register-Vokabular="Bündnis Sahra Wagenknecht " />
       <x_522 Benennung="Politische Gruppen (Westzonen und BRD)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politische Gruppe" />
       <x_522.1 Benennung="Deutsche Union" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutsche Union" />
       <x_522.2 Benennung="Nauheimer Kreis" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Nauheimer Kreis" />
