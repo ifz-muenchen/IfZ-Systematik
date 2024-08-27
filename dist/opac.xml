@@ -1944,9 +1944,9 @@
       <l_40.1 Benennung="Geschichte der Medien in Deutschland 1871-1918"/>
       <l_41 Benennung="Geschichte der Medien in Deutschland 1918-1933"/>
       <l_42 Benennung="Geschichte der Medien in Deutschland seit 1945"/>
-      <l_42.1 Benennung="BRD"/>
-      <l_42.2 Benennung="DDR"/>
-      <l_42.3 Benennung="Deutschland seit 1990"/>
+      <l_42.1 Benennung="Geschichte der Medien BRD"/>
+      <l_42.2 Benennung="Geschichte der Medien DDR"/>
+      <l_42.3 Benennung="Geschichte der Medien in Deutschland seit 1990"/>
     </l_39-49>
     <l_50-99 Benennung="Weitere Sachbegriffe">
       <l_50 Benennung="Publizistik, Zeitungswissenschaft, Medienwissenschaft, Kommunikationswissenschaft, Journalistik"/>
@@ -1957,7 +1957,7 @@
       <l_56 Benennung="Neue Medien"/>
       <l_56.1 Benennung="Medienkonvergenz"/>
       <l_57 Benennung="Internet (hier auch: Darknet)"/>
-      <l_57.1 Benennung="Web 2.0, Soziale Netzwerke"/>
+      <l_57.1 Benennung="Web 2.0, Soziale Netzwerke; Blogs/Weblogs"/>
       <l_57.2 Benennung="Internetkriminalität, Cybercrime"/>
       <l_58 Benennung="Cyberspace, Virtuelle Realität"/>
       <l_61 Benennung="Medienpolitik, Netzpolitik"/>
@@ -2242,9 +2242,9 @@
       <m_244 Benennung="Geschlechtergeschichte in Deutschland 1933-1945"/>
       <m_245 Benennung="Frauen im Krieg"/>
       <m_246 Benennung="Geschlechtergeschichte in Deutschland seit 1945"/>
-      <m_246.1 Benennung=" BRD 1949-1990"/>
-      <m_246.2 Benennung="DDR 1949-1990"/>
-      <m_246.3 Benennung="Deutschland seit 1990"/>
+      <m_246.1 Benennung="Geschlechtergeschichte BRD 1949-1990"/>
+      <m_246.2 Benennung="Geschlechtergeschichte DDR 1949-1990"/>
+      <m_246.3 Benennung="Geschlechtergeschichte in Deutschland seit 1990"/>
     </m_240-249>
     <m_250-299 Benennung="Weitere Sachbegriffe">
       <m_255 Benennung="Frauenbewegung (allgemein)"/>
@@ -2309,9 +2309,9 @@
       <m_343 Benennung="Geschichte des Sports in Deutschland 1918-1933"/>
       <m_344 Benennung="Geschichte des Sports in Deutschland 1933-1945"/>
       <m_346 Benennung="Geschichte des Sports in Deutschland seit 1945"/>
-      <m_346.1 Benennung="BRD 1949-1990"/>
-      <m_346.2 Benennung="DDR 1949-1990"/>
-      <m_346.3 Benennung="Deutschland seit 1990"/>
+      <m_346.1 Benennung="Geschichte des Sports BRD 1949-1990"/>
+      <m_346.2 Benennung="Geschichte des Sports DDR 1949-1990"/>
+      <m_346.3 Benennung="Geschichte des Sports in Deutschland seit 1990"/>
     </m_340-349>
     <m_350-399 Benennung="Weitere Sachbegriffe">
       <m_350 Benennung="Olympische Spiele"/>
@@ -2422,9 +2422,9 @@
       <n_43 Benennung="Geschichte des Judentums in Deutschland 1918-1933"/>
       <n_44 Benennung="Geschichte des Judentums in Deutschland 1933-1945 (Jüdisches Leben, jüdischer Alltag, deutsche jüdische Reaktionen auf die Judenverfolgung, Juden in der Illegalität)"/>
       <n_45 Benennung="Geschichte des Judentums in Deutschland seit 1945"/>
-      <n_45.1 Benennung="BRD 1949-1990"/>
-      <n_45.2 Benennung="DDR 1949-1990"/>
-      <n_45.3 Benennung="Deutschland seit 1990"/>
+      <n_45.1 Benennung="Geschichte des Judentums BRD 1949-1990"/>
+      <n_45.2 Benennung="Geschichte des Judentums DDR 1949-1990"/>
+      <n_45.3 Benennung="Geschichte des Judentums in Deutschland seit 1990"/>
     </n_40-49>
     <n_50-99 Benennung="Weitere Sachbegriffe">
       <n_50 Benennung="Juden / Judentum (allg.), jüdisches Volk, jüdisches Selbstverständnis"/>
@@ -2609,41 +2609,41 @@
       <o_40.1 Benennung="Altertum und Mittelalter"/>
       <o_40.2 Benennung="Neuzeit"/>
       <o_41 Benennung="Religions- und Kirchengeschichte in Deutschland (allgemein)"/>
-      <o_41.1 Benennung="Evangelische Kirche"/>
-      <o_41.2 Benennung="Katholische Kirche"/>
+      <o_41.1 Benennung="Religions- und Kirchengeschichte in Deutschland Evangelische Kirche"/>
+      <o_41.2 Benennung="Religions- und Kirchengeschichte in Deutschland Katholische Kirche"/>
       <o_42 Benennung="Religions- und Kirchengeschichte in Deutschland 1871-1918"/>
-      <o_42.1 Benennung="Evangelische Kirche"/>
-      <o_42.2 Benennung="Katholische Kirche"/>
+      <o_42.1 Benennung="Religions- und Kirchengeschichte in Deutschland 1871-1918 Evangelische Kirche"/>
+      <o_42.2 Benennung="Kirchengeschichte in Deutschland 1871-1918 Katholische Kirche"/>
       <o_43 Benennung="Religions- und Kirchengeschichte in Deutschland 1918-1933"/>
-      <o_43.1 Benennung="Evangelische Kirche"/>
-      <o_43.2 Benennung="Katholische Kirche"/>
-      <o_44 Benennung="Religionsgeschichte, Kirchengeschichte und Kirchenkampf in Deutschland 1933-1945"/>
-      <o_44.1 Benennung="Evangelische Kirche"/>
-      <o_44.1.1 Benennung="Deutsche Christen, Deutsches Christentum 1927-1945"/>
-      <o_44.1.2 Benennung="Bekennende Kirche"/>
-      <o_44.2 Benennung="Katholische Kirche"/>
+      <o_43.1 Benennung="Kirchengeschichte in Deutschland 1918-1933 Evangelische Kirche"/>
+      <o_43.2 Benennung="Kirchengeschichte in Deutschland 1918-1933 Katholische Kirche"/>
+      <o_44 Benennung="Kirchengeschichte und Kirchenkampf in Deutschland 1933-1945"/>
+      <o_44.1 Benennung="Kirchengeschichte und Kirchenkampf in Deutschland 1933-1945 Evangelische Kirche"/>
+      <o_44.1.1 Benennung="Kirchengeschichte in Deutschland 1933-1945 Deutsche Christen, Deutsches Christentum 1927-1945"/>
+      <o_44.1.2 Benennung="Kirchengeschichte und Kirchenkampf in Deutschland 1933-1945 Bekennende Kirche"/>
+      <o_44.2 Benennung="Kirchengeschichte und Kirchenkampf in Deutschland 1933-1945 Katholische Kirche"/>
       <o_44.3 Benennung="Kirchenverfolgung durch den Nationalsozialismus"/>
-      <o_44.3.1 Benennung="Evangelische Kirche"/>
-      <o_44.3.2 Benennung="Katholische Kirche"/>
+      <o_44.3.1 Benennung="Kirchenverfolgung durch den Nationalsozialismus Evangelische Kirche"/>
+      <o_44.3.2 Benennung="Kirchenverfolgung durch den Nationalsozialismus Katholische Kirche"/>
       <o_44.4 Benennung="Widerstand der Kirchen / Christen gegen den Nationalsozialismus"/>
-      <o_44.4.1 Benennung="Evangelische Kirche"/>
-      <o_44.4.2 Benennung="Katholische Kirche"/>
+      <o_44.4.1 Benennung="Widerstand der Kirchen Evangelische Kirche"/>
+      <o_44.4.2 Benennung="Widerstand der Kirchen Katholische Kirche"/>
       <o_46 Benennung="Religions- und Kirchengeschichte in Deutschland seit 1945"/>
-      <o_46.1 Benennung="Kirchengeschichte"/>
-      <o_46.1.1 Benennung="Evangelische Kirche"/>
-      <o_46.1.2 Benennung="Katholische Kirche"/>
-      <o_46.2 Benennung="Andere Religionen"/>
-      <o_46.3 Benennung="BRD 1949-1990"/>
-      <o_46.3.1 Benennung="Evangelische Kirche"/>
-      <o_46.3.2 Benennung="Katholische Kirche"/>
-      <o_46.3.3 Benennung="Islam"/>
-      <o_46.4 Benennung="DDR 1949-1990"/>
-      <o_46.4.1 Benennung="Evangelische Kirche"/>
-      <o_46.4.2 Benennung="Katholische Kirche"/>
-      <o_46.5 Benennung="Deutschland seit 1990"/>
-      <o_46.5.1 Benennung="Evangelische Kirche"/>
-      <o_46.5.2 Benennung="Katholische Kirche"/>
-      <o_46.5.3 Benennung="Islam"/>
+      <o_46.1 Benennung="Kirchengeschichte in Deutschland seit 1945"/>
+      <o_46.1.1 Benennung="Kirchengeschichte in Deutschland seit 1945 Evangelische Kirche"/>
+      <o_46.1.2 Benennung="Kirchengeschichte in Deutschland seit 1945 Katholische Kirche"/>
+      <o_46.2 Benennung="Religionsgeschichte in Deutschland seit 1945 Andere Religionen"/>
+      <o_46.3 Benennung="Religions- und Kirchengeschichte BRD 1949-1990"/>
+      <o_46.3.1 Benennung="Kirchengeschichte BRD 1949-1990 Evangelische Kirche"/>
+      <o_46.3.2 Benennung="Kirchengeschichte BRD 1949-1990 Katholische Kirche"/>
+      <o_46.3.3 Benennung="Religionsgeschichte BRD 1949-1990 Islam"/>
+      <o_46.4 Benennung="Religions- und Kirchengeschichte DDR 1949-1990"/>
+      <o_46.4.1 Benennung="Kirchengeschichte DDR 1949-1990 Evangelische Kirche"/>
+      <o_46.4.2 Benennung="Kirchengeschichte DDR 1949-1990 Katholische Kirche"/>
+      <o_46.5 Benennung="Religions- und Kirchengeschichte in Deutschland seit 1990"/>
+      <o_46.5.1 Benennung="Kirchengeschichte in Deutschland seit 1990 Evangelische Kirche"/>
+      <o_46.5.2 Benennung="Kirchengeschichte in Deutschland seit 1990 Katholische Kirche"/>
+      <o_46.5.3 Benennung="Religions- und Kirchengeschichte in Deutschland seit 1990 Islam"/>
     </o_39-49>
     <o_50-99 Benennung="Weitere Sachbegriffe">
       <o_55 Benennung="Einigungsbewegungen der christlichen Kirchen (Una-Sancta-Bewegung, Ökumene)"/>
@@ -2717,7 +2717,7 @@
     <p_11-39 Benennung="Institutionen, Organisationen, Körperschaften">
       <p_11 Benennung="Reichsjustizministerium (1877-1918: Reichsjustizamt)"/>
       <p_12 Benennung="Reichsjustizkommissariat"/>
-      <p_13 Benennung="Bundesministerium der Justiz 1949-"/>
+      <p_13 Benennung="Bundesministerium der Justiz (BMJ) 1949- (Bundesjustizministerium; 2013-2021: Bundesministerium der Justiz und für Verbraucherschutz (BMJV))"/>
       <p_15 Benennung="NS-Rechtswahrerbund (NSRB), Bund Nationalsozialistischer Deutscher Juristen (Deutsche Rechtsfront)"/>
       <p_16 Benennung="Reichsrechtsamt der NSDAP"/>
       <p_17 Benennung="Gemeinschaftslager Hanns Kerrl, Jüterbog (Nationalsozialistisches Referendarlager)"/>
@@ -2749,7 +2749,7 @@
       <p_22.6.3 Benennung="Internationaler Strafgerichtshof für Ruanda (Internationales Kriegsverbrechertribunal für Ruanda) 1994-"/>
       <p_22.6.4 Benennung="Internationaler Sondergerichtshof für Sierra Leone 2000-"/>
       <p_22.6.5 Benennung="Rote-Khmer-Tribunal 2006-"/>
-      <p_29 Benennung="Internationaler Juristenkongress, Internationale Juristenkommission"/>
+      <p_29 Benennung="Internationale Juristen-Kommission (IJK) / International Commission of Jurists  (ICJ) 1952-"/>
       <p_31 Benennung="Richterverbände"/>
       <p_31.1 Benennung="Republikanischer Richterbund 1921-1933"/>
       <p_32 Benennung="Anwaltsverbände"/>
@@ -2767,9 +2767,9 @@
       <p_44 Benennung="Deutsche Rechtsgeschichte 1933-1945"/>
       <p_44.1 Benennung="Deutsche Rechtsgeschichte 1939-1945"/>
       <p_45 Benennung="Deutsche Rechtsgeschichte seit 1945"/>
-      <p_45.1 Benennung="BRD"/>
-      <p_45.2 Benennung="DDR"/>
-      <p_45.3 Benennung="Deutschland seit 1990"/>
+      <p_45.1 Benennung="Deutsche Rechtsgeschichte BRD"/>
+      <p_45.2 Benennung="Deutsche Rechtsgeschichte DDR"/>
+      <p_45.3 Benennung="Deutsche Rechtsgeschichte seit 1990"/>
     </p_40-49>
     <p_50-99 Benennung="Weitere Sachbegriffe">
       <p_55 Benennung="Verwaltungsgeschichte"/>
@@ -2795,8 +2795,8 @@
       <p_67.4.1 Benennung="Armenrecht, Prozesskostenhilfe"/>
       <p_67.5 Benennung="Rechtsprechung"/>
       <p_67.6 Benennung="Justiz und Vergangenheitsbewältigung"/>
-      <p_68 Benennung="Rechtsanwälte, Anwaltschaft"/>
-      <p_68.1 Benennung="Notare, Notariat"/>
+      <p_68 Benennung="Rechtsanwaltschaft"/>
+      <p_68.1 Benennung="Notariat"/>
       <p_69 Benennung="Kriminalität"/>
       <p_69.1 Benennung="Kriminalistik, Kriminologie"/>
       <p_69.1.1 Benennung="Gerichtsmedizin"/>
@@ -3089,9 +3089,9 @@
       <q_144 Benennung="Geschichte des deutschen Binnenhandels und Handwerks 1933-1945"/>
       <q_144.1 Benennung="Geschichte des deutschen Binnenhandels und Handwerks 1939-1945"/>
       <q_146 Benennung="Geschichte des deutschen Binnenhandels und Handwerks seit 1945"/>
-      <q_146.1 Benennung="BRD 1949-1990"/>
+      <q_146.1 Benennung="Geschichte des Binnenhandels und HandwerksBRD 1949-1990"/>
       <q_146.2 Benennung="DDR 1949-1990"/>
-      <q_146.3 Benennung="Deutschland seit 1990"/>
+      <q_146.3 Benennung="Geschichte des deutschen Binnenhandels und Handwerks seit 1990"/>
     </q_140-149>
     <q_150-199 Benennung="Weitere Sachbegriffe">
       <q_168 Benennung="Messewesen"/>
@@ -3140,9 +3140,9 @@
       <q_244 Benennung="Geschichte der deutschen Finanzwirtschaft 1933-1945"/>
       <q_244.1 Benennung="Geschichte der deutschen Finanzwirtschaft 1939-1945"/>
       <q_246 Benennung="Geschichte der deutschen Finanzwirtschaft seit 1945"/>
-      <q_246.1 Benennung="BRD 1949-1990"/>
+      <q_246.1 Benennung="Geschichte der Finanzwirtschaft BRD 1949-1990"/>
       <q_246.2 Benennung="DDR 1949-1990"/>
-      <q_246.3 Benennung="Deutschland seit 1990"/>
+      <q_246.3 Benennung="Geschichte der deutschen Finanzwirtschaft seit 1990"/>
     </q_240-249>
     <q_250-299 Benennung="Weitere Sachbegriffe">
       <q_264 Benennung="Finanz- und Geldwirtschaft (allgemein), Finanzwissenschaft"/>
@@ -3196,9 +3196,9 @@
       <q_344 Benennung="Geschichte des deutschen Verkehrs 1933-1945"/>
       <q_344.1 Benennung="Geschichte des deutschen Verkehrs 1939-1945"/>
       <q_346 Benennung="Geschichte des deutschen Verkehrs seit 1945"/>
-      <q_346.1 Benennung="BRD 1949-1990"/>
+      <q_346.1 Benennung="Geschichte des Verkehrs BRD 1949-1990"/>
       <q_346.2 Benennung="DDR 1949-1990"/>
-      <q_346.3 Benennung="Deutschland seit 1990"/>
+      <q_346.3 Benennung="Geschichte des deutschen Verkehrs seit 1990"/>
     </q_340-349>
     <q_350-399 Benennung="Weitere Sachbegriffe">
       <q_360 Benennung="Verkehr, Verkehrspolitik, Transportwesen (allgemein)"/>
@@ -3267,9 +3267,9 @@
       <q_444 Benennung="Geschichte der deutschen Landwirtschaft 1933-1945"/>
       <q_444.1 Benennung="Geschichte der deutschen Landwirtschaft 1939-1945"/>
       <q_446 Benennung="Geschichte der deutschen Landwirtschaft seit 1945"/>
-      <q_446.1 Benennung="BRD 1949-1990"/>
-      <q_446.2 Benennung="DDR 1949-1990"/>
-      <q_446.3 Benennung="Deutschland seit 1990"/>
+      <q_446.1 Benennung="Geschichte der Landwirtschaft BRD 1949-1990"/>
+      <q_446.2 Benennung="Geschichte der Landwirtschaft DDR 1949-1990"/>
+      <q_446.3 Benennung="Geschichte der deutschen Landwirtschaft seit 1990"/>
     </q_440-449>
     <q_450-499 Benennung="Weitere Sachbegriffe">
       <q_460 Benennung="Agrarpolitik"/>
@@ -3464,9 +3464,9 @@
       <r_44 Benennung="Geschichte der Arbeit und der Sozialpolitik in Deutschland 1933-1945"/>
       <r_44.1 Benennung="Geschichte der Arbeit und der Sozialpolitik in Deutschland 1939-1945"/>
       <r_46 Benennung="Geschichte der Arbeit und der Sozialpolitik in Deutschland seit 1945"/>
-      <r_46.1 Benennung="BRD 1949-1990"/>
-      <r_46.2 Benennung="DDR 1949-1990"/>
-      <r_46.3 Benennung="Deutschland seit 1990"/>
+      <r_46.1 Benennung="Geschichte der Arbeit und der Sozialpolitik BRD 1949-1990"/>
+      <r_46.2 Benennung="Geschichte der Arbeit und der Sozialpolitik DDR 1949-1990"/>
+      <r_46.3 Benennung="Geschichte der Arbeit und der Sozialpolitik in Deutschland seit 1990"/>
     </r_40-49>
     <r_50-99 Benennung="Weitere Sachbegriffe">
       <r_55 Benennung="Sozialgeschichte"/>
@@ -4324,9 +4324,9 @@
       <v_42 Benennung="Deutsche Kultur- und Geistesgeschichte 1918-1933"/>
       <v_43 Benennung="Deutsche Kultur- und Geistesgeschichte 1933-1945"/>
       <v_44 Benennung="Deutsche Kultur- und Geistesgeschichte seit 1945"/>
-      <v_44.1 Benennung="BRD 1949-1990"/>
-      <v_44.2 Benennung="DDR 1949-1990"/>
-      <v_44.3 Benennung="Deutschland seit 1990"/>
+      <v_44.1 Benennung="Deutsche Kultur- und Geistesgeschichte BRD 1949-1990"/>
+      <v_44.2 Benennung="Deutsche Kultur- und Geistesgeschichte DDR 1949-1990"/>
+      <v_44.3 Benennung="Kultur- und Geistesgeschichte Deutschland seit 1990"/>
     </v_38-49>
     <v_50-99 Benennung="Weitere Sachbegriffe">
       <v_60 Benennung="Intellektuelle"/>
@@ -4498,8 +4498,8 @@
       <w_42 Benennung="Geschichte der Erziehung, Bildung und Wissenschaft in Deutschland 1918-1933"/>
       <w_43 Benennung="Geschichte der Erziehung, Bildung und Wissenschaft in Deutschland 1933-1945"/>
       <w_44 Benennung="Geschichte der Erziehung, Bildung und Wissenschaft in Deutschland seit 1945"/>
-      <w_44.1 Benennung="BRD 1949-1990"/>
-      <w_44.2 Benennung="DDR 1949-1990"/>
+      <w_44.1 Benennung="Geschichte der Erziehung, Bildung und Wissenschaft BRD 1949-1990"/>
+      <w_44.2 Benennung="Geschichte der Erziehung, Bildung und Wissenschaft DDR 1949-1990"/>
       <w_44.3 Benennung="Deutschland seit 1990"/>
     </w_40-49>
     <w_50-99 Benennung="Weitere Sachbegriffe">
@@ -4658,9 +4658,9 @@
       <w_142 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen in Deutschland 1918-1933"/>
       <w_143 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen in Deutschland 1933-1945"/>
       <w_144 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen in Deutschland seit 1945"/>
-      <w_144.1 Benennung="BRD 1949-1990"/>
+      <w_144.1 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen BRD 1949-1990"/>
       <w_144.2 Benennung="DDR 1949-1990"/>
-      <w_144.3 Benennung="Deutschland seit 1990"/>
+      <w_144.3 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen in Deutschland seit 1990"/>
     </w_140-149>
     <w_150-199 Benennung="Weitere Sachbegriffe">
       <w_160 Benennung="Jugendbewegung"/>
@@ -4760,10 +4760,10 @@
       <x_16.1 Benennung="Münchener Ministerpräsidentenkonferenz 1947"/>
       <x_17 Benennung="Parlamentarischer Rat 1948/49"/>
       <x_18 Benennung="Deutscher Volksrat (SBZ)"/>
-      <x_21 Benennung="Bundesminister für Vertriebene, Flüchtlinge und Kriegsgeschädigte (bis 1957: BM für Vertriebene; Oktober 1969 aufgelöst)"/>
-      <x_22 Benennung="Bundesminister für Innerdeutsche Beziehungen (bis 1969: BM für Gesamdeutsche Fragen, Januar 1991 aufgelöst)"/>
+      <x_21 Benennung="Bundesministerium für Vertriebene, Flüchtlinge und Kriegsgeschädigte (bis 1957: Bundesministerium für Vertriebene) 1949-1969 "/>
+      <x_22 Benennung="Bundesministerium für Innerdeutsche Beziehungen (bis 1969: BM für gesamtdeutsche Fragen) 1949-1991 "/>
       <x_23 Benennung="Ständige Vertretungen"/>
-      <x_24 Benennung="Zentrale Erfassungsstelle der Landesjustizverwaltungen, Salzgitter 1961-"/>
+      <x_24 Benennung="Zentrale Erfassungsstelle der Landesjustizverwaltungen (Zentrale Beweismittel- und Dokumentationsstelle der Landesjustizverwaltungen) Salzgitter 1961-1992"/>
       <x_28 Benennung="Antifa-Bewegung, Antifa-Ausschüsse"/>
       <x_30 Benennung="Vertriebenenverbände"/>
       <x_30.1 Benennung="Bund der Vertriebenen"/>
@@ -4980,7 +4980,7 @@
     <x_311-335 Benennung="Institutionen, Organisationen, Körperschaften">
       <x_311 Benennung="Verfolgtenverbände"/>
       <x_311.1 Benennung="United Restitution Organization (URO)"/>
-      <x_311.2 Benennung="Vereinigung der Verfolgten des Naziregimes (VVN) 1947- ; (1953-1990 in der DDR: Komitee der Antifaschistischen Widerstandskämpfer in der Deutschen Demokratischen Republik (KdAW))"/>
+      <x_311.2 Benennung="Vereinigung der Verfolgten des Naziregimes (VVN)  – Bund der Antifaschistinnen und Antifaschisten (VVN-BdA e.V. 1947- ; (1953-1990 in der DDR: Komitee der Antifaschistischen Widerstandskämpfer in der Deutschen Demokratischen Republik (KdAW))"/>
       <x_311.3 Benennung="Bund der Verfolgten des Naziregimes (BVN)"/>
       <x_311.4 Benennung="Conference on Jewish Material Claims against Germany (Claims Conference)"/>
       <x_311.5 Benennung="Axis Victims League"/>
@@ -5011,17 +5011,17 @@
       <x_410 Benennung="Quellensammlungen, Dokumentationen"/>
     </x_401-410>
     <x_411-435 Benennung="Institutionen, Organisationen, Körperschaften">
-      <x_411 Benennung="Auswärtiges Amt (BRD) 1949-"/>
+      <x_411 Benennung="Auswärtiges Amt (AA, Bundesministerium des Auswärtigen) (BRD) 1949-"/>
       <x_411.1 Benennung="Auslandsvertretungen"/>
-      <x_412 Benennung="Bundesminister für den Marshallplan 1949-1953; Bundesminister für Wirtschaftliche Zusammenarbeit 1953-1957; Bundesminister für Wirtschaftlichen Besitz des Bundes 1958-1959"/>
-      <x_413 Benennung="Ministerium für Auswärtige Angelegenheiten (DDR) 1949-1990"/>
+      <x_412 Benennung="Bundesministerium für Angelegenheiten des Marshallplanes (Bundesschatzministerium) 1949-1953; Bundesministerium für wirtschaftliche Zusammenarbeit 1953-1957; Bundesministerium für wirtschaftlichen Besitz des Bundes 1957-1969 "/>
+      <x_413 Benennung="Ministerium für Auswärtige Angelegenheiten (MfAA, Außenministerium der DDR) 1949-1990"/>
       <x_415 Benennung="Büro für Friedensfragen 1947-1950"/>
     </x_411-435>
     <x_440-465 Benennung="Chronologie">
       <x_440 Benennung="Deutsche Außenpolitik seit 1945 (allgemein)"/>
-      <x_440.1 Benennung="BRD 1949-1990"/>
-      <x_440.2 Benennung="DDR 1949-1990"/>
-      <x_440.3 Benennung="Deutschland seit 1990"/>
+      <x_440.1 Benennung="Außenpolitik der BRD 1949-1990"/>
+      <x_440.2 Benennung="Außenpolitik der DDR 1949-1990"/>
+      <x_440.3 Benennung="Deutsche Außenpolitik seit 1990"/>
       <x_443 Benennung="Konferenz von Potsdam 17.7 und 2.8.1945, Potsdamer Abkommen"/>
       <x_444 Benennung="Außenministerkonferenzen 1945 (London und Moskau)"/>
       <x_445 Benennung="Außenministerkonferenzen 1946 (Paris und New York)"/>
@@ -5106,12 +5106,12 @@
       <x_513.1 Benennung="Bundeskanzler"/>
       <x_513.1.1 Benennung="Bundeskanzleramt"/>
       <x_513.2 Benennung="Bundesministerien (allgemein, vergleichend)"/>
-      <x_513.2.1 Benennung="Bundesminister des Innern"/>
-      <x_513.2.2 Benennung="Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit 1986-"/>
+      <x_513.2.1 Benennung="Bundesministerium des Innern und für Heimat (BMI) (2018-2021: Bundesministerium des Innern, für Bau und Heimat)"/>
+      <x_513.2.2 Benennung="Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (kurz: BMUV) (1986-2013: Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit; 2013-2018: Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB); 2018-2021: Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit)"/>
       <x_513.2.3 Benennung="Bundesministerium für Angelegenheiten des Bundesrates und der Länder (1949-1957: BM für Angelegenheiten des Bundesrates; 1969 aufgelöst)"/>
       <x_513.3 Benennung="Staatssekretäre"/>
       <x_513.4 Benennung="Kabinettsausschüsse"/>
-      <x_513.5 Benennung="Bundes- und Landesbeauftragte(r) für die Unterlagen des Staatssicherheitsdienstes der Ehemaligen Deutschen Demokratischen Republik 1991-; Stasi-Akten; Stasi-Unterlagen-Gesetz (StUG)"/>
+      <x_513.5 Benennung="Bundes- und Landesbeauftragte(r) für die Unterlagen des Staatssicherheitsdienstes der Ehemaligen Deutschen Demokratischen Republik 1991-2021; Stasi-Akten; Stasi-Unterlagen-Gesetz (StUG)"/>
       <x_514 Benennung="Bundestag"/>
       <x_514.1 Benennung="Bundestagspräsident, Präsidium, Ältestenrat"/>
       <x_514.2 Benennung="Bundestagsfraktionen, Bundestagsabgeordnete"/>
@@ -5120,7 +5120,7 @@
       <x_514.5 Benennung="Enquete-Kommissionen (Parlamentarische Beratungsgremien)"/>
       <x_515 Benennung="Bundesrat"/>
       <x_515.1 Benennung="Vermittlungsausschuss"/>
-      <x_516 Benennung="Ministerpräsidentenkonferenzen 1949 -"/>
+      <x_516 Benennung="Ministerpräsidentenkonferenzen (MPK) 1949 -"/>
       <x_516.1 Benennung="Länderfachministerkonferenzen"/>
       <x_517 Benennung="Ländervertretungen beim Bund"/>
       <x_518 Benennung="Nachrichtendienste: Verfassungsschutz, Bundesnachrichtendienst (BND), Militärischer Abschirmdienst (MAD)"/>
@@ -5153,49 +5153,48 @@
       <x_521.12 Benennung="Südschleswiger Wählerverband (SSW) (1945-1948: Südschleswigsche Vereinigung (SSV)"/>
       <x_521.13 Benennung="Gesamtdeutsche Volkspartei (GVP) 1952-1957"/>
       <x_521.15 Benennung="Internationaler Sozialistischer Kampf-Bund (ISU) 1945"/>
-      <x_521.16 Benennung="Deutsche Friedens-Union (DFU) 1960-"/>
+      <x_521.16 Benennung="Deutsche Friedens-Union (DFU) 1960-1985"/>
       <x_521.17 Benennung="Rheinische Volkspartei (RVP) 1945-1954"/>
-      <x_521.18 Benennung="Nationaldemokratische Partei Deutschlands – Die Volksunion (NPD – Die Volksunion) 2011- (1964-2010: Nationaldemokratische Partei Deutschlands; (NPD); 1971-2010: Deutsche Volksunion (DVU) )"/>
+      <x_521.18 Benennung="Die Heimat (HEIMAT) (1964-2023: Nationaldemokratische Partei Deutschlands (NPD), 2011: Nationaldemokratische Partei Deutschlands – Die Volksunion (NPD – Die Volksunion) ; hier auch: Deutsche Volksunion (DVU) 1971-2011) "/>
       <x_521.18.1 Benennung="Junge Nationaldemokraten (JN)"/>
-      <x_521.19 Benennung="Bayerische Heimat- und Königspartei (BHKP) 1945/50-"/>
+      <x_521.19 Benennung="Bayerische Heimat- und Königspartei (BHKP) 1945/50-ca. 1954"/>
       <x_521.20 Benennung="Deutsche Gemeinschaft (DG) 1949-ca.1965"/>
       <x_521.21 Benennung="Deutscher Block (DB) 1947/48-1963/64"/>
       <x_521.22 Benennung="Bund für Deutschlands Erneuerung (BfDE) 1948-1956, 1962, zeitweise: Deutsch-Soziale Union (Straßer-Partei, DSU) 1956-1962/3"/>
       <x_521.23 Benennung="Freisoziale Union (FU) 1950-, früher: 1946-1950: Radikal-Soziale Freiheitspartei (RSF); Frei-Soziale Partei (FSP); Soziale Freiheitspartei (SFP)"/>
       <x_521.25 Benennung="Deutsche Freiheitspartei (DFP) 1962-1965"/>
-      <x_521.27 Benennung="Freie Sozialistische Partei (FSP) 1962-"/>
+      <x_521.27 Benennung="Freie Sozialistische Partei (Marxisten-Leninisten) (FSP/ML) 1967-1980er Jahre "/>
       <x_521.28 Benennung="Deutsch-Nationale Volkspartei (DNVP) 1962-1964"/>
-      <x_521.31 Benennung="Unabhängige Arbeiterpartei (UAP) 1962-"/>
+      <x_521.31 Benennung="Unabhängige Arbeiterpartei (UAP) 1962-2014"/>
       <x_521.35 Benennung="Deutscher Saarbund 1951/52-1956/63"/>
-      <x_521.36 Benennung="Aktionsgemeinschaft Unabhängiger Deutscher (AUD) 1965-"/>
+      <x_521.36 Benennung="Aktionsgemeinschaft Unabhängiger Deutscher (AUD) 1965-1980"/>
       <x_521.37 Benennung="Deutsche Kommunistische Partei (DKP) 1968-"/>
-      <x_521.38 Benennung="Kommunistische Partei Deutschlands / Marxisten-Leninisten (KPD/ML) 1968-"/>
+      <x_521.38 Benennung="Kommunistische Partei Deutschlands / Marxisten-Leninisten (KPD/ML) 1968-1986"/>
       <x_521.39 Benennung="Sozialistische Einheitspartei Westberlin (SEW) 1946/69-1990, Sozialistische Initiative (SI) 1990-1991"/>
-      <x_521.42 Benennung="Kommunistischer Bund Westdeutschland (KBW) 1973-"/>
-      <x_521.43 Benennung="Kommunistischer Bund (KB) 1971-"/>
+      <x_521.42 Benennung="Kommunistischer Bund Westdeutschland (KBW) 1973-1985"/>
+      <x_521.43 Benennung="Kommunistischer Bund (KB) 1971-1991"/>
       <x_521.44 Benennung="Sozialistische Gleichheitspartei, Vierte Internationale (SGP; 1971-1997 Bund Sozialistischer Arbeiter, BSA; 1997-2017 Partei für Soziale Gleichheit, PSG)"/>
       <x_521.46 Benennung="Bündnis 90 / Grüne 1993- (1980-1992: Die Grünen; 1991-1992: Bündnis 90)"/>
       <x_521.46.10 Benennung="Parteiprogramm, Grundsatzprogramm (Programmdiskussion)"/>
-      <x_521.50 Benennung="Gruppe Internationale Marxisten (GIM) 1969-"/>
-      <x_521.51 Benennung="Europäische Arbeiterpartei (EAP) 1974-"/>
+      <x_521.50 Benennung="Gruppe Internationale Marxisten (GIM) 1969-1986"/>
+      <x_521.51 Benennung="Europäische Arbeiterpartei (EAP) 1974-1986"/>
       <x_521.52 Benennung="Kommunistische Partei Deutschlands (KPD) 1971-1980, früher: Kommunistische Partei Deutschlands / Aufbauorganisation (KPD/AO) 1970-1971"/>
       <x_521.53 Benennung="Union für verantwortungsvolle Politik (UVP) 1971-"/>
       <x_521.55 Benennung="Solidaristische Volksbewegung (SVB), Solidaristischer Bund, Bund Deutscher Solidaristen (BDS)"/>
       <x_521.56 Benennung="Partei Rechtsstaatlicher Offensive (Schill-Partei für Deutschland) 2000-2007"/>
       <x_521.58 Benennung="Unabhängige Arbeiterpartei Deutschlands (UAPD) 1950-1952"/>
       <x_521.59 Benennung="Arbeiter-Partei (Sozialistische Einheitspartei Hessen) (AP) 1945-1954"/>
-      <x_521.60 Benennung="Frauenpartei 1979-"/>
-      <x_521.61 Benennung="Demokratische Partei Saar (DPS) 1946-1951, 1955-"/>
+      <x_521.60 Benennung="Frauenpartei 1979-1997"/>
+      <x_521.61 Benennung="Demokratische Partei Saar (DPS) 1946-1951 und 1955-1957; ab 1957: Freie Demokratische Partei/Demokratische Partei Saar (Anschluss an die FDP als Landesverband)"/>
       <x_521.62 Benennung="Demokratische Sozialisten (DS) 1982-"/>
       <x_521.63 Benennung="Kommunistische Partei, Bezirk Saar-Nahe 1946-1947; Kommunistische Partei, Landesverband Saar 1948-1957"/>
       <x_521.64 Benennung="Republikanische Partei Deutschlands (RPD) 1946-1960"/>
-      <x_521.66 Benennung="Alternative Liste für Demokratie und Umweltschutz (AL), Berlin 1978-"/>
+      <x_521.66 Benennung="Alternative Liste für Demokratie und Umweltschutz (AL), Berlin 1978-1980 (dann Landesverband Berlin der Grünen bzw. des Bündnis 90/Die Grünen)"/>
       <x_521.67 Benennung="Sozialdemokratische Partei des Saarlandes (SPS) 1947-1956 (1945-1946: Sozialdemokratische Partei, Bezirk Saar)"/>
-      <x_521.68 Benennung="Freiheitliche Deutsche Arbeiterpartei (FAP) 1979-"/>
       <x_521.69 Benennung="Die Republikaner 1983-"/>
       <x_521.70 Benennung="Marxistisch-Leninistische Partei Deutschlands (MLPD) 1965-"/>
       <x_521.71 Benennung="Bund Freies Deutschland 1974-1977"/>
-      <x_521.72 Benennung="Die Linkspartei.PDS / Fraktion Die Linke (zusammen mit Abgeordneten der Partei Arbeit und Soziale Gerechtigkeit - Die Wahlalternative, WASG) 1990- (bis 16.07.2005: Partei des Demokratischen Sozialismus, PDS)"/>
+      <x_521.72 Benennung="Die Linke (Linkspartei / Die Linken) 2007- (1990-2005:  Partei des Demokratischen Sozialismus, PDS; 2005-2007: Die Linkspartei.PDS (Zusammenschluss mit der Partei Arbeit und Soziale Gerechtigkeit - Die Wahlalternative, WASG))"/>
       <x_521.72.10 Benennung="Parteiprogramm, Grundsatzprogramm (Programmdiskussion)"/>
       <x_521.73 Benennung="Liberale Partei (Liberale Demokraten, Die Liberalen, Liberale 82)  1982-"/>
       <x_521.74 Benennung="Ökologisch-Demokratische Partei (ÖDP) 1981-"/>
@@ -5206,7 +5205,7 @@
       <x_521.78.10 Benennung="Parteiprogramm, Grundsatzprogramm (Programmdiskussion)"/>
       <x_521.79 Benennung="Die PARTEI 2004-"/>
       <x_521.80 Benennung="Bündnis Sahra Wagenknecht (BSW) 2024-"/>
-      <x_522 Benennung="Politische Gruppen (Westzonen und BRD)"/>
+      <x_522 Benennung="Politische Gruppen und Bewegungen (Westzonen und Bundesrepublik Deutschland)"/>
       <x_522.1 Benennung="Deutsche Union"/>
       <x_522.2 Benennung="Nauheimer Kreis"/>
       <x_522.3 Benennung="Laupheimer Kreis (Heiligenberger Kreis, Süd-West-Kreis) 1948-1955"/>
@@ -5248,15 +5247,16 @@
       <x_522.46 Benennung="Deutsche Volksfront (DV)"/>
       <x_522.47 Benennung="Deutsches Kulturwerk Europäischen Geistes (DKeG)"/>
       <x_522.49 Benennung="Nationalsozialistische Deutsche Arbeiterpartei / Auslandsorganisation (NSDAP/AO)"/>
+      <x_522.50 Benennung="Freiheitliche Deutsche Arbeiterpartei (FAP) 1979-1995"/>
       <x_522.51 Benennung="Stahlhelm,  Kampfbund für Europa"/>
       <x_522.52 Benennung="Wehrsportgruppe Hoffmann 1974-1980"/>
       <x_522.54 Benennung="Paneuropa-Union Deutschland e.V."/>
       <x_522.55 Benennung="Wirtschaftspolitische Gesellschaft von 1947 (WIPOG)"/>
-      <x_522.56 Benennung="Friedensbund Deutscher Katholiken (FDK) -1951"/>
+      <x_522.56 Benennung="Friedensbund Deutscher Katholiken (FDK) 1945-1951"/>
       <x_522.58 Benennung="Sache des Volkes / Nationalrevolutionäre Aufbauorganisation (SdV/NRAO)"/>
-      <x_522.59 Benennung="Gustav-Heinemannn-Initiative (GHI) 1978-"/>
+      <x_522.59 Benennung="Gustav-Heinemannn-Initiative (GHI) 1977-2009"/>
       <x_522.61 Benennung="Unabhängige Freundeskreise (rechtsextrem)"/>
-      <x_522.62 Benennung="Volkssozialistische Bewegung Deutschlands (VSBD)  -1982"/>
+      <x_522.62 Benennung="Volkssozialistische Bewegung Deutschlands / Partei der Arbeit (VSBD/PdA, Volkssozialistische Bewegung Deutschlands, VSBD) 1970er -1982"/>
       <x_522.63 Benennung="Deutsche Parlamentarische Gesellschaft"/>
       <x_522.64 Benennung="Schleswig-Holsteinische Gemeinschaft (SHG) 1950-ca.1959"/>
       <x_522.65 Benennung="Aktion Sühnezeichen - Friedensdienste e.V. (ASF)"/>
@@ -5271,6 +5271,7 @@
       <x_522.74 Benennung="Identitäre Bewegung Deutschland 2014- (Identitäre, Identitäre Generation)"/>
       <x_522.75 Benennung="Aufstehen – die Sammlungsbewegung 2018-"/>
       <x_522.76 Benennung="Interventionistische Linke 2005-"/>
+      <x_522.77 Benennung="Reichsbürgerbewegung, Selbstverwalter   "/>
       <x_525 Benennung="Verbände, Vereine"/>
     </x_511-539>
     <x_540-549 Benennung="Chronologie">
