@@ -2643,7 +2643,7 @@
       <o_46.5 Benennung="Religions- und Kirchengeschichte in Deutschland seit 1990"/>
       <o_46.5.1 Benennung="Kirchengeschichte in Deutschland seit 1990 Evangelische Kirche"/>
       <o_46.5.2 Benennung="Kirchengeschichte in Deutschland seit 1990 Katholische Kirche"/>
-      <o_46.5.3 Benennung="Religions- und Kirchengeschichte in Deutschland seit 1990 Islam"/>
+      <o_46.5.3 Benennung="Religionsgeschichte in Deutschland seit 1990 Islam"/>
     </o_39-49>
     <o_50-99 Benennung="Weitere Sachbegriffe">
       <o_55 Benennung="Einigungsbewegungen der christlichen Kirchen (Una-Sancta-Bewegung, Ökumene)"/>
@@ -2717,7 +2717,7 @@
     <p_11-39 Benennung="Institutionen, Organisationen, Körperschaften">
       <p_11 Benennung="Reichsjustizministerium (1877-1918: Reichsjustizamt)"/>
       <p_12 Benennung="Reichsjustizkommissariat"/>
-      <p_13 Benennung="Bundesministerium der Justiz (BMJ) 1949- (Bundesjustizministerium; 2013-2021: Bundesministerium der Justiz und für Verbraucherschutz (BMJV))"/>
+      <p_13 Benennung="Bundesministerium der Justiz (BMJ) (2013-2021: Bundesministerium der Justiz und für Verbraucherschutz (BMJV); Bundesjustizministerium) "/>
       <p_15 Benennung="NS-Rechtswahrerbund (NSRB), Bund Nationalsozialistischer Deutscher Juristen (Deutsche Rechtsfront)"/>
       <p_16 Benennung="Reichsrechtsamt der NSDAP"/>
       <p_17 Benennung="Gemeinschaftslager Hanns Kerrl, Jüterbog (Nationalsozialistisches Referendarlager)"/>
@@ -3116,7 +3116,7 @@
       <q_208.1 Benennung="Kongresse"/>
       <q_208.2 Benennung="Ausstellungen"/>
       <q_209 Benennung="Quellenkunde"/>
-      <q_210 Benennung="Quellensammlungen, Dokumentation"/>
+      <q_210 Benennung="Quellensammlungen, Dokumentationen"/>
       <q_210.1 Benennung="Bildmaterial"/>
     </q_201-210.1>
     <q_211-239 Benennung="Institutionen, Organisationen, Körperschaften">
@@ -3127,10 +3127,10 @@
       <q_223 Benennung="Deutsche Emissions- und Girobank, Deutsche Notenbank, Staatsbank der DDR"/>
       <q_224 Benennung="Bank Deutscher Länder, Deutsche Bundesbank"/>
       <q_225 Benennung="Kreditanstalt für Wiederaufbau"/>
-      <q_226 Benennung="Bundesministerium der Finanzen (Mai 1971 - Dezember 1972 vereinigt mit BM für Wirtschaft: s. q 26: Bundesminister für Wirtschaft und Finanzen)"/>
+      <q_226 Benennung="Bundesministerium der Finanzen (Mai 1971 - Dezember 1972 vereinigt mit BM für Wirtschaft: Bundesministerium für Wirtschaft und Finanzen)"/>
       <q_227 Benennung="Rechnungshöfe (Reichs-, Bundes-, Landesrechnungshof usw.)"/>
       <q_230 Benennung="Deutscher Bankbeamtenverein"/>
-      <q_231 Benennung="Bund der Steuerzahler"/>
+      <q_231 Benennung="Bund der Steuerzahler Deutschland e.V. (BdSt)  "/>
       <q_232 Benennung="Centralverband des Deutschen Bank- und Bankiergewerbes 1901-1933; 1934-1945: Reichswirtschaftskammer, Reichsgruppe Banken (und zugehörige Wirtschaftsgruppen)"/>
     </q_211-239>
     <q_240-249 Benennung="Chronologie">
@@ -3179,15 +3179,15 @@
       <q_308.1 Benennung="Kongresse"/>
       <q_308.2 Benennung="Ausstellungen"/>
       <q_309 Benennung="Quellenkunde"/>
-      <q_310 Benennung="Quellensammlungen, Dokumentation"/>
+      <q_310 Benennung="Quellensammlungen, Dokumentationen "/>
       <q_310.1 Benennung="Bildmaterial"/>
       <q_310.2 Benennung="Ausstellungen"/>
     </q_301-310.1>
     <q_311-339 Benennung="Institutionen, Organisationen, Körperschaften">
       <q_321 Benennung="Reichsverkehrsministerium (1934-1938: Reichs- und Preußisches Verkehrsministerium)"/>
       <q_323 Benennung="Reichspostministerium"/>
-      <q_326 Benennung="Bundesministerium für Verkehr 1949- (1969-1972, 1974-1980: Bundesminister für Verkehr und für das Post- und Fernmeldewesen)"/>
-      <q_327 Benennung="Bundesministerium für Post und Telekommunikation 1.7.1989-31.12.1997 (1953-1989: Bundesministerium für das Post- und Fernmeldewesen; aber 1969-1972, 1974-1980 s. q 326: Bundesminister für Verkehr und für das Post- und Fernmeldewesen)"/>
+      <q_326 Benennung="Bundesministerium für Digitales und Verkehr (BMDV) (Bundesministerium für Verkehr; 1998-2005 zusammengelegt mit dem Bundesministerium für Raumordnung, Bauwesen und Städtebau: Bundesministerium für Verkehr, Bau- und Wohnungswesen (BMVBW); 2005- 2013 Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS); 2013-2021: Bundesministerium für Verkehr und digitale Infrastruktur (BMVI))         "/>
+      <q_327 Benennung="Bundesministerium für Post und Telekommunikation (BMPT),1989-1997 (1949-1950: Bundesministerium für Angelegenheiten des Fernmeldewesens; 1950-1989: Bundesministerium für das Post- und Fernmeldewesen; Bundespostministerium)   vgl. "/>
     </q_311-339>
     <q_340-349 Benennung="Chronologie">
       <q_341 Benennung="Geschichte des deutschen Verkehrs (allgemein)"/>
@@ -3233,13 +3233,13 @@
       <q_408.1 Benennung="Kongresse"/>
       <q_408.2 Benennung="Ausstellungen"/>
       <q_409 Benennung="Quellenkunde"/>
-      <q_410 Benennung="Quellensammlungen, Dokumentation"/>
+      <q_410 Benennung="Quellensammlungen, Dokumentationen "/>
       <q_410.1 Benennung="Bildmaterial"/>
       <q_410.10 Benennung="Belletristische Darstellungen (Primär- und Sekundärliteratur)"/>
     </q_401-410.10>
     <q_411-439 Benennung="Institutionen, Organisationen, Körperschaften">
       <q_421 Benennung="Reichs- (und Preußisches) Ministerium für Ernährung und Landwirtschaft"/>
-      <q_422 Benennung="Bundesministerium für Ernährung, Landwirtschaft und Forsten 1949-"/>
+      <q_422 Benennung="Bundesministerium für Ernährung und Landwirtschaft (BMEL), (1949-2001: Bundesministerium für Ernährung, Landwirtschaft und Forsten; 2002-2005: Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft; 2005-2013: Bundesministerium für Ernährung, Landwirtschaft und Verbraucherschutz      "/>
       <q_423 Benennung="Reichsamt für Agrarpolitik der NSDAP"/>
       <q_424 Benennung="Reichsnährstand"/>
       <q_424.1 Benennung="Deutscher Reichsbauernrat"/>
@@ -3311,7 +3311,7 @@
       <q_508.1 Benennung="Tagungen, Kongresse"/>
       <q_508.2 Benennung="Ausstellungen"/>
       <q_509 Benennung="Quellenkunde"/>
-      <q_510 Benennung="Quellensammlungen, Dokumentation"/>
+      <q_510 Benennung="Quellensammlungen, Dokumentationen"/>
       <q_510.1 Benennung="Bildmaterial"/>
       <q_510.10 Benennung="Belletristische Darstellungen (Primär- und Sekundärliteratur)"/>
     </q_501-510.10>
@@ -3391,7 +3391,7 @@
       <r_18.1 Benennung="NS-Reichsbund Deutscher Schwestern, bis 1942: Reichsbund der Freien Schwestern und Pflegerinnen e.V. (NSV-Schwesternschaft, sog. blaue Schwestern); NS-Schwesternschaft (sog. braune Schwestern)"/>
       <r_19 Benennung="Winterhilfswerk (WHV)"/>
       <r_20 Benennung="Reichs- (und Preußisches) Arbeitsministerium"/>
-      <r_21 Benennung="Bundesminister für Arbeit und Sozialordnung (1949-1957: BM für Arbeit)"/>
+      <r_21 Benennung="Bundesministerium für Arbeit und Soziales (BMAS) (bis 2005: Bundesministerium für Arbeit und Sozialordnung;  1949-1957: Bundesministerium für Arbeit)"/>
       <r_22 Benennung="Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen (seit 2021) (1949–1950: Bundesministerium für Wiederaufbau; 1950–1961: Bundesministerium für Wohnungsbau; 1961–1965: Bundesministerium für Wohnungswesen, Städtebau und Raumordnung; 1965–1969: Bundesministerium für Wohnungswesen und Städtebau; 1969–1972: Bundesministerium für Städtebau und Wohnungswesen; 1972–1998: Bundesministerium für Raumordnung, Bauwesen und Städtebau)"/>
       <r_23 Benennung="Freie Gewerkschaften (sozialistisch) bis 1933 / 1945"/>
       <r_23.1 Benennung="Allgemeiner Deutscher Gewerkschaftsbund (ADGB)"/>
@@ -3581,7 +3581,7 @@
       <s_14.1 Benennung="Deutsche Dienstgruppen"/>
       <s_14.2 Benennung="Militärisches Sicherheitsamt (der Westalliierten) 1949-1955"/>
       <s_14.3 Benennung="Dienststelle Blank (Sicherheitsbeauftragter des Bundeskanzlers) 1950-1955"/>
-      <s_15 Benennung="Bundesministerium der Verteidigung"/>
+      <s_15 Benennung="Bundesministerium der Verteidigung (BMVg, 1955-1972 BMVtg) (1955-1961: Bundesministerium für Verteidigung; Bundesverteidigungsministerium)"/>
       <s_15.1 Benennung="Heeresamt 1956-2013, ab 2013: Amt für Heeresentwicklung"/>
       <s_15.2 Benennung="Generalinspekteur der Bundeswehr"/>
       <s_16 Benennung="Ministerium für Nationale Verteidigung (DDR)"/>
@@ -3659,7 +3659,7 @@
       <s_66.3 Benennung="Aufstandsbekämpfung, Counterinsurgency"/>
       <s_66.4 Benennung="Zivilverteidigung, Zivilschutz"/>
       <s_66.4.1 Benennung="Luftschutz, Luftschutzbunker"/>
-      <s_66.5 Benennung="Hypride Kriegführung, Cyberkrieg"/>
+      <s_66.5 Benennung="Hybride Kriegführung, Cyberkrieg"/>
       <s_67 Benennung="Truppenführung (Militärische Führung in der Truppe)"/>
       <s_67.1 Benennung="Innere Führung; Staatsbürger in Uniform (Bundeswehr)"/>
       <s_68 Benennung="Militärverwaltung; Fürsorge- und Versorgungswesen; Personalwesen (auch: Laufbahnen, Besoldung)"/>
@@ -4507,7 +4507,7 @@
       <w_60.1 Benennung="Didaktik (allgemein)"/>
       <w_60.2 Benennung="Erziehungsziele, Bildungsideale; Elternbücher, Ratgeber (hier auch: Allgemeinbildung)"/>
       <w_60.3 Benennung="Begabtenauslese, Begabtenförderung"/>
-      <w_61 Benennung="Bildung, Bildungswesen, Bildungspolitik, Bildungsreform, Bildungsplanung; Bildungsungleichheit, Bildungsarmut"/>
+      <w_61 Benennung="Bildung, Bildungswesen, Bildungspolitik, Bildungsreform, Bildungsplanung; Bildungsungleichheit, Bildungsarmut; Bildungsgerechtigkeit"/>
       <w_61.1 Benennung="Gedenkstättenpädagogik, Gedenkstättenarbeit; Museumspädagogik"/>
       <w_62 Benennung="Schule (Schulwesen), Schulpolitik, Schulreformen"/>
       <w_62.1 Benennung="Landschulen, ländliches Schulwesen, Landvolkbildung"/>
@@ -4980,7 +4980,7 @@
     <x_311-335 Benennung="Institutionen, Organisationen, Körperschaften">
       <x_311 Benennung="Verfolgtenverbände"/>
       <x_311.1 Benennung="United Restitution Organization (URO)"/>
-      <x_311.2 Benennung="Vereinigung der Verfolgten des Naziregimes (VVN)  – Bund der Antifaschistinnen und Antifaschisten (VVN-BdA e.V. 1947- ; (1953-1990 in der DDR: Komitee der Antifaschistischen Widerstandskämpfer in der Deutschen Demokratischen Republik (KdAW))"/>
+      <x_311.2 Benennung="Vereinigung der Verfolgten des Naziregimes (VVN)  – Bund der Antifaschistinnen und Antifaschisten (VVN-BdA e.V.) 1947- ; (1953-1990 in der DDR: Komitee der Antifaschistischen Widerstandskämpfer in der Deutschen Demokratischen Republik (KdAW))"/>
       <x_311.3 Benennung="Bund der Verfolgten des Naziregimes (BVN)"/>
       <x_311.4 Benennung="Conference on Jewish Material Claims against Germany (Claims Conference)"/>
       <x_311.5 Benennung="Axis Victims League"/>
@@ -5107,7 +5107,7 @@
       <x_513.1.1 Benennung="Bundeskanzleramt"/>
       <x_513.2 Benennung="Bundesministerien (allgemein, vergleichend)"/>
       <x_513.2.1 Benennung="Bundesministerium des Innern und für Heimat (BMI) (2018-2021: Bundesministerium des Innern, für Bau und Heimat)"/>
-      <x_513.2.2 Benennung="Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (kurz: BMUV) (1986-2013: Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit; 2013-2018: Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB); 2018-2021: Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit)"/>
+      <x_513.2.2 Benennung="Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) (1986-2013: Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit; 2013-2018: Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB); 2018-2021: Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit)"/>
       <x_513.2.3 Benennung="Bundesministerium für Angelegenheiten des Bundesrates und der Länder (1949-1957: BM für Angelegenheiten des Bundesrates; 1969 aufgelöst)"/>
       <x_513.3 Benennung="Staatssekretäre"/>
       <x_513.4 Benennung="Kabinettsausschüsse"/>
