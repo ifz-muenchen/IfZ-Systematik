@@ -23,15 +23,15 @@
       <a_6.1.4 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Deutschland (BRD) 1949-1990"/>
       <a_6.1.5 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Deutschland (DDR) 1949-1990"/>
       <a_6.1.6 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Deutschland 1990-"/>
-      <a_6.3 Benennung="Einzelne Sachgebiete"/>
-      <a_6.3.1 Benennung="Wirtschaft"/>
-      <a_6.3.2 Benennung="Kultur"/>
+      <a_6.3 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Einzelne Sachgebiete"/>
+      <a_6.3.1 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Wirtschaft"/>
+      <a_6.3.2 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Kultur"/>
       <a_6.3.3 Benennung="Wissenschaft"/>
-      <a_6.3.4 Benennung="Militär"/>
-      <a_6.3.5 Benennung="Kirche"/>
-      <a_6.3.6 Benennung="Juden"/>
-      <a_6.3.7 Benennung="Frauen"/>
-      <a_6.3.8 Benennung="Politik"/>
+      <a_6.3.4 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Militär"/>
+      <a_6.3.5 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Kirche"/>
+      <a_6.3.6 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Juden "/>
+      <a_6.3.7 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Frauen"/>
+      <a_6.3.8 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Politik"/>
     </a_1-6>
     <a_7-18 Benennung="Institutionen, Organisationen, Körperschaften; Information und Dokumentation">
       <a_7 Benennung="Akademien der Wissenschaft (allgemein)"/>
@@ -103,11 +103,11 @@
       <b_104 Benennung="Nachschlagewerke, Wörterbücher"/>
       <b_105 Benennung="Tabellen, Statistiken, Chroniken"/>
       <b_107 Benennung="Gesammelte Abhandlungen (eines Verfassers), Festschriften"/>
-      <b_108 Benennung="Methodik und Geschichte der Wissenschaft"/>
+      <b_108 Benennung="Methodik und Geschichte der Forschung"/>
       <b_108.1 Benennung="Tagungen, Kongresse"/>
       <b_108.2 Benennung="Ausstellungen"/>
       <b_109 Benennung="Quellenkunde"/>
-      <b_110 Benennung="Materialsammlungen, Dokumentationen"/>
+      <b_110 Benennung="Quellensammlungen, Dokumentationen"/>
       <b_110.1 Benennung="Bildmaterial"/>
       <b_110.2 Benennung="Karten"/>
     </b_101-110.2>
@@ -162,8 +162,8 @@
     </b_111-130>
     <b_135-199 Benennung="Weitere Sachbegriffe">
       <b_135 Benennung="Geschichte der internationalen Beziehungen seit 1945 (allgemein)"/>
-      <b_135.1 Benennung="1945-1989/90"/>
-      <b_135.2 Benennung="seit 1989/90"/>
+      <b_135.1 Benennung="Geschichte der internationalen Beziehungen 1945-1989/90"/>
+      <b_135.2 Benennung="Geschichte der internationalen Beziehungen seit 1989/90"/>
       <b_136 Benennung="Pariser Friedenskonferenz 1946, Pariser Friedensverträge 10.2.1947"/>
       <b_137 Benennung="Marshallplan (European Recovery Program, ERP) 1947-1951"/>
       <b_140 Benennung="Ost-West-Beziehungen (allg.)"/>
@@ -538,7 +538,7 @@
       <c_97.2 Benennung="Anti-Amerikanismus"/>
       <c_97.3 Benennung="Amerikabild in Europa"/>
       <c_98 Benennung="Zeitkritik, Gesellschaftskritik"/>
-      <c_99 Benennung="Politischer Witz, politische Karikatur; Satire"/>
+      <c_99 Benennung="Politischer Witz, politische Karikatur, politischer Humor; Satire"/>
       <c_100 Benennung="(Politische) Geheimbünde"/>
       <c_100.1 Benennung="Rosenkreuzer"/>
       <c_100.2 Benennung="Mafia"/>
@@ -856,7 +856,7 @@
       <e_45 Benennung="Geschichte der NSDAP Mai - November 1923 (Hitler-Putsch)"/>
       <e_46 Benennung="Hitler-Prozess 1924"/>
       <e_47 Benennung="Geschichte der NS-Bewegung in der Verbotszeit 1923-1925 (Großdeutsche Volksgemeinschaft, Deutschvölkische Freiheitspartei)"/>
-      <e_48 Benennung="Neugründung und Wiederaufbau 26.2.1925-22.5.1926"/>
+      <e_48 Benennung="Geschichte der NSDAP / Neugründung und Wiederaufbau 26.2.1925-22.5.1926"/>
       <e_49 Benennung="Geschichte der NSDAP Mai 1926 - 9.7.1929 (Aufstieg der NSDAP, Der Reichsausschuss für das Deutsche Volksbegehren als Vorgänger der Harzburger Front)"/>
       <e_50 Benennung="Geschichte der NSDAP 1929-14.9.1930 (Kampf gegen Youngplan und Reichstagswahl)"/>
       <e_51 Benennung="Geschichte der NSDAP September 1930 - 14.10.1931 (Vorphasen des Endkampfes)"/>
@@ -887,9 +887,9 @@
       <e_68 Benennung="Spannungen und persönliche Gegnerschaften"/>
       <e_69 Benennung="Verhältnis der NSDAP zu ihren großen Untergliederungen SS, SA und Hitlerjugend"/>
       <e_70 Benennung="Nationalsozialismus / NSDAP und ..."/>
-      <e_70.2 Benennung="... Industrie"/>
-      <e_70.3 Benennung="... Jugendbewegung"/>
-      <e_70.4 Benennung="... Marxismus, Kommunismus, Sozialismus"/>
+      <e_70.2 Benennung="Nationalsozialismus / NSDAP und Industrie"/>
+      <e_70.3 Benennung="Nationalsozialismus / NSDAP und Jugendbewegung"/>
+      <e_70.4 Benennung="Nationalsozialismus / NSDAP und Marxismus, Kommunismus, Sozialismus"/>
       <e_71 Benennung="NSDAP und historisch wichtige Fakten / Ereignisse (z.B. Versailler Vertrag, Reparationsproblem)"/>
       <e_72 Benennung="Politische Auseinandersetzungen der Gegner und der parlamentarischen Parteien mit der NSDAP vor 1933"/>
       <e_73 Benennung="Auseinandersetzungen der NSDAP mit den politischen Gegnern"/>
@@ -984,8 +984,8 @@
       <e_193 Benennung="Sozialstruktur der SS-Mitglieder"/>
       <e_194 Benennung="Rivalitäten innerhalb der SS (Allgemeine SS / Waffen-SS / SD / Gestapo)"/>
       <e_195 Benennung="SS und ..."/>
-      <e_195.1 Benennung="... SA"/>
-      <e_195.2 Benennung="... Reichswehr / Wehrmacht"/>
+      <e_195.1 Benennung="SS und SA"/>
+      <e_195.2 Benennung="SS und Reichswehr / Wehrmacht"/>
       <e_195.3 Benennung="... Polizei"/>
       <e_196 Benennung="Verluste der SS"/>
     </e_160-199>
@@ -1342,7 +1342,7 @@
       <f_154 Benennung="Regierung Caprivi 1890-1894 und Regierung Hohenlohe-Schillingsfürst 1894-1900"/>
       <f_155 Benennung="Regierung Bülow 1900-1909"/>
       <f_156 Benennung="Regierung Bethmann Hollweg 1909-1917"/>
-      <f_156.1 Benennung="Fall Zabern"/>
+      <f_156.1 Benennung="Fall Zabern 1913"/>
       <f_157 Benennung="Regierung Michaelis 1917"/>
       <f_158 Benennung="Regierung Hertling 1917-1918"/>
       <f_159 Benennung="Regierung Max von Baden 1918"/>
@@ -1809,7 +1809,7 @@
       <k_68.2.10 Benennung="Sonstige einzelne politische Gruppen"/>
       <k_68.3 Benennung="Hilfsorganisationen für Emigranten (im Ausland)"/>
       <k_69 Benennung="Wirtschaftliche Vernichtung"/>
-      <k_70 Benennung="Euthanasie (Aktion T 4)"/>
+      <k_70 Benennung="Euthanasie (Aktion T4)"/>
       <k_74 Benennung="Täter, Verfolger, Lagerpersonal, Wachmannschaften (Sozialstruktur, psychologische Aspekte)"/>
       <k_75 Benennung="Opfer, Verfolgte, KZ-Häftlinge (Sozialstruktur, psychologische Aspekte)"/>
       <k_76 Benennung="Lager (allgemein - alle Lagerkategorien: Konzentrationslager, Vernichtungslager, Sicherungslager, Sonderlager, Jugendschutzlager usw.)"/>
@@ -2556,7 +2556,7 @@
       <o_10.10 Benennung="Belletristische Darstellungen (Primär- und Sekundärliteratur)"/>
     </o_1-10.10>
     <o_11-39 Benennung="Institutionen, Organisationen, Körperschaften">
-      <o_11 Benennung="Reichsminister für die Kirchlichen Angelegenheiten 1935-1945"/>
+      <o_11 Benennung="Reichsministerium für die Kirchlichen Angelegenheiten (Reichskirchenministerium) 1935-1945  "/>
       <o_12 Benennung="Hauptabteilung Verbindung zu den Kirchen (beim Ministerrat der DDR) 1949-1957; Staatssekretariat für Kirchenfragen (DDR) 1957-1990"/>
       <o_14 Benennung="Evangelische Kirche (allgemein)"/>
       <o_14.1 Benennung="Äußere Mission (evangelisch)"/>
@@ -4659,7 +4659,7 @@
       <w_143 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen in Deutschland 1933-1945"/>
       <w_144 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen in Deutschland seit 1945"/>
       <w_144.1 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen BRD 1949-1990"/>
-      <w_144.2 Benennung="DDR 1949-1990"/>
+      <w_144.2 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen DDR 1949-1990"/>
       <w_144.3 Benennung="Geschichte der Jugend, Jugendpolitik und Jugendorganisationen in Deutschland seit 1990"/>
     </w_140-149>
     <w_150-199 Benennung="Weitere Sachbegriffe">
@@ -5299,7 +5299,7 @@
       <x_551.2.3 Benennung="Artikel 131 GG (Beamtenrecht)"/>
       <x_552 Benennung="Politisches System, Regierungssystem (hier auch: Demokratie, Gesetzgebung, Parlamentarismus)"/>
       <x_552.1 Benennung="Parlamentarische Opposition"/>
-      <x_552.2 Benennung="Volksabstimmungen, Volksentscheide, Bürgerbegehren, Bürgerentscheide; Direkte Demokratie"/>
+      <x_552.2 Benennung="Volksabstimmungen, Volksentscheide, Bürgerbegehren, Bürgerentscheide, Bürgerräte; Direkte Demokratie"/>
       <x_552.3 Benennung="Demonstrationen, Demonstrationsrecht"/>
       <x_552.4 Benennung="Bürgerinitiativen"/>
       <x_552.5 Benennung="Parteienfinanzierung, Parteivermögen"/>
