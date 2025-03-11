@@ -2031,7 +2031,7 @@
       <l_93 Benennung="Gerüchte, Dementis, Flüsterpropaganda, Hetze, (politische)Lüge, Fake News, Desinformation " Bemerkungen="vgl. c 64.2.1, v 75.3" erstellt_am="" geaendert_am="22.06.2017 und 17.01. und 03.07.2024" Verweisformen="Dementi|Flüsterpropaganda|Hetze|Falschmeldung|Falschnachricht" Register-Vokabular="Gerücht|Verleumdung|Fake News|Lüge|Desinformation " />
     </l_50-99>
   </l_1-99>
-  <l_101-199 Benennung="Medien und Propaganda in Deutschland 1933-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Deutsches Reich 1933-1945" Register-Vokabular="">
+  <l_101-199 Benennung="Medien und Propaganda in Deutschland 1933-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Deutsches Reich" Register-Vokabular="">
     <l_101-110.1 Benennung="Hilfsmittel (Formale Erschließungskriterien)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <l_101 Benennung="Bibliographien" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Medien|Propaganda|Geschichte 1933-1945|Bibliographie" />
       <l_101.1 Benennung="Filmographien" Bemerkungen="" erstellt_am="09.03.1995" geaendert_am="" Verweisformen="" Register-Vokabular="Film / Verzeichnis" />
@@ -2040,7 +2040,6 @@
       <l_105 Benennung="Tabellen, Statistiken, Chroniken, Presseadressbücher" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Presse|Adressbuch|Deutschland|Medien|Propaganda|Geschichte 1933-1945|Statistik|Zeittafel" />
       <l_107 Benennung="Gesammelte Abhandlungen (eines Verfassers), Festschriften" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Medien|Propaganda|Geschichte 1933-1945|Aufsatzsammlung |Festschrift" />
       <l_108 Benennung="Methodik und Geschichte der Forschung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Medien|Propaganda|Geschichte 1933-1945|Forschungsmethode|Forschung / Geschichte" />
-      <l_108.1 Benennung="Tagungen, Kongresse" Bemerkungen="" erstellt_am="05.03.2025" geaendert_am="" Verweisformen="" Register-Vokabular="Medien|Publizistik|Kongress" />
       <l_108.2 Benennung="Ausstellungen" Bemerkungen="" erstellt_am="14.08.2009" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Medien|Propaganda|Geschichte 1933-1945|Ausstellung" />
       <l_109 Benennung="Quellenkunde" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Medien|Propaganda|Geschichte 1933-1945|Quellenkunde" />
       <l_110 Benennung="Quellensammlungen, Dokumentationen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Medien|Propaganda|Geschichte 1933-1945|Quelle|Edition" />
@@ -2903,7 +2902,7 @@
     </q_1-10.2>
     <q_11-37 Benennung="Institutionen, Organisationen, Körperschaften" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <q_21 Benennung="Reichswirtschaftsministerium" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Reichswirtschaftsministerium|Reichministerium|Reichminister" Register-Vokabular="Deutschland / Wirtschaftsministerium" />
-      <q_21.1 Benennung="Reichsministerium für Bewaffnung und Munition (ab September 1943: Reichsministerium für Rüstung und Kriegsproduktion)" Bemerkungen="" erstellt_am="" geaendert_am="05.03.2025" Verweisformen="Reichminister für Bewaffnung und Munition|Reichministerium" Register-Vokabular="Deutschland / Reichsminister für Rüstung und Kriegsproduktion" />
+      <q_21.1 Benennung="Reichministerium für Bewaffnung und Munition (ab September 1943: Reichsministerium für Rüstung und Kriegsproduktion)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Reichminister für Bewaffnung und Munition|Reichministerium" Register-Vokabular="Deutschland / Reichsminister für Rüstung und Kriegsproduktion" />
       <q_22 Benennung="Deutsche staatliche / halbstaatliche / öffentlich-rechtliche Wirtschaftsorganisationen / -institutionen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Wirtschaft|Organisation|Einrichtung" />
       <q_22.1 Benennung="Vorläufiger Reichswirtschaftsrat 1920-1933,  Reichswirtschaftsrat 1933-1934, Reichsarbeits- und Reichswirtschaftsrat 1935-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Vorläufiger Reichswirtschaftsrat|Deutschland / Reichswirtschaftsrat|Deutschland / Reichsarbeits- und Reichswirtschaftsrat" />
       <q_22.2 Benennung="Reichswirtschaftskammer 1934-1945" Bemerkungen="vgl. q 23.1, q 113, q 125.1, q 232" erstellt_am="" geaendert_am="29.05.2024" Verweisformen="" Register-Vokabular="Reichswirtschaftskammer" />
@@ -3640,7 +3639,7 @@
       <s_45.3.2 Benennung="Betriebskampfgruppen (Kampfgruppen der Arbeiterklasse)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Kampfgruppen der Arbeiterklasse" Register-Vokabular="Betriebskampfgruppe" />
       <s_45.4 Benennung="Alliierte Streitkräfte in Deutschland (BRD und DDR)" Bemerkungen="vgl. x 52" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Truppenstationierung " />
       <s_46 Benennung="Deutsche Militärgeschichte, Militärpolitik, Geschichte der Bundeswehr 1990-" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-" />
-      <s_46.1 Benennung="Auslandseinsätze der Bundeswehr" Bemerkungen="vgl. b 155.3.3" erstellt_am="16.01.2012" geaendert_am="" Verweisformen="Out-of-area-Operation" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-|Auslandseinsatz" />
+      <s_46.1 Benennung="Auslandseinsätze der Bundeswehr" Bemerkungen="vgl. 155.3.3" erstellt_am="16.01.2012" geaendert_am="" Verweisformen="Out-of-area-Operation" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-|Auslandseinsatz" />
     </s_40-49>
     <s_60-99 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <s_64 Benennung="Militärwissenschaft" Bemerkungen="Theorie des Krieges s. c 83.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärwissenschaft" />
@@ -3664,7 +3663,7 @@
       <s_67 Benennung="Truppenführung (Militärische Führung in der Truppe)" Bemerkungen="vgl. t 78, u 78" erstellt_am="" geaendert_am="" Verweisformen="Truppenführung" Register-Vokabular="Militär|Führung" />
       <s_67.1 Benennung="Innere Führung; Staatsbürger in Uniform (Bundeswehr)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Bundeswehr|Innere Führung" />
       <s_68 Benennung="Militärverwaltung; Fürsorge- und Versorgungswesen; Personalwesen (auch: Laufbahnen, Besoldung)" Bemerkungen="vgl. r 79" erstellt_am="" geaendert_am="" Verweisformen="Wehrsold" Register-Vokabular="Militärverwaltung|Soldatenversorgung|Personalwesen|Laufbahn|Beförderung|Sold" />
-      <s_69 Benennung="Veteranen, Kriegsveteranen" Bemerkungen="vgl. s 25.2, x 55.2" erstellt_am="09.08.2019" geaendert_am="" Verweisformen="" Register-Vokabular="Veteranen|Kriegsveteranen" />
+      <s_69 Benennung="Veteranen, Kriegsveteranen" Bemerkungen="vgl. s. 25.2, x 55.2" erstellt_am="09.08.2019" geaendert_am="" Verweisformen="" Register-Vokabular="Veteranen|Kriegsveteranen" />
       <s_72 Benennung="Militärseelsorge" Bemerkungen="vgl. o 81.8, t 79, u 97" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärseelsorge" />
       <s_75 Benennung="Militärische Sozialstruktur; Rangordnung" Bemerkungen="vgl. s 175, s 275, t 75, u 75; Militärsoziologie s. c 367.8" erstellt_am="12.04.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Militär|Sozialstruktur|Rangordnung" />
       <s_75.1 Benennung="Generale, Admirale" Bemerkungen="" erstellt_am="27.11.1991" geaendert_am="" Verweisformen="" Register-Vokabular="General|Admiral" />
@@ -4221,8 +4220,6 @@
       <u_104 Benennung="Nachschlagewerke, Wörterbücher" Bemerkungen="Biographische Nachschlagewerke s. a 6" erstellt_am="" geaendert_am="" Verweisformen="Lexikon" Register-Vokabular="Weltkrieg (1939-1945)|Internationale Politik|Wörterbuch" />
       <u_105 Benennung="Tabellen, Statistiken,Chroniken" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1939-1945)|Internationale Politik|Zeittafel|Statistik|Tabelle" />
       <u_107 Benennung="Gesammelte Abhandlungen (eines Verfassers), Festschriften" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1939-1945)|Internationale Politik|Aufsatzsammlung|Festschrift" />
-      <u_108 Benennung="Methodik und Geschichte der Forschung " Bemerkungen="" erstellt_am="05.03.2025" geaendert_am="" Verweisformen="" Register-Vokabular="Militärgeschichte (Fach)|Weltkrieg (1939-1945)|Forschungsmethode|Forschung / Geschichte" />
-      <u_108.1 Benennung="Tagungen, Kongresse " Bemerkungen="" erstellt_am="05.03.2025" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1939-1945)|Kongress" />
       <u_109 Benennung="Quellenkunde" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1939-1945)|Internationale Politik|Quellenkunde" />
       <u_110 Benennung="Quellensammlungen, Dokumentationen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="(vgl. g 64)|Internationale Politik|Quelle|Edition" />
       <u_110.1 Benennung="Bildmaterial" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1939-1945)|Internationale Politik|Bildband" />
