@@ -26,7 +26,7 @@
       <a_6.3 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Einzelne Sachgebiete"/>
       <a_6.3.1 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Wirtschaft"/>
       <a_6.3.2 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Kultur"/>
-      <a_6.3.3 Benennung="Wissenschaft"/>
+      <a_6.3.3 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Wissenschaft"/>
       <a_6.3.4 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Militär"/>
       <a_6.3.5 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Kirche"/>
       <a_6.3.6 Benennung="Biographische Nachschlagewerke, Sammelbiographien / Juden "/>
@@ -2040,6 +2040,7 @@
       <l_105 Benennung="Tabellen, Statistiken, Chroniken, Presseadressbücher"/>
       <l_107 Benennung="Gesammelte Abhandlungen (eines Verfassers), Festschriften"/>
       <l_108 Benennung="Methodik und Geschichte der Forschung"/>
+      <l_108.1 Benennung="Tagungen, Kongresse"/>
       <l_108.2 Benennung="Ausstellungen"/>
       <l_109 Benennung="Quellenkunde"/>
       <l_110 Benennung="Quellensammlungen, Dokumentationen"/>
@@ -2133,7 +2134,7 @@
       <m_70 Benennung="Eugenik; Rassenhygiene"/>
       <m_70.1 Benennung="Rassenhygiene in der NS-Zeit 1933-1945"/>
       <m_70.1.1 Benennung="Gesetzgebung (Erbgesundheitsgesetz, Ehegesundheitsgesetz); Erbgesundheitsgerichte"/>
-      <m_70.2 Benennung="Zwangssterilisation"/>
+      <m_70.2 Benennung="Zwangssterilisation, Zwangsabtreibung "/>
       <m_72 Benennung="Rassenkunde"/>
       <m_72.1 Benennung="Rassengeschichte"/>
       <m_72.2 Benennung="NS-Rassentheorie"/>
@@ -2902,7 +2903,7 @@
     </q_1-10.2>
     <q_11-37 Benennung="Institutionen, Organisationen, Körperschaften">
       <q_21 Benennung="Reichswirtschaftsministerium"/>
-      <q_21.1 Benennung="Reichministerium für Bewaffnung und Munition (ab September 1943: Reichsministerium für Rüstung und Kriegsproduktion)"/>
+      <q_21.1 Benennung="Reichsministerium für Bewaffnung und Munition (ab September 1943: Reichsministerium für Rüstung und Kriegsproduktion)"/>
       <q_22 Benennung="Deutsche staatliche / halbstaatliche / öffentlich-rechtliche Wirtschaftsorganisationen / -institutionen"/>
       <q_22.1 Benennung="Vorläufiger Reichswirtschaftsrat 1920-1933,  Reichswirtschaftsrat 1933-1934, Reichsarbeits- und Reichswirtschaftsrat 1935-1945"/>
       <q_22.2 Benennung="Reichswirtschaftskammer 1934-1945"/>
@@ -4220,6 +4221,8 @@
       <u_104 Benennung="Nachschlagewerke, Wörterbücher"/>
       <u_105 Benennung="Tabellen, Statistiken,Chroniken"/>
       <u_107 Benennung="Gesammelte Abhandlungen (eines Verfassers), Festschriften"/>
+      <u_108 Benennung="Methodik und Geschichte der Forschung "/>
+      <u_108.1 Benennung="Tagungen, Kongresse "/>
       <u_109 Benennung="Quellenkunde"/>
       <u_110 Benennung="Quellensammlungen, Dokumentationen"/>
       <u_110.1 Benennung="Bildmaterial"/>
