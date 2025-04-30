@@ -716,7 +716,7 @@
       <c_366.2 Benennung="Soziologie der Entwicklungsländer"/>
       <c_366.3 Benennung="Theorie des sozialen Wandels und der sozialen Kontrolle (Modernisierungstheorien)"/>
       <c_366.4 Benennung="Theorie der sozialen Gruppe"/>
-      <c_366.5 Benennung="Schicht, Klasse, Stand"/>
+      <c_366.5 Benennung="Schicht, Klasse, Stand; hier auch: Klassismus"/>
       <c_366.6 Benennung="Mobilität"/>
       <c_366.7 Benennung="Soziologie der nachindustriellen Gesellschaft (Informationsgesellschaft, Kommunikationsgesellschaft, Wissensgesellschaft, Risikogesellschaft)"/>
       <c_367 Benennung="Spezielle Soziologien"/>
@@ -732,7 +732,7 @@
       <c_367.10 Benennung="Soziologie des Bildungswesens, Pädagogische Soziologie"/>
       <c_367.11 Benennung="Parteisoziologie"/>
       <c_367.12 Benennung="Soziologie des Gesundheitswesens, Medizinsoziologie"/>
-      <c_367.13 Benennung="Ethnosoziologie"/>
+      <c_367.13 Benennung="Ethnosoziologie, Migrationssoziologie"/>
       <c_367.14 Benennung="Sportsoziologie"/>
       <c_367.15 Benennung="Sprachsoziologie"/>
       <c_367.16 Benennung="Mediensoziologie"/>
@@ -746,7 +746,7 @@
       <c_372 Benennung="Sozialisation"/>
     </c_340-399>
   </c_301-399>
-  <d_1-99 Benennung="Deutsches Volk und Deutscher Raum">
+  <d_1-99 Benennung="Deutsches Volk und deutschsprachiger Raum">
     <d_1-10.10 Benennung="Hilfsmittel (formale Erschließungskriterien)">
       <d_1 Benennung="Bibliographien (hier auch: allgemeine Deutschland-Bibliographien)"/>
       <d_2 Benennung="Zeitschriften, Kalender, Jahrbücher"/>
@@ -795,9 +795,9 @@
       <d_66 Benennung="Alldeutscher Gedanke"/>
       <d_67 Benennung="Pangermanismus"/>
       <d_68 Benennung="Deutsche Nation, deutsches Nationalbewusstsein, deutsche Identität (allgemein)"/>
-      <d_68.1 Benennung="Deutsche Politische Feiern, Zeremonien, Gedenktage"/>
-      <d_68.1.1 Benennung="Kapitulation 8. Mai 1945"/>
-      <d_68.1.2 Benennung="Tag der Deutschen Einheit, 17. Juni"/>
+      <d_68.1 Benennung="Politische Feiern, Zeremonien, Gedenktage"/>
+      <d_68.1.1 Benennung="Tag der Befreiung (Gedenken an die Kapitulation am 8. Mai 1945) "/>
+      <d_68.1.2 Benennung="Tag der Deutschen Einheit, 17. Juni (1954-1990)"/>
       <d_68.1.3 Benennung="Tag der Deutschen Einheit, 3. Oktober"/>
       <d_68.2 Benennung="Deutsche National- und Staatssymbole, Fahnen, Flaggen"/>
       <d_68.3 Benennung="Deutsche Nationalhymnen, Deutschlandlied"/>
@@ -1828,7 +1828,7 @@
       <k_87 Benennung="Haft und Strafvollzug"/>
       <k_87.1 Benennung="Schutzhaft"/>
       <k_88 Benennung="Medizinische Experimente an KZ-Häftlingen"/>
-      <k_89 Benennung="Psychische und gesundheitliche Folgen der Verfolgung (Überlebende und Nachkommen; hier auch: Folgen der Judenverfolgung)"/>
+      <k_89 Benennung="Überlebende und Nachkommen (aller Opfergruppen; hier auch physische und psychische Folgen)"/>
       <k_90 Benennung="Kinder im Konzentrationslager"/>
       <k_95 Benennung="Verfolgung und Vernichtung der Sinti und Roma"/>
       <k_96 Benennung="Verfolgung sonstiger sozialer und ethnischer Gruppen"/>
@@ -2270,6 +2270,8 @@
       <m_276 Benennung="Prostitution"/>
       <m_277 Benennung="Pornographie"/>
       <m_278 Benennung="Sexismus, Sexuelle Belästigung, sexuelle Gewalt, sexueller Missbrauch"/>
+      <m_278.1 Benennung="Frauenfeindlichkeit/Misogynie; hier auch: Femizid     "/>
+      <m_278.2 Benennung="Männerfeindlichkeit/Misandrie  "/>
       <m_280 Benennung="Partnerschaft, Ehe, Familie, Familienpolitik (hier auch: Geburtenregelung)"/>
       <m_280.1 Benennung="Mutterschaft, Mutter und Kind"/>
       <m_280.2 Benennung="Ehe und Familie in der NS-Ideologie"/>
@@ -2652,6 +2654,7 @@
       <o_56 Benennung="Christlich-jüdische Zusammenarbeit"/>
       <o_56.1 Benennung="Haltung der Christen / Kirchen zur Judenverfolgung und Judenvernichtung 1933-1945"/>
       <o_57 Benennung="Interreligiöser Dialog"/>
+      <o_58 Benennung="Missionierung (allgemein)   "/>
       <o_60 Benennung="Verfolgung der Kirchen durch den Kommunismus"/>
       <o_63 Benennung="Religionswissenschaft"/>
       <o_63.2 Benennung="Religionsphilosophie (hier auch: Mythen)"/>
@@ -2676,6 +2679,7 @@
       <o_80 Benennung="Kirche und Staat, Religionspolitik; Staatskirchenrecht"/>
       <o_80.1 Benennung="Konkordate, Reichskonkordat (1933)"/>
       <o_80.2 Benennung="Religionsfreiheit"/>
+      <o_80.3 Benennung=" Kirchenaustritt "/>
       <o_81 Benennung="Religion / Christentum / Kirche und ..."/>
       <o_81.1 Benennung="... Gesellschaft"/>
       <o_81.1.1 Benennung="... Arbeiterschaft"/>
@@ -2684,13 +2688,14 @@
       <o_81.4 Benennung="... Sozialismus"/>
       <o_81.5 Benennung="... Marxismus, Kommunismus"/>
       <o_81.6 Benennung="... Bildungswesen"/>
-      <o_81.7 Benennung="... Rassenfrage"/>
+      <o_81.7 Benennung="... Rasse, Rassismus"/>
       <o_81.8 Benennung="... Krieg, Abrüstung, Kriegsdienstverweigerung"/>
       <o_81.9 Benennung="... Wirtschaft"/>
-      <o_81.10 Benennung="... Sexualität"/>
+      <o_81.10 Benennung="... Sexualität, Geschlecht, Geschlechterrollen"/>
       <o_81.11 Benennung="... Faschismus"/>
       <o_81.12 Benennung="... Entwicklungspolitik"/>
       <o_81.13 Benennung="… Wissenschaft"/>
+      <o_89 Benennung="Konversion "/>
       <o_90 Benennung="Islam"/>
       <o_90.1 Benennung="Islamischer Fundamentalismus, Islamismus"/>
       <o_90.2 Benennung="Islamkritik, Islamophobie"/>
@@ -2699,7 +2704,7 @@
       <o_95 Benennung="Pantheismus, Theosophie"/>
       <o_97 Benennung="Freidenker, Atheismus"/>
       <o_98 Benennung="Parapsychologie, Okkultismus, Spiritismus; Esoterik (hier auch: New Age)"/>
-      <o_98.1 Benennung="Aberglauben"/>
+      <o_98.1 Benennung="Aberglaube"/>
     </o_50-99>
   </o_1-99>
   <p_1-99 Benennung="Recht, Verfassung, Verwaltung">
@@ -4117,7 +4122,7 @@
       <u_53 Benennung="Kämpfe an der Deutschen Westfront 1944/45 (von der Invasion in der Normandie Juni 1944 bis zum Rückzug der Deutschen auf den Westwall März 1945)"/>
       <u_54 Benennung="Ardennenoffensive Dezember 1944, Endkampf im Westen Januar - April 1945"/>
       <u_55 Benennung="Kampf um Ostdeutschland und Berlin Januar - Mai 1945"/>
-      <u_56 Benennung="Endphase des Krieges, Kriegsende in Deutschland 1945"/>
+      <u_56 Benennung="Zusammenbruch des NS-Regimes, Kriegsende und Befreiung Deutschlands 1945"/>
       <u_56.1 Benennung="Kapitulation"/>
     </u_40-56>
     <u_57-99 Benennung="Weitere Sachbegriffe">
@@ -4433,10 +4438,11 @@
       <v_90.15 Benennung="Zensur"/>
       <v_90.15.1 Benennung="Zensur in der NS-Zeit (Unerwünschtes Schrifttum, Bücherverbrennung)"/>
       <v_95 Benennung="Nordischer Gedanke in Kunst und Geistesleben"/>
+      <v_96 Benennung="Ingenieurwissenschaften "/>
+      <v_96.1 Benennung="Ingenieure im Exil "/>
       <v_97 Benennung="Technik, Technikgeschichte"/>
       <v_97.1 Benennung="Patentrecht (hier auch: Patentämter)"/>
       <v_97.2 Benennung="Technische Überwachung"/>
-      <v_97.3 Benennung="Ingenieure im Exil"/>
       <v_97.4 Benennung="Elektronische Datenverarbeitung (EDV), Datentechnik, Computer"/>
       <v_98 Benennung="Wissenschaftlich-technischer Fortschritt, technischer Fortschritt"/>
       <v_98.1 Benennung="Technikbewertung, Technikfolgenabschätzung"/>
@@ -4803,7 +4809,7 @@
       <x_53 Benennung="Humanitäre Hilfe aus dem Ausland für die Deutschen nach 1945 (hier auch: Care-Pakete)"/>
       <x_55 Benennung="Gesellschaft 1945-1949"/>
       <x_55.1 Benennung="Alltag"/>
-      <x_55.2 Benennung="Heimkehrer"/>
+      <x_55.2 Benennung="Heimkehrer (bis 1955)"/>
       <x_55.3 Benennung="Displaced Persons (DPs) in Deutschland"/>
       <x_55.4 Benennung="Fraternisierung"/>
       <x_55.5 Benennung="Öffentliche Meinung"/>
@@ -4837,7 +4843,7 @@
       <x_65.5 Benennung="Zugangswege nach Berlin, Besuchsverkehr innerhalb Berlins (Passierschein-Abkommen)"/>
       <x_68 Benennung="Vergleichende Deutschland-Studien (BRD / DDR)"/>
       <x_70 Benennung="Innerdeutsche Beziehungen und Verträge"/>
-      <x_70.1 Benennung="Grundvertrag vom 22.12.1972"/>
+      <x_70.1 Benennung="Grundlagenvertrag vom 22.12.1972"/>
       <x_70.2 Benennung="Kulturelle Beziehungen"/>
       <x_70.3 Benennung="Gefangenenaustausch, Freikauf"/>
       <x_74 Benennung="Wiedervereinigung, deutsch-deutscher Einigungsprozess 1989 / 1990 (Pläne und Ereignisse, hier auch: 1. Staatsvertrag [Wirtschafts-, Währungs- und Sozialunion] und 2. Staatsvertrag [Einigungsvertrag])"/>
@@ -5208,6 +5214,7 @@
       <x_521.78.10 Benennung="Parteiprogramm, Grundsatzprogramm (Programmdiskussion)"/>
       <x_521.79 Benennung="Die PARTEI 2004-"/>
       <x_521.80 Benennung="Bündnis Sahra Wagenknecht (BSW) 2024-"/>
+      <x_521.81 Benennung="Freie Sachsen 2021-"/>
       <x_522 Benennung="Politische Gruppen und Bewegungen (Westzonen und Bundesrepublik Deutschland)"/>
       <x_522.1 Benennung="Deutsche Union"/>
       <x_522.2 Benennung="Nauheimer Kreis"/>
@@ -6630,7 +6637,7 @@
       <Do_718 Benennung="Deutsch-Niederländische Gesellschaft e.V."/>
       <Do_719 Benennung="Gesellschaft der Freunde Albaniens e.V."/>
       <Do_720 Benennung="Dokumentationszentrum und Museum über die Migration in Deutschland (DOMOiD)"/>
-    </Do_700-949>    
+    </Do_700-949>
   </Do_001-999>
   <Dq_001-899 Benennung="Gedruckte Quellen / Primärliteratur in der Druckschriftensammlung des Archivs: Jugend- und Frauenorganisationen seit Mai 1945">
     <Dq_001-250 Benennung="Jugendorganisationen">
