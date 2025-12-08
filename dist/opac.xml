@@ -40,7 +40,7 @@
       <a_11.1 Benennung="Runenkunde"/>
       <a_12 Benennung="Bibliothekswesen, Bibliotheksrecht"/>
       <a_12.1 Benennung="Volksbüchereiwesen"/>
-      <a_16 Benennung="Informations- und Dokumentationswesen; Neue Technologien und Neue Medien in Archiven und Bibliotheken (EDV,  Internet)"/>
+      <a_16 Benennung="Informations- und Dokumentationswesen; Neue Technologien und Neue Medien in Archiven und Bibliotheken (EDV,  Internet, KI)"/>
       <a_16.1 Benennung="Bestandserhaltung, Digitalisierung"/>
       <a_16.2 Benennung="Informationsrecht, Datenschutz; Privatheit (hier auch: Volkszählungsdebatte, Debatte um die Vorratsdatenspeicherung)"/>
       <a_16.3 Benennung="(Einzelne) Datenbanken, Internet-Ressourcen"/>
@@ -286,7 +286,7 @@
       <b_230.30.4 Benennung="Digitale Quellen"/>
       <b_230.31 Benennung="Editionsmethoden"/>
       <b_230.32 Benennung="Quantifizierung in der Geschichtswissenschaft"/>
-      <b_230.33 Benennung="Neue Technologien und Neue Medien in der Geschichtswissenschaft (Digitalisierung, Internet, Elektronisches Publizieren, Open Access, Apps usw.)"/>
+      <b_230.33 Benennung="Neue Technologien und Neue Medien in der Geschichtswissenschaft (Digitalisierung, Internet, Elektronisches Publizieren, Open Access, Apps, KI usw.)"/>
       <b_230.33.1 Benennung="(Einzelne) Historisch-politische Datenbanken und Internet-Ressourcen"/>
       <b_232 Benennung="Historische Hilfswissenschaften"/>
       <b_232.1 Benennung="Statistik"/>
@@ -727,7 +727,7 @@
       <c_367.5 Benennung="Kunstsoziologie, Kultursoziologie"/>
       <c_367.6 Benennung="Rechtssoziologie"/>
       <c_367.7 Benennung="Religionssoziologie"/>
-      <c_367.8 Benennung="Militärsoziologie"/>
+      <c_367.8 Benennung="Militärsoziologie, Kriegssoziologie"/>
       <c_367.9 Benennung="Familiensoziologie, Jugendsoziologie"/>
       <c_367.10 Benennung="Soziologie des Bildungswesens, Pädagogische Soziologie"/>
       <c_367.11 Benennung="Parteisoziologie"/>
@@ -1569,7 +1569,7 @@
       <h_67.4 Benennung="Dänemark: Dansk National-Socialistiske Arbejder-Parti (Clausen-Bewegung) (Frits Clausen); Dansk Anti-Kommunisme (Axel Hartel); Dansk Folkeparti (Wilfred Petersen); Nationalsocialistisk Arbejderparti (Aage H. Andersen); Nationalsozialistische Deutsche Arbeiterpartei Nordschleswigs (Jens Moller)"/>
       <h_67.5 Benennung="Estland: Wabse (Verband der Freiheitskämpfer)"/>
       <h_67.6 Benennung="Finnland: Isanmaalinen Kansanliike (IKL, Vaterländische Volksbewegung) bis 1943, Akateeminen Karjala-Seura (Akademische Karelische Gesellschaft) bis 1943"/>
-      <h_67.7 Benennung="Frankreich: Parti Populaire Francais (Doriot-Bewegung) (Jacques Doriot); Rassemblement National Populaire (Marcel Deat); Ligue Francaise (Pierre Costantini); Francisme (Marcel Bucard); Parti Francais National Collectivist (Pierre Clementi), Mouvement Social Revolutionnaire (Eugene Deloncle), Groupe Collaboration (Alphonse de Chateaubriand), Parti National Breton ( Francois Debauvais, Olivier Mordrel; Raymond Delaporte), Parti National Breton - Abspaltung (Celestin Laine), Vlaamsch Verbond van Frankrijk (Jean Marie Gantois)"/>
+      <h_67.7 Benennung="Frankreich: Parti Populaire Français (Doriot-Bewegung) (Jacques Doriot); Rassemblement National Populaire (Marcel Deat); Ligue Française (Pierre Costantini); Francisme (Marcel Bucard); Parti Français National Collectivist (Pierre Clementi), Mouvement Social Revolutionnaire (Eugene Deloncle), Groupe Collaboration (Alphonse de Chateaubriand), Parti National Breton ( François Debeauvais, Olivier Mordrel; Raymond Delaporte), Parti National Breton - Abspaltung (Celestin Laine), Vlaamsch Verbond van Frankrijk (Jean Marie Gantois)"/>
       <h_67.8 Benennung="Griechenland: Ethniko-Sossialistiki Politiki Organosis (Nationalsozialistische Vereinigung) (Sterodimos)"/>
       <h_67.9 Benennung="Italien (Republik von Salò): Partito Fascista Repubblicano ab 1943 (Benito Mussolini)"/>
       <h_67.10 Benennung="Kroatien: Ustascha (Ante Pavelic)"/>
@@ -1828,7 +1828,7 @@
       <k_87 Benennung="Haft und Strafvollzug"/>
       <k_87.1 Benennung="Schutzhaft"/>
       <k_88 Benennung="Medizinische Experimente an KZ-Häftlingen"/>
-      <k_89 Benennung="Überlebende und Nachkommen (aller Opfergruppen; hier auch physische und psychische Folgen)"/>
+      <k_89 Benennung="Überlebende und Nachkommen nach 1944/45 (alle Opfergruppen; hier auch physische und psychische Folgen der Verfolgung)"/>
       <k_90 Benennung="Kinder im Konzentrationslager"/>
       <k_95 Benennung="Verfolgung und Vernichtung der Sinti und Roma"/>
       <k_96 Benennung="Verfolgung sonstiger sozialer und ethnischer Gruppen"/>
@@ -1957,7 +1957,7 @@
       <l_56 Benennung="Neue Medien"/>
       <l_56.1 Benennung="Medienkonvergenz"/>
       <l_57 Benennung="Internet (hier auch: Darknet)"/>
-      <l_57.1 Benennung="Web 2.0, Soziale Netzwerke; Blogs/Weblogs"/>
+      <l_57.1 Benennung="Web 2.0, Soziale Netzwerke; Blogs/Weblogs, KI"/>
       <l_57.2 Benennung="Internetkriminalität, Cybercrime"/>
       <l_58 Benennung="Cyberspace, Virtuelle Realität"/>
       <l_61 Benennung="Medienpolitik, Netzpolitik"/>
@@ -2122,7 +2122,7 @@
     </m_40-50>
     <m_60-99 Benennung="Weitere Sachbegriffe">
       <m_64 Benennung="Demographie (Bevölkerungswissenschaft)"/>
-      <m_65 Benennung="Bevölkerungswachstum (hier auch: Geburtenrate)"/>
+      <m_65 Benennung="Bevölkerungsentwicklung, demografischer Wandel (hier auch: Geburtenrate)"/>
       <m_66 Benennung="Migration (Räumliche Bevölkerungsbewegungen)"/>
       <m_66.1 Benennung="Auswanderung"/>
       <m_66.2 Benennung="Rückwanderung"/>
@@ -3095,8 +3095,8 @@
       <q_144 Benennung="Geschichte des deutschen Binnenhandels und Handwerks 1933-1945"/>
       <q_144.1 Benennung="Geschichte des deutschen Binnenhandels und Handwerks 1939-1945"/>
       <q_146 Benennung="Geschichte des deutschen Binnenhandels und Handwerks seit 1945"/>
-      <q_146.1 Benennung="Geschichte des Binnenhandels und HandwerksBRD 1949-1990"/>
-      <q_146.2 Benennung="DDR 1949-1990"/>
+      <q_146.1 Benennung="Geschichte des Binnenhandels und Handwerks BRD 1949-1990"/>
+      <q_146.2 Benennung="Geschichte des Binnenhandels und Handwerks DDR 1949-1990"/>
       <q_146.3 Benennung="Geschichte des deutschen Binnenhandels und Handwerks seit 1990"/>
     </q_140-149>
     <q_150-199 Benennung="Weitere Sachbegriffe">
@@ -3207,7 +3207,7 @@
       <q_346.3 Benennung="Geschichte des deutschen Verkehrs seit 1990"/>
     </q_340-349>
     <q_350-399 Benennung="Weitere Sachbegriffe">
-      <q_360 Benennung="Verkehr, Verkehrspolitik, Transportwesen (allgemein)"/>
+      <q_360 Benennung="Verkehr, Verkehrspolitik, Logistik, Transportwesen (allgemein)"/>
       <q_361 Benennung="Straßenverkehr, Kraftfahrzeugverkehr, Motorisierung"/>
       <q_361.1 Benennung="Straßenbau"/>
       <q_361.2 Benennung="Autobahnen"/>
@@ -3536,7 +3536,7 @@
       <r_78.4 Benennung="Krankenversicherung, Krankenkassen"/>
       <r_78.5 Benennung="Pflegeversicherung"/>
       <r_79 Benennung="Kriegsopferversorgung, Hinterbliebenenversorgung; Versorgungsrecht"/>
-      <r_81 Benennung="Sozialarbeit, Sozialpädagogik, Fürsorgewesen, Sozialhilfe, Sozialhilferecht, Hartz IV"/>
+      <r_81 Benennung="Sozialarbeit, Sozialpädagogik, Fürsorgewesen, Sozialhilfe, Sozialhilferecht; Grundsicherung für Arbeitssuchende (Hartz IV, Bürgergeld)"/>
       <r_81.1 Benennung="Jugendhilfe, Jugendarbeit, Jugendsozialarbeit (Jugendfürsorge, Jugendpflege)"/>
       <r_82 Benennung="Wohnen; Wohnungspolitik, Wohnungsbaupolitik, Wohnungsmarkt; Wohnungswesen, Siedlungswesen"/>
       <r_82.1 Benennung="Mietervereine"/>
@@ -4398,13 +4398,13 @@
       <v_78.2 Benennung="Politische Lieder"/>
       <v_78.3 Benennung="Musik im Exil"/>
       <v_78.4 Benennung="Soldatenlieder; Militärmusik"/>
-      <v_78.5 Benennung="Unterhaltungsmusik (Swing, Jazz, Schlager, Pop, Rock; Filmmusik, Volksmusik usw.)"/>
+      <v_78.5 Benennung="Unterhaltungsmusik (Swing, Jazz, Schlager, Pop, Rock, Filmmusik, Volksmusik usw.)"/>
       <v_79 Benennung="Volkstanz"/>
       <v_80 Benennung="Sprechchöre"/>
       <v_81 Benennung="Theater"/>
       <v_81.1 Benennung="Theater im Exil"/>
       <v_81.2 Benennung="Volksbühnenbewegung"/>
-      <v_81.3 Benennung="Kabarett; Varieté; Zirkus"/>
+      <v_81.3 Benennung="Comedy, Kabarett; Varieté; Zirkus"/>
       <v_81.3.1 Benennung="Kabarett im Exil"/>
       <v_81.4 Benennung="Arbeitertheater"/>
       <v_81.5 Benennung="Bauerntheater"/>
@@ -4843,7 +4843,7 @@
       <x_65.5 Benennung="Zugangswege nach Berlin, Besuchsverkehr innerhalb Berlins (Passierschein-Abkommen)"/>
       <x_68 Benennung="Vergleichende Deutschland-Studien (BRD / DDR)"/>
       <x_70 Benennung="Innerdeutsche Beziehungen und Verträge"/>
-      <x_70.1 Benennung="Grundlagenvertrag vom 22.12.1972"/>
+      <x_70.1 Benennung="Grundlagenvertrag vom 21.12.1972"/>
       <x_70.2 Benennung="Kulturelle Beziehungen"/>
       <x_70.3 Benennung="Gefangenenaustausch, Freikauf"/>
       <x_74 Benennung="Wiedervereinigung, deutsch-deutscher Einigungsprozess 1989 / 1990 (Pläne und Ereignisse, hier auch: 1. Staatsvertrag [Wirtschafts-, Währungs- und Sozialunion] und 2. Staatsvertrag [Einigungsvertrag])"/>
@@ -5030,7 +5030,8 @@
       <x_440 Benennung="Deutsche Außenpolitik seit 1945 (allgemein)"/>
       <x_440.1 Benennung="Außenpolitik der BRD 1949-1990"/>
       <x_440.2 Benennung="Außenpolitik der DDR 1949-1990"/>
-      <x_440.3 Benennung="Deutsche Außenpolitik seit 1990"/>
+      <x_440.3 Benennung="Deutsche Außenpolitik 1990-2022"/>
+      <x_440.4 Benennung="Deutsche Außenpolitik 2022-"/>
       <x_443 Benennung="Konferenz von Potsdam 17.7 und 2.8.1945, Potsdamer Abkommen"/>
       <x_444 Benennung="Außenministerkonferenzen 1945 (London und Moskau)"/>
       <x_445 Benennung="Außenministerkonferenzen 1946 (Paris und New York)"/>
@@ -5070,7 +5071,7 @@
       <x_472 Benennung="Deutsche Außenpolitik zur Saarfrage 1945-1956"/>
       <x_473 Benennung="Feindstaatenklausel"/>
       <x_474 Benennung="Möglichkeiten einer Außenpolitik, (eingeschränkte) Souveränität der BRD"/>
-      <x_474.1 Benennung="Deutsche Kulturpolitik im Ausland"/>
+      <x_474.1 Benennung="Deutsche Kulturpolitik im Ausland (BRD und DDR)"/>
       <x_475 Benennung="Ostpolitik der Bundesrepublik Deutschland"/>
       <x_475.1 Benennung="Ostpolitik 1949-1969"/>
       <x_475.2 Benennung="Ostpolitik 1969-1990; Ostverträge"/>
@@ -5080,7 +5081,7 @@
       <x_484 Benennung="Sudetenfrage, Diskussion um das Münchener Abkommen nach 1945"/>
       <x_491 Benennung="Reparationen nach 1945"/>
       <x_492 Benennung="Demontage (hier auch: Projekt Paperclip u.ä.)"/>
-      <x_495 Benennung="Deutsch-französischer Vertrag 1963, Deutsch-französische Zusammenarbeit seit 1963"/>
+      <x_495 Benennung="Deutsch-französischer Vertrag 1963 (BRD), Deutsch-französische Zusammenarbeit seit 1963"/>
       <x_496 Benennung="Verträge mit den ehemaligen Ostblockstaaten seit 1990"/>
       <x_499 Benennung="Die Deutsche Frage in der internationalen Politik, Deutschlandpolitik des Auslandes 1945-1990"/>
       <x_499.1 Benennung="... der Westmächte (Frankreich, Großbritannien, USA)"/>
