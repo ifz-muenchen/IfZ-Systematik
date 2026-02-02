@@ -193,7 +193,7 @@
       <b_155.3 Benennung="NATO-Strategie (Harmel-Bericht, Massive Vergeltung, Flexible response usw.)" Bemerkungen="" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="" Register-Vokabular="NATO|Strategie|Flexible response" />
       <b_155.3.1 Benennung="NATO-Nuklear-Strategie, Multilaterale Atomstreitmacht (MLF)" Bemerkungen="" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="Nuklearstrategie|Multilaterale Atomstreitmacht|MLF" Register-Vokabular="NATO|Atomstrategie|Multilateral Force" />
       <b_155.3.2 Benennung="Südflanke" Bemerkungen="" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="" Register-Vokabular="NATO|Südflanke" />
-      <b_155.3.3 Benennung="Out-of-area-Operationen" Bemerkungen="vgl. s 46.1" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="" Register-Vokabular="NATO|Out-of-area-Operation" />
+      <b_155.3.3 Benennung="Out-of-area-Operationen" Bemerkungen="vgl. s 89" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="" Register-Vokabular="NATO|Out-of-area-Operation" />
       <b_155.4 Benennung="Bewaffnung und Ausrüstung, Truppenstärke, Kampfkraft" Bemerkungen="vgl. b 140" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="Bewaffnung " Register-Vokabular="NATO|Kriegswaffe|Ausrüstung|Truppenstärke|Kampfkraft" />
       <b_155.4.1 Benennung="NATO-Doppelbeschluss 1979, Nachrüstungsdebatte (eurostrategische Waffen, Mittelstreckenraketen, Euromissiles)" Bemerkungen="vgl. b 153.8, s 45.2" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="" Register-Vokabular="NATO|Nachrüstung (Militär)|NATO-Doppelbeschluss" />
       <b_155.5 Benennung="Burden-Sharing, Lastenverteilung" Bemerkungen="" erstellt_am="12.07.1999" geaendert_am="" Verweisformen="" Register-Vokabular="NATO|Mitgliedsstaaten|Kostenverteilung" />
@@ -286,7 +286,7 @@
       <b_230.30.4 Benennung="Digitale Quellen" Bemerkungen="vgl. b 230.33.1" erstellt_am="27.07.2006" geaendert_am="" Verweisformen="" Register-Vokabular="Quellenkunde|Digitalisat" />
       <b_230.31 Benennung="Editionsmethoden" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Geschichtswissenschaft|Edition|Forschungsmethode" />
       <b_230.32 Benennung="Quantifizierung in der Geschichtswissenschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Geschichtswissenschaft|Quantifizierung|Forschungsmethode" />
-      <b_230.33 Benennung="Neue Technologien und Neue Medien in der Geschichtswissenschaft (Digitalisierung, Internet, Elektronisches Publizieren, Open Access, Apps, KI usw.)" Bemerkungen="vgl. a 16, l 56, l 57, q 89.3, v 97.4; Digital Humanities s. v 76" erstellt_am="" geaendert_am="08.12.2025" Verweisformen="EDV|OA " Register-Vokabular="Geschichtswissenschaft|Datenverarbeitung|Neue Medien|Neue Technologie|Internet|Digitalisierung|Elektronisches Publizieren|Open Access|App|Künstliche Intelligenz" />
+      <b_230.33 Benennung="Neue Technologien und Neue Medien in der Geschichtswissenschaft (Digitalisierung, Internet, Elektronisches Publizieren, Open Access, Apps, KI usw.)" Bemerkungen="vgl. a 16, l 56, l 57, q 89.3, v 97.4; Digital Humanities s. v 76" erstellt_am="" geaendert_am="08.12.2025" Verweisformen="EDV|OA|AI|LLM " Register-Vokabular="Geschichtswissenschaft|Datenverarbeitung|Neue Medien|Neue Technologie|Internet|Digitalisierung|Elektronisches Publizieren|Open Access|App|Künstliche Intelligenz" />
       <b_230.33.1 Benennung="(Einzelne) Historisch-politische Datenbanken und Internet-Ressourcen" Bemerkungen="vgl. a 16.3, Quellenkunde s. b 230.30.4" erstellt_am="28.07.2006" geaendert_am="" Verweisformen="" Register-Vokabular="Geschichtswissenschaft|Datenbank|Internet" />
       <b_232 Benennung="Historische Hilfswissenschaften" Bemerkungen="" erstellt_am="28.07.2006" geaendert_am="" Verweisformen="" Register-Vokabular="Geschichtswissenschaft|Hilfswissenschaft" />
       <b_232.1 Benennung="Statistik" Bemerkungen="vgl. v 73.12" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Statistik" />
@@ -362,7 +362,7 @@
       <c_64.5 Benennung="Elite" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politische Elite " />
       <c_64.7 Benennung="Politische Systeme, Systemvergleich; Systemwechsel, Transformation" Bemerkungen="vgl. b 230.19, q 64.2.1, x 68" erstellt_am="" geaendert_am="31.03.2021" Verweisformen="" Register-Vokabular="Politisches System|Systemkrise|Systemkritik|Systemvergleich" />
       <c_64.8 Benennung="Planung, Planification, Politische Planung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politische Planung|Planifikation" />
-      <c_64.9 Benennung="Konfliktprobleme, Konfliktforschung" Bemerkungen="vgl. c 83.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Konfliktforschung" />
+      <c_64.9 Benennung="Konfliktprobleme, Konfliktforschung" Bemerkungen="vgl. c 83.3" erstellt_am="" geaendert_am="" Verweisformen="Krise|Konflikt" Register-Vokabular="Konfliktforschung" />
       <c_64.10 Benennung="Politikverflechtung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politikverflechtung" />
       <c_64.11 Benennung="Autoritätsproblematik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Autorität|Politik" />
       <c_64.12 Benennung="Politischer Entscheidungsprozess; Politikberatung, Think Tanks" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen=" Political decision-making" Register-Vokabular="Politikberatung|Politische Entscheidung|Think Tank" />
@@ -506,7 +506,7 @@
       <c_88.2.2 Benennung="Peronismus (Faschismus in Argentinien)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Argentinien|Faschismus" Register-Vokabular="Peronismus" />
       <c_88.2.3 Benennung="Falange, Francoismus (Faschismus in Spanien bis 1975)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Spanien|Faschismus" Register-Vokabular="Franquismus|Falange" />
       <c_88.2.4 Benennung="Heimwehrbewegung , Austrofaschismus (Faschismus in Österreich bis 1945)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Österreich|Faschismus" Register-Vokabular="Austrofaschismus|Heimwehr" />
-      <c_88.2.6 Benennung="Action Francaise 1898-1936" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Frankreich|Faschismus" Register-Vokabular="Action Francaise" />
+      <c_88.2.6 Benennung="Action Française 1898-1936" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Frankreich|Faschismus" Register-Vokabular="Action Francaise" />
       <c_88.2.7 Benennung="Croix-de-Feu 1927-1936" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Frankreich|Faschismus" Register-Vokabular="Croix-de-Feu" />
       <c_88.2.8 Benennung="Salazarismus (Faschismus in Portugal 1933-1974)" Bemerkungen="" erstellt_am="06.06.2011" geaendert_am="" Verweisformen="Portugal|Faschismus" Register-Vokabular="Salazarismus" />
       <c_88.3 Benennung="Neue Rechte (allgemein)" Bemerkungen="vgl. c 88, c 90.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Neue Rechte" />
@@ -695,9 +695,9 @@
       <c_310 Benennung="Quellensammlungen, Dokumentationen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Soziologie|Quelle|Edition" />
     </c_301-310>
     <c_340-399 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
-      <c_340 Benennung="Gesellschaftsprobleme allgemein" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Gesellschaft" />
-      <c_340.1 Benennung="Gesellschaftsprobleme in der westlichen Welt" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Westliche Welt|Industriestaaten|Gesellschaft" />
-      <c_340.2 Benennung="... in der kommunistischen Welt" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Sozialistische Staaten|Gesellschaft" />
+      <c_340 Benennung="Gesellschaftsprobleme allgemein" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Gesellschaft|Krise|Problem " />
+      <c_340.1 Benennung="Gesellschaftsprobleme in der westlichen Welt" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Westliche Welt|Industriestaaten|Gesellschaft|Krise" />
+      <c_340.2 Benennung="Gesellschaftsprobleme in der kommunistischen Welt" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Sozialistische Staaten|Gesellschaft|Krise" />
       <c_364 Benennung="Wissenschaftstheorie der Soziologie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Soziologie|Forschungsmethode|Forschung / Geschichte" />
       <c_364.1 Benennung="Geschichte der Soziologie (einzelne Theoretiker, allgemeine Darstellungen)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Soziologie|Forschungsmethode|Forschung / Geschichte" />
       <c_364.2 Benennung="Theorien der Gegenwart (Soziologische Schulen)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Soziologie|Forschungsmethode|Forschung / Geschichte|Soziologische Theorie" />
@@ -1960,6 +1960,7 @@
       <l_57.1 Benennung="Web 2.0, Soziale Netzwerke; Blogs/Weblogs, KI" Bemerkungen="vgl. l 55" erstellt_am="16.01.2012" geaendert_am="08.12.2025" Verweisformen="Social Networks|Social Web|Blog|Weblog" Register-Vokabular="Web 2.0|Soziale Netzwerke|Künstliche Intelligenz" />
       <l_57.2 Benennung="Internetkriminalität, Cybercrime" Bemerkungen="vgl. p 69.3, s 66.5" erstellt_am="04.04.2014" geaendert_am="" Verweisformen="Internetattacke" Register-Vokabular="Internet|Kriminalität" />
       <l_58 Benennung="Cyberspace, Virtuelle Realität" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="VR" Register-Vokabular="Cyberspace|Virtuelle Realität" />
+      <l_59 Benennung="Künstliche Intelligenz in den Medien " Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="VR|AI|LLM|KI" Register-Vokabular="Cyberspace|Virtuelle Realität" />
       <l_61 Benennung="Medienpolitik, Netzpolitik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Medienpolitik|Netzpolitik" />
       <l_61.1 Benennung="Staatliche Pressepolitik" Bemerkungen="," erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Staat|Pressepolitik" />
       <l_61.2 Benennung="Rundfunk- und Fernsehpolitik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Rundfunkpolitik|Fernsehpolitik" />
@@ -2650,7 +2651,7 @@
     </o_39-49>
     <o_50-99 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <o_55 Benennung="Einigungsbewegungen der christlichen Kirchen (Una-Sancta-Bewegung, Ökumene)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Kirche|Ökumene|Una-Sancta-Bewegung" />
-      <o_55.1 Benennung="Ökumenischer Rat der Kirchen / World Council of Churches (WCC)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="World Council of Churches" Register-Vokabular="Ökumenischer Rat der Kirchen" />
+      <o_55.1 Benennung="Ökumenischer Rat der Kirchen / World Council of Churches (WCC)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Weltkirchenrat" />
       <o_56 Benennung="Christlich-jüdische Zusammenarbeit" Bemerkungen="vgl. n 51" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Christ|Juden|Kooperation" />
       <o_56.1 Benennung="Haltung der Christen / Kirchen zur Judenverfolgung und Judenvernichtung 1933-1945" Bemerkungen="vgl. n 85.4.1, n 91.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Christ|Kirche|Judenverfolgung|Judenvernichtung|Geschichte 1933-1945" />
       <o_57 Benennung="Interreligiöser Dialog" Bemerkungen="" erstellt_am="20.04.2011" geaendert_am="" Verweisformen="" Register-Vokabular="Religion|Dialog" />
@@ -2695,6 +2696,7 @@
       <o_81.11 Benennung="... Faschismus" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Christentum|Kirche|Religion|Faschismus" />
       <o_81.12 Benennung="... Entwicklungspolitik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Christentum|Kirche|Religion|Entwicklungspolitik" />
       <o_81.13 Benennung="… Wissenschaft" Bemerkungen="" erstellt_am="18.11.2018" geaendert_am="" Verweisformen="" Register-Vokabular="Christentum|Kirche|Religion|Wissenschaft" />
+      <o_81.14 Benennung="… Ökologie, Umweltschutz" Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Christentum|Kirche|Religion|Ökologie|Umweltschutz" />
       <o_89 Benennung="Konversion " Bemerkungen="" erstellt_am="30.04.2025" geaendert_am="" Verweisformen="" Register-Vokabular="Religion|Konversion " />
       <o_90 Benennung="Islam" Bemerkungen="vgl. o 41 – o 46" erstellt_am="" geaendert_am="26.04.2011" Verweisformen="" Register-Vokabular="Islam" />
       <o_90.1 Benennung="Islamischer Fundamentalismus, Islamismus" Bemerkungen="" erstellt_am="26.04.2011" geaendert_am="" Verweisformen="" Register-Vokabular="Islam|Fundamentalismus" />
@@ -3023,7 +3025,7 @@
       <q_89 Benennung="Industrialisierung, industrielle Revolution (hier auch: Rationalisierung)" Bemerkungen="vgl. c 366.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Industrialisierung|Industrielle Revolution|Rationalisierung" />
       <q_89.1 Benennung="Erste industrielle Revolution (ca. 1800-1900/1914)" Bemerkungen="Deutschland s. q 42" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Industrialisierung|Industrielle Revolution|Rationalisierung|Geschichte 1800-1900" />
       <q_89.2 Benennung="Zweite industrielle Revolution (Automation ca. 1900/1914-1970)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Industrialisierung|Industrielle Revolution|Rationalisierung|Automation|Geschichte 1900-1970" />
-      <q_89.3 Benennung="Dritte industrielle Revolution (Neue Technologien, Mikroelektronik seit ca. 1970, Digitalisierung), Digitale Revolution, Künstliche Intelligenz; Informationszeitalter" Bemerkungen="vgl. a 16, b 230.33, c 366.7, l 56, l 57, v 97.4, v 98;  Technologiepolitik s. w 89, Technologietransfer s. w 89.1" erstellt_am="" geaendert_am="27.11.2018" Verweisformen="Digitales Zeitalter|KI" Register-Vokabular="Industrialisierung|Industrielle Revolution|Rationalisierung|Neue Technologie|Mikroelektronik|Digitalisierung|Digitale Revolution|Künstliche Intelligenz||Geschichte 1970-|Informationszeitalter" />
+      <q_89.3 Benennung="Dritte industrielle Revolution (Neue Technologien, Mikroelektronik seit ca. 1970, Digitalisierung), Digitale Revolution, Künstliche Intelligenz; Informationszeitalter" Bemerkungen="vgl. a 16, b 230.33, c 366.7, l 56, l 57, v 97.4, v 98;  Technologiepolitik s. w 89, Technologietransfer s. w 89.1" erstellt_am="" geaendert_am="27.11.2018" Verweisformen="Digitales Zeitalter|KI|AI|LLM" Register-Vokabular="Industrialisierung|Industrielle Revolution|Rationalisierung|Neue Technologie|Mikroelektronik|Digitalisierung|Digitale Revolution|Künstliche Intelligenz||Geschichte 1970-|Informationszeitalter" />
       <q_89.4 Benennung="Deindustrialisierung" Bemerkungen="" erstellt_am="12.02.2014" geaendert_am="" Verweisformen="" Register-Vokabular="Deindustrialisierung" />
       <q_90 Benennung="Einzelne Wirtschaftssektoren: Industrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wirtschaftssektor|Industrie" />
       <q_90.1 Benennung="Papierwirtschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Papierindustrie" />
@@ -3174,7 +3176,7 @@
       <q_293 Benennung="Silvio Gesell und die Freigeldlehre" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Freigeldtheorie|Gesell, Silvio" />
     </q_250-299>
   </q_201-299>
-  <q_301-399 Benennung="Verkehr" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verkehr">
+  <q_301-399 Benennung="Verkehrswesen" Bemerkungen="" erstellt_am="" geaendert_am="02.02.2026" Verweisformen="" Register-Vokabular="Verkehr">
     <q_301-310.1 Benennung="Hilfsmittel (Formale Erschließungskriterien)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <q_301 Benennung="Bibliographien" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verkehr|Bibliographie" />
       <q_302 Benennung="Zeitschriften, Jahrbücher, Kalender" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verkehr|Zeitschrift" />
@@ -3196,14 +3198,15 @@
       <q_327 Benennung="Bundesministerium für Post und Telekommunikation (BMPT),1989-1997 (1949-1950: Bundesministerium für Angelegenheiten des Fernmeldewesens; 1950-1989: Bundesministerium für das Post- und Fernmeldewesen; Bundespostministerium)   vgl. " Bemerkungen="" erstellt_am="" geaendert_am="03.09.2024" Register-Vokabular="Deutschland / Bundesministerium für Post und Telekommunikation|Bundesministerium für Angelegenheiten des Fernmeldewesens|Bundesministerium für das Post- und Fernmeldewesen|Bundespostministerium    "></q_327>
     </q_311-339>
     <q_340-349 Benennung="Chronologie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
-      <q_341 Benennung="Geschichte des deutschen Verkehrs (allgemein)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte" />
-      <q_342 Benennung="Geschichte des deutschen Verkehrs 1871-1918" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1871-1918" />
-      <q_343 Benennung="Geschichte des deutschen Verkehrs 1918-1933" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1918-1933" />
-      <q_344 Benennung="Geschichte des deutschen Verkehrs 1933-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1933-1945" />
-      <q_344.1 Benennung="Geschichte des deutschen Verkehrs 1939-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1939-1945" />
-      <q_346 Benennung="Geschichte des deutschen Verkehrs seit 1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1945-" />
-      <q_346.1 Benennung="Geschichte des Verkehrs BRD 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="27.08.2024" Verweisformen="" Register-Vokabular="Deutschland (Bundesrepublik)|Verkehr|Geschichte" />
-      <q_346.2 Benennung="DDR 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="27.08.2024" Verweisformen="" Register-Vokabular="Deutschland (DDR)|Verkehr|Geschichte" />
+      <q_340 Benennung="Geschichte des Verkehrswesens (allgemein)" Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte" />
+      <q_341 Benennung="Geschichte des Verkehrswesens in Deutschland (allgemein)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte" />
+      <q_342 Benennung="Geschichte des Verkehrswesens in Deutschland 1871-1918" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1871-1918" />
+      <q_343 Benennung="Geschichte des Verkehrswesens in Deutschland  1918-1933" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1918-1933" />
+      <q_344 Benennung="Geschichte des Verkehrswesens in Deutschland 1933-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1933-1945" />
+      <q_344.1 Benennung="Geschichte des Verkehrswesens in Deutschland 1939-1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1939-1945" />
+      <q_346 Benennung="Geschichte des Verkehrswesens in Deutschland seit 1945" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1945-" />
+      <q_346.1 Benennung="Geschichte des Verkehrswesens BRD 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="27.08.2024" Verweisformen="" Register-Vokabular="Deutschland (Bundesrepublik)|Verkehr|Geschichte" />
+      <q_346.2 Benennung="Geschichte des Verkehrswesens DDR 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="27.08.2024" Verweisformen="" Register-Vokabular="Deutschland (DDR)|Verkehr|Geschichte" />
       <q_346.3 Benennung="Geschichte des deutschen Verkehrs seit 1990" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verkehr|Geschichte 1990-" />
     </q_340-349>
     <q_350-399 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
@@ -3223,7 +3226,7 @@
       <q_370.1 Benennung="Schifffahrtsrecht, (nationales) Seerecht, Wasserrecht, Straßen- und Wegerecht" Bemerkungen="vgl. p 89.2.2, q 91.3" erstellt_am="" geaendert_am="" Verweisformen="Schiffartsrecht" Register-Vokabular="Schifffahrtsrecht|Seerecht|Wasserrecht|Straßen- und Wegerecht" />
       <q_370.1.1 Benennung="Belgrader Donaukonvention 1921 / 1948" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Belgrader Donaukonvention" />
       <q_370.2 Benennung="Luftfahrtrecht" Bemerkungen="" erstellt_am="02.09.1986" geaendert_am="" Verweisformen="" Register-Vokabular="Luftfahrtrecht" />
-      <q_380 Benennung="Nachrichtenwesen, Fernmeldewesen, Nachrichtentechnik, Telekommunikation, Mobilfunk" Bemerkungen="" erstellt_am="" geaendert_am="16.01.2012" Verweisformen="" Register-Vokabular="Fernmeldewesen|Nachrichtenwesen|Nachrichtentechnik|Telekommunikation|Mobilfunk" />
+      <q_380 Benennung="Nachrichtenwesen, Fernmeldewesen, Nachrichtentechnik, Telekommunikation, Mobilfunk; digitale Infrastruktur" Bemerkungen="" erstellt_am="" geaendert_am="16.01.2012; 02.02.2026" Verweisformen="" Register-Vokabular="Fernmeldewesen|Nachrichtenwesen|Nachrichtentechnik|Telekommunikation|Mobilfunk" />
       <q_385 Benennung="Post" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Post" />
       <q_395 Benennung="Wetterdienst" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wetterdienst" />
     </q_350-399>
@@ -3488,7 +3491,7 @@
       <r_59.10 Benennung="Soziale Randgruppen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Randgruppe" />
       <r_64 Benennung="Sozialpolitik, soziale Sicherheit, soziale Frage (allgemein), Soziale Gerechtigkeit, Soziale Ungleichheit" Bemerkungen="vgl. c 85.2, c 85.2.1" erstellt_am="" geaendert_am="03.05.2018" Verweisformen="" Register-Vokabular="Sozialpolitik|Soziale Sicherheit|Soziale Frage|Soziale Gerechtigkeit|Soziale Ungleichheit" />
       <r_65 Benennung="Lebensstandard, Lebenshaltungskosten" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Lebensstandard|Lebenshaltungskosten" />
-      <r_65.1 Benennung="Löhne, Gehälter, Einkommen; Einkommenspolitik; Grundeinkommen, Soziale Grundsicherung, Garantiertes Mindesteinkommen" Bemerkungen="Lohnpolitik s. r 72, Sozialhilfe s. r 81" erstellt_am="" geaendert_am="" Verweisformen="Grundeinkommen|Soziale Grundsicherung|Bürgergeld" Register-Vokabular="Einkommen|Einkommenspolitik|Gehalt|Lohn|Garantiertes Mindesteinkommen" />
+      <r_65.1 Benennung="Löhne, Gehälter, Einkommen; Einkommenspolitik; Grundeinkommen, Soziale Grundsicherung, Garantiertes Mindesteinkommen" Bemerkungen="Lohnpolitik s. r 72, Sozialhilfe s. r 81" erstellt_am="" geaendert_am="" Verweisformen="Grundeinkommen|Soziale Grundsicherung|" Register-Vokabular="Einkommen|Einkommenspolitik|Gehalt|Lohn|Garantiertes Mindesteinkommen" />
       <r_65.2 Benennung="Vermögensverteilung, Vermögenskonzentration; Vermögenspolitik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Vermögensverteilung|Vermögenspolitik" />
       <r_65.3 Benennung="Armut; Privatverschuldung, Privatinsolvenz" Bemerkungen="" erstellt_am="14.01.1993" geaendert_am="13.05.2016" Verweisformen="" Register-Vokabular="Armut|Privatverschuldung|Privatinsolvenz" />
       <r_65.4 Benennung="Lebensqualität" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Lebensqualität" />
@@ -3644,8 +3647,8 @@
       <s_45.3.1 Benennung="Grenztruppen der DDR (1946-1961: Deutsche Grenzpolizei; NVA-Kommando Grenze)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Deutsche Grenzpolizei|NVA-Kommando Grenze" Register-Vokabular="Deutschland (DDR) / Grenztruppe" />
       <s_45.3.2 Benennung="Betriebskampfgruppen (Kampfgruppen der Arbeiterklasse)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Kampfgruppen der Arbeiterklasse" Register-Vokabular="Betriebskampfgruppe" />
       <s_45.4 Benennung="Alliierte Streitkräfte in Deutschland (BRD und DDR)" Bemerkungen="vgl. x 52" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Truppenstationierung " />
-      <s_46 Benennung="Deutsche Militärgeschichte, Militärpolitik, Geschichte der Bundeswehr 1990-" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-" />
-      <s_46.1 Benennung="Auslandseinsätze der Bundeswehr" Bemerkungen="vgl. b 155.3.3" erstellt_am="16.01.2012" geaendert_am="" Verweisformen="Out-of-area-Operation" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-|Auslandseinsatz" />
+      <s_46 Benennung="Deutsche Militärgeschichte, Militärpolitik, Geschichte der Bundeswehr 1990-2022" Bemerkungen="" erstellt_am="" geaendert_am="02.02.2026" Verweisformen="" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-2022" />
+      <s_46 Benennung="Deutsche Militärgeschichte, Militärpolitik, Geschichte der Bundeswehr 2022-" Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 2022-"></s_46>
     </s_40-49>
     <s_60-99 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <s_64 Benennung="Militärwissenschaft" Bemerkungen="Theorie des Krieges s. c 83.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärwissenschaft" />
@@ -3695,6 +3698,7 @@
       <s_86.3 Benennung="Waffenhandel, Rüstungsexport" Bemerkungen="" erstellt_am="" geaendert_am="24.08.2015" Verweisformen="" Register-Vokabular="Waffenhandel|Rüstungsexport" />
       <s_86.4 Benennung="Rüstungskonversion" Bemerkungen="" erstellt_am="10.01.1991" geaendert_am="" Verweisformen="" Register-Vokabular="Rüstungskonversion" />
       <s_88 Benennung="Bewaffnung und Ausrüstung; Waffenkunde; Militärtechnik" Bemerkungen="vgl. u 88" erstellt_am="" geaendert_am="" Verweisformen="Militärtechnologie" Register-Vokabular="Militär|Ausrüstung|Waffentechnik|Waffenkunde|Militärtechnik" />
+      <s_89 Benennung="Auslandseinsätze der Bundeswehr" Bemerkungen="vgl. u 88" erstellt_am="" geaendert_am="" Verweisformen="Out-of-area-Operation" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-|Auslandseinsatz" />
       <s_88.1 Benennung="Raketen" Bemerkungen="vgl. u 88.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärische Rakete" />
       <s_88.2 Benennung="Konventionelle Waffen" Bemerkungen="vgl. u 88.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Konventionelle Waffen" />
       <s_88.3 Benennung="ABC-Waffen" Bemerkungen="vgl. u 88.3" erstellt_am="" geaendert_am="" Verweisformen="ABC-Waffe" Register-Vokabular="ABC-Waffen" />
@@ -3748,7 +3752,8 @@
       <s_145 Benennung="Geschichte der deutschen Marine, Marinepolitik 1945-1990" Bemerkungen="" erstellt_am="" geaendert_am="08.02.2013" Verweisformen="" Register-Vokabular="Deutschland / Marine|Geschichte 1945-1990" />
       <s_145.1 Benennung="Marine der Bundeswehr 1955-1990" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland (Bundesrepublik) / Marine|Geschichte" />
       <s_145.2 Benennung="Volksmarine der DDR (1950-1956: Seepolizei)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Seepolizei|Volksmarine" Register-Vokabular="Deutschland (DDR) / Marine|Geschichte" />
-      <s_146 Benennung="Geschichte der deutschen Marine, Marinepolitik 1990-" Bemerkungen="" erstellt_am="" geaendert_am="08.02.2013" Verweisformen="" Register-Vokabular="Deutschland / Marine|Geschichte 1990-" />
+      <s_146 Benennung="Geschichte der deutschen Marine, Marinepolitik 1990-2022" Bemerkungen="" erstellt_am="" geaendert_am="08.02.2013; 02.02.2026" Verweisformen="" Register-Vokabular="Deutschland / Marine|Geschichte 1990-2022" />
+      <s_147 Benennung="Geschichte der deutschen Marine, Marinepolitik 2022-" Bemerkungen="" erstellt_am="02.02.2026" Verweisformen="" Register-Vokabular="Deutschland / Marine|Geschichte 2022-" />
     </s_140-149>
     <s_150-199 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <s_166 Benennung="Kriegführung (Strategie, Taktik, operative Führung)" Bemerkungen="vgl. s 66, t 78, u 78" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Marine|Kriegführung|Strategie|Taktik|Operative Führung" />
@@ -3793,7 +3798,8 @@
       <s_245 Benennung="Geschichte der deutschen Luftwaffe 1945-1990" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Luftwaffe|Geschichte 1945-1990" />
       <s_245.1 Benennung="Luftwaffe der Bundeswehr 1955-1990" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland (Bundesrepublik) / Luftwaffe|Geschichte" />
       <s_245.2 Benennung="Luftwaffe der Nationalen Volksarmee 1955-1990" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland (DDR)/ Luftwaffe|Geschichte" />
-      <s_246 Benennung="Geschichte der deutschen Luftwaffe 1990 -" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Luftwaffe|Geschichte 1990-" />
+      <s_246 Benennung="Geschichte der deutschen Luftwaffe 1990-2022" Bemerkungen="" erstellt_am="" geaendert_am="02.02.2026" Verweisformen="" Register-Vokabular="Deutschland / Luftwaffe|Geschichte 1990-2022" />
+      <s_247 Benennung="Geschichte der deutschen Luftwaffe 2022-" Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Luftwaffe|Geschichte 2022-" />
     </s_240-249>
     <s_250-299 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <s_266 Benennung="Luftkriegführung (Strategie, Taktik, operative Führung)" Bemerkungen="vgl. s 66, t 78, u 78" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Luftwaffe|Kriegführung|Strategie|Taktik|Operative Führung" />
@@ -4443,7 +4449,7 @@
       <v_97 Benennung="Technik, Technikgeschichte" Bemerkungen="vgl. q 89" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Technik|Technikgeschichte" />
       <v_97.1 Benennung="Patentrecht (hier auch: Patentämter)" Bemerkungen="vgl. p 77.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Patentrecht|Patentamt" />
       <v_97.2 Benennung="Technische Überwachung" Bemerkungen="" erstellt_am="17.04.1985" geaendert_am="" Verweisformen="" Register-Vokabular="Technische Überwachung" />
-      <v_97.4 Benennung="Elektronische Datenverarbeitung (EDV), Datentechnik, Computer" Bemerkungen="vgl. a 16, b 230.33, l 56, l 57, q 89.3" erstellt_am="" geaendert_am="" Verweisformen="EDV" Register-Vokabular="Datenverarbeitung|Datentechnik|Computer" />
+      <v_97.4 Benennung="Elektronische Datenverarbeitung (EDV), Datentechnik, Computer (hier auch: Rechenzentren, Clouddienste)" Bemerkungen="vgl. a 16, b 230.33, l 56, l 57, q 89.3" erstellt_am="" geaendert_am="02.02.2026" Verweisformen="EDV" Register-Vokabular="Datenverarbeitung|Datentechnik|Computer|Rechenzentrum|Clouddienst" />
       <v_98 Benennung="Wissenschaftlich-technischer Fortschritt, technischer Fortschritt" Bemerkungen="vgl. c 63.6, w 89, w 89.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Technischer Fortschritt|Wissenschaftlich-technischer Fortschritt" />
       <v_98.1 Benennung="Technikbewertung, Technikfolgenabschätzung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Technikbewertung" />
     </v_50-99>
@@ -4757,7 +4763,7 @@
       <x_13 Benennung="Alliierte Militärregierungen 1945-1949" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Alliierte / Militärregierung" />
       <x_13.1 Benennung="Office of Military Government, United States (OMGUS)" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="United States / Office of Military Government for Germany (US)|OMGUS" Register-Vokabular="Deutschland (Amerikanische Zone) / Militärregierung" />
       <x_13.2 Benennung="Control Commission for Germany / British Element (CCG/BE)" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="Control Commission for Germany / British Element|CCG/BE|Militärregierung" Register-Vokabular="Deutschland (Britische Zone) / Kontrollkommission" />
-      <x_13.3 Benennung="Gouvernement Militaire de la Zone Francaise d'Occupation (GMZFO)" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="GMZFO" Register-Vokabular="Deutschland (Französische Zone) / Militärregierung" />
+      <x_13.3 Benennung="Gouvernement Militaire de la Zone Française d'Occupation (GMZFO)" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="GMZFO" Register-Vokabular="Deutschland (Französische Zone) / Militärregierung" />
       <x_13.4 Benennung="Sowjetische Militäradministration (SMAD)" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="SMAD|Militärregierung" Register-Vokabular="Deutschland (Sowjetische Zone) / Sowjetische Militäradministration" />
       <x_15 Benennung="Oberste deutsche Verwaltungsorgane 1945-1949" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Verwaltung|Oberste Behörde|Geschichte 1945-1949" />
       <x_15.1 Benennung="Länderrat des Amerikanischen Besatzungsgebietes" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland (Amerikanische Zone) / Länderrat" />
@@ -4921,16 +4927,20 @@
       <x_169.24 Benennung="Peleus-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Peleus (Schiff) / Massaker|Kriegsverbrecherprozess" />
       <x_169.25 Benennung="Belsen-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Bergen-Belsen|Konzentrationslager|Prozess" />
       <x_170 Benennung="Prozesse vor nationalen Gerichten des Auslandes (ohne internationale Zuständigkeit)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Ausland|Kriegsverbrecherprozess|Geschichte 1945-" />
+      <x_170.1 Benennung="Prozesse gegen Mitglieder der Vichy-Regierung                    " Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Vichy|Kriegsverbrecherprozess " />
       <x_170.2 Benennung="Oberg-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Oberg, Karl|Kriegsverbrecherprozess" />
       <x_170.3 Benennung="Kurt Meyer-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Meyer, Kurt (Soldat)|Kriegsverbrecherprozess" />
       <x_170.4 Benennung="Best-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Best, Werner|Kriegsverbrecherprozess" />
       <x_170.5 Benennung="Eichmann-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Eichmann, Adolf|Kriegsverbrecherprozess" />
+      <x_170.6 Benennung="Prozesse vor dem Obersten Nationalen Tribunal Polens (hier auch: Krakauer Auschwitz Prozess)" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Auschwitz-Prozess|Oberstes Nationales Tribunal Polens|Kriegsverbrecherprozess " />
+      <x_170.7 Benennung="Demjanjuk-Prozesse in Israel und USA             " Bemerkungen="vgl. x 171.6" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Demjanuk, John|Kriegsverbrecherprozess" />
       <x_171 Benennung="Prozesse vor deutschen Gerichten" Bemerkungen="Politische Justiz in der DDR s. p 45.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Kriegsverbrecherprozess|Geschichte 1945-" />
       <x_171.1 Benennung="Auschwitz-Prozesse, Frankfurt / Main 1963-1981" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Auschwitz-Prozess (1963-1965)|Auschwitz-Prozess (1977-1981)" />
       <x_171.2 Benennung="Ulmer Einsatzgruppen-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Einsatzgruppen-Prozess" Register-Vokabular="Ulm|Kriegsverbrecherprozess|Einsatzgruppen" />
       <x_171.3 Benennung="Treblinka-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Treblinka / Vernichtungslager|Prozess" />
       <x_171.4 Benennung="Majdanek-Prozess" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Majdanek-Prozess" />
       <x_171.5 Benennung="Waldheimer Prozesse" Bemerkungen="vgl. p 45.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Waldheimer Prozesse" />
+      <x_171.6 Benennung="Demjanjuk-Prozess                                              " Bemerkungen="vgl. x 170.7" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Demjanuk, John|Kriegsverbrecherprozess"></x_171.6>
       <x_172 Benennung="Urteilsvollstreckung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1939-1945)|Kriegsverbrecherprozess|Vollstreckung" />
       <x_172.1 Benennung="Gefängnisse unter deutscher Verwaltung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gefängnis|Vollstreckung|Kriegsverbrecherprozess|Weltkrieg (1939-1945)" />
       <x_172.2 Benennung="Nürnberg" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Nürnberg|Vollstreckung|Kriegsverbrecherprozess|Weltkrieg (1939-1945)" />
@@ -5027,11 +5037,11 @@
       <x_415 Benennung="Büro für Friedensfragen 1947-1950" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Büro für Friedensfragen" />
     </x_411-435>
     <x_440-465 Benennung="Chronologie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
-      <x_440 Benennung="Deutsche Außenpolitik seit 1945 (allgemein)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Außenpolitik|Geschichte 1945-" />
-      <x_440.1 Benennung="Außenpolitik der BRD 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024" Verweisformen="" Register-Vokabular="Deutschland (Bundesrepublik)|Außenpolitik|Geschichte" />
-      <x_440.2 Benennung="Außenpolitik der DDR 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024" Verweisformen="" Register-Vokabular="Deutschland (DDR)|Außenpolitik |Geschichte" />
-      <x_440.3 Benennung="Deutsche Außenpolitik 1990-2022" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024; 08.12.2025" Verweisformen="" Register-Vokabular="Deutschland |Außenpolitik|Geschichte 1990-2022" />
-      <x_440.4 Benennung="Deutsche Außenpolitik 2022-" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024; 08.12.2025" Verweisformen="" Register-Vokabular="Deutschland |Außenpolitik|Geschichte 2022-" />
+      <x_440 Benennung="Deutsche Außen- und Sicherheitspolitik seit 1945 (allgemein)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Außenpolitik|Sicherheitspolitik|Geschichte 1945-" />
+      <x_440.1 Benennung="Außen- und Sicherheitspolitik der BRD 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024" Verweisformen="" Register-Vokabular="Deutschland (Bundesrepublik)|Außenpolitik|Sicherheitspolitik|Geschichte" />
+      <x_440.2 Benennung="Außen- und Sicherheitspolitik der DDR 1949-1990" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024" Verweisformen="" Register-Vokabular="Deutschland (DDR)|Außenpolitik|Sicherheitspolitik|Geschichte 1949-1990" />
+      <x_440.3 Benennung="Deutsche Außen- und Sicherheitspolitik 1990-2022" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024; 08.12.2025" Verweisformen="" Register-Vokabular="Deutschland |Außenpolitik|Sicherheitspolitik|Geschichte 1990-2022" />
+      <x_440.4 Benennung="Deutsche Außen- und Sicherheitspolitik  2022-" Bemerkungen="" erstellt_am="" geaendert_am="26.8.2024; 08.12.2025" Verweisformen="" Register-Vokabular="Deutschland |Außenpolitik|Sicherheitspolitik|Geschichte 2022-" />
       <x_443 Benennung="Konferenz von Potsdam 17.7 und 2.8.1945, Potsdamer Abkommen" Bemerkungen="vgl. x 499.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Potsdamer Konferenz|Potsdamer Abkommen" />
       <x_444 Benennung="Außenministerkonferenzen 1945 (London und Moskau)" Bemerkungen="vgl. x 499.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="London / Außenministerkonferenz (1945)|Moskau / Außenministerkonferenz (1945)" />
       <x_445 Benennung="Außenministerkonferenzen 1946 (Paris und New York)" Bemerkungen="vgl. x 499.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Paris / Außenministerkonferenz (1946)|New York / Außenministerkonferenz (1946)" />
@@ -5298,7 +5308,8 @@
       <x_545.4 Benennung="Geschichte Deutschlands September 2009 bis September 2013" Bemerkungen="" erstellt_am="24.01.2013" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Innenpolitik|Geschichte 2009-2013" />
       <x_545.5 Benennung="Geschichte Deutschlands September 2013 bis September 2017" Bemerkungen="" erstellt_am="12.02.2014" geaendert_am="03.05.2018" Verweisformen="" Register-Vokabular="Deutschland|Innenpolitik|Geschichte 2013-2017" />
       <x_545.6 Benennung="Geschichte Deutschlands September 2017 bis September 2021" Bemerkungen="" erstellt_am="03.05.2018" geaendert_am="30.12.2021" Verweisformen="" Register-Vokabular="Deutschland|Innenpolitik|Geschichte 2017-2021" />
-      <x_545.7 Benennung="Geschichte Deutschlands seit September 2021" Bemerkungen="" erstellt_am="30.12.2021" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Innenpolitik|Geschichte 2021-" />
+      <x_545.7 Benennung="Geschichte Deutschlands September 2021-Februar 2025" Bemerkungen="" erstellt_am="30.12.2021" geaendert_am="02.02.2026" Verweisformen="" Register-Vokabular="Deutschland|Innenpolitik|Geschichte 2021-2025" />
+      <x_545.8 Benennung="Geschichte Deutschlands September seit Februar 2025" Bemerkungen="" erstellt_am="02.02.2026" Verweisformen="" Register-Vokabular="Deutschland|Innenpolitik|Geschichte 2025-" />
     </x_540-549>
     <x_550-599 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <x_550 Benennung="Allgemeine Darstellungen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland (Bundesrepublik)" />
