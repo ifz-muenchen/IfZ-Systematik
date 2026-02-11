@@ -192,8 +192,9 @@
       <b_155.2 Benennung="Geschichte der NATO 1990- (Erweiterung der NATO; Nordatlantischer Kooperationsrat; Partnerschaft für den Frieden)"/>
       <b_155.3 Benennung="NATO-Strategie (Harmel-Bericht, Massive Vergeltung, Flexible response usw.)"/>
       <b_155.3.1 Benennung="NATO-Nuklear-Strategie, Multilaterale Atomstreitmacht (MLF)"/>
-      <b_155.3.2 Benennung="Südflanke"/>
-      <b_155.3.3 Benennung="Out-of-area-Operationen"/>
+      <b_155.3.2 Benennung="NATO-Südflanke"/>
+      <b_155.3.3 Benennung="NATO-Ostflanke (hier auch: NATO-Osterweiterung)"/>
+      <b_155.3.4 Benennung="NATO-Out-of-area-Operationen"/>
       <b_155.4 Benennung="Bewaffnung und Ausrüstung, Truppenstärke, Kampfkraft"/>
       <b_155.4.1 Benennung="NATO-Doppelbeschluss 1979, Nachrüstungsdebatte (eurostrategische Waffen, Mittelstreckenraketen, Euromissiles)"/>
       <b_155.5 Benennung="Burden-Sharing, Lastenverteilung"/>
@@ -3142,6 +3143,7 @@
       <q_232 Benennung="Centralverband des Deutschen Bank- und Bankiergewerbes 1901-1933; 1934-1945: Reichswirtschaftskammer, Reichsgruppe Banken (und zugehörige Wirtschaftsgruppen)"/>
     </q_211-239>
     <q_240-249 Benennung="Chronologie">
+      <q_240 Benennung="Geschichte der Finanzwirtschaft (allgemein)"/>
       <q_241 Benennung="Geschichte der deutschen Finanzwirtschaft (allgemein)"/>
       <q_242 Benennung="Geschichte der deutschen Finanzwirtschaft 1871-1918"/>
       <q_243 Benennung="Geschichte der deutschen Finanzwirtschaft 1918-1933"/>
@@ -3207,7 +3209,7 @@
       <q_346 Benennung="Geschichte des Verkehrswesens in Deutschland seit 1945"/>
       <q_346.1 Benennung="Geschichte des Verkehrswesens BRD 1949-1990"/>
       <q_346.2 Benennung="Geschichte des Verkehrswesens DDR 1949-1990"/>
-      <q_346.3 Benennung="Geschichte des deutschen Verkehrs seit 1990"/>
+      <q_346.3 Benennung="Geschichte des Verkehrswesens in Deutschland seit 1990"/>
     </q_340-349>
     <q_350-399 Benennung="Weitere Sachbegriffe">
       <q_360 Benennung="Verkehr, Verkehrspolitik, Logistik, Transportwesen (allgemein)"/>
@@ -3698,7 +3700,6 @@
       <s_86.3 Benennung="Waffenhandel, Rüstungsexport"/>
       <s_86.4 Benennung="Rüstungskonversion"/>
       <s_88 Benennung="Bewaffnung und Ausrüstung; Waffenkunde; Militärtechnik"/>
-      <s_89 Benennung="Auslandseinsätze der Bundeswehr"/>
       <s_88.1 Benennung="Raketen"/>
       <s_88.2 Benennung="Konventionelle Waffen"/>
       <s_88.3 Benennung="ABC-Waffen"/>
@@ -3707,6 +3708,7 @@
       <s_88.4 Benennung="Weltraumwaffen; Strahlenwaffen"/>
       <s_88.5 Benennung="Motorisierung, Kraftstoffversorgung"/>
       <s_88.6 Benennung="Befestigungen (Westwall u.a.)"/>
+      <s_89 Benennung="Auslandseinsätze der Bundeswehr"/>
       <s_90 Benennung="Militär und ... (hier auch: Reichswehr / Wehrmacht / Bundeswehr und ...)"/>
       <s_90.1 Benennung="Staat"/>
       <s_90.2 Benennung="Gesellschaft"/>
@@ -4932,7 +4934,7 @@
       <x_170.3 Benennung="Kurt Meyer-Prozess"/>
       <x_170.4 Benennung="Best-Prozess"/>
       <x_170.5 Benennung="Eichmann-Prozess"/>
-      <x_170.6 Benennung="Prozesse vor dem Obersten Nationalen Tribunal Polens (hier auch: Krakauer Auschwitz Prozess)"/>
+      <x_170.6 Benennung="Prozesse vor dem Obersten Nationalen Tribunal Polens (hier auch: Krakauer Auschwitz-Prozess)"/>
       <x_170.7 Benennung="Demjanjuk-Prozesse in Israel und USA             "/>
       <x_171 Benennung="Prozesse vor deutschen Gerichten"/>
       <x_171.1 Benennung="Auschwitz-Prozesse, Frankfurt / Main 1963-1981"/>
@@ -5308,7 +5310,7 @@
       <x_545.4 Benennung="Geschichte Deutschlands September 2009 bis September 2013"/>
       <x_545.5 Benennung="Geschichte Deutschlands September 2013 bis September 2017"/>
       <x_545.6 Benennung="Geschichte Deutschlands September 2017 bis September 2021"/>
-      <x_545.7 Benennung="Geschichte Deutschlands September 2021-Februar 2025"/>
+      <x_545.7 Benennung="Geschichte Deutschlands September 2021 bis Februar 2025"/>
       <x_545.8 Benennung="Geschichte Deutschlands September seit Februar 2025"/>
     </x_540-549>
     <x_550-599 Benennung="Weitere Sachbegriffe">
