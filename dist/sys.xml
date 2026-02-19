@@ -468,7 +468,7 @@
       <c_83.3 Benennung="Krieg (allgemein, Theorie)" Bemerkungen="vgl. s 64, s 66; Kriegsursachen s. c 64.9; Militärgeschichte s. s 40-46; einzelne Kriege nach 1945 s. b 101-199" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Krieg" />
       <c_83.3.1 Benennung="Bürgerkrieg (allgemein, Theorie)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Bürgerkrieg" />
       <c_83.3.2 Benennung="Okkupation (allgemein, Theorie)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Okkupation" Register-Vokabular="Besetzung" />
-      <c_83.4 Benennung="Kriegsbilder; Militarismus und Krieg in der Kunst (Malerei, Plastik, Fotografie, Theater)" Bemerkungen="Kriegsliteratur s. s 10.10, t 10.10, u 10.10, v 90.6; Kriegerdenkmäler s. b 280.1; Film s. l 85.4; vgl. v 81, v 86, v 87" erstellt_am="27.07.2006" geaendert_am="" Verweisformen="" Register-Vokabular="Krieg|Militarismus|Kunst" />
+      <c_83.4 Benennung="Kriegsbilder; Militarismus und Krieg in der Kunst (Malerei, Plastik, Fotografie, Theater, Musik)" Bemerkungen="Kriegsliteratur s. s 10.10, t 10.10, u 10.10, v 90.6; Kriegerdenkmäler s. b 280.1; Film s. l 85.4; vgl. v 81, v 86, v 87" erstellt_am="27.07.2006" geaendert_am="19.02.2026" Verweisformen="" Register-Vokabular="Krieg|Militarismus|Kunst" />
       <c_84 Benennung="Widerstand" Bemerkungen="vgl. h 164, k 164" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Widerstand" />
       <c_84.1 Benennung="Widerstandsrecht" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Widerstandsrecht" />
       <c_84.3 Benennung="Passiver Widerstand, gewaltfreie Aktion, ziviler Ungehorsam" Bemerkungen="vgl. c 71.5" erstellt_am="" geaendert_am="" Verweisformen="Ziviler Ungehorsam" Register-Vokabular="Gewaltloser Widerstand" />
@@ -3651,7 +3651,7 @@
       <s_45.3.2 Benennung="Betriebskampfgruppen (Kampfgruppen der Arbeiterklasse)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Kampfgruppen der Arbeiterklasse" Register-Vokabular="Betriebskampfgruppe" />
       <s_45.4 Benennung="Alliierte Streitkräfte in Deutschland (BRD und DDR)" Bemerkungen="vgl. x 52" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Truppenstationierung " />
       <s_46 Benennung="Deutsche Militärgeschichte, Militärpolitik, Geschichte der Bundeswehr 1990-2022" Bemerkungen="" erstellt_am="" geaendert_am="02.02.2026" Verweisformen="" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 1990-2022" />
-      <s_46 Benennung="Deutsche Militärgeschichte, Militärpolitik, Geschichte der Bundeswehr 2022-" Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 2022-"></s_46>
+      <s_47 Benennung="Deutsche Militärgeschichte, Militärpolitik, Geschichte der Bundeswehr 2022-" Bemerkungen="" erstellt_am="02.02.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Militär|Deutschland / Bundeswehr|Geschichte 2022-" />
     </s_40-49>
     <s_60-99 Benennung="Weitere Sachbegriffe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <s_64 Benennung="Militärwissenschaft" Bemerkungen="Theorie des Krieges s. c 83.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Militärwissenschaft" />
@@ -4402,7 +4402,7 @@
       <v_76 Benennung="Digital Humanities" Bemerkungen="vgl. b 230.33" erstellt_am="14.08.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Digital Humanities" />
       <v_77 Benennung="Geographie, Länderkunde" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Länderkunde" Register-Vokabular="Geographie|Regionale Geographie" />
       <v_77.1 Benennung="Politische Geographie" Bemerkungen="vgl. c 66.12, q 63.5" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politische Geographie" />
-      <v_78 Benennung="Musik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Musik" />
+      <v_78 Benennung="Musik" Bemerkungen="Krieg (Motiv) s. c 83.4" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Musik" />
       <v_78.1 Benennung="Arbeiterlieder, Arbeitermusikbewegung" Bemerkungen="vgl. r 95, v 3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Arbeiterlied|Arbeitermusikbewegung|Liederbuch" />
       <v_78.2 Benennung="Politische Lieder" Bemerkungen="vgl. v 3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politik|Musik|Liederbuch" />
       <v_78.3 Benennung="Musik im Exil" Bemerkungen="vgl. k 68" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Musik|Exil" />
