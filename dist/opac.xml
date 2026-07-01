@@ -492,8 +492,7 @@
       <c_86.5 Benennung="Nationalcharakter"/>
       <c_86.6 Benennung="Nationalitäten, ethnische Minderheiten, Volksgruppen"/>
       <c_86.7 Benennung="Identität"/>
-      <c_86.8 Benennung="Selbstbestimmungsrecht"/>
-      <c_86.9 Benennung="Autonomie"/>
+      <c_86.8 Benennung="Autonomie, Selbstbestimmungsrecht"/>
       <c_86.10 Benennung="Exilbewegungen (politische Bewegungen im Exil)"/>
       <c_86.11 Benennung="Panslawismus"/>
       <c_86.12 Benennung="Panafrikanismus"/>
@@ -2360,7 +2359,7 @@
       <n_18.1 Benennung="Jüdischer Weltkongress"/>
       <n_18.2 Benennung="American Jewish Congress"/>
       <n_18.3 Benennung="American Jewish Committee"/>
-      <n_18.4 Benennung="American Jewish Joint Distribution Committee (AJDC) (bis 1931: Joint Distribution Committee of American Funds of the Relief of Jewish War Sufferers)"/>
+      <n_18.4 Benennung="American Jewish Joint Distribution Committee (AJDC, JDC, Joint) (bis 1931: Joint Distribution Committee of American Funds of the Relief of Jewish War Sufferers)"/>
       <n_18.5 Benennung="American Federation of Jews from Central Europe"/>
       <n_18.6 Benennung="Council of Jews from Germany"/>
       <n_18.7 Benennung="Joint Foreign Committee of the Board of Deputies of British Jews and the Anglo-Jewish Association"/>
@@ -3035,7 +3034,7 @@
       <q_90.5 Benennung="Chemische Industrie"/>
       <q_90.5.1 Benennung="Pharmazeutische Industrie, Arzneimittelwirtschaft"/>
       <q_90.6 Benennung="Kraftfahrzeugindustrie, Automobilindustrie"/>
-      <q_90.8 Benennung="Elektrotechnische Industrie"/>
+      <q_90.8 Benennung="Elektrotechnik- und Elektronikindustrie"/>
       <q_90.9 Benennung="Schiffbauindustrie"/>
       <q_90.10 Benennung="Glasindustrie"/>
       <q_90.11 Benennung="Schuh- und Lederindustrie"/>
@@ -3526,10 +3525,10 @@
       <r_73 Benennung="Syndikalismus"/>
       <r_74 Benennung="Gewerkschaften (allgemein und international)"/>
       <r_75 Benennung="Gewerkschaften in Deutschland (allgemein)"/>
-      <r_75.1 Benennung="1860-1918"/>
-      <r_75.2 Benennung="1918-1945"/>
-      <r_75.3 Benennung="1945-1990"/>
-      <r_75.4 Benennung="seit 1990"/>
+      <r_75.1 Benennung="Gewerkschaften in Deutschland 1860-1918"/>
+      <r_75.2 Benennung="Gewerkschaften in Deutschland 1918-1945"/>
+      <r_75.3 Benennung="Gewerkschaften in Deutschland 1945-1990"/>
+      <r_75.4 Benennung="Gewerkschaften in Deutschland seit 1990"/>
       <r_76 Benennung="Mitbestimmung"/>
       <r_76.1 Benennung="Betriebsverfassung (Betriebsverfassungsrecht, (Europ.) Betriebsräte; Personalvertretungsrecht, Personalräte)"/>
       <r_76.2 Benennung="Arbeiterselbstverwaltung"/>
@@ -3790,7 +3789,6 @@
       <s_215.3 Benennung="Flakartillerie, Flugabwehr (hier auch: Heeresflak, Flugmeldedienst)"/>
       <s_215.5 Benennung="Luftnachrichtentruppe"/>
       <s_215.6 Benennung="Logistik- und Instandsetzungstruppe"/>
-      <s_215.7 Benennung="Flugzeugtypen (hier auch: Kampfdrohnen)"/>
     </s_211-239>
     <s_240-249 Benennung="Chronologie">
       <s_240 Benennung="Geschichte der Luftwaffe (allgemein)"/>
@@ -3809,6 +3807,8 @@
       <s_280 Benennung="Militärische Ausbildung (hier auch: Manöver)"/>
       <s_280.1 Benennung="Luftwaffen- (Luftkriegs)akademien, Luftwaffenschulen"/>
       <s_282 Benennung="Luftwaffenpropaganda, Propaganda für den Luftfahrtgedanken (hier auch: Flugzeugmodellbau)"/>
+      <s_286 Benennung="Luftkriegsrüstung, Flugzeugbau, Drohnenbau        "/>
+      <s_286.1 Benennung="Flugzeugtypen (hier auch: Kampfdrohnen)"/>
     </s_250-299>
   </s_201-299>
   <t_1-99 Benennung="Erster Weltkrieg (Allgemein und Militärgeschichte)">
@@ -3873,7 +3873,7 @@
       <t_78 Benennung="Kriegführung (Strategie, operative Führung, Taktik); militärisch-politische Führung im Ersten Weltkrieg"/>
       <t_79 Benennung="Truppenbetreuung (geistige und kulturelle Betreuung der Soldaten); Militärseelsorge; Feldpost"/>
       <t_82 Benennung="Verluste und Zerstörungen"/>
-      <t_86 Benennung="Kriegswirtschaft, Rüstung; Wirtschaftskrieg, Handelskrieg, Blockade"/>
+      <t_86 Benennung="Kriegswirtschaft, Rüstung, Rüstungsindustrie; Wirtschaftskrieg, Handelskrieg, Blockade"/>
       <t_89 Benennung="Historische Bedeutung des Ersten Weltkrieges (Wirkungsgeschichte)"/>
       <t_92 Benennung="Partisanen, Franktireurs"/>
       <t_94 Benennung="Heimatfront, Alltag"/>
@@ -4451,7 +4451,7 @@
       <v_97 Benennung="Technik, Technikgeschichte"/>
       <v_97.1 Benennung="Patentrecht (hier auch: Patentämter)"/>
       <v_97.2 Benennung="Technische Überwachung"/>
-      <v_97.4 Benennung="Elektronische Datenverarbeitung (EDV), Datentechnik, Computer (hier auch: Rechenzentren, Clouddienste)"/>
+      <v_97.4 Benennung="Elektronische Datenverarbeitung, Informationstechnik (EDV, IT), Datentechnik, Computer (hier auch: Rechenzentren, Clouddienste)"/>
       <v_98 Benennung="Wissenschaftlich-technischer Fortschritt, technischer Fortschritt"/>
       <v_98.1 Benennung="Technikbewertung, Technikfolgenabschätzung"/>
     </v_50-99>
@@ -5344,9 +5344,9 @@
       <x_575 Benennung="Gesellschaft"/>
       <x_575.1 Benennung="Alltagsleben"/>
       <x_575.2 Benennung="Aussiedler"/>
-      <x_575.3 Benennung="Ethnische Minderheiten, Migranten, Ausländer"/>
+      <x_575.3 Benennung="Ethnische Minderheiten, Migranten, Ausländer, Flüchtlinge"/>
       <x_575.3.1 Benennung="Ausländerrecht"/>
-      <x_575.3.2 Benennung="Asylpolitik, Asylrecht"/>
+      <x_575.3.2 Benennung="Flüchtlingspolitik, Asylpolitik, Asylrecht"/>
       <x_575.3.3 Benennung="Integration"/>
       <x_575.4 Benennung="Sinti und Roma"/>
       <x_575.5 Benennung="Öffentliche Meinung"/>

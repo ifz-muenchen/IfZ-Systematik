@@ -468,7 +468,7 @@
       <c_83.3 Benennung="Krieg (allgemein, Theorie)" Bemerkungen="vgl. s 64, s 66; Kriegsursachen s. c 64.9; Militärgeschichte s. s 40-46; einzelne Kriege nach 1945 s. b 101-199" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Krieg" />
       <c_83.3.1 Benennung="Bürgerkrieg (allgemein, Theorie)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Bürgerkrieg" />
       <c_83.3.2 Benennung="Okkupation (allgemein, Theorie)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Okkupation" Register-Vokabular="Besetzung" />
-      <c_83.4 Benennung="Kriegsbilder; Militarismus und Krieg in der Kunst (Malerei, Plastik, Fotografie, Theater, Musik)" Bemerkungen="Kriegsliteratur s. s 10.10, t 10.10, u 10.10, v 90.6; Kriegerdenkmäler s. b 280.1; Film s. l 85.4; vgl. v 81, v 86, v 87" erstellt_am="27.07.2006" geaendert_am="19.02.2026" Verweisformen="" Register-Vokabular="Krieg|Militarismus|Kunst" />
+      <c_83.4 Benennung="Kriegsbilder; Militarismus und Krieg in der Kunst (Malerei, Plastik, Fotografie, Theater, Musik)" Bemerkungen="Kriegsliteratur s. s 10.10, t 10.10, u 10.10, v 90.6; Kriegerdenkmäler s. b 280.1; Film s. l 85.4; vgl. v 78, v 81, v 86, v 87" erstellt_am="27.07.2006" geaendert_am="19.02.2026" Verweisformen="" Register-Vokabular="Krieg|Militarismus|Kunst" />
       <c_84 Benennung="Widerstand" Bemerkungen="vgl. h 164, k 164" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Widerstand" />
       <c_84.1 Benennung="Widerstandsrecht" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Widerstandsrecht" />
       <c_84.3 Benennung="Passiver Widerstand, gewaltfreie Aktion, ziviler Ungehorsam" Bemerkungen="vgl. c 71.5" erstellt_am="" geaendert_am="" Verweisformen="Ziviler Ungehorsam" Register-Vokabular="Gewaltloser Widerstand" />
@@ -493,8 +493,7 @@
       <c_86.5 Benennung="Nationalcharakter" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Nationalcharakter" />
       <c_86.6 Benennung="Nationalitäten, ethnische Minderheiten, Volksgruppen" Bemerkungen="vgl. f 96.3, f 171.3, g 76, j 75.3, p 89.1, x 575.3, x 675.3; einzelne Staaten seit 1995 Schlagwort-Suche, bis 1995 Zettelkatalog GEO-Katalog" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Nationalitätenfrage|Minderheit|Ethnische Gruppe" />
       <c_86.7 Benennung="Identität" Bemerkungen="vgl. d 68, x 64.2" erstellt_am="21.01.2020" geaendert_am="" Verweisformen="" Register-Vokabular="Identität" />
-      <c_86.8 Benennung="Selbstbestimmungsrecht" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Selbstbestimmungsrecht" />
-      <c_86.9 Benennung="Autonomie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Autonomie" />
+      <c_86.8 Benennung="Autonomie, Selbstbestimmungsrecht" Bemerkungen="" erstellt_am="" geaendert_am="01.07.2026" Verweisformen="" Register-Vokabular="Autonomie|Selbstbestimmungsrecht" />
       <c_86.10 Benennung="Exilbewegungen (politische Bewegungen im Exil)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Exil|Politische Bewegung" />
       <c_86.11 Benennung="Panslawismus" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Panslawismus" />
       <c_86.12 Benennung="Panafrikanismus" Bemerkungen="vgl. b 115.7" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Panafrikanismus" />
@@ -2343,7 +2342,7 @@
     <n_1-10.10 Benennung="Hilfsmittel (Formale Erschließungskriterien)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <n_1 Benennung="Bibliographien" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Juden|Antisemitismus|Judenverfolgung|Bibliographie" />
       <n_2 Benennung="Zeitschriften, Jahrbücher, Kalender" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Juden|Antisemitismus|Judenverfolgung|Zeitschrift" />
-      <n_4 Benennung="Nachschlagewerke, Wörterbücher" Bemerkungen="Biographische Nachschlagewerke s. a 6" erstellt_am="" geaendert_am="" Verweisformen="Lexikon" Register-Vokabular="Juden|Antisemitismus|Judenverfolgung|Wörterbuch" />
+      <n_4 Benennung="Nachschlagewerke, Wörterbücher" Bemerkungen="Biographische Nachschlagewerke s. a 6.3.6" erstellt_am="" geaendert_am="01.07.2026" Verweisformen="Lexikon" Register-Vokabular="Juden|Antisemitismus|Judenverfolgung|Wörterbuch" />
       <n_5 Benennung="Tabellen, Statistiken, Chroniken, Schematismen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Juden|Antisemitismus|Judenverfolgung|Tabelle|Statistik|Zeittafel|Schematismus" />
       <n_7 Benennung="Gesammelte Abhandlungen (eines Verfassers), Festschriften" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Juden|Antisemitismus|Judenverfolgung|Aufsatzsammlung|Festschrift" />
       <n_8 Benennung="Methodik und Geschichte der Forschung" Bemerkungen="Forschung zur Judenverfolgung s. n 94" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Juden|Antisemitismus|Judenverfolgung|Forschungsmethode|Forschung / Geschichte" />
@@ -2361,7 +2360,7 @@
       <n_18.1 Benennung="Jüdischer Weltkongress" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Jüdischer Weltkongress" />
       <n_18.2 Benennung="American Jewish Congress" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="American Jewish Congress" />
       <n_18.3 Benennung="American Jewish Committee" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="American Jewish Committee" />
-      <n_18.4 Benennung="American Jewish Joint Distribution Committee (AJDC) (bis 1931: Joint Distribution Committee of American Funds of the Relief of Jewish War Sufferers)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Joint Distribution Committee of American Funds of the Relief of Jewish War Sufferers|AJDC|JDC" Register-Vokabular="American Jewish Joint Distribution Committee" />
+      <n_18.4 Benennung="American Jewish Joint Distribution Committee (AJDC, JDC, Joint) (bis 1931: Joint Distribution Committee of American Funds of the Relief of Jewish War Sufferers)" Bemerkungen="" erstellt_am="" geaendert_am="01.07.2027" Verweisformen="Joint Distribution Committee of American Funds of the Relief of Jewish War Sufferers|AJDC|JDC" Register-Vokabular="American Jewish Joint Distribution Committee" />
       <n_18.5 Benennung="American Federation of Jews from Central Europe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="American Federation of Jews from Central Europe" />
       <n_18.6 Benennung="Council of Jews from Germany" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Council of Jews from Germany" />
       <n_18.7 Benennung="Joint Foreign Committee of the Board of Deputies of British Jews and the Anglo-Jewish Association" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Joint Foreign Committee of the Board of Deputies of British Jews and the Anglo-Jewish Association" />
@@ -3032,15 +3031,15 @@
       <q_90 Benennung="Einzelne Wirtschaftssektoren: Industrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wirtschaftssektor|Industrie" />
       <q_90.1 Benennung="Papierwirtschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Papierindustrie" />
       <q_90.2 Benennung="Textilindustrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Textilindustrie" />
-      <q_90.4 Benennung="Montanindustrie, Schwerindustrie" Bemerkungen=" Rüstungsindustrie siehe s. 86" erstellt_am="" geaendert_am="31.07.2014" Verweisformen="Eisen- und Stahlindustrie" Register-Vokabular="Montanindustrie|Schwerindustrie" />
+      <q_90.4 Benennung="Montanindustrie, Schwerindustrie" Bemerkungen=" Rüstungsindustrie siehe s. s 86, t 86, u 86" erstellt_am="" geaendert_am="31.07.2014" Verweisformen="Eisen- und Stahlindustrie" Register-Vokabular="Montanindustrie|Schwerindustrie" />
       <q_90.5 Benennung="Chemische Industrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Chemische Industrie" />
       <q_90.5.1 Benennung="Pharmazeutische Industrie, Arzneimittelwirtschaft" Bemerkungen="vgl. m 169, v 73.1.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Pharmazeutische Industrie|Arzneimittelwirtschaft" />
       <q_90.6 Benennung="Kraftfahrzeugindustrie, Automobilindustrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Automobilindustrie" Register-Vokabular="Kraftfahrzeugindustrie" />
-      <q_90.8 Benennung="Elektrotechnische Industrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Elektrotechnische Industrie" />
+      <q_90.8 Benennung="Elektrotechnik- und Elektronikindustrie" Bemerkungen="" erstellt_am="" geaendert_am="01.07.2026" Verweisformen="Elektroindustrie" Register-Vokabular="Elektrotechnikindustrie|Elektrotechnische Industrie|Elektronische Industrie" />
       <q_90.9 Benennung="Schiffbauindustrie" Bemerkungen="Rüstungsindustrie s. s 186, u 86.1.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Schiffbauindustrie" />
       <q_90.10 Benennung="Glasindustrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Glasindustrie" />
       <q_90.11 Benennung="Schuh- und Lederindustrie" Bemerkungen="" erstellt_am="24.09.1999" geaendert_am="" Verweisformen="" Register-Vokabular="" />
-      <q_90.12 Benennung="Luft- und Raumfahrtindustrie" Bemerkungen="vgl. c 270.4, s 86, u 86.1.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Luft- und Raumfahrtindustrie|Flugzeugbau|Rüstung|Luftwaffe" />
+      <q_90.12 Benennung="Luft- und Raumfahrtindustrie" Bemerkungen="vgl. c 270.4, s 286, u 86.1.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Luft- und Raumfahrtindustrie|Flugzeugbau|Rüstung|Luftwaffe" />
       <q_91 Benennung="Einzelne Wirtschaftssektoren: Dienstleistungssektor, Dienstleistungsgewerbe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Dienstleistungsgewerbe" Register-Vokabular="Wirtschaftssektor|Dienstleistungssektor" />
       <q_91.1 Benennung="Versicherungswirtschaft" Bemerkungen="vgl. r 78" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Versicherungswirtschaft" />
       <q_91.2 Benennung="Fremdenverkehr, Tourismus, Hotel- und Gaststättengewerbe" Bemerkungen="" erstellt_am="" geaendert_am="15.11.2012" Verweisformen="" Register-Vokabular="Fremdenverkehr|Tourismus|Hotel- und Gaststättengewerbe" />
@@ -3527,10 +3526,10 @@
       <r_73 Benennung="Syndikalismus" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Syndikalismus" />
       <r_74 Benennung="Gewerkschaften (allgemein und international)" Bemerkungen="vgl. c 77; einzelne Staaten: Zettelkatalog s. GEO-Katalog, OPAC = Schlagwort-Suche" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Gewerkschaft" />
       <r_75 Benennung="Gewerkschaften in Deutschland (allgemein)" Bemerkungen="vgl. c 77; Einzelgewerkschaften, Gewerkschaftsbünde s. r 23-27" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte" />
-      <r_75.1 Benennung="1860-1918" Bemerkungen="vgl. f 168" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1871-1918" />
-      <r_75.2 Benennung="1918-1945" Bemerkungen="vgl. k 67, k 68.2" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1918-1945" />
-      <r_75.3 Benennung="1945-1990" Bemerkungen="" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1945-1990" />
-      <r_75.4 Benennung="seit 1990" Bemerkungen="" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1990-" />
+      <r_75.1 Benennung="Gewerkschaften in Deutschland 1860-1918" Bemerkungen="vgl. f 168" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1871-1918" />
+      <r_75.2 Benennung="Gewerkschaften in Deutschland 1918-1945" Bemerkungen="vgl. k 67, k 68.2" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1918-1945" />
+      <r_75.3 Benennung="Gewerkschaften in Deutschland 1945-1990" Bemerkungen="" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1945-1990" />
+      <r_75.4 Benennung="Gewerkschaften in Deutschland seit 1990" Bemerkungen="" erstellt_am="12.08.1999" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Gewerkschaft|Geschichte 1990-" />
       <r_76 Benennung="Mitbestimmung" Bemerkungen="vgl. q 64.3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Mitbestimmung" />
       <r_76.1 Benennung="Betriebsverfassung (Betriebsverfassungsrecht, (Europ.) Betriebsräte; Personalvertretungsrecht, Personalräte)" Bemerkungen="" erstellt_am="" geaendert_am="03.05.2018" Verweisformen="" Register-Vokabular="Betriebsrat|Betriebsverfassungsrecht|Personalrat|Personalvertretungsrecht" />
       <r_76.2 Benennung="Arbeiterselbstverwaltung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Arbeiterselbstverwaltung" />
@@ -3791,7 +3790,6 @@
       <s_215.3 Benennung="Flakartillerie, Flugabwehr (hier auch: Heeresflak, Flugmeldedienst)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Flakartillerie" Register-Vokabular="Deutschland / Flugabwehrartillerie|Flugmeldedienst" />
       <s_215.5 Benennung="Luftnachrichtentruppe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Luftnachrichtentruppe" />
       <s_215.6 Benennung="Logistik- und Instandsetzungstruppe" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland / Luftwaffe / Instandsetzungstruppe|Deutschland / Luftwaffe / Logistiktruppe" />
-      <s_215.7 Benennung="Flugzeugtypen (hier auch: Kampfdrohnen)" Bemerkungen="" erstellt_am="" geaendert_am="12.08.2015" Verweisformen="Kampfdrohne" Register-Vokabular="Deutschland / Luftwaffe|Flugzeug" />
     </s_211-239>
     <s_240-249 Benennung="Chronologie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <s_240 Benennung="Geschichte der Luftwaffe (allgemein)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Luftwaffe|Geschichte" />
@@ -3810,6 +3808,8 @@
       <s_280 Benennung="Militärische Ausbildung (hier auch: Manöver)" Bemerkungen="vgl. s 80" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Luftwaffe|Ausbildung|Manöver" />
       <s_280.1 Benennung="Luftwaffen- (Luftkriegs)akademien, Luftwaffenschulen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Luftwaffenschule|Luftwaffenakademie|Luftkriegsakademie" />
       <s_282 Benennung="Luftwaffenpropaganda, Propaganda für den Luftfahrtgedanken (hier auch: Flugzeugmodellbau)" Bemerkungen="vgl. s 82; Flugsport s. m 365.2, NS-Fliegerkorps s. m 320)" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Luftwaffe|Luftfahrt|Propaganda|Modellflugzeug" />
+      <s_286 Benennung="Luftkriegsrüstung, Flugzeugbau, Drohnenbau        " Bemerkungen="vgl. q 90.12, s 86, u 86.1.1" erstellt_am="01.07.2026" geaendert_am="" Verweisformen="" Register-Vokabular="Luftwaffe|Luftfahrt|Luftkrieg" />
+      <s_286.1 Benennung="Flugzeugtypen (hier auch: Kampfdrohnen)" erstellt_am="01.07.2026" geaendert_am="" Verweisformen="" Register-Vokabular="" />
     </s_250-299>
   </s_201-299>
   <t_1-99 Benennung="Erster Weltkrieg (Allgemein und Militärgeschichte)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1914-1918)|Militär|Geschichte">
@@ -3874,7 +3874,7 @@
       <t_78 Benennung="Kriegführung (Strategie, operative Führung, Taktik); militärisch-politische Führung im Ersten Weltkrieg" Bemerkungen="vgl. s 66, s 67, s 166, s 266" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Kriegführung|Militär|Führung|Strategie|Taktik|Operative Führung|Weltkrieg (1914-1918)" />
       <t_79 Benennung="Truppenbetreuung (geistige und kulturelle Betreuung der Soldaten); Militärseelsorge; Feldpost" Bemerkungen="vgl. o 81.8, s 72" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Truppenbetreuung|Militär|Kultur|Militärseelsorge|Weltkrieg (1914-1918)" />
       <t_82 Benennung="Verluste und Zerstörungen" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1914-1918)|Kriegsverlust|Zerstörung" />
-      <t_86 Benennung="Kriegswirtschaft, Rüstung; Wirtschaftskrieg, Handelskrieg, Blockade" Bemerkungen="vgl. q 75 , s 86" erstellt_am="" geaendert_am="" Verweisformen="Wehrwirtschaft" Register-Vokabular="Kriegswirtschaft|Rüstung|Rüstungsindustrie|Handelskrieg|Wirtschaftskrieg|Blockade|Weltkrieg (1914-1918)" />
+      <t_86 Benennung="Kriegswirtschaft, Rüstung, Rüstungsindustrie; Wirtschaftskrieg, Handelskrieg, Blockade" Bemerkungen="vgl. q 75 , s 86" erstellt_am="" geaendert_am="" Verweisformen="Wehrwirtschaft" Register-Vokabular="Kriegswirtschaft|Rüstung|Rüstungsindustrie|Handelskrieg|Wirtschaftskrieg|Blockade|Weltkrieg (1914-1918)" />
       <t_89 Benennung="Historische Bedeutung des Ersten Weltkrieges (Wirkungsgeschichte)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Weltkrieg (1914-1918)|Rezeption|Auswirkung" />
       <t_92 Benennung="Partisanen, Franktireurs" Bemerkungen="vgl. s 93" erstellt_am="" geaendert_am="" Verweisformen="Franktireur" Register-Vokabular="Partisan|Weltkrieg (1914-1918)" />
       <t_94 Benennung="Heimatfront, Alltag" Bemerkungen="vgl. m 245, w 170.1" erstellt_am="" geaendert_am="03.05.2018" Verweisformen="" Register-Vokabular="Heimatfront|Alltag |Weltkrieg (1914-1918)" />
@@ -4402,7 +4402,7 @@
       <v_76 Benennung="Digital Humanities" Bemerkungen="vgl. b 230.33" erstellt_am="14.08.2024" geaendert_am="" Verweisformen="" Register-Vokabular="Digital Humanities" />
       <v_77 Benennung="Geographie, Länderkunde" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Länderkunde" Register-Vokabular="Geographie|Regionale Geographie" />
       <v_77.1 Benennung="Politische Geographie" Bemerkungen="vgl. c 66.12, q 63.5" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politische Geographie" />
-      <v_78 Benennung="Musik" Bemerkungen="Krieg (Motiv) s. c 83.4" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Musik" />
+      <v_78 Benennung="Musik" Bemerkungen="Krieg (Motiv) s. c 83.4" erstellt_am="" geaendert_am="01.07.2026" Verweisformen="" Register-Vokabular="Musik" />
       <v_78.1 Benennung="Arbeiterlieder, Arbeitermusikbewegung" Bemerkungen="vgl. r 95, v 3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Arbeiterlied|Arbeitermusikbewegung|Liederbuch" />
       <v_78.2 Benennung="Politische Lieder" Bemerkungen="vgl. v 3" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politik|Musik|Liederbuch" />
       <v_78.3 Benennung="Musik im Exil" Bemerkungen="vgl. k 68" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Musik|Exil" />
@@ -4452,7 +4452,7 @@
       <v_97 Benennung="Technik, Technikgeschichte" Bemerkungen="vgl. q 89" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Technik|Technikgeschichte" />
       <v_97.1 Benennung="Patentrecht (hier auch: Patentämter)" Bemerkungen="vgl. p 77.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Patentrecht|Patentamt" />
       <v_97.2 Benennung="Technische Überwachung" Bemerkungen="" erstellt_am="17.04.1985" geaendert_am="" Verweisformen="" Register-Vokabular="Technische Überwachung" />
-      <v_97.4 Benennung="Elektronische Datenverarbeitung (EDV), Datentechnik, Computer (hier auch: Rechenzentren, Clouddienste)" Bemerkungen="vgl. a 16, b 230.33, l 56, l 57, q 89.3" erstellt_am="" geaendert_am="02.02.2026" Verweisformen="EDV" Register-Vokabular="Datenverarbeitung|Datentechnik|Computer|Rechenzentrum|Clouddienst" />
+      <v_97.4 Benennung="Elektronische Datenverarbeitung, Informationstechnik (EDV, IT), Datentechnik, Computer (hier auch: Rechenzentren, Clouddienste)" Bemerkungen="vgl. a 16, b 230.33, l 56, l 57, q 89.3" erstellt_am="" geaendert_am="02.02.2026; 01.07.2026" Verweisformen="EDV|IT" Register-Vokabular="Datenverarbeitung|Datentechnik|Computer|Rechenzentrum|Clouddienst|Informationstechnik" />
       <v_98 Benennung="Wissenschaftlich-technischer Fortschritt, technischer Fortschritt" Bemerkungen="vgl. c 63.6, w 89, w 89.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Technischer Fortschritt|Wissenschaftlich-technischer Fortschritt" />
       <v_98.1 Benennung="Technikbewertung, Technikfolgenabschätzung" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Technikbewertung" />
     </v_50-99>
@@ -5345,9 +5345,9 @@
       <x_575 Benennung="Gesellschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Gesellschaft|Sozialstruktur" />
       <x_575.1 Benennung="Alltagsleben" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="" Register-Vokabular="Alltag" />
       <x_575.2 Benennung="Aussiedler" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Umsiedler / Deutsche|Spätaussiedler" Register-Vokabular="Aussiedler" />
-      <x_575.3 Benennung="Ethnische Minderheiten, Migranten, Ausländer" Bemerkungen="vgl. c 86.6, d 37, r 85.3" erstellt_am="" geaendert_am="20.04.2011" Verweisformen="" Register-Vokabular="Ausländer|Minderheit|Migrant|Migration" />
+      <x_575.3 Benennung="Ethnische Minderheiten, Migranten, Ausländer, Flüchtlinge" Bemerkungen="vgl. c 86.6, d 37, r 85.3" erstellt_am="" geaendert_am="20.04.2011; 01.07.2026" Verweisformen="" Register-Vokabular="Ausländer|Minderheit|Migrant|Migration|Flüchtling|Flucht" />
       <x_575.3.1 Benennung="Ausländerrecht" Bemerkungen="" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="" Register-Vokabular="Ausländerrecht" />
-      <x_575.3.2 Benennung="Asylpolitik, Asylrecht" Bemerkungen="vgl. c 172.4, c 251.1.1, x 551.2" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="Flüchtlingsrecht" Register-Vokabular="Asylpolitik|Asylrecht" />
+      <x_575.3.2 Benennung="Flüchtlingspolitik, Asylpolitik, Asylrecht" Bemerkungen="vgl. c 172.4, c 251.1.1, x 551.2" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="Flüchtlingsrecht" Register-Vokabular="Asylpolitik|Asylrecht" />
       <x_575.3.3 Benennung="Integration" Bemerkungen="" erstellt_am="20.04.2011" geaendert_am="" Verweisformen="" Register-Vokabular="Ausländer|Migrant|Integration" />
       <x_575.4 Benennung="Sinti und Roma" Bemerkungen="vgl. c 179, x 675.4" erstellt_am="02.08.1990" geaendert_am="22.02.2022" Verweisformen="" Register-Vokabular="Zigeuner|Sinti|Roma (Volk)" />
       <x_575.5 Benennung="Öffentliche Meinung" Bemerkungen="vgl. c 165; Meinungsfreiheit s. x 551.2.1" erstellt_am="02.08.1990" geaendert_am="" Verweisformen="" Register-Vokabular="Öffentliche Meinung" />
