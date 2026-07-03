@@ -5514,11 +5514,12 @@
     <Da_080 Benennung="Dem Reichsministerium für Wissenschaft, Erziehung und Volksbildung unterstellte Institutionen: Reichsstelle für Schulwesen"/>
     <Da_081 Benennung="Reichspostministerium; hier auch: Deutsche Reichspost"/>
     <Da_085 Benennung="Reichsverkehrsministerium"/>
-    <Da_086 Benennung="Deutsche Reichsbahn; hier auch: Deutsche Reichsbahn-Gesellschaft, Reichsbahnzentrale für den Deutschen Reiseverkehr"/>
+    <Da_086 Benennung="Deutsche Reichsbahn; hier auch: Deutsche Reichsbahn-Gesellschaft, Reichsbahnzentrale für den Deutschen Reiseverkehr, Arbeitsausschuss der Grenzmarkbahnstädte, Kgl. Bayr. Staatseisenbahnen (ab 1920 Deutsche Reichsbahn)"/>
     <Da_089 Benennung="Reichswirtschaftsministerium; hier auch: Kriegsernährungsamt 1916-1918, Reichsmesseamt"/>
     <Da_090 Benennung="Statistisches Reichsamt"/>
     <Da_091 Benennung="Reichswirtschaftskammer 1934-1945"/>
     <Da_092 Benennung="Dem Reichswirtschaftsministerium unterstellte Institutionen: Amt für Deutsche Roh- und Werkstoffe, Generalbevollmächtigter für den Metallerzbergbau Südost, Generalbevollmächtigter für die Bauwirtschaft, Generalbevollmächtigter für Sonderfragen der Chemischen Erzeugung, Generalbevollmächtigter für die Wirtschaft, Generalbevollmächtigter für Technisches Nachrichtenwesen, Generalbevollmächtigter für den Metallbergbau Südost, Generalbevollmächtigter für die Energiewirtschaft, Generalbevollmächtigter für die Eisen- und Stahlbewirtschaftung, Reichskommissar für Altmaterialverwertung, Reichskohlenkommissar, Reichskommissar für das Zündwarenmonopol, Reichskommissar für das Kreditwesen, Reichskommissar für die Behandlung Feindlichen Vermögens, Reichsamt für Wehrwirtschaftliche Planung, Reichsamt für Wirtschaftsausbau, Reichsstelle für Bodenforschung, Sozialisierungskommission"/>
+    <Da_093 Benennung="Deutsch-Österreichische Arbeitsgemeinschaft 1925-1938    "/>
   </Da_001-099>
   <Db_001-299 Benennung="Gedruckte Quellen / Primärliteratur in der Druckschriftensammlung des Archivs: NSDAP und  angeschlossene Gliederungen und Verbände 1919/20 – 1945">
     <Db_001-026 Benennung="NSDAP - Reichsebene">
@@ -5704,8 +5705,9 @@
       <De_010 Benennung="Sozialistische Arbeiterpartei Deutschlands 1931-1945"/>
       <De_011 Benennung="Unabhängige Sozialdemokratische Partei Deutschlands 1917-1922"/>
       <De_012 Benennung="Sozialdemokratische Partei Deutschlands 1890-1945; hier auch: Jungsozialisten 1919/21-1931; hier auch: Sopade 1933-1939"/>
+      <De_013 Benennung="Freie sozialistische Jugend 1918-1920; Kommunistische Jugend Deutschlands (KJD)1920-1925; Kommunistischer Jugendverband Deutschlands (KJVD) 1925-1933; hier auch: ZK des KJVD"/>
       <De_030 Benennung="Deutsche Demokratische Partei 1918-1930; Deutsche Staatspartei 1930-1933"/>
-      <De_045 Benennung="Deutsche Zentrumspartei 1870-1933"/>
+      <De_045 Benennung="Deutsche Zentrumspartei 1870-1933; hier auch: Verbandsorgan der Windthorstbuünde"/>
       <De_046 Benennung="Bayerische Volkspartei 1918-1933"/>
       <De_068 Benennung="Wirtschaftspartei des Deutschen Mittelstandes 1920-1924; hier auch: Reichspartei des Deutschen Mittelstandes 1925-1933"/>
       <De_070 Benennung="Deutsche Volkspartei 1918-1933; hier auch: Reichsgemeinschaft Junger Volksparteiler 1929-1933"/>
@@ -5789,9 +5791,10 @@
       <De_758 Benennung="Verband der Deutschen in Großrumänien, 1921"/>
       <De_761 Benennung="Zentrale Deutsch-Baltischer Arbeit in Lettland 1928- ; hier auch: Deutsch-Baltische Volksgemeinschaft in Lettland 1918-"/>
       <De_762 Benennung="Deutsche Volksgruppe in Rumänien 1933-; hier auch: Deutsche Volkspartei Rumäniens 1935- ; Vereinigung der Reichsdeutschen in Rumänien 1939-"/>
-      <De_763 Benennung="Deutsche Volksgruppe in der Slowakei 1938-1945; hier auch: Arbeitskreis Karpatendeutscher Schriftsteller"/>
+      <De_763 Benennung="Deutsche Volksgruppe in der Slowakei 1938-1945; hier auch: Arbeitskreis Karpatendeutscher Schriftsteller (AKS), Deutsche Geschäftsstelle für die Slowakei 1921-1932"/>
       <De_764 Benennung="Deutscher Volksbund für Polnisch-Schlesien 1921-1939"/>
       <De_765 Benennung="Treuegemeinschaft Sudetendeutscher Sozialdemokraten 1939-1945"/>
+      <De_770 Benennung="Verband der deutschen Minderheiten in Europa 1922-1929; Verband der deutschen Volksgruppen in Europa (VDV) 1929-1944"/>
       <De_790 Benennung="Bund der Saarvereine 1919-1935"/>
       <De_795 Benennung="Deutscher Bund für Ostafrika 1930-"/>
     </De_750-799>
@@ -5836,6 +5839,7 @@
       <Df_120 Benennung="Universum-Film AG 1917-1945; hier auch: Ufa-Filmverleih"/>
       <Df_150 Benennung="Börsenverein der Deutschen Buchhändler 1825-1945"/>
       <Df_151 Benennung="Kommission für das Kaiserliche Volksliederbuch"/>
+      <Df_160 Benennung="Verein zum Schutze des geistigen Eigentums e.V."/>
     </Df_100-199>
     <Df_200-299 Benennung="Hochschulorganisationen, Studentenorganisationen">
       <Df_200 Benennung="Akademisch-Politischer Club"/>
@@ -5879,6 +5883,7 @@
       <Df_400 Benennung="Bund der Deutschen Katholischen Jugend"/>
       <Df_401 Benennung="Katholischer Jungmännerverband Deutschlands 1930-1938/39; hier auch: Sturmschar des Katholischen Jungmännerverbandes Deutschlands 1929-1938/39"/>
       <Df_402 Benennung="Verband der Katholischen Jugend- und Jungmännervereine Deutschlands 1896-"/>
+      <Df_410 Benennung="Reichsverband der evangelischen Jungmännerbünde; hier auch: Evangelisches Jungmännerwerk; Evangelisches Jungmädchenwerk"/>
     </Df_400-449>
     <Df_450-499 Benennung="Jugendorganisationen: Arbeiterjugend">
       <Df_450 Benennung="Sozialistische Arbeiterjugend 1922-1933"/>
@@ -5900,6 +5905,7 @@
       <Df_606 Benennung="Theater, Musiktheater; hier auch: Stadttheater Aschaffenburg, Deutsches Opernhaus Berlin, Wintergarten Berlin"/>
       <Df_607 Benennung="Arbeitsstelle für Volksforschung und Heimaterziehung München"/>
       <Df_608 Benennung="Bayerischer Schützen-Verband"/>
+      <Df_650 Benennung="Verein zur Abwehr des Antisemitismus 1890-1933; hier auch: Verlag der Abwehrblätter"/>
       <Df_700 Benennung="Universität Greifswald 1871-1945"/>
       <Df_701 Benennung="Universität Berlin 1871-1945"/>
       <Df_702 Benennung="Volkshochschule für Groß-Berlin"/>
@@ -5912,7 +5918,7 @@
     <Dg_001-099 Benennung="Gewerkschaften und Arbeitnehmerverbände; Arbeitskammern; Berufsverbände; Standesorganisationen">
       <Dg_001 Benennung="Generalkomission der Gewerkschaften Deutschlands 1890-1918"/>
       <Dg_002 Benennung="Allgemeiner Deutscher Gewerkschaftsbund 1919-1933"/>
-      <Dg_003 Benennung="Gewerkschaft Deutscher Eisenbahner 1908-1933"/>
+      <Dg_003 Benennung="Gewerkschaft Deutscher Eisenbahner 1908-1933; hier auch: Deutscher Eisenbahner-Verband 1916-1925, Einheitsverband der Eisenbahner Deutschlands 1925–1933; Verband Deutscher Eisenbahnfachschulen e.V."/>
       <Dg_004 Benennung="Deutscher Beamtenbund (DBB) 1918-1933, Reichsbund der Deutschen Beamten (RDB) 1933-1945"/>
       <Dg_005 Benennung="Deutscher Arbeiterverband der Öffentlichen Betriebe"/>
       <Dg_006 Benennung="Bayerischer Eisenbahner-Verband 1896-"/>
@@ -5939,6 +5945,7 @@
       <Dg_028 Benennung="Zentralkomitee der Betriebsräte Deutschlands"/>
       <Dg_029 Benennung="Verband Deutscher Siedler und Kleinbauern"/>
       <Dg_030 Benennung="Büchergilde Gutenberg"/>
+      <Dg_032 Benennung="Internationale Transportarbeiter Förderation (ITF); hier auch: Aktionskomitee des Gesamtverbandes der Arbeitnehmer der öffentlichen Betriebe, Sektion Schiffahrt "/>
       <Dg_035 Benennung="Bayerische Beamten-, Berufs- und Baugewerkschaft"/>
       <Dg_036 Benennung="Verwaltungsrat Katholischer Beamtenvereine"/>
       <Dg_037 Benennung="Bund der Technischen Angestellten und Beamten 1919-1933"/>
@@ -5948,11 +5955,11 @@
       <Dg_041 Benennung="Verband Katholischer Dienstmädchenvereine 1907-   ; hier auch:  Verband Katholischer Hausangestellten- und Dienstmädchenvereine in Deutschland, Verband Katholischer Hausgehilfinnen"/>
       <Dg_042 Benennung="Verband Deutscher Bücherrevisoren 1896-1932"/>
       <Dg_043 Benennung="Zentral-Verein der Christlichen Herrschaftsbediensteten Deutschlands"/>
-      <Dg_044 Benennung="Verein Deutscher Ingenieure 1871-1945"/>
+      <Dg_044 Benennung="Verein Deutscher Ingenieure 1871-1945, Deutscher Ausschuß für Technisches Schulwesen (DATSCH)"/>
       <Dg_045 Benennung="Verband der Katholiken in Wirtschaft und Verwaltung 1877-1938"/>
       <Dg_046 Benennung="Verband zur Förderung hauswirtschaftlicher Frauenbildung"/>
       <Dg_047 Benennung="Schutzverband für Deutschen Grundbesitz 1914-"/>
-      <Dg_048 Benennung="Reichsbund Deutscher Mieter 1924-1933"/>
+      <Dg_048 Benennung="Reichsbund Deutscher Mieter 1924-1933; hier auch: Verband deutscher Mietervereine; Bund Deutscher Mietervereine e.V., Dresden 1924-1933"/>
       <Dg_049 Benennung="Deutscher Richterbund 1909-1933"/>
       <Dg_050 Benennung="Republikanischer Richterbund 1922-1933"/>
       <Dg_051 Benennung="Bund Angestellter Chemiker und Ingenieure 1919-1933; hier auch: Bund Angestellter Akademiker Technisch-Naturwissenschaftlicher Berufe"/>
@@ -5997,6 +6004,7 @@
       <Dg_319 Benennung="Zentralarbeitsgemeinschaft der Öffentlichen und Freien Wohlfahrtspflege"/>
       <Dg_320 Benennung="Arbeitsgemeinschaft Sozialhygienischer Reichsfachverbände"/>
       <Dg_321 Benennung="Hilfsverein Deutscher Frauen"/>
+      <Dg_337 Benennung="Deutscher Schutzbund 1919-1933; hier auch: Deutscher Schutzbund der Grenz- und Auslandsdeutschen "/>
       <Dg_343 Benennung="Deutscher Verein für Sicherungskunde"/>
     </Dg_300-399>
     <Dg_600-899 Benennung="Wirtschafts- und Unternehmerverbände, Handelskammern in Deutschland 1871 – 1945">
@@ -6043,19 +6051,19 @@
     <Di_001-099 Benennung="Evangelische Kirche und evangelische Verbände">
       <Di_001 Benennung="Evangelischer Volksbund für Württemberg"/>
       <Di_002 Benennung="Apologetische Centrale Berlin 1921-1937"/>
-      <Di_003 Benennung="Bekennende Kirche 1933-1945 (Bekenntnissynode, Bruderrat, Bekenntnisgemeinschaften, regionale Gliederungen, Rat der Evangelisch-Lutherischen Kirche Deutschlands - Lutherrat)"/>
+      <Di_003 Benennung="Bekennende Kirche 1933-1945; hier auch: Bekenntnissynode, Bruderrat, Bekenntnisgemeinschaften, regionale Gliederungen, Rat der Evangelisch-Lutherischen Kirche Deutschlands – Lutherrat, Evangelische Kirche der Altpreußischen Union"/>
       <Di_004 Benennung="Institut zur Erforschung Jüdischen Einflusses auf das Deutsche Kirchliche Leben, Eisenach 1939-1945"/>
-      <Di_005 Benennung="Deutsche Evangelische Kirche 1933-1945; hier auch: Kirchenamtliche Pressestelle"/>
+      <Di_005 Benennung="Deutsche Evangelische Kirche 1933-1945; hier auch: Kirchenamtliche Pressestelle, Stadtsynoden, Landessynoden "/>
       <Di_006 Benennung="Deutsches Evangelisches Kirchenbundesamt"/>
       <Di_007 Benennung="Reichsverband der Evangelischen Deutschen Bahnhofsmission"/>
       <Di_008 Benennung="Evangelisch-Lutherische Landeskirchenämter; hier auch: Evangelisch-Lutherische Kirche in Sachsen / Landeskirchenamt"/>
-      <Di_009 Benennung="Deutsche Christen 1932-1945; hier auch: Christlich-Deutsche Bewegung 1930 - 1933"/>
+      <Di_009 Benennung="Deutsche Christen 1932-1945; hier auch: Christlich-Deutsche Bewegung 1930 – 1933; Deutsche Pfarrergemeinde"/>
       <Di_011 Benennung="Zelt-Volks-Mission"/>
       <Di_012 Benennung="Hochkirchliche Vereinigung 1917 -"/>
       <Di_013 Benennung="Evangelischer Diakonieverein"/>
       <Di_014 Benennung="Evangelisch-Lutherische Landeskirche in Bayern Rechts des Rheins 1921-1945"/>
       <Di_015 Benennung="Evangelisch-Sozialer Kongress 1890-1945"/>
-      <Di_017 Benennung="Evangelischer Presseverband für Deutschland 1909-"/>
+      <Di_017 Benennung="Evangelischer Presseverband für Deutschland 1909-   ; hier auch: Evangelischer Presseverband für Rheinland"/>
       <Di_018 Benennung="Evangelischer Presseverband für Württemberg"/>
       <Di_019 Benennung="Evangelische Kirche von Westfalen"/>
       <Di_020 Benennung="Berneuchener Bewegung 1922 -"/>
@@ -6066,6 +6074,7 @@
       <Di_103 Benennung="Päpstliches Werk der Heiligen Kindheit 1922-1945"/>
       <Di_104 Benennung="Gesellschaft des Göttlichen Wortes 1891-"/>
       <Di_106 Benennung="Volksverein für das Katholische Deutschland 1890-1933"/>
+      <Di_106 Benennung="Katholischer Zentralgesellenverein München"/>
     </Di_100-199>
     <Di_200-299 Benennung="Sonstige religiöse und weltanschauliche Verbände">
       <Di_201 Benennung="Deutsche Glaubensbewegung 1933-1938; hier auch: Kampfring Deutscher Glaube"/>
@@ -6316,6 +6325,7 @@
     <Dm_370 Benennung="Bundesministerium für Arbeit und Soziales (BMAS) 2005-   ; Bundesministerium für Arbeit und Sozialordnung (BMA) (1949-2005)"/>
     <Dm_371 Benennung="Sozialenquête-Kommission 1964-"/>
     <Dm_372 Benennung="Die Beauftragte bzw. der Beauftragte der Bundesregierung für Migration, Flüchtlinge und Integration (Integrationsbeauftragte/-r) 2005- ; Beauftragter zur Förderung der Integration der ausländischen Arbeitnehmer und ihrer Familienangehörigen (Ausländerbeauftragte/-r) 1978-2005; Die Beauftragte der Bundesregierung für Ausländerfragen 1998-2002"/>
+    <Dm_383 Benennung="Institut für Arbeitsmarkt- und Berufsforschung (IAB) "/>
     <Dm_384 Benennung="Bundesagentur für Arbeit (BA) (Agentur für Arbeit, Arbeitsamt ) 2004- ; Bundesanstalt für Arbeit (BA) 1969-2003; Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung (BAVAV) 1952-1968"/>
     <Dm_385 Benennung="Bundesversicherungsanstalt für Angestellte (BfA)"/>
     <Dm_386 Benennung="Bundesamt für Familie und zivilgesellschaftliche Aufgaben (BAFzA) 2011-, Bundesamt für den Zivildienst (BAZ) 1973-"/>
@@ -6399,7 +6409,7 @@
       <Do_101 Benennung="Universität Augsburg"/>
       <Do_102 Benennung="Rheinisch-Westfälische Technische Hochschule Aachen; hier auch: Allgemeiner Studentenausschuss der RWTH (AStA)"/>
       <Do_103 Benennung="Universität Bamberg"/>
-      <Do_105 Benennung="Freie Universität Berlin; hier auch: Berliner Sommeruniversität für Frauen, Zentraleinrichtung zur Förderung von Frauenstudien und Frauenforschung, Arbeitskreis zum Schutz der Freiheit von Forschung und Lehre, Presse- und Informationsamt, Aktionskomitee gegen Berufsverbote an der FU Berlin, Vereinigte Arbeitsgemeinschaften an der FU, Evangelische Studentengemeinde Berlin an der FU "/>
+      <Do_105 Benennung="Freie Universität Berlin (FU Berlin) 1948-; hier auch: Fakultäten/Fachschaften, Arbeitskreise, Aktionsgemeinschaften, Fachbereiche, Komitees, Institute/Seminare "/>
       <Do_106 Benennung="Allgemeiner Studentenausschuss der Freien Universität Berlin (AStA); hier auch: Kritische Universität Berlin"/>
       <Do_107 Benennung="Notgemeinschaft für eine freie Universität (NofU) 1970-1990"/>
       <Do_108 Benennung="Zentralinstitut für Sozialwissenschaftliche Forschung der Freien Universität Berlin"/>
@@ -6410,6 +6420,7 @@
       <Do_118 Benennung="Universität Bielefeld; hier auch: Zentrum für Interdisziplinäre Forschung"/>
       <Do_120 Benennung="Ruhr-Universität Bochum"/>
       <Do_121 Benennung="Allgemeiner Studentenausschuss der Ruhr-Universität Bochum (AStA); hier auch: Autonomes Frauenreferat"/>
+      <Do_122 Benennung="Johann Wolfgang Goethe-Universität Frankfurt am Main"/>
       <Do_125 Benennung="Universität Bonn"/>
       <Do_126 Benennung="Allgemeiner Studentenausschuss der Universität Bonn (AStA)"/>
       <Do_135 Benennung="Universität Bremen"/>
@@ -6444,8 +6455,7 @@
       <Do_236 Benennung="Allgemeiner Studentenausschuss der Johannes Gutenberg-Universität Mainz (AStA)"/>
       <Do_243 Benennung="Universität Osnabrück; hier auch: Institut für Migrationsforschung und Interkulturelle Studien (IMIS)"/>
       <Do_245 Benennung="Philipps-Universität Marburg"/>
-      <Do_249 Benennung="Institut der Kommunikationswissenschaft und Medienforschung der Ludwig-Maximilians-Universität München (IfKW)"/>
-      <Do_250 Benennung="Ludwig-Maximilians-Universität München (LMU) "/>
+      <Do_250 Benennung="Ludwig-Maximilians-Universität München (LMU); hier auch: Fakultäten/Fachschaften, Arbeitskreise, Aktionsgemeinschaften, Fachbereiche, Komitees, Institute/Seminare) "/>
       <Do_251 Benennung="Allgemeiner Studierendenausschuss der Ludwig-Maximilians-Universität München (AStA)"/>
       <Do_252 Benennung="Frauenreferat der Geschwister-Scholl-Universität "/>
       <Do_253 Benennung="Center for Advanced Studies der Ludwig-Maximilians-Universität (CAS)"/>
@@ -6472,12 +6482,12 @@
       <Do_302 Benennung="Landesmuseum für Technik und Arbeit 1990-2009; Technoseum, Mannheim 2010-"/>
       <Do_303 Benennung="Deutsche Universitätsstiftung, Bonn (DUS)"/>
       <Do_304 Benennung="Stiftung Deutsche Geisteswissenschaftliche Institute im Ausland (DGIA) 2002-2012; Max Weber Stiftung - Deutsche Geisteswissenschaftliche Institute im Ausland (MWS) 2012-"/>
+      <Do_305 Benennung="Kommission für Geschichte des Parlamentarismus und der politischen Parteien (KGParl) 1951-"/>
       <Do_306 Benennung="Umweltinstitut München e.V."/>
       <Do_307 Benennung="Hannah-Arendt-Institut für Totalitarismusforschung (HAIT)"/>
       <Do_308 Benennung="Haus Rissen Hamburg - Institut für Internationale Politik und Wissenschaft"/>
       <Do_309 Benennung="Akademie für politische Bildung, Tutzing"/>
       <Do_310 Benennung="Hermann Ehlers Akademie, Kiel (HEA)"/>
-      <Do_311 Benennung="Katholische Deutsche Studenten-Einigung (KDSE) 1947-1973 "/>
       <Do_312 Benennung="Zentralstelle zur Erforschung und Förderung der Berufserziehung"/>
       <Do_313 Benennung="Otto-von-Bismarck-Stiftung, Friedrichsruh (OvBSt)"/>
       <Do_314 Benennung="Institut für Bürgerrechte &amp; öffentliche Sicherheit e.V."/>
@@ -6487,8 +6497,10 @@
       <Do_320 Benennung="Goethe-Institut"/>
       <Do_321 Benennung="Moses Mendelssohn Zentrum für Europäisch-Jüdische Studien (MMZ)"/>
       <Do_325 Benennung="Institut für Auslandsbeziehungen, Stuttgart und Berlin (ifa)"/>
+      <Do_330 Benennung="Stiftung Reichspräsident Friedrich Ebert Gedenkstätte 1989- "/>
       <Do_345 Benennung="Institut für Film und Bild in Wissenschaft und Unterricht (FWU)"/>
       <Do_346 Benennung="IMU-Institut für Medienforschung und Urbanistik e.V."/>
+      <Do_350 Benennung="Südwind Institut für Ökonomie und Ökumene 1991- "/>
       <Do_357 Benennung="Stiftung Haus der Geschichte der Bundesrepublik Deutschland, Bonn"/>
       <Do_360 Benennung="Zentralstelle für gesamtdeutsche Hochschulfragen"/>
       <Do_362 Benennung="Deutsches Institut für Urbanistik (DiFU)"/>
@@ -6520,6 +6532,7 @@
       <Do_417 Benennung="Fraunhofer Gesellschaft zur Förderung der angewandten Forschung, München"/>
       <Do_418 Benennung="Heinrich Böll Stiftung e. V (hbs)"/>
       <Do_420 Benennung="Stiftung Bundespräsident-Theodor-Heuss-Haus (THH)"/>
+      <Do_425 Benennung="Stiftung Flucht, Vertreibung, Versöhnung (SFVV) 2008- "/>
       <Do_430 Benennung="Bürgerunion"/>
       <Do_449 Benennung="Deutsche Nationalstiftung"/>
       <Do_451 Benennung="Deutsche Gesellschaft für Auswärtige Politik (DGAP); hier auch: Deutsche Gesellschaft zur Förderung einer nationalen Außenpolitik"/>
@@ -6639,8 +6652,7 @@
       <Do_705 Benennung="Internationale Naturisten-Föderation (IFN/FNi)"/>
       <Do_706 Benennung="Isarland Bund für freie Lebensgestaltung (BffL)"/>
       <Do_707 Benennung="Dokumentations-Arbeitsgemeinschaft und Freundeskreis KLV (Erweiterte-Kinder-Land-Verschickung)"/>
-      <Do_709 Benennung="Cultur Cooperation e.V. Hamburg"/>
-      <Do_710 Benennung="Amerika-Gesellschaft e.V."/>
+      <Do_710 Benennung="Kulturpolitische Gesellschaft e.V. (KuPoGe) 1976-"/>
       <Do_711 Benennung="US-Informationsdienst Bad Godesberg"/>
       <Do_712 Benennung="Stiftung Frauenkirche Dresden"/>
       <Do_713 Benennung="Heimatkreisgemeinschaft Gerdauen e.V."/>
@@ -6648,13 +6660,11 @@
       <Do_715 Benennung="Stiftung Kuratorium junger deutscher Film"/>
       <Do_716 Benennung="Museumspädagogischer Dienst Berlin"/>
       <Do_717 Benennung="Kulturkreis der deutschen Wirtschaft im Bundesverband der Deutschen Industrie"/>
-      <Do_718 Benennung="Deutsch-Niederländische Gesellschaft e.V."/>
-      <Do_719 Benennung="Gesellschaft der Freunde Albaniens e.V."/>
       <Do_720 Benennung="Dokumentationszentrum und Museum über die Migration in Deutschland (DOMOiD)"/>
     </Do_700-949>
   </Do_001-999>
   <Dq_001-899 Benennung="Gedruckte Quellen / Primärliteratur in der Druckschriftensammlung des Archivs: Jugend- und Frauenorganisationen seit Mai 1945">
-    <Dq_001-250 Benennung="Jugendorganisationen">
+    <Dq_001-299 Benennung="Jugendorganisationen">
       <Dq_001 Benennung="Deutscher Bundesjugendring"/>
       <Dq_002 Benennung="Landesjugendring Baden-Württemberg"/>
       <Dq_003 Benennung="Bayerischer Jugendring"/>
@@ -6682,17 +6692,14 @@
       <Dq_110 Benennung="Presse-Club München; hier auch: Neuer Presseclub München"/>
       <Dq_112 Benennung="Deutsches Nationalkomitee zur Vorbereitung der Weltfestspiele der Jugend und Studenten für den Frieden in Berlin"/>
       <Dq_120 Benennung="Demokratischer Jugendverband Berlin"/>
-      <Dq_151 Benennung="Terre des Hommes"/>
       <Dq_152 Benennung="Sozialistische Jugend Deutschlands - Die Falken"/>
       <Dq_153 Benennung="Sozialistische Deutsche Arbeiterjugend"/>
-      <Dq_154 Benennung="Kindernothilfe e.V."/>
-      <Dq_155 Benennung="Antifa-Jugendfront"/>
-      <Dq_156 Benennung="Deutsches Kinderhilfswerk e.V. (DKHW)"/>
       <Dq_180 Benennung="Deutsche Jugend-Gemeinschaft"/>
+      <Dq_220 Benennung="Nationaldemokratische Schülergemeinschaft (NSD) 1977-? "/>
       <Dq_224 Benennung="Förderverein für Internationale Jugendbegegnung in Dachau"/>
       <Dq_228 Benennung="Unabhängiger Schüler-Bund"/>
-      <Dq_230 Benennung="Heimatvertriebene Nationale Jugend"/>
-      <Dq_231 Benennung="Deutsche Jugend des Ostens; hier auch:  Deutsche Jugend in Europa, Sudetendeutsche Jugend"/>
+      <Dq_230 Benennung="Nationale Jugend Deutschlands (NJD); hier auch: Heimatvertriebene Nationale Jugend"/>
+      <Dq_231 Benennung="Deutsche Jugend des Ostens (DJO) 1951-1974; djo-Deutsche Jugend in Europa 1974-; hier auch: SdJ – Jugend für Mitteleuropa (SdJ)/Sudetendeutsche Jugend 1950-; Schlesische Jugend 1948-"/>
       <Dq_232 Benennung="Bund Heimattreuer Jugend; hier auch:  Freibund"/>
       <Dq_233 Benennung="Junge Kameradschaft"/>
       <Dq_234 Benennung="Bund Deutscher Jugend"/>
@@ -6707,8 +6714,10 @@
       <Dq_243 Benennung="Überbündischer Kreis"/>
       <Dq_245 Benennung="Arbeitskreis Fryheit"/>
       <Dq_250 Benennung="Arbeitskreis Junger Monarchisten"/>
-    </Dq_001-250>
-    <Dq_300-381 Benennung="Jugendbewegung, Bündische Jugend, Pfadfinder seit Mai 1945">
+      <Dq_260 Benennung="Junge Garde für die Revolutionäre Internationale der Jugend "/>
+      <Dq_270 Benennung="Deutsche Jungdemokraten (DJD) ab 1982-; hier auch: Liberale Schüleraktion (LiSa) -2007"/>
+    </Dq_001-299>
+    <Dq_300-499 Benennung="Jugendbewegung, Bündische Jugend, Pfadfinder seit Mai 1945">
       <Dq_300 Benennung="Jungenschaft Mayenne"/>
       <Dq_301 Benennung="Deutscher Jugendbund"/>
       <Dq_302 Benennung="Ring Junger Bünde"/>
@@ -6725,9 +6734,10 @@
       <Dq_357 Benennung="Naturfreundejugend Deutschlands"/>
       <Dq_380 Benennung="Vereinigung Jugendburg Ludwigstein"/>
       <Dq_381 Benennung="Boberhauskreis"/>
-    </Dq_300-381>
+      <Dq_400 Benennung="Schlesische Jugend 1948-"/>
+    </Dq_300-499>
     <Dq_500-702 Benennung="Studentenorganisationen seit Mai 1945">
-      <Dq_502 Benennung="Verband Deutscher Studentenschaften; hier auch: Vereinigte Deutsche Studentenschaften"/>
+      <Dq_502 Benennung="Verband Deutscher Studentenschaften 1949-1975, Vereinigte Deutsche Studentenschaften (VDS) 1975-1990; freier zusammenschluss von student*innenschaften (fzs) 1993- "/>
       <Dq_503 Benennung="Arbeitsgemeinschaft Deutscher Studentenschaften"/>
       <Dq_504 Benennung="Convent Deutscher Korporationsverbände"/>
       <Dq_505 Benennung="Verband der Vereine Deutscher Studenten"/>
@@ -6739,13 +6749,20 @@
       <Dq_511 Benennung="Ring Christlich-Demokratischer Studenten (RCDS)"/>
       <Dq_512 Benennung="Ring freiheitlicher Studenten"/>
       <Dq_513 Benennung="Verein Deutscher Studenten Berlin"/>
-      <Dq_515 Benennung="Marxistischer Studentenbund Spartakus"/>
+      <Dq_515 Benennung="Assoziation Marxistischer Studenten Spartakus (AMS), 1969-1971; Marxistischer Studentenbund – Spartakus (MSB) 1971-1990"/>
       <Dq_516 Benennung="Münchner Studenten-Union"/>
       <Dq_517 Benennung="Deutsche Studenten-Union"/>
       <Dq_518 Benennung="Sozialliberaler Hochschulverband Bonn"/>
       <Dq_519 Benennung="Kommunistischer Studentenverband (hier auch: Komitee „Solidarität mit den politisch disziplinierten Studenten und Dozenten&quot;)"/>
+      <Dq_520 Benennung="Kommunistische Hochschulgruppe (KHG) "/>
       <Dq_521 Benennung="Aktivitas"/>
+      <Dq_523 Benennung="Nationaldemokratischer Hochschulbund (NHB) 1967-"/>
+      <Dq_524 Benennung="Kommunistischer Oberschülerverband (KOV), 1972-1975"/>
       <Dq_531 Benennung="Liberaler Studentenverband Deutschlands (LSD) 1950-1969, ab 1972: Liberaler Hochschulverband (LHV)"/>
+      <Dq_540 Benennung="Katholische Deutsche Studenten-Einigung (KDSE) 1947-1973; Arbeitsgemeinschaft katholischer Studenten- und Hochschulgemeinden (AGG) 1973-2000"/>
+      <Dq_550 Benennung="Sozialistischer Deutscher Studentenbund (SDS) 1946-1970"/>
+      <Dq_551 Benennung="Sozialdemokratischer Hochschulbund (SHB) 1960-1971, Sozialistischer Hochschulbund 1972-1992; hier auch: Unabhängiger SHB (USHB) 1989-?tischer Deutscher Studentenbund (SDS) 1946-1970"/>
+      <Dq_552 Benennung="Sozialistische Hochschulgemeinschaft e. V. (SHG) 1953-?"/>
       <Dq_621 Benennung="Studentenbund Ostpreußen"/>
       <Dq_650 Benennung="Cartellverband der Katholischen Deutschen Studentenverbindungen"/>
       <Dq_701 Benennung="Deutsche Burschenschaft"/>
@@ -6779,7 +6796,7 @@
       <Dq_826 Benennung="Sozialistischer Frauenbund Westberlin"/>
       <Dq_827 Benennung="Frauenforum München; hier auch: Förderkreis zum Aufbau der Feministischen Partei; Förderkreis der Feminist"/>
       <Dq_828 Benennung="Terre des Femmes, Menschenrechte für die Frau"/>
-      <Dq_829 Benennung="Weltorganisation der Mütter aller Nationen"/>
+      <Dq_829 Benennung="Weltorganisation der Mütter aller Nationen/Deutschland "/>
       <Dq_830 Benennung="Ausländische Frauenorganisationen"/>
       <Dq_832 Benennung="Frauentreffpunkt Neuperlach (München) "/>
       <Dq_833 Benennung="Überparteiliche Fraueninitiative Berlin – Stadt der Frauen e.V. (ÜPFI) "/>
@@ -6833,6 +6850,7 @@
       <Dq_882 Benennung="Frauenhilfe München"/>
       <Dq_883 Benennung="Lesbisches Aktionszentrum Berlin, West; hier auch: Lesbenpressenkollektiv des LAZ"/>
       <Dq_884 Benennung="Frauengruppe auf den Häfen Bremens"/>
+      <Dq_885 Benennung="Verein für psychosoziale Initiativen e.V.; hier auch: amanda, Projekt für Mädchen und junge Frauen, 1978- "/>
       <Dq_886 Benennung="Frauenforum Bonn"/>
       <Dq_887 Benennung="Deutsche Hausfrauengewerkschaft"/>
       <Dq_888 Benennung="Verein zur Förderung der Frauenakademie München"/>
