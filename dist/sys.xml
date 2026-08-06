@@ -397,7 +397,7 @@
       <c_69 Benennung="Regierung, Regierungslehre" Bemerkungen="vgl. f 64, x 552, x 652" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Regierungslehre" />
       <c_69.1 Benennung="Politischer Eid" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Eid" />
       <c_70 Benennung="Unruhen, Aufruhr, Aufstände, Revolutionen, Staatsstreiche" Bemerkungen="Aufstandsbekämpfung s. s 66.3, vgl. c 71.5" erstellt_am="" geaendert_am="19.10.2011, 18.1.2024" Verweisformen="Putsch" Register-Vokabular="Unruhen|Aufstand|Revolution|Staatsstreich" />
-      <c_71 Benennung="Demokratie" Bemerkungen="vgl. f 64, x 552" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Demokratie" />
+      <c_71 Benennung="Demokratie" Bemerkungen="vgl. c 85.4, f 64, x 552" erstellt_am="" geaendert_am="05.08.2026" Verweisformen="" Register-Vokabular="Demokratie" />
       <c_71.1 Benennung="Verfassungen, Verfassungslehre" Bemerkungen="vgl. f 67, f 118, j 51, p 40, p 82.3, x 551, x 651" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Verfassung|Verfassungslehre" />
       <c_71.2 Benennung="Christliche Demokratie, Christlich-soziale Bewegungen" Bemerkungen="vgl. f 169" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Christliche Demokratie|Christlich-soziale Bewegung" />
       <c_71.3 Benennung="Politischer Katholizismus" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Politischer Katholizismus" />
@@ -411,7 +411,7 @@
       <c_72.2 Benennung="Wahlrecht" Bemerkungen="vgl. f 78, f 166, f 167, x 556.1, x 656.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wahlrecht" />
       <c_72.4 Benennung="Parlamentarische Opposition" Bemerkungen="vgl. x 552.1" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Opposition" />
       <c_73 Benennung="Politische Parteien (allgemein)" Bemerkungen="vgl. c 21, c 221, f 20, f 120, j 21, k 67, k 68.2, x 521, x 621" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Partei" />
-      <c_73.1 Benennung="Verbände, Vereine, Pressure Groups, Lobbyismus" Bemerkungen="vgl. c 225, c 252.2, f 25, f 125, j 25, x 225, x 552.2, x 625" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Pressure-group|Interessenverband|Verein|Lobbyismus" />
+      <c_73.1 Benennung="Verbände, Vereine, Pressure Groups, Lobbyismus" Bemerkungen="vgl. c 225, c 252.2, f 25, f 125, j 25, x 525, x 552.2, x 625" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Pressure-group|Interessenverband|Verein|Lobbyismus" />
       <c_73.2 Benennung="Parteienfinanzierung, Parteivermögen" Bemerkungen="vgl. x 552.5" erstellt_am="14.02.2000" geaendert_am="" Verweisformen="" Register-Vokabular="Parteienfinanzierung|Partei|Vermögen" />
       <c_73.3 Benennung="Parteienverbote" Bemerkungen="hier keine einzelnen Parteien" erstellt_am="28.11.2001" geaendert_am="" Verweisformen="" Register-Vokabular="Parteiverbot" />
       <c_74 Benennung="Liberalismus (hier auch: Kommunitarismus); Neoliberalismus" Bemerkungen="" erstellt_am="" geaendert_am="09.12.2015" Verweisformen="" Register-Vokabular="Liberalismus|Neoliberalismus||Kommunitarismus" />
@@ -1842,7 +1842,7 @@
       <k_96.3 Benennung="Jenische" Bemerkungen="" erstellt_am="01.06.2011" geaendert_am="" Verweisformen="Fahrende" Register-Vokabular="Politische Verfolgung|Jenische" />
     </k_41-99>
   </k_1-99>
-  <k_101-199 Benennung="Widerstand im Deutschen Reich 1933-1945" Bemerkungen="Jüdischer Widerstand s. n 92; christlicher Widerstand s. 0 53; Widerstand in den besetzten Gebieten s. h 101-199" erstellt_am="" geaendert_am="" Verweisformen="Deutsches Reich" Register-Vokabular="Deutschland|Drittes Reich|Widerstand|Geschichte 1933-1945">
+  <k_101-199 Benennung="Widerstand im Deutschen Reich 1933-1945" Bemerkungen="Jüdischer Widerstand s. n 92; christlicher Widerstand s. o 53; Widerstand in den besetzten Gebieten s. h 101-199" erstellt_am="" geaendert_am="" Verweisformen="Deutsches Reich" Register-Vokabular="Deutschland|Drittes Reich|Widerstand|Geschichte 1933-1945">
     <k_101-110.10 Benennung="Hilfsmittel (Formale Erschließungskriterien)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="">
       <k_101 Benennung="Bibliographien" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Widerstand|Geschichte 1933-1945|Bibliographie" />
       <k_102 Benennung="Zeitschriften, Jahrbücher, Kalender" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Deutschland|Widerstand|Geschichte 1933-1945|Zeitschrift" />
@@ -2261,7 +2261,7 @@
       <m_256 Benennung="Feminismus" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Feminismus" />
       <m_260 Benennung="Gleichberechtigung, Gleichstellung aller Geschlechter" Bemerkungen="" erstellt_am="" geaendert_am="04.08.2026" Verweisformen="" Register-Vokabular="Gleichberechtigung|Frauenemanzipation|Gleichstellung " />
       <m_260.1 Benennung="Juristische Gleichberechtigung, Gleichstellung" Bemerkungen="vgl. x 551.2" erstellt_am="22.05.1990" geaendert_am="04.08.2026" Verweisformen="" Register-Vokabular="Gleichberechtigung|Gleichstellung" />
-      <m_260.2 Benennung="Gleichberechtigung, Gleichstellung in Beruf und Familie" Bemerkungen="vgl. m 280, r 64,r 69.2r 88, w 80.6" erstellt_am="22.05.1990" geaendert_am="04.08.2026" Verweisformen="" Register-Vokabular="Gleichberechtigung|Beruf|Familie" />
+      <m_260.2 Benennung="Gleichberechtigung, Gleichstellung in Beruf und Familie" Bemerkungen="vgl. m 280, r 64, r 69.2, r 88, w 80.6" erstellt_am="22.05.1990" geaendert_am="04.08.2026" Verweisformen="" Register-Vokabular="Gleichberechtigung|Beruf|Familie" />
       <m_262 Benennung="Frauen und Politik; Frauen in der Politik" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Frau|Politik" />
       <m_263 Benennung="Sexualwissenschaft" Bemerkungen="" erstellt_am="03.05.2018" geaendert_am="" Verweisformen="" Register-Vokabular="Sexualwissenschaft" />
       <m_264 Benennung="Geschlechterrollen" Bemerkungen="" erstellt_am="22.05.1990" geaendert_am="03.08.2012" Verweisformen="" Register-Vokabular="Geschlechterrolle" />
@@ -2272,7 +2272,7 @@
       <m_265 Benennung="Körperkultur, Freikörperkultur" Bemerkungen="" erstellt_am="" geaendert_am="03.05.2018" Verweisformen="" Register-Vokabular="Körperkultur|Freikörperkultur" />
       <m_275 Benennung="Sexualität" Bemerkungen="vgl. o 81.10" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Sexualität" />
       <m_275.1 Benennung="LGBTIQ*, Queere Bewegung, Homosexualität" Bemerkungen="vgl. k 96.1, m 275.1.1" erstellt_am="" geaendert_am="" Verweisformen="Lesbe, Schwule, Homosexueller, Lesbierin, Bisexualität, Bisexuelle, Pansexualität, Pansexuelle, Asexualität, Asexuelle, genderqueere Person, nichtbinäre Person" Register-Vokabular="" />
-      <m_275.1.1 Benennung="Transsexuelle, Transsexualität; Intersexuelle, Intersexualität; Transgender" Bemerkungen="" erstellt_am="" geaendert_am="04.08.2026" Verweisformen="Transgeschlechtliche, Transgeschlechtlichkeit; Intergeschlechtliche, Intergeschlechtlichkeit" Register-Vokabular="" />
+      <m_275.1.1 Benennung="Transsexuelle, Transsexualität; Intersexuelle, Intersexualität; Transgender" Bemerkungen="vgl. m 275.1" erstellt_am="" geaendert_am="04.08.2026" Verweisformen="Transgeschlechtliche, Transgeschlechtlichkeit; Intergeschlechtliche, Intergeschlechtlichkeit" Register-Vokabular="" />
       <m_276 Benennung="Prostitution" Bemerkungen="Lagerbordelle s. k 76.3" erstellt_am="10.07.2000" geaendert_am="" Verweisformen="" Register-Vokabular="Prostitution" />
       <m_277 Benennung="Pornographie" Bemerkungen="vgl. l 72.1, p 84.13" erstellt_am="10.07.2000" geaendert_am="" Verweisformen="" Register-Vokabular="Pornographie" />
       <m_278 Benennung="Sexismus, Sexuelle Belästigung, sexuelle Gewalt, sexueller Missbrauch" Bemerkungen="vgl. c 161" erstellt_am="30.11.2004" geaendert_am="03.05.2018" Verweisformen="Sexuelle Gewalt|Sexualität" Register-Vokabular="Sexualverhalten / Gewalt|Sexismus|Sexuelle Belästigung|Sexueller Missbrauch|Vergewaltigung|Sexuelle Nötigung" />
@@ -2951,7 +2951,7 @@
       <q_35.1 Benennung="OECD (Organization for Economic Cooperation and Development, Organisation für wirtschaftliche Zusammenarbeit und Entwicklung) 1961-" Bemerkungen="OEEC s. c 212" erstellt_am="" geaendert_am="" Verweisformen="Organization for Economic Cooperation and Development|Organisation für wirtschaftliche Zusammenarbeit und Entwicklung" Register-Vokabular="OECD" />
       <q_35.1.1 Benennung="Internationale Energieagentur, International Energy Agency (IEA)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="International Energy Agency |IEA" Register-Vokabular="Internationale Energieagentur" />
       <q_35.2 Benennung="OPEC (Organization of Petroleum Exporting Countries) 1960-; OAPEC (Arab Petrol Exporting Countries) 1968-" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Organization of the Petroleum Exporting Countries|Arab Petrol Exporting Countries||Organisation der Erdölexportierenden Länder" Register-Vokabular="OPEC|OAPEC" />
-      <q_35.3 Benennung="Rat für Gegenseitige Wirtschaftshilfe (RGW, Comecon)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="RGW|Comecon" Register-Vokabular="Rat für Gegenseitige Wirtschaftshilfe" />
+      <q_35.3 Benennung="Rat für Gegenseitige Wirtschaftshilfe (RGW, CMEA, Comecon)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="RGW|Comecon" Register-Vokabular="Rat für Gegenseitige Wirtschaftshilfe" />
       <q_35.4 Benennung="Amerikanische Freihandelszone, Free Trade Area of the Americas (FTAA) 2001/2005-" Bemerkungen="" erstellt_am="15.04.2004" geaendert_am="" Verweisformen="FTAA|Free Trade Area of the Americas" Register-Vokabular="Amerikanische Freihandelszone" />
       <q_35.4.1 Benennung="Nordamerikanische Freihandelszone, North Atlantic Free Trade Area (NAFTA)" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="NAFTA" Register-Vokabular="Nordamerikanische Freihandelszone" />
       <q_35.5 Benennung="Internationale Handelskammer (IHK), Chambre de Commerce Internationale (CCI)" Bemerkungen="" erstellt_am="18.03.1987" geaendert_am="" Verweisformen="IHK" Register-Vokabular="Internationale Handelskammer" />
@@ -3035,7 +3035,7 @@
       <q_90 Benennung="Einzelne Wirtschaftssektoren: Industrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Wirtschaftssektor|Industrie" />
       <q_90.1 Benennung="Papierwirtschaft" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Papierindustrie" />
       <q_90.2 Benennung="Textilindustrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Textilindustrie" />
-      <q_90.4 Benennung="Montanindustrie, Schwerindustrie" Bemerkungen=" Rüstungsindustrie siehe s. s 86, t 86, u 86" erstellt_am="" geaendert_am="31.07.2014" Verweisformen="Eisen- und Stahlindustrie" Register-Vokabular="Montanindustrie|Schwerindustrie" />
+      <q_90.4 Benennung="Montanindustrie, Schwerindustrie" Bemerkungen=" Rüstungsindustrie siehe s. s 86, t 86, u 86.1" erstellt_am="" geaendert_am="31.07.2014" Verweisformen="Eisen- und Stahlindustrie" Register-Vokabular="Montanindustrie|Schwerindustrie" />
       <q_90.5 Benennung="Chemische Industrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Chemische Industrie" />
       <q_90.5.1 Benennung="Pharmazeutische Industrie, Arzneimittelwirtschaft" Bemerkungen="vgl. m 169, v 73.1.2" erstellt_am="" geaendert_am="" Verweisformen="" Register-Vokabular="Pharmazeutische Industrie|Arzneimittelwirtschaft" />
       <q_90.6 Benennung="Kraftfahrzeugindustrie, Automobilindustrie" Bemerkungen="" erstellt_am="" geaendert_am="" Verweisformen="Automobilindustrie" Register-Vokabular="Kraftfahrzeugindustrie" />
