@@ -218,15 +218,17 @@
       <b_166.4 Benennung="Nahostkonflikt: Yom-Kippur-Krieg 1973"/>
       <b_166.5 Benennung="Nahostkonflikt 1974-1991"/>
       <b_166.6 Benennung="&quot;Osloer Friedensprozess&quot;  1991/1993-2000"/>
-      <b_166.7 Benennung="Nahostkonflikt 2000-"/>
+      <b_166.7 Benennung="Nahostkonflikt 2000 bis 6.10.2023"/>
       <b_166.7.1 Benennung="Gaza-Kriege"/>
-      <b_166.7.2 Benennung="Israelische Grenzanlagen"/>
+      <b_166.8 Benennung="Nahostkonflikt vom Massaker am 7.10.2023 -"/>
+      <b_166.8.1 Benennung="Krieg in Israel und Gaza 2023 -"/>
       <b_166.10 Benennung="Palästinafrage / Palästinenserproblem seit 1948  (hier auch: Israelisch-Arabischer Krieg 1948-1949)"/>
       <b_166.11 Benennung="Libanon-Krisen und -Kriege"/>
       <b_166.12 Benennung="Afghanistan-Konflikt 1979-1992; 2001-2021"/>
       <b_166.13 Benennung="Irakisch-iranischer Krieg (1.Golfkrieg) 1980-1988"/>
       <b_166.14 Benennung="Irakische Invasion in Kuwait und 2.Golfkrieg 1990-1991"/>
       <b_166.15 Benennung="Krieg gegen den Irak (3.Golfkrieg / Irakkrieg) 2003"/>
+      <b_166.16 Benennung="Israelisch-iranischer Krieg 2025 und Irankrieg 2026 (USA und Israel; hier auch: Angriffe Israels gegen die Hisbollah im Libanon und teilweise Besetzung des Landes) "/>
       <b_166.20 Benennung="Kurdenfrage"/>
       <b_167 Benennung="Konflikte und Kriege in Asien seit 1945"/>
       <b_167.1 Benennung="Indochina-Problem 1946-1975"/>
@@ -270,6 +272,7 @@
       <b_230.11 Benennung="Sozialgeschichte, Historische Sozialforschung"/>
       <b_230.11.1 Benennung="Alltagsgeschichte"/>
       <b_230.11.2 Benennung="Geschichte von unten, Geschichtswerkstätten (hier auch Geschichtswettbewerbe)"/>
+      <b_230.11.3 Benennung="Objektgeschichte"/>
       <b_230.12 Benennung="Landesgeschichte, Regionalgeschichte"/>
       <b_230.12.1 Benennung="Siedlungsgeschichte"/>
       <b_230.12.2 Benennung="Orts- und Stadtgeschichte"/>
@@ -443,7 +446,7 @@
       <c_78.13 Benennung="Sympathisanten (fellow travellers)"/>
       <c_78.14 Benennung="Antikommunismus"/>
       <c_79 Benennung="Castroismus (Fidelismus)"/>
-      <c_80 Benennung="Kapitalismus; Antikapitalismus"/>
+      <c_80 Benennung="Kapitalismus; Antikapitalismus (hier auch: Kapitalismuskritik)"/>
       <c_80.1 Benennung="Spätkapitalismus"/>
       <c_80.4 Benennung="Staatsmonopolistischer Kapitalismus (Stamokap)"/>
       <c_81 Benennung="Herrschaft"/>
@@ -476,7 +479,7 @@
       <c_85.2 Benennung="Sozialstaat, Sozialer Rechtsstaat"/>
       <c_85.2.1 Benennung="Wohlfahrtsstaat"/>
       <c_85.3 Benennung="Nationalstaat"/>
-      <c_85.4 Benennung="Autoritärer Staat, Autokratie"/>
+      <c_85.4 Benennung="Autoritärer Staat, Autokratie; illiberale Demokratie"/>
       <c_85.5 Benennung="Ständestaat, korporativer Staat, Korporativismus, (Neo-) Korporatismus"/>
       <c_85.7 Benennung="Gewaltenteilung, Gesetzgebung"/>
       <c_85.8 Benennung="Beamtentum, Öffentlicher Dienst"/>
@@ -659,6 +662,7 @@
       <c_251.1.1 Benennung="Flüchtlings- und Asylpolitik;  Migrationspolitik, Migrationsrecht"/>
       <c_252 Benennung="Politisches System der EWG / EG / EU (Demokratie, Repräsentation, Legitimation)"/>
       <c_252.1 Benennung="„Europa der Regionen“: Ausschuss der Regionen (AdR), Subsidiaritätsprinzip; hier auch: EU und nationale Parlamente"/>
+      <c_252.2 Benennung="Interessengruppen, Lobbyismus, Lobbyregulierung   "/>
       <c_256 Benennung="Europawahlen"/>
       <c_258 Benennung="Verwaltung; Beamte; Öffentlicher Dienst; Bürokratie in der EWG / EG / EU"/>
       <c_260 Benennung="Haushaltspolitik, Finanzverfassung der EWG / EG / EU; Finanzpolitik der EU, Pläne für eine Finanzunion; Haushaltsdisziplin der Mitgliedsstaaten, Finanzhilfen allgemein"/>
@@ -1597,7 +1601,7 @@
       <h_80 Benennung="Gesellschaft in den besetzten Gebieten (hier auch: Alltag)"/>
       <h_81 Benennung="Biographische Nachschlagewerke, Sammelbiographien, einzelne Personen"/>
       <h_82 Benennung="Verluste und Zerstörungen in den besetzten Gebieten"/>
-      <h_87 Benennung="Verfolgung, Unterdrückung, Repressalien"/>
+      <h_87 Benennung="Verfolgung, Unterdrückung, Repressalien in den besetzten Gebieten "/>
       <h_88 Benennung="Volkstumspolitik in den besetzten Gebieten"/>
       <h_88.1 Benennung="Deutsche Volksliste"/>
       <h_88.2 Benennung="Umsiedlungen 1939-1945"/>
@@ -1776,7 +1780,7 @@
       <j_97 Benennung="Okkultismus, Astrologie"/>
     </j_50-99>
   </j_1-99>
-  <k_1-99 Benennung="Politische Verfolgung und Emigration in Deutschland 1933-1945">
+  <k_1-99 Benennung="Verfolgung durch die NS-Diktatur, Emigration 1933-1945">
     <k_1-10.10 Benennung="Hilfsmittel (Formale Erschließungskriterien)">
       <k_1 Benennung="Bibliographien"/>
       <k_2 Benennung="Zeitschriften, Jahrbücher, Kalender"/>
@@ -1817,7 +1821,7 @@
       <k_76.2 Benennung="Befreiung der Lager"/>
       <k_76.3 Benennung="Spezielle Fragestellungen"/>
       <k_76.4 Benennung="Kunst und Kultur im Konzentrationslager (hier auch: Liederbücher)"/>
-      <k_77 Benennung="Zwangsarbeit"/>
+      <k_77 Benennung="Zwangsarbeit im Lagersystem "/>
       <k_77.1 Benennung="Arbeitserziehungslager (allgemein)"/>
       <k_81 Benennung="Biographische Nachschlagewerke, Sammelbiographien, einzelne Personen"/>
       <k_82 Benennung="Verluste, Statistiken"/>
@@ -2195,7 +2199,7 @@
       <m_172 Benennung="Gesundheitsfürsorge"/>
       <m_172.1 Benennung="Pflege"/>
       <m_173 Benennung="Rettungswesen, Notfallmedizin"/>
-      <m_174 Benennung="Menschen mit Behinderung, Inklusion"/>
+      <m_174 Benennung="Menschen mit Behinderung; Inklusion, Gleichstellung"/>
       <m_174.1 Benennung="Menschen mit geistiger Behinderung"/>
       <m_175 Benennung="Sozialhygiene, Biopolitik"/>
       <m_176 Benennung="Alkohol, Drogen, Tabak; Doping"/>
@@ -2254,9 +2258,9 @@
       <m_255.2 Benennung="Proletarische Frauenbewegung (Sozialistische, Kommunistische und sozialdemokratische Frauenbewegung bis 1945)"/>
       <m_255.3 Benennung="Neue Frauenbewegung; Frauenbewegung seit 1945"/>
       <m_256 Benennung="Feminismus"/>
-      <m_260 Benennung="Gleichberechtigung der Frau"/>
-      <m_260.1 Benennung="Juristische Gleichberechtigung"/>
-      <m_260.2 Benennung="Gleichberechtigung in Beruf und Familie"/>
+      <m_260 Benennung="Gleichberechtigung, Gleichstellung aller Geschlechter"/>
+      <m_260.1 Benennung="Juristische Gleichberechtigung, Gleichstellung"/>
+      <m_260.2 Benennung="Gleichberechtigung, Gleichstellung in Beruf und Familie"/>
       <m_262 Benennung="Frauen und Politik; Frauen in der Politik"/>
       <m_263 Benennung="Sexualwissenschaft"/>
       <m_264 Benennung="Geschlechterrollen"/>
@@ -2264,10 +2268,10 @@
       <m_264.1.1 Benennung="Frauen in der NS-Ideologie"/>
       <m_264.1.2 Benennung="Mädchenerziehung"/>
       <m_264.2 Benennung="Männer, Männlichkeit"/>
-      <m_264.3 Benennung="Transsexuelle, Transsexualität; Intersexuelle, Intersexualität"/>
       <m_265 Benennung="Körperkultur, Freikörperkultur"/>
       <m_275 Benennung="Sexualität"/>
-      <m_275.1 Benennung="Homosexualität, Homosexuelle, Lesben"/>
+      <m_275.1 Benennung="LGBTIQ*, Queere Bewegung, Homosexualität"/>
+      <m_275.1.1 Benennung="Transsexuelle, Transsexualität; Intersexuelle, Intersexualität; Transgender"/>
       <m_276 Benennung="Prostitution"/>
       <m_277 Benennung="Pornographie"/>
       <m_278 Benennung="Sexismus, Sexuelle Belästigung, sexuelle Gewalt, sexueller Missbrauch"/>
@@ -3073,6 +3077,7 @@
       <q_105 Benennung="Tabellen, Statistiken, Chroniken"/>
       <q_107 Benennung="Gesammelte Abhandlungen (eines Verfassers), Festschriften"/>
       <q_108 Benennung="Methodik und Geschichte der Forschung"/>
+      <q_108.1 Benennung="Tagungen, Kongresse"/>
       <q_108.2 Benennung="Ausstellungen"/>
       <q_109 Benennung="Quellenkunde"/>
       <q_110 Benennung="Quellensammlungen, Dokumentationen"/>
@@ -3490,7 +3495,7 @@
       <r_59.5 Benennung="Angestellte"/>
       <r_59.6 Benennung="Arbeiter"/>
       <r_59.10 Benennung="Soziale Randgruppen"/>
-      <r_64 Benennung="Sozialpolitik, soziale Sicherheit, soziale Frage (allgemein), Soziale Gerechtigkeit, Soziale Ungleichheit"/>
+      <r_64 Benennung="Sozialpolitik, soziale Sicherheit, soziale Frage (allgemein), Soziale Gerechtigkeit, Soziale Ungleichheit, soziale Gleichstellung "/>
       <r_65 Benennung="Lebensstandard, Lebenshaltungskosten"/>
       <r_65.1 Benennung="Löhne, Gehälter, Einkommen; Einkommenspolitik; Grundeinkommen, Soziale Grundsicherung, Garantiertes Mindesteinkommen"/>
       <r_65.2 Benennung="Vermögensverteilung, Vermögenskonzentration; Vermögenspolitik"/>
@@ -3509,7 +3514,7 @@
       <r_68 Benennung="Heimarbeit; Telearbeit"/>
       <r_69 Benennung="Betriebsführung, Management, Betriebsorganisation, Betriebspsychologie, Unternehmenskultur"/>
       <r_69.1 Benennung="Betriebskader, Wirtschaftskader"/>
-      <r_69.2 Benennung="Betriebliche Sozialpolitik, betriebliche Sozialleistungen"/>
+      <r_69.2 Benennung="Betriebliche Sozialpolitik, betriebliche Sozialleistungen; betriebliche Gleichstellungspolitik "/>
       <r_69.3 Benennung="Werkschutz"/>
       <r_70 Benennung="Arbeitsrecht"/>
       <r_70.1 Benennung="Arbeitsgerichtsbarkeit"/>
@@ -3546,9 +3551,9 @@
       <r_82.1 Benennung="Mietervereine"/>
       <r_84 Benennung="Internationale Arbeitskräftewanderung; Brain Drain"/>
       <r_85 Benennung="Ausländische Arbeitskräfte in Deutschland"/>
-      <r_85.1 Benennung="1871-1933"/>
-      <r_85.2 Benennung="1933-1945 (Fremdarbeiter)"/>
-      <r_85.3 Benennung="seit 1945 (Gastarbeiter, Arbeitsmigranten, Vertragsarbeiter)"/>
+      <r_85.1 Benennung="Ausländische Arbeitskräfte in Deutschland 1871-1933"/>
+      <r_85.2 Benennung="Ausländische Arbeitskräfte in Deutschland 1933-1945 (Zivile Zwangsarbeiter)"/>
+      <r_85.3 Benennung="Ausländische Arbeitskräfte in Deutschland seit 1945 (Gastarbeiter, Arbeitsmigranten, Vertragsarbeiter)"/>
       <r_86 Benennung="Zwangsarbeit, Arbeitslager"/>
       <r_88 Benennung="Frauenarbeit"/>
       <r_89 Benennung="Kinderarbeit"/>
@@ -5327,6 +5332,7 @@
       <x_552.3 Benennung="Demonstrationen, Demonstrationsrecht"/>
       <x_552.4 Benennung="Bürgerinitiativen"/>
       <x_552.5 Benennung="Parteienfinanzierung, Parteivermögen"/>
+      <x_552.6 Benennung="Interessengruppen, Lobbyismus, Lobbyarbeit; Lobbyregulierung     "/>
       <x_553 Benennung="Politische Kultur"/>
       <x_554 Benennung="Zeitkritik, Gesellschaftskritik, Werte-Diskussion (Politische Standortbestimmungen, Zukunftsentwürfe, Programmatisches, politische Essays usw.)"/>
       <x_556 Benennung="Wahlen (Westzonen und BRD)"/>
